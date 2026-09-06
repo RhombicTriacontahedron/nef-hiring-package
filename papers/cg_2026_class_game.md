@@ -59,22 +59,22 @@ needs — not because he values worker numbers as such.
 The analysis holds the tax, public-investment split, and reinvestment
 rate at fixed shares. Within that class an interior long-run state
 exists and is unique at every interior setting of the three instruments
-— save at the no-social-wage corner, and there only when the public
-stock depreciates more slowly than capital — both classes are present
-there as a conclusion rather than an assumption, and it is locally
-stable throughout the admissible parameter space; a stationary profile
-exists under an explicit condition. Relative class size is a second
-margin, and equal reproduction leaves it alone. It is pinned instead by
-the class ratio’s own law of motion, a first-order process whose forcing
-term is free of the ratio itself, so the ratio cannot oscillate on its
-own and its stationary value is a closed form from which the capital
-stock cancels. Read against that form, reinvestment lowers the
-capitalist class’s relative size at every rate when the worker
-reproduces on private consumption alone; the public-input weight is the
-only channel that can reverse the direction, and at the reported
-primitives it does. The tax is the exception, and it is not a statement
-about cells: a higher tax lowers the capitalist class’s relative size at
-every admissible public-input weight, because the channel through which
+— save at the no-social-wage corner, where existence turns instead on
+which stock depreciates faster — both classes are present there as a
+conclusion rather than an assumption, and it is locally stable
+throughout the admissible parameter space; a stationary profile exists
+under an explicit condition. Relative class size is a second margin, and
+equal reproduction leaves it alone. It is pinned instead by the class
+ratio’s own law of motion, a first-order process whose forcing term is
+free of the ratio itself, so the ratio cannot oscillate on its own and
+its stationary value is a closed form from which the capital stock
+cancels. Read against that form, reinvestment lowers the capitalist
+class’s relative size at every rate when the worker reproduces on
+private consumption alone; the public-input weight is the only channel
+that can reverse the direction, and at the reported primitives it does.
+The tax is the exception, and it is not a statement about cells: a
+higher tax lowers the capitalist class’s relative size at every
+admissible public-input weight, because the channel through which
 provision would reverse that sign is one strictly positive summand of
 the very derivative it must outweigh. The cap is an identity on the
 admissible set rather than a restriction on the primitives, so no
