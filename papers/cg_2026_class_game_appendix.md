@@ -2163,33 +2163,38 @@ $\mathcal{N}_\omega=\zeta\mathcal{M}+\alpha\tilde\beta\gamma(1-\alpha)\big[\thet
 in place of Proposition 5$'''$(i)’s $\alpha N$. The interval subdivision
 that closes $63$ of the $216$ cells on that reduction is a computation,
 not a step in it, and is run at $\omega=0$. Proposition 6$'''$ stands on
-Proposition 6$''$’s hypotheses exactly, tax interiority included, and
-adds none of its own: its parts (i)–(ii) are identities in $g$,
-$\tilde\beta$ and the primitives, and its parts (iii)–(iv) draw on the
-$\Omega$ half of $(\ddagger)$ alone, through $\mathcal{B}\ge0$ and
-nowhere else. It holds at every $\omega\in[0,1)$, since $\mathcal{B}$
-enters it exactly as it enters $\Phi'$ and no other object in it carries
-the weight; the sufficient condition on the falling side that follows it
-is stated at $\omega=0$, and says so. The lattice of $243{,}756$ points
-measuring how far its three lines reach past the two standing conditions
-is likewise a measurement of the result and not a step in it.
-Proposition 6$''''$ adds nothing to those hypotheses either: its part
-(i) is a regrouping, and its parts (ii)–(iv) use both halves of
-$(\ddagger)$ — the public half through $\mathcal{B}\ge0$ as before, the
-capital half to sign $M_J$ — together with $(\sharp)$, which is a
-restriction on $\alpha$, $\theta$ and $\sigma$ and on nothing else. It
-holds at every $\omega\in[0,1)$: the weight enters only through
-$\mathcal{B}$, and the bound used there is the smaller of that term’s
-two endpoint values in $\omega$. Its part (iii) is the one place in §8.1
-where a hypothesis is *removed* rather than added: it drops
-$\mathcal{U}\ge0$ from **both** of Proposition 6$''$’s conclusions, so
-on the band the interval subdivision those parts need is not part of the
-argument at all. Its part (v) weakens $(\sharp)$ to one of its two
-halves at each point, selected by the sign of $\mathcal{O}$, and adds no
-hypothesis to do it; the two witnesses exhibiting points in the
-difference measure that inclusion and are not steps in it. None of the
-seven is cited by any of Theorems 1–6: they extend Propositions 5 and 6,
-and only §§7–8 use them.
+Proposition 6$''$’s hypotheses and adds exactly one of its own, tax
+interiority — which 6$''$ deliberately does **not** assume, its parts
+(i)–(iii) working with the unconstrained objects throughout and only its
+part (iv) carrying the hypothesis. ⚠ The distinction is load-bearing:
+$\Delta$ is built from the unconstrained root of (9), whose range is
+that equation’s own open interval, so the instrument ceiling does not
+enter 6$'''$(iii)’s endpoints. Beyond that one hypothesis 6$'''$ adds
+nothing: its parts (i)–(ii) are identities in $g$, $\tilde\beta$ and the
+primitives, and its parts (iii)–(iv) draw on the $\Omega$ half of
+$(\ddagger)$ alone, through $\mathcal{B}\ge0$ and nowhere else. It holds
+at every $\omega\in[0,1)$, since $\mathcal{B}$ enters it exactly as it
+enters $\Phi'$ and no other object in it carries the weight; the
+sufficient condition on the falling side that follows it is stated at
+$\omega=0$, and says so. The lattice of $243{,}756$ points measuring how
+far its three lines reach past the two standing conditions is likewise a
+measurement of the result and not a step in it. Proposition 6$''''$ adds
+nothing to those hypotheses either: its part (i) is a regrouping, and
+its parts (ii)–(iv) use both halves of $(\ddagger)$ — the public half
+through $\mathcal{B}\ge0$ as before, the capital half to sign $M_J$ —
+together with $(\sharp)$, which is a restriction on $\alpha$, $\theta$
+and $\sigma$ and on nothing else. It holds at every $\omega\in[0,1)$:
+the weight enters only through $\mathcal{B}$, and the bound used there
+is the smaller of that term’s two endpoint values in $\omega$. Its part
+(iii) is the one place in §8.1 where a hypothesis is *removed* rather
+than added: it drops $\mathcal{U}\ge0$ from **both** of Proposition
+6$''$’s conclusions, so on the band the interval subdivision those parts
+need is not part of the argument at all. Its part (v) weakens $(\sharp)$
+to one of its two halves at each point, selected by the sign of
+$\mathcal{O}$, and adds no hypothesis to do it; the two witnesses
+exhibiting points in the difference measure that inclusion and are not
+steps in it. None of the seven is cited by any of Theorems 1–6: they
+extend Propositions 5 and 6, and only §§7–8 use them.
 
 Propositions 10 and 11 are identities exhibiting criteria rather than
 bounds, on Assumptions 1–4 with $\theta\in(0,1)$ and properness,
