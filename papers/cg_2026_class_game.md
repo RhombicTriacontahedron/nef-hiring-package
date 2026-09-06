@@ -8191,11 +8191,15 @@ provision destroys both properties at once, returning the technology to
 the ratio and reversing signs rather than shading them. Read off it,
 reinvestment lowers the capitalist class’s relative size at every rate
 where the worker reproduces on private consumption alone, and the
-public-input weight is the only channel that can reverse the sign — so
-the wedge that separates reproduction from private consumption in
-Theorem 1 is the wedge that unsettles the direction here. What equal
-reproduction forecloses is a difference in condition, not a difference
-in number.
+public-input weight is the only channel that can reverse the sign.
+Whether it does is settled rather than surveyed: where provision carries
+weight, the direction reverses exactly when the public stock depreciates
+no faster than capital, or, where it depreciates faster, when the
+reproduction technology’s scale clears a threshold this paper gives in
+closed form. So the wedge that separates reproduction from private
+consumption in Theorem 1 is the wedge that unsettles the direction here.
+What equal reproduction forecloses is a difference in condition, not a
+difference in number.
 
 That yields the model’s sharpest statement about what fixes those
 conditions, and it is a result here rather than a premise. What carries
