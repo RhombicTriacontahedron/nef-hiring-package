@@ -57,38 +57,38 @@ primitives, and it arises because labour is an input his production
 needs — not because he values worker numbers as such.
 
 The analysis holds the tax, public-investment split, and reinvestment
-rate at fixed shares. Within that class, and wherever public provision
-carries some weight in worker reproduction, an interior long-run state
-exists and is unique at every interior setting of the three instruments,
-both classes are present there as a conclusion rather than an
-assumption, and it is locally stable throughout the admissible parameter
-space; a stationary profile exists under an explicit condition. Relative
-class size is a second margin, and equal reproduction leaves it alone.
-It is pinned instead by the class ratio’s own law of motion, a
-first-order process whose forcing term is free of the ratio itself, so
-the ratio cannot oscillate on its own and its stationary value is a
-closed form from which the capital stock cancels. Read against that
-form, reinvestment lowers the capitalist class’s relative size at every
-rate when the worker reproduces on private consumption alone; the
-public-input weight is the only channel that can reverse the direction,
-and at the reported primitives it does. The tax is the exception, and it
-is not a statement about cells: a higher tax lowers the capitalist
-class’s relative size at every admissible public-input weight, because
-the channel through which provision would reverse that sign is one
-strictly positive summand of the very derivative it must outweigh. The
-cap is an identity on the admissible set rather than a restriction on
-the primitives, so no calibration can turn it — though, unlike the
-displacement result above, it is read off the model’s specified growth
-side and is not a form-free fact. The paper proves the stationary
-single-crossing results for the public-investment split and
-reinvestment, and shows how their one-shot margins translate to the full
-payoff at a profile’s own rest point. Moving those results to a fixed
-declared start requires further curvature conditions. The worker’s joint
-tax-and-split condition and the capitalist’s rate condition are not
-proved generally on that path; the worker’s condition is proved when
-both stocks fully depreciate. The paper does not establish a general
-state-dependent equilibrium, rule out cycles far from the long-run
-state, or rank outcomes by welfare.
+rate at fixed shares. Within that class an interior long-run state
+exists and is unique at every interior setting of the three instruments
+— save at the no-social-wage corner, and there only when the public
+stock depreciates more slowly than capital — both classes are present
+there as a conclusion rather than an assumption, and it is locally
+stable throughout the admissible parameter space; a stationary profile
+exists under an explicit condition. Relative class size is a second
+margin, and equal reproduction leaves it alone. It is pinned instead by
+the class ratio’s own law of motion, a first-order process whose forcing
+term is free of the ratio itself, so the ratio cannot oscillate on its
+own and its stationary value is a closed form from which the capital
+stock cancels. Read against that form, reinvestment lowers the
+capitalist class’s relative size at every rate when the worker
+reproduces on private consumption alone; the public-input weight is the
+only channel that can reverse the direction, and at the reported
+primitives it does. The tax is the exception, and it is not a statement
+about cells: a higher tax lowers the capitalist class’s relative size at
+every admissible public-input weight, because the channel through which
+provision would reverse that sign is one strictly positive summand of
+the very derivative it must outweigh. The cap is an identity on the
+admissible set rather than a restriction on the primitives, so no
+calibration can turn it — though, unlike the displacement result above,
+it is read off the model’s specified growth side and is not a form-free
+fact. The paper proves the stationary single-crossing results for the
+public-investment split and reinvestment, and shows how their one-shot
+margins translate to the full payoff at a profile’s own rest point.
+Moving those results to a fixed declared start requires further
+curvature conditions. The worker’s joint tax-and-split condition and the
+capitalist’s rate condition are not proved generally on that path; the
+worker’s condition is proved when both stocks fully depreciate. The
+paper does not establish a general state-dependent equilibrium, rule out
+cycles far from the long-run state, or rank outcomes by welfare.
 
 **Keywords:** social wage; public reproduction; differential game of
 capitalism; discrete-time dynamic game; reproductive capacity; fiscal
@@ -220,22 +220,24 @@ optimisation. What the equilibrium concept is needed for is the rest:
 who chooses which instrument, and which way each margin moves.
 
 Inside the constant-share class the long-run state is not in doubt.
-Wherever both stocks are funded, public provision carries some weight in
-reproduction, and the capitalist consumes at all, there is exactly one
-interior long-run state; it is locally stable at every point of the
-admissible parameter space, and no route to a distributional cycle is
-open at a rest point anywhere in it. The weight is not a technicality:
-at the no-social-wage corner the public stock leaves the growth
-condition altogether, so where it depreciates more slowly than capital
-nothing drives the growth factor above the floor its own depreciation
-sets, and the long-run state can fail to be interior even though the
-reduced condition still has its unique root. Both classes are present
-there as a conclusion and not as an assumption, and the class ratio
-returns to its long-run value from any initial composition once the
-stocks settle, so the composition of the two classes is not a knife
-edge. The one setting that breaks this while the stocks still settle is
-the capitalist’s own: reinvesting everything leaves him nothing to
-consume and stops his dynasty in a single period.
+Wherever both stocks are funded and the capitalist consumes at all there
+is exactly one interior long-run state; it is locally stable at every
+point of the admissible parameter space, and no route to a
+distributional cycle is open at a rest point anywhere in it. There is a
+single exception, and it is not a technicality: at the no-social-wage
+corner the public stock leaves the growth condition altogether, so where
+it depreciates more slowly than capital nothing drives the growth factor
+above the floor its own depreciation sets, and the long-run state can
+fail to be interior even though the reduced condition still has its
+unique root. Everywhere else the corner is harmless — where the public
+stock depreciates at least as fast as capital the same pole is restored
+and existence is untouched. Both classes are present there as a
+conclusion and not as an assumption, and the class ratio returns to its
+long-run value from any initial composition once the stocks settle, so
+the composition of the two classes is not a knife edge. The one setting
+that breaks this while the stocks still settle is the capitalist’s own:
+reinvesting everything leaves him nothing to consume and stops his
+dynasty in a single period.
 
 The formal results have clear limits. Deviations are graded only within
 the constant-share class, so nothing below shows that restriction is
