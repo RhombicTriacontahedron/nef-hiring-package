@@ -59,40 +59,42 @@ needs — not because he values worker numbers as such.
 The analysis holds the tax, public-investment split, and reinvestment
 rate at fixed shares. Within that class an interior long-run state
 exists and is unique at every interior setting of the three instruments
-— save at the no-social-wage corner, where existence turns instead on
-which stock depreciates faster — both classes are present there as a
-conclusion rather than an assumption, and it is locally stable
-throughout the admissible parameter space; a stationary profile exists
-under an explicit condition. Relative class size is a second margin, and
-equal reproduction leaves it alone. It is pinned instead by the class
-ratio’s own law of motion, a first-order process whose forcing term is
-free of the ratio itself, so the ratio cannot oscillate on its own and
-its stationary value is a closed form from which the capital stock
-cancels. Read against that form, reinvestment lowers the capitalist
-class’s relative size at every rate when the worker reproduces on
-private consumption alone; the public-input weight is the only channel
-that can reverse the direction, and whether it does is settled rather
-than surveyed: where provision carries weight, the direction reverses
-exactly when the public stock depreciates no faster than capital, or,
-where it depreciates faster, when the reproduction technology’s scale
-clears a threshold the paper gives in closed form. The tax admits no
-such reversal at all: a higher tax lowers the capitalist class’s
-relative size at every admissible public-input weight, because the
-channel through which provision would reverse that sign is one strictly
-positive summand of the very derivative it must outweigh. The cap is an
-identity on the admissible set rather than a restriction on the
-primitives, so no calibration can turn it — though, unlike the
-displacement result above, it is read off the model’s specified growth
-side and is not a form-free fact. The paper proves the stationary
-single-crossing results for the public-investment split and
-reinvestment, and shows how their one-shot margins translate to the full
-payoff at a profile’s own rest point. Moving those results to a fixed
-declared start requires further curvature conditions. The worker’s joint
-tax-and-split condition and the capitalist’s rate condition are not
-proved generally on that path; the worker’s condition is proved when
-both stocks fully depreciate. The paper does not establish a general
-state-dependent equilibrium, rule out cycles far from the long-run
-state, or rank outcomes by welfare.
+— save at the no-social-wage corner, where it exists exactly when the
+corner’s growth factor clears the public stock’s depreciation floor:
+automatically where the stock depreciates at least as fast as capital,
+and otherwise above a closed-form floor on net reinvestment — both
+classes are present there as a conclusion rather than an assumption, and
+it is locally stable throughout the admissible parameter space; a
+stationary profile exists under an explicit condition. Relative class
+size is a second margin, and equal reproduction leaves it alone. It is
+pinned instead by the class ratio’s own law of motion, a first-order
+process whose forcing term is free of the ratio itself, so the ratio
+cannot oscillate on its own and its stationary value is a closed form
+from which the capital stock cancels. Read against that form,
+reinvestment lowers the capitalist class’s relative size at every rate
+when the worker reproduces on private consumption alone; the
+public-input weight is the only channel that can reverse the direction,
+and whether it does is settled rather than surveyed: where provision
+carries weight, the direction reverses exactly when the public stock
+depreciates no faster than capital, or, where it depreciates faster,
+when the reproduction technology’s scale clears a threshold the paper
+gives in closed form. The tax admits no such reversal at all: a higher
+tax lowers the capitalist class’s relative size at every admissible
+public-input weight, because the channel through which provision would
+reverse that sign is one strictly positive summand of the very
+derivative it must outweigh. The cap is an identity on the admissible
+set rather than a restriction on the primitives, so no calibration can
+turn it — though, unlike the displacement result above, it is read off
+the model’s specified growth side and is not a form-free fact. The paper
+proves the stationary single-crossing results for the public-investment
+split and reinvestment, and shows how their one-shot margins translate
+to the full payoff at a profile’s own rest point. Moving those results
+to a fixed declared start requires further curvature conditions. The
+worker’s joint tax-and-split condition and the capitalist’s rate
+condition are not proved generally on that path; the worker’s condition
+is proved when both stocks fully depreciate. The paper does not
+establish a general state-dependent equilibrium, rule out cycles far
+from the long-run state, or rank outcomes by welfare.
 
 **Keywords:** social wage; public reproduction; differential game of
 capitalism; discrete-time dynamic game; reproductive capacity; fiscal
@@ -228,20 +230,25 @@ Wherever both stocks are funded and the capitalist consumes at all there
 is exactly one interior long-run state; it is locally stable at every
 point of the admissible parameter space, and no route to a
 distributional cycle is open at a rest point anywhere in it. There is a
-single exception, and it is not a technicality: at the no-social-wage
-corner the public stock leaves the growth condition altogether, so where
-it depreciates more slowly than capital nothing drives the growth factor
-above the floor its own depreciation sets, and the long-run state can
-fail to be interior even though the reduced condition still has its
-unique root. Everywhere else the corner is harmless — where the public
-stock depreciates at least as fast as capital the same pole is restored
-and existence is untouched. Both classes are present there as a
+single exception, and it is not a technicality but a theorem of its own:
+at the no-social-wage corner the public stock leaves the growth
+condition altogether, and the reduced system becomes triangular — the
+class ratio and the capital ratio are each autonomous contractions,
+converging from every start, and the public stock follows them and
+settles exactly when the corner’s growth factor clears the stock’s own
+depreciation floor. Where the stock depreciates at least as fast as
+capital that is automatic. Where it is the more durable of the two it is
+a floor on the capitalist’s net reinvestment, given in closed form;
+below that floor the growth factor stays under the stock’s floor, the
+reduced condition still has its unique root, and the one stock nothing
+in the corner’s economy uses accumulates without bound relative to the
+workforce it cannot benefit. Both classes are present there as a
 conclusion and not as an assumption, and the class ratio returns to its
-long-run value from any initial composition once the stocks settle, so
-the composition of the two classes is not a knife edge. The one setting
-that breaks this while the stocks still settle is the capitalist’s own:
-reinvesting everything leaves him nothing to consume and stops his
-dynasty in a single period.
+long-run value from any initial composition — at the corner whatever the
+stocks do, and elsewhere once they settle — so the composition of the
+two classes is not a knife edge. The one setting that breaks this while
+the stocks still settle is the capitalist’s own: reinvesting everything
+leaves him nothing to consume and stops his dynasty in a single period.
 
 The formal results have clear limits. Deviations are graded only within
 the constant-share class, so nothing below shows that restriction is
@@ -791,9 +798,10 @@ the pair — narrower than a step, but not nothing. That last one is
 discharged outright where both stocks depreciate fully, so what remains
 of it is a statement about durable stocks and not about the argument.
 
-*Proof against computation.* Sections 3–5 and Theorem 2 are proved from
-Assumptions 1–4, Theorem 2(ii) adding the strict positivity of two
-instruments ($i>0$, $\phi\tau>0$) stated in its hypotheses. No numerical
+*Proof against computation.* Sections 3–5 and Theorems 2 and 2$''$ are
+proved from Assumptions 1–4, Theorem 2(ii) adding the strict positivity
+of two instruments ($i>0$, $\phi\tau>0$) stated in its hypotheses and
+Theorem 2$''$ taking those at the endpoint $\theta=1$. No numerical
 input enters them. Section 6’s equilibrium levels, and every count and
 sweep verdict in Sections 6–7, are computations at the reported cells
 and are labelled *Computation* rather than *Proposition*. No verdict
@@ -892,6 +900,7 @@ backwards from a result as well as forwards from the model.
 | $\Lambda$ | the capitalist’s rate index: his stationary rate is $i^\ast=\Lambda/(1+\Lambda)$ | \(12\) |
 | $\mu,\ \mu_K$ | the stock poles $g/(g-1+\delta_G)$ and $g/(g-1+\delta)$ | \(21\) |
 | $\mathcal{H},\ \mathcal{P}$ | the growth side and the share side of the rest-point condition, $g=\mathcal{H}^{-1}(\mathcal{P})$ | \(13\) |
+| $\mathcal{H}_1,\ \mathcal{P}_1,\ \underline{\iota}$ | the two sides at the corner $\theta=1$, and the floor on net reinvestment $\iota=i(1-\tau)$ below which the public stock does not settle there | Theorem 2$''$ |
 
 | stability object | meaning | defined at |
 |----|----|----|
@@ -3470,6 +3479,210 @@ separate reproduction from private consumption is the wedge that makes
 the size response ambiguous. What is not claimed is a comparative static
 in the primitives — $S$ is evaluated at the rest point’s own $g$, and
 $\tau$ and $\phi$ are held fixed throughout.
+
+Theorem 2 and Proposition 6 both open at $\theta\in(0,1)$, and
+Assumption 2 admits the endpoint. What happens there is not a limiting
+case of either result but a structure of its own, and it is the one
+place in the admissible set where the long-run state can fail to be
+interior.
+
+**Theorem 2$''$ (the no-social-wage corner is triangular: the class
+ratio and the capital ratio are autonomous contractions, and the public
+stock settles behind them exactly when the corner growth factor clears
+its floor).** *Let Assumptions 1–4 hold with $\theta=1$, and hold the
+share policies $(\tau,\phi,i)$ fixed with $i\in(0,1)$, $\phi\tau>0$ and
+$\tau<1$. Write*
+$$\mathcal{H}_1(g) \;=\; \ln g + \frac{\gamma\alpha}{1-\alpha}\ln(g-1+\delta) \quad\text{on } g>1-\delta,
+\qquad
+\mathcal{P}_1 \;=\; \ln B + \gamma\ln(\kappa_W A) + \frac{\gamma\alpha}{1-\alpha}\ln\!\big(i(1-\tau)\alpha A\big),$$
+*the growth side and the share side of Proposition 6 at $\theta=1$, the
+third term of each having vanished with the public input. Then:*
+
+*(i) **The class ratio is an autonomous contraction with constant
+forcing.** At every state,*
+$$\ln\nu' \;=\; (1-\gamma)\ln\nu \;+\; \gamma\ln\frac{(1-i)(1-\tau)\alpha}{\kappa_W},$$
+*so from every $\nu_0>0$, and whatever the two stocks do, $\ln\nu_t$
+converges monotonically at rate $1-\gamma$ to $\ln\nu^\ast$ with
+$\nu^\ast=(1-i)(1-\tau)\alpha/\kappa_W$ — the corner form of (N$'''$),
+reached here without a rest point in the stocks.*
+
+*(ii) **The capital ratio is an autonomous contraction.** $x'$ depends
+on $x$ alone, and in $\ln x$ the map has slope*
+$$\frac{\partial\ln x'}{\partial\ln x} \;=\; \alpha(1-\gamma) + s_x(1-\alpha)
+  \;\in\; \big[\alpha(1-\gamma),\ 1-\alpha\gamma\big)$$ *at every state,
+$s_x\in[0,1)$ being the share of next period’s capital inherited from
+the surviving old stock. It is therefore a contraction of modulus
+$1-\alpha\gamma$ with a positive slope: from every $x_0>0$, $\ln x_t$
+converges monotonically to $\ln x_1$, where*
+$$x_1 \;=\; \left(\frac{i(1-\tau)\alpha A}{g_1-1+\delta}\right)^{\frac{1}{1-\alpha}},
+\qquad \mathcal{H}_1(g_1)=\mathcal{P}_1,$$ *and $g_1$ exists and is
+unique at every share profile, because $\mathcal{H}_1$ is a strictly
+increasing bijection of $(1-\delta,\infty)$ onto $\mathbb{R}$.*
+
+*(iii) **The public stock is a follower, and it settles exactly when the
+corner growth factor clears its floor.** An interior rest point of
+$(\star)$ exists if and only if $g_1>1-\delta_G$; it is then unique,
+equal to $(x_1,\nu^\ast,z_1)$ with
+$z_1=\phi\tau\alpha A\,x_1^{\alpha}/(g_1-1+\delta_G)$, and every path
+converges to it. Where $\delta_G\ge\delta$ the condition holds at every
+profile. Where $\delta_G<\delta$ it holds if and only if
+$\mathcal{P}_1>\mathcal{H}_1(1-\delta_G)$, which is a floor on net
+reinvestment:*
+$$i(1-\tau) \;>\; \underline{\iota} \;\equiv\; \frac{\delta-\delta_G}{\alpha A}
+   \left(\frac{1-\delta_G}{B\,(\kappa_W A)^{\gamma}}\right)^{\frac{1-\alpha}{\gamma\alpha}} .$$
+*The floor bites: $\underline{\iota}$ is free of $i$, so the condition
+fails at every profile with $i<\underline{\iota}/(1-\tau)$, an open set;
+at such a profile $x_t$ and $\nu_t$ still converge as in (i)–(ii), and
+$z_t$ is unbounded.*
+
+*(iv) **Where it exists, the rest point is stable with a real,
+non-negative spectrum.** At $(x_1,z_1)$ the Jacobian of Theorem 2(iii)
+is lower triangular,*
+$$\mathcal{J} \;=\; \begin{pmatrix} a(1-\alpha)+\alpha(1-\gamma) & 0 \\[2pt] \alpha(1-c)-\alpha\gamma & c \end{pmatrix},
+\qquad a=\frac{1-\delta}{g_1},\quad c=\frac{1-\delta_G}{g_1},$$ *so the
+spectrum of the full system is
+$\{a(1-\alpha)+\alpha(1-\gamma),\ c,\ 1-\gamma\}\subset[0,1)$: real,
+non-negative and inside the unit disc. No oscillatory mode exists at the
+corner, and Theorem 2(iii)’s conclusion holds there for a stronger
+reason — the characteristic polynomial factors.*
+
+*Proof.* **(i)** By $(\star)$, $\ln\nu'=\ln\nu+\ln g_C-\ln g_W$. At
+$\theta=1$ Assumption 2 gives
+$\ln g_W=\ln B+\gamma\ln(\kappa_W A x^{\alpha})$ and
+$\ln g_C=\ln B+\gamma\ln\!\big[(1-i)(1-\tau)\alpha A x^{\alpha}\big]-\gamma\ln\nu$,
+so the two $\ln x$ terms cancel and the displayed recursion follows: the
+forcing term of the class-ratio recursion, which in general moves with
+$(x,z)$, is here a constant. Since $1-\gamma\in(0,1)$, the map
+$\ln\nu\mapsto\ln\nu'$ is an increasing contraction of $\mathbb{R}$, so
+its orbits converge monotonically to its unique fixed point, which is
+the displayed $\ln\nu^\ast$; that value is finite because $i<1$,
+$\tau<1$ and $\kappa_W\ge1-\alpha>0$.
+
+**(ii)** At $\theta=1$, $g_W$ depends on $x$ alone, so
+$x'=\mathcal{N}_x(x)/g_W(x)$ with
+$\mathcal{N}_x=(1-\delta)x+i(1-\tau)\alpha Ax^{\alpha}$. Differentiating
+in logarithms,
+$\partial\ln\mathcal{N}_x/\partial\ln x=s_x+\alpha(1-s_x)$ with
+$s_x=(1-\delta)x/\mathcal{N}_x$, and
+$\partial\ln g_W/\partial\ln x=\alpha\gamma$; subtracting gives the
+displayed slope, and $s_x\in[0,1)$ — the inflow is strictly positive —
+places it in $[\alpha(1-\gamma),\,1-\alpha\gamma)$. A $C^1$ self-map of
+$\mathbb{R}$ whose derivative lies in $(0,L]$ with $L=1-\alpha\gamma<1$
+is an increasing contraction, so it has exactly one fixed point and
+every orbit converges to it monotonically. At the fixed point
+$\mathcal{N}_x=g_Wx$, that is
+$(1-\delta)+i(1-\tau)\alpha Ax_1^{\alpha-1}=g_1$ with
+$g_1\equiv g_W(x_1)>1-\delta$, which is the displayed $x_1$;
+substituting it into $\ln g_1=\ln B+\gamma\ln(\kappa_WAx_1^{\alpha})$
+gives
+$\ln g_1=\ln B+\gamma\ln(\kappa_WA)+\frac{\gamma\alpha}{1-\alpha}\big[\ln\!\big(i(1-\tau)\alpha A\big)-\ln(g_1-1+\delta)\big]$,
+and moving every term in $g_1$ to the left gives
+$\mathcal{H}_1(g_1)=\mathcal{P}_1$; the substitution is reversible, so
+fixed points of the map and roots of $\mathcal{H}_1=\mathcal{P}_1$ on
+$(1-\delta,\infty)$ correspond one to one.
+$\mathcal{H}_1'(g)=1/g+\gamma\alpha/\big[(1-\alpha)(g-1+\delta)\big]>0$,
+$\mathcal{H}_1\to-\infty$ as $g\downarrow1-\delta$ through its second
+term, and $\mathcal{H}_1\to+\infty$ as $g\to\infty$, so $\mathcal{H}_1$
+is a bijection onto $\mathbb{R}$ and $g_1$ is its unique root at every
+profile.
+
+**(iii)** The public stock’s law in $(\star)$ is
+$z'=\big[(1-\delta_G)z+\phi\tau\alpha Ax^{\alpha}\big]/g_W(x)$. A rest
+point of $(\star)$ has $x=x_1$ by (ii) and $\nu=\nu^\ast$ by (i), and
+needs $z'=z$ with $z>0$ at $x_1$, that is
+$z\,(g_1-1+\delta_G)=\phi\tau\alpha Ax_1^{\alpha}>0$, which has a
+positive solution if and only if $g_1>1-\delta_G$, and then exactly the
+displayed $z_1$; criterion (A) holds because $g_1$ then exceeds both
+floors. If $\delta_G\ge\delta$ then $1-\delta_G\le1-\delta<g_1$ at every
+profile. If $\delta_G<\delta$ then $1-\delta_G$ lies in the domain of
+$\mathcal{H}_1$, which is increasing, so $g_1>1-\delta_G$ if and only if
+$\mathcal{P}_1=\mathcal{H}_1(g_1)>\mathcal{H}_1(1-\delta_G)=\ln(1-\delta_G)+\frac{\gamma\alpha}{1-\alpha}\ln(\delta-\delta_G)$;
+multiplying by $\frac{1-\alpha}{\gamma\alpha}>0$ and exponentiating
+turns this into
+$i(1-\tau)\alpha A\,\big[B(\kappa_WA)^{\gamma}\big]^{\frac{1-\alpha}{\gamma\alpha}}
+ >(\delta-\delta_G)(1-\delta_G)^{\frac{1-\alpha}{\gamma\alpha}}$, which
+is the displayed floor. It does not contain $i$, so every
+$i\in\big(0,\underline{\iota}/(1-\tau)\big)$ violates it. *Convergence.*
+Write $z_{t+1}=c_tz_t+b_t$ with
+$c_t=(1-\delta_G)/g_W(x_t)\to c=(1-\delta_G)/g_1$ and
+$b_t=\phi\tau\alpha Ax_t^{\alpha}/g_W(x_t)\to b>0$, both limits by (ii).
+Where $g_1>1-\delta_G$, $c<1$: pick $\bar c\in(c,1)$ and $T$ with
+$c_t\le\bar c$ for $t\ge T$; then
+$|z_{t+1}-z_1|\le\bar c\,|z_t-z_1|+|c_t-c|\,z_1+|b_t-b|$ for $t\ge T$, a
+contraction with a vanishing perturbation, so $z_t\to z_1$. Where
+$g_1\le1-\delta_G$, $c\ge1$: if $c>1$ then $z_{t+1}\ge\tfrac{1+c}{2}z_t$
+for all large $t$ and $z_t$ grows geometrically; if $c=1$, suppose
+$z_t\le M$ for every $t$ and take $T$ with $c_t\ge1-b/(4M)$ and
+$b_t\ge3b/4$ for $t\ge T$; then $z_{t+1}\ge z_t+b/2$ for $t\ge T$,
+contradicting the bound. So $z_t$ is unbounded, while (i)–(ii) are
+untouched by $z$.
+
+**(iv)** Write $\mathcal{N}_z=(1-\delta_G)z+\phi\tau\alpha Ax^{\alpha}$
+for the numerator of $z'$ in $(\star)$, with $\mathcal{N}_x$ and $s_x$
+as in (ii) and $s_z=(1-\delta_G)z/\mathcal{N}_z$ the share of next
+period’s public stock inherited from the surviving old stock. Since each
+inflow is proportional to $x^{\alpha}$ and $\mathcal{N}_x$ does not
+contain $z$, $\partial\ln\mathcal{N}_x/\partial\ln z=0$,
+$\partial\ln\mathcal{N}_z/\partial\ln x=\alpha(1-s_z)$ and
+$\partial\ln\mathcal{N}_z/\partial\ln z=s_z$. At $\theta=1$,
+$\partial\ln g_W/\partial\ln x=\alpha\gamma$ and
+$\partial\ln g_W/\partial\ln z=0$, so subtracting the elasticities of
+$g_W$ from those of the numerators gives
+$\partial\ln x'/\partial\ln z=0$, $\partial\ln z'/\partial\ln z=s_z$,
+$\partial\ln x'/\partial\ln x=s_x+\alpha(1-s_x)-\alpha\gamma$ and
+$\partial\ln z'/\partial\ln x=\alpha(1-s_z)-\alpha\gamma$. At the rest
+point $\mathcal{N}_x=g_1x_1$ and $\mathcal{N}_z=g_1z_1$, so $s_x=a$ and
+$s_z=c$, which is the displayed matrix, and
+$a+\alpha(1-a)-\alpha\gamma=a(1-\alpha)+\alpha(1-\gamma)$. The
+eigenvalues of a triangular matrix are its diagonal:
+$a(1-\alpha)+\alpha(1-\gamma)\in[\alpha(1-\gamma),\,1-\alpha\gamma)$
+since $a\in[0,1)$, and $c\in[0,1)$ since $g_1>1-\delta_G$. The third
+eigenvalue is $1-\gamma$ by (i). All three are real and lie in $[0,1)$,
+so the rest point is locally asymptotically stable, no complex pair
+exists to leave the unit circle, and no eigenvalue is negative.
+$\blacksquare$
+
+At the corner the reduced system is not merely stable but triangular.
+The class ratio and the capital ratio each converge from every start, by
+their own contractions, and neither sees the public stock. What can fail
+is only the public stock’s own ratio, and it fails for a reason the
+corner makes visible. With $\theta<1$ the public stock’s pole is one of
+the three terms that drive $\mathcal{H}$ to $-\infty$ at the floor, so
+the growth condition always has a root above both depreciation floors;
+at $\theta=1$ that term is gone, and the only pole left is capital’s.
+Where the public stock depreciates at least as fast as capital,
+capital’s floor is the binding one and nothing changes. Where the public
+stock is the more durable of the two, its floor sits above capital’s,
+and whether the corner’s growth factor clears it is decided on the share
+side alone, $\mathcal{P}_1>\mathcal{H}_1(1-\delta_G)$, and
+$\mathcal{P}_1$ carries the three instruments through two coefficients:
+net reinvestment $i(1-\tau)$, which raises it, and the worker’s
+consumption coefficient $\kappa_W$, which the split lowers. So the split
+enters the floor and nothing else, and it enters the wrong way — with
+the public input reproduction-irrelevant, revenue directed to the stock
+is revenue taken from the consumption that drives growth, and
+$\partial\ln\underline{\iota}/\partial\phi=(1-\alpha)\tau/\kappa_W>0$: a
+higher split raises the floor the stock it feeds must clear. Below
+$\underline{\iota}$ the economy grows more slowly than the stock decays,
+and a stock that nothing in the corner’s economy uses accumulates
+without bound relative to the workforce it cannot benefit — provision
+funded by the tax, sustained by the split, and inert. The threshold is a
+closed form in the primitives, as $B^\ast$ of Theorem 2$'$(iii) is:
+there the reproduction scale decides whether reinvestment’s sign turns,
+and here it enters the floor that decides whether the corner’s public
+stock settles at all.
+
+Two consequences follow for results stated at $\theta\in(0,1]$. Theorem
+2$'$ takes an interior rest point as given; at the corner, part (iii)
+says exactly when one exists, and part (i) says that Theorem 2$'$’s
+parts (i) and (iii) — the closed form
+$\nu^\ast=(1-i)(1-\tau)\alpha/\kappa_W$ and the sign $-1/(1-i)$ — need
+no rest point in the stocks at all, since $\nu^\ast$ is the limit of an
+autonomous recursion whatever $z$ does. And the exception Section 1
+states is a theorem rather than a description: inside the constant-share
+class the long-run state can fail to be interior only at the corner,
+only where the public stock outlasts capital, and only below the floor
+on net reinvestment displayed above.
 
 **Computation 2 (where the cycle lives, and who declines it).** *The
 Jacobian of Theorem 2 holds the shares fixed. Under a Markov rule the
@@ -8256,8 +8469,14 @@ the ten distinct proper cells and not at the tenth.
 Within the constant-share class, the stable long-run configuration is
 not a numerical accident. The class ratio follows a first-order process,
 the interior rest point is unique, and the local stability bound holds
-across the admissible parameter space. The same outer elasticity that
-keeps this long-run state stable also supports the fiscal asymmetry. An
+across the admissible parameter space. At the no-social-wage corner the
+statement is sharper still: the reduced system is triangular, the class
+ratio and the capital ratio converge from every start, and the public
+stock settles behind them exactly when the corner’s growth factor clears
+the stock’s depreciation floor — no condition at all where the stock
+depreciates at least as fast as capital, and a closed-form floor on net
+reinvestment where it does not. The same outer elasticity that keeps
+this long-run state stable also supports the fiscal asymmetry. An
 interior stationary profile exists under an explicit primitive
 condition, with each instrument satisfying its own stationary decision
 rule. A second uniqueness sits above that one and is a different object:
