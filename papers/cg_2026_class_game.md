@@ -71,24 +71,28 @@ its stationary value is a closed form from which the capital stock
 cancels. Read against that form, reinvestment lowers the capitalist
 class’s relative size at every rate when the worker reproduces on
 private consumption alone; the public-input weight is the only channel
-that can reverse the direction, and at the reported primitives it does.
-The tax is the exception, and it is not a statement about cells: a
-higher tax lowers the capitalist class’s relative size at every
-admissible public-input weight, because the channel through which
-provision would reverse that sign is one strictly positive summand of
-the very derivative it must outweigh. The cap is an identity on the
-admissible set rather than a restriction on the primitives, so no
-calibration can turn it — though, unlike the displacement result above,
-it is read off the model’s specified growth side and is not a form-free
-fact. The paper proves the stationary single-crossing results for the
-public-investment split and reinvestment, and shows how their one-shot
-margins translate to the full payoff at a profile’s own rest point.
-Moving those results to a fixed declared start requires further
-curvature conditions. The worker’s joint tax-and-split condition and the
-capitalist’s rate condition are not proved generally on that path; the
-worker’s condition is proved when both stocks fully depreciate. The
-paper does not establish a general state-dependent equilibrium, rule out
-cycles far from the long-run state, or rank outcomes by welfare.
+that can reverse the direction, and whether it does is settled rather
+than surveyed: where provision carries weight, the direction reverses
+exactly when the public stock depreciates no faster than capital, or,
+where it depreciates faster, when the reproduction technology’s scale
+clears a threshold the paper gives in closed form. The tax admits no
+such reversal at all: a higher tax lowers the capitalist class’s
+relative size at every admissible public-input weight, because the
+channel through which provision would reverse that sign is one strictly
+positive summand of the very derivative it must outweigh. The cap is an
+identity on the admissible set rather than a restriction on the
+primitives, so no calibration can turn it — though, unlike the
+displacement result above, it is read off the model’s specified growth
+side and is not a form-free fact. The paper proves the stationary
+single-crossing results for the public-investment split and
+reinvestment, and shows how their one-shot margins translate to the full
+payoff at a profile’s own rest point. Moving those results to a fixed
+declared start requires further curvature conditions. The worker’s joint
+tax-and-split condition and the capitalist’s rate condition are not
+proved generally on that path; the worker’s condition is proved when
+both stocks fully depreciate. The paper does not establish a general
+state-dependent equilibrium, rule out cycles far from the long-run
+state, or rank outcomes by welfare.
 
 **Keywords:** social wage; public reproduction; differential game of
 capitalism; discrete-time dynamic game; reproductive capacity; fiscal
