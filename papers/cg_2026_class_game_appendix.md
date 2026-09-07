@@ -1935,36 +1935,39 @@ Propositions 1, 2, 3(i) and 5, Lemma 1 and Theorems 1–2 follow from
 Assumptions 1–4, with three additions carried in the results’ own
 hypotheses and nowhere left to inference: Theorem 2(ii) adds $i\in(0,1)$
 and $\phi\tau>0$; Theorems 1 and 2 and Proposition 3 require
-$\theta\in(0,1)$, which is stricter than Assumption 2’s
-$\theta\in(0,1]$; and Proposition 5 fixes $a_K>0$ and $\varphi>0$, its
-part (ii) adding a constant-share rest point with $D_x\neq0$, which is
-what makes $J$ and hence $\Lambda$ defined; Lemma 1$'$ needs less still
-— its level-set statement holds for an arbitrary reproduction map at any
-interior stationary class ratio, and its bound on the index gap adds
-only that the map be non-decreasing, without which no bound follows.
-Lemma 1$''$ weakens a *different* hypothesis, and the two are not
-comparable: it keeps Lemma 1’s strictly increasing $F$, and instead lets
-the worker’s index be an arbitrary $h(c_W,z)$, non-decreasing in private
-consumption and strictly increasing in the public stock. No
-differentiability, no concavity, no continuity and no functional form
-enters, and neither $\gamma$ nor $B$ appears in the statement or the
-proof; the displacement is an order property of the stationarity locus,
-and Theorem 1 is its Cobb–Douglas case. Lemma 1$'''$ weakens a third
-hypothesis and is not comparable with either: it drops **all**
-monotonicity in private consumption and adds **idempotence** instead,
-which is what buys the *ordering* rather than the displacement, and its
-second part restores strict increase in the first argument to buy the
-full sandwich $c_W < c_C < z$. So the four trade along different axes:
-Lemma 1$'$ weakens the reproduction map and buys a *capped* index gap in
-place of equality; Lemma 1$''$ keeps the map, weakens the index, and
-buys a *strict displacement*; Lemma 1$'''$ keeps the map, weakens the
-index differently, and buys a *strict ordering*. Lemmas 1$''$ and 1$'''$
-are independent in both directions, and the paper occupies both
-differences with named composites rather than asserting it. Proposition
-1$'$ sits outside the constant-share class the rest of the paper works
-in, and its hypotheses say so: Assumptions 1–2 with $\theta\in(0,1)$, a
-fixed $\tau>0$ and $i$, and a split that is a *differentiable* Markov
-rule in $z$ alone — differentiability being what makes the elasticity it
+$\theta\in(0,1)$, which is stricter than Assumption 2’s $\theta\in(0,1]$
+— the endpoint Theorem 2 leaves out is Theorem 2$''$’s, listed with the
+primed extensions below, and neither Theorem 2 nor Theorem 2$''$ uses
+Assumption 3, no payoff entering $(\star)$ once the shares are fixed;
+and Proposition 5 fixes $a_K>0$ and $\varphi>0$, its part (ii) adding a
+constant-share rest point with $D_x\neq0$, which is what makes $J$ and
+hence $\Lambda$ defined; Lemma 1$'$ needs less still — its level-set
+statement holds for an arbitrary reproduction map at any interior
+stationary class ratio, and its bound on the index gap adds only that
+the map be non-decreasing, without which no bound follows. Lemma 1$''$
+weakens a *different* hypothesis, and the two are not comparable: it
+keeps Lemma 1’s strictly increasing $F$, and instead lets the worker’s
+index be an arbitrary $h(c_W,z)$, non-decreasing in private consumption
+and strictly increasing in the public stock. No differentiability, no
+concavity, no continuity and no functional form enters, and neither
+$\gamma$ nor $B$ appears in the statement or the proof; the displacement
+is an order property of the stationarity locus, and Theorem 1 is its
+Cobb–Douglas case. Lemma 1$'''$ weakens a third hypothesis and is not
+comparable with either: it drops **all** monotonicity in private
+consumption and adds **idempotence** instead, which is what buys the
+*ordering* rather than the displacement, and its second part restores
+strict increase in the first argument to buy the full sandwich
+$c_W < c_C < z$. So the four trade along different axes: Lemma 1$'$
+weakens the reproduction map and buys a *capped* index gap in place of
+equality; Lemma 1$''$ keeps the map, weakens the index, and buys a
+*strict displacement*; Lemma 1$'''$ keeps the map, weakens the index
+differently, and buys a *strict ordering*. Lemmas 1$''$ and 1$'''$ are
+independent in both directions, and the paper occupies both differences
+with named composites rather than asserting it. Proposition 1$'$ sits
+outside the constant-share class the rest of the paper works in, and its
+hypotheses say so: Assumptions 1–2 with $\theta\in(0,1)$, a fixed
+$\tau>0$ and $i$, and a split that is a *differentiable* Markov rule in
+$z$ alone — differentiability being what makes the elasticity it
 characterises an object at all, so the characterisation is within that
 class and not within all measurable rules. Its parts (i)–(ii) are proved
 there outright. Its part (iii) carries one scope clause that is easy to
@@ -2031,28 +2034,32 @@ not reach them. Theorem 2$'$ takes Assumptions 1–4 with the shares
 fixed, $i\in(0,1)$, $\phi\tau>0$ and $\theta\in(0,1]$ — one endpoint
 wider than Theorem 2, because its part (i) is an identity at the rest
 point rather than a spectral statement, and the $\theta=1$ case is what
-recovers Proposition 2(ii). Its part (i) is analytic and exact, and the
-cancellation of $x^\ast$ from it is algebraic, not a limit. Its part
-(ii) is a partial derivative in $i$ holding $\tau$, $\phi$ and the
-primitives fixed: like Proposition 5$'$ it is a statement about its own
-closed form, (N$'''$), and not a comparative static in the primitives.
-Its part (iii) is signed analytically at $\theta=1$ and, at $\theta<1$,
-refutes constancy of sign by exhibiting admissible witnesses of both
-signs — a refutation, which a sample can deliver, and not a cover. **The
-two quantifiers are kept apart in the statement itself because they are
-different propositions.** What is refuted is uniformity of sign
-**within** a cell: the witnesses share their entire primitive vector and
-differ only in $i$. **The wider statement — that every $\theta<1$ cell
-contains a sign change — is now refuted too, but *not* by the same kind
-of evidence, and the difference is the point.** It was carried as
-undischarged in earlier versions. A universal over cells is exactly what
-one cell can kill; but establishing that *this* cell contains no change
-is itself a universal in $i$, which no sample delivers. Part (iii)‘s
-proof discharges it with a cover: dropping two strictly positive terms
-from $(g-1+\delta_G)\mathcal{H}'(g)$ bounds $S$ above by an expression
-that rises as $i$ falls, so the bound is attained only in the limit and
-its value there is a supremum over $(0,1)$ rather than a sampled
-maximum. **The two refutations in this part therefore rest on different
+recovers Proposition 2(ii); at that endpoint its parts (i), (iii), (iv)
+and (v) hold without the rest-point hypothesis at all, by Theorem
+2$''$(i), and only part (ii)‘s decomposition, written at the rest
+point’s own growth factor, needs the rest point to exist. Its part (i)
+is analytic and exact, and the cancellation of $x^\ast$ from it is
+algebraic, not a limit. Its part (ii) is a partial derivative in $i$
+holding $\tau$, $\phi$ and the primitives fixed: like Proposition 5$'$
+it is a statement about its own closed form, (N$'''$), and not a
+comparative static in the primitives. Its part (iii) is signed
+analytically at $\theta=1$ and, at $\theta<1$, refutes constancy of sign
+by exhibiting admissible witnesses of both signs — a refutation, which a
+sample can deliver, and not a cover. **The two quantifiers are kept
+apart in the statement itself because they are different propositions.**
+What is refuted is uniformity of sign **within** a cell: the witnesses
+share their entire primitive vector and differ only in $i$. **The wider
+statement — that every $\theta<1$ cell contains a sign change — is now
+refuted too, but *not* by the same kind of evidence, and the difference
+is the point.** It was carried as undischarged in earlier versions. A
+universal over cells is exactly what one cell can kill; but establishing
+that *this* cell contains no change is itself a universal in $i$, which
+no sample delivers. Part (iii)’s proof discharges it with a cover:
+dropping two strictly positive terms from
+$(g-1+\delta_G)\mathcal{H}'(g)$ bounds $S$ above by an expression that
+rises as $i$ falls, so the bound is attained only in the limit and its
+value there is a supremum over $(0,1)$ rather than a sampled maximum.
+**The two refutations in this part therefore rest on different
 instruments — a witness for the first, a cover for the second — and
 reading the second as a witness is the error the part was rewritten to
 remove.** The refuting cell has $\delta<\delta_G$, which is the side of
@@ -2132,33 +2139,54 @@ them across $\theta\in(0,1]$ is discharged in its own statement, where
 the endpoint is evaluated rather than approached. Part (v) holds $\phi$,
 $i$ and the primitives fixed and is, like parts (ii) and (iv), a
 statement about (N$'''$) rather than a comparative static in the
-primitives. Proposition 5$'$ needs Assumptions 1–4 with $\omega<1$ at a
-constant-share rest point where $J$ and $\Omega$ are defined; it is a
-comparative static in $\rho$ holding $(J,\Omega,\zeta,\omega)$ fixed,
-which makes it a statement about (12) rather than about a rest point’s
-response to a primitive. Proposition 5$''$ adds admissibility in
-Assumption 5’s sense, $\tilde\beta<1$ — which is what signs the two
-objects its proof uses — and holds $g$ fixed. Proposition 5$'''$ takes
-that assumption set at $\omega\in[0,1)$ and names properness in its
-hypotheses rather than leaving it to its proof, because it is
-load-bearing three times over; its part (i) is at $\omega=0$ alone and
-buys a closed form, its part (iii) holds at every weight and buys the
-sign, and where they overlap the sign is the same. Proposition 6$'$
-needs Assumptions 1–5 with $\theta\in(0,1)$ and $\omega<1$, at the
-corner $\phi=1$ with $i$ interior, together with one point-hypothesis no
-other result in the paper carries: that $g$ be a point at which the
-constrained tax $\min\{\tau^\ast,\bar\tau\}$ is differentiable, which
-excludes the switch and nothing else. Proposition 6$''$ inherits all of
-that and adds tax interiority, which is why its part (iv) is a statement
-about the interior branch alone; the ceiling branch is Proposition
-6$'$(iv)’s corollary, and under $(\ddagger)$ the two together cover
-every fixed point. Its parts (iv) and (v) are proved on an interval
-rather than at a fixed point, and the interval’s endpoints are stated
-with them. The reduction of the ceiling margin that §8.1 runs on that
-interval — the two-term bracket and the sharpening that replaces
-$(\ddagger)$ by $\Omega'\le0$ — is proved at every $\omega\in[0,1)$, by
-the same substitution $\mathcal{Q}=(1-\omega)+J\zeta$ for $1+\alpha J$
-that Theorem 6 uses, together with
+primitives. Theorem 2$''$ takes Assumptions 1–4 with $\theta=1$ and the
+shares fixed, $i\in(0,1)$, $\phi\tau>0$ and $\tau<1$ — Theorem 2’s
+hypotheses at the endpoint Theorem 2 excludes — and nothing else. It
+never uses Assumption 3: once the shares are fixed no payoff enters
+$(\star)$, so it holds whatever either class maximises, the shares being
+held fixed. Its parts (i), (ii) and (iv) are analytic throughout: two
+contraction bounds read off the slopes of autonomous one-dimensional
+maps in logarithms, a bijection, and a triangular Jacobian whose
+spectrum is its diagonal. Its part (iii) is analytic in both directions
+— the existence condition is an equivalence, and the floor
+$\underline{\iota}$ is an algebraic rearrangement of
+$\mathcal{P}_1>\mathcal{H}_1(1-\delta_G)$ — and its one existential
+clause, that the floor is violated at some profile, is proved by
+exhibiting the open set $i<\underline{\iota}/(1-\tau)$ rather than a
+point; the certificate described in G.2 carries a cell at which the
+floor fails and the same cell at which it holds, as an oracle for the
+proof and not as the proof. Theorem 2$''$ is the corner’s counterpart of
+Theorem 2(ii)–(iii), and it is what discharges Theorem 2$'$’s standing
+hypothesis of an interior rest point at $\theta=1$; Theorem 2$'$(i) and
+(iii) hold at the corner under Theorem 2$''$(i) alone, whether or not
+the public stock settles. Proposition 5$'$ needs Assumptions 1–4 with
+$\omega<1$ at a constant-share rest point where $J$ and $\Omega$ are
+defined; it is a comparative static in $\rho$ holding
+$(J,\Omega,\zeta,\omega)$ fixed, which makes it a statement about (12)
+rather than about a rest point’s response to a primitive. Proposition
+5$''$ adds admissibility in Assumption 5’s sense, $\tilde\beta<1$ —
+which is what signs the two objects its proof uses — and holds $g$
+fixed. Proposition 5$'''$ takes that assumption set at $\omega\in[0,1)$
+and names properness in its hypotheses rather than leaving it to its
+proof, because it is load-bearing three times over; its part (i) is at
+$\omega=0$ alone and buys a closed form, its part (iii) holds at every
+weight and buys the sign, and where they overlap the sign is the same.
+Proposition 6$'$ needs Assumptions 1–5 with $\theta\in(0,1)$ and
+$\omega<1$, at the corner $\phi=1$ with $i$ interior, together with one
+point-hypothesis no other result in the paper carries: that $g$ be a
+point at which the constrained tax $\min\{\tau^\ast,\bar\tau\}$ is
+differentiable, which excludes the switch and nothing else. Proposition
+6$''$ inherits all of that and adds tax interiority, which is why its
+part (iv) is a statement about the interior branch alone; the ceiling
+branch is Proposition 6$'$(iv)’s corollary, and under $(\ddagger)$ the
+two together cover every fixed point. Its parts (iv) and (v) are proved
+on an interval rather than at a fixed point, and the interval’s
+endpoints are stated with them. The reduction of the ceiling margin that
+§8.1 runs on that interval — the two-term bracket and the sharpening
+that replaces $(\ddagger)$ by $\Omega'\le0$ — is proved at every
+$\omega\in[0,1)$, by the same substitution
+$\mathcal{Q}=(1-\omega)+J\zeta$ for $1+\alpha J$ that Theorem 6 uses,
+together with
 $\mathcal{N}_\omega=\zeta\mathcal{M}+\alpha\tilde\beta\gamma(1-\alpha)\big[\theta+(1-\theta)\Omega\big]\mathcal{Q}$
 in place of Proposition 5$'''$(i)’s $\alpha N$. The interval subdivision
 that closes $63$ of the $216$ cells on that reduction is a computation,
@@ -2410,6 +2438,32 @@ growth factors unmoved to machine precision. Four controls are run to
 establish that the checks can fail — the wedge bound fails on the
 improper band, and (E) fails once the reproduction scale or the
 instrument ceiling is small enough.
+
+The corner of Theorem 2$''$ carries a certificate of its own, run before
+its statement was written. The constancy of the class ratio’s forcing at
+$\theta=1$ and the slope of the capital map in logarithms are verified
+as identities; that the slope lies in $(0,1)$, and below the modulus
+$1-\alpha\gamma$, for every surviving-stock share and every
+$(\alpha,\gamma)$ in the open square is decided by a solver returning
+*unsat* on the negation, with a control that returns *sat* once the
+capital share is allowed above one; the bijection of $\mathcal{H}_1$ is
+checked through its derivative and its two limits; the floor
+$\underline{\iota}$ is verified as an exact rearrangement of
+$\mathcal{P}_1>\mathcal{H}_1(1-\delta_G)$; and the Jacobian is
+re-derived from the transition laws rather than read off Theorem
+2(iii)’s formula, its off-diagonal zero confirmed identically, its
+diagonal placed in $[0,1)$ by a second *unsat*, and its non-zero
+off-diagonal at $\theta<1$ confirmed as the control. The witness is the
+cell
+$(\alpha,\gamma,\delta,\delta_G,\tau,\phi,i)=(0.33,0.5,0.08,0.01,0.5,0.5,0.5)$
+at $A=B=1$: net reinvestment $0.25$ sits below the floor $0.3627$, the
+corner root $g_1=0.97198$ lies under $1-\delta_G$, and the iterated path
+has $\ln x_t$ converging monotonically to $\ln x_1$, $\nu_t$ to
+$(1-i)(1-\tau)\alpha/\kappa_W$, and $z_t$ growing at exactly the rate
+$(1-\delta_G)/g_1$; the same cell at $i=0.999$ clears the floor and
+$z_t$ converges to $z_1$, and a cell with $\delta_G>\delta$ clears it
+with no condition. The paths are an oracle at a known answer, not the
+proof, which is in the text.
 
 Step 1 of the theorem’s proof asserts three regularity properties, and
 those are probed rather than taken on the page. $\Gamma_\star$ is
