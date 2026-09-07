@@ -30,10 +30,10 @@ stationary positive stock, whatever the tax rate, and no such
 configuration has an interior rest point. Taxing capital at the ceiling
 and paying the whole receipt out as cash leaves worker reproduction
 exactly where no taxation leaves it. Once some revenue does reach the
-stock and the reinvestment rate is interior, the long-run state can fail
-to exist only at the no-social-wage corner, only where the public stock
-outlasts capital, and only below a closed-form floor on net
-reinvestment.
+stock and the reinvestment rate is interior, the interior rest point of
+$(\star)$ can fail to exist only at the no-social-wage corner, only
+where the public stock outlasts capital, and only below a closed-form
+floor on net reinvestment.
 
 What the identity leaves entirely free is the relative number on each
 side. The stationary ratio of owners to workers is a closed form in the
@@ -50,11 +50,11 @@ Underneath the fiscal contest sits a price nobody sets. The owner’s
 objective contains his own consumption and his owned capital, no term in
 the number of workers, and no altruism parameter. His own optimisation
 nonetheless returns a strictly positive marginal value of the workforce,
-in closed form, at every admissible interior profile, at an elasticity
-equal to labour’s share — through the production function and the
-competitive wage rather than through anything he wants. The persistence
-of the working class is thereby obtained as a condition of the
-accumulation of capital rather than imposed as one.
+in closed form, at every admissible constant-share rest point, at an
+elasticity equal to labour’s share — through the production function and
+the competitive wage rather than through anything he wants. The
+persistence of the working class is thereby obtained as a condition of
+the accumulation of capital rather than imposed as one.
 
 **Keywords:** public provision; social wage; dynamic game; class
 structure; fiscal incidence; endogenous population; in-kind transfers.
@@ -129,9 +129,9 @@ concerns the other side. The owner’s objective is his own consumption
 and his owned capital. It contains no term in the number of workers, and
 no altruism parameter appears anywhere in the model. Proposition 4$'$
 shows that his own optimisation returns a strictly positive marginal
-value of the workforce at every admissible interior profile, closed in
-form, and that this valuation enters his accumulation rule directly
-through (12). Labour reaches his payoff along two routes — the
+value of the workforce at every admissible constant-share rest point,
+closed in form, and that this valuation enters his accumulation rule
+directly through (12). Labour reaches his payoff along two routes — the
 consumption his workers’ product finances, and the capital that same
 product helps accumulate — and the production function and the
 competitive wage, not his preferences, put them there.
@@ -1473,7 +1473,7 @@ $\Lambda=J\zeta/(1-\omega)>0$, so capital’s direct claim on his felicity
 would sustain an interior rate on its own. What the workforce valuation
 adds is the second channel, the one running through the labour that
 produces the output — and it adds it with a strictly positive weight at
-every admissible interior profile.
+every admissible constant-share rest point.
 
 **So what.** The persistence of the working class is not a constraint
 imposed on the owning class from outside the model, and it is not a
@@ -3123,12 +3123,13 @@ into a question**, and the weight the channel carries is $1-\theta$,
 provision’s own elasticity in the reproduction index. Finally, the class
 relation cannot oscillate of its own accord: the ratio is a first-order
 contraction with a *positive* coefficient at every state, so it carries
-no cycle of its own, and whenever the two stocks settle it settles with
-them. Inside the constant-share class no distributional cycle can be
-reached by local bifurcation either. A cycle must therefore be bought in
-the strategy space rather than found in the dynamics — and at the
-reported equilibria neither class buys it. What is not shown, and is not
-claimed, is that no orbit exists far from the rest point.
+no cycle of its own, and whenever the two stocks settle and the
+reinvestment rate is interior, it settles with them. Inside the
+constant-share class no distributional cycle can be reached by local
+bifurcation either. A cycle must therefore be bought in the strategy
+space rather than found in the dynamics — and at the reported equilibria
+neither class buys it. What is not shown, and is not claimed, is that no
+orbit exists far from the rest point.
 
 # 8. Existence, and the One-Shot Bridge
 
