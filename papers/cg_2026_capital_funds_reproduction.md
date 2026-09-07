@@ -1138,7 +1138,7 @@ for what that period yields over what it costs, both in labour, with $R$ as in A
     \varepsilon\;\le\;\varepsilon_+\;\le\;\frac{\alpha}{1-\alpha},
     \tag{A.39}
     $$
-    with equality in the second only where $\zeta=0$ and $(1-\phi)\tau=0$. That is a cover rather than a sample: the inequality clears to $\kappa_W-(1-\alpha)(1-\zeta)=(1-\alpha)\zeta+(1-\phi)\tau\alpha$, a sum of two terms each non-negative on the admissible set;
+    and **the second inequality is strict at every interior rest point**, so the ceiling bounds without being reached. That is a cover rather than a sample: the inequality clears to $\kappa_W-(1-\alpha)(1-\zeta)=(1-\alpha)\zeta+(1-\phi)\tau\alpha$, a sum of two terms each non-negative on the admissible set, whose first term is $(1-\alpha)\delta\,i(1-\tau)\alpha/m$ — a product of factors the primitive block and interiority make strictly positive, since $\delta>0$ there and $\iota=0$ leaves no private stock. Equality would need $\zeta=0$ together with $(1-\phi)\tau=0$, and interiority already forbids the first;
 
 6.  **a closing rule demands a rate carrying the growth factor and nothing else.** At $b=b^{\ast}$,
     $$
