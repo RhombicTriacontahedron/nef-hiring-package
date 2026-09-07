@@ -4,454 +4,196 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-Public provision can change the private distribution of the means of
-reproduction without changing the rate at which two classes reproduce.
-This paper shows how in a two-class dynamic game. A worker can tax
-capital income and divide the receipts between a direct transfer and a
-public stock; a capitalist chooses how much of the remaining capital
-income to reinvest. The public stock enters the worker’s growth
-technology but not the capitalist’s. The paper interprets that growth
-process as working-class reproduction: a technology of population
-continuation, not a fertility choice.
+A two-class economy whose composition has settled must reproduce both
+classes at the same rate. That is an accounting identity, and it appears
+to leave redistribution nothing to do. This paper shows that the
+identity pins one coordinate and frees two others, and that a single
+fiscal instrument reaches both of the free ones.
 
-The central result is an incidence result, and it needs no equilibrium
-concept: when the class-population ratio is stationary — whether or not
-that state is an equilibrium, and whatever either class maximises — the
-two classes must grow at the same rate. Under the model’s common,
-strictly increasing reproduction technology, without public provision in
-the worker’s reproduction input that condition forces equal private
-consumption per person. With public provision in that input, the same
-condition permits a private-consumption gap: a larger public stock can
-sustain the worker’s reproduction on a smaller private claim. Equal
-reproduction therefore does not settle private distribution. That
-displacement does not depend on the functional form: it holds whenever
-the worker’s reproduction input is strictly increasing in the public
-stock and non-decreasing in private consumption, by an argument using
-monotonicity alone. What the Cobb–Douglas specification adds is the
-closed form and a constant elasticity, not the sign.
+The identity equalises a reproduction *index*. Where a worker is
+reproduced by private consumption together with a publicly provided
+stock, that index is a composite, and equalising a composite does not
+equalise its parts. At any interior stationary class ratio — whether or
+not it is an equilibrium, and whatever either class maximises — the
+private consumption gap is a closed form in public provision per worker;
+along the locus that holds reproduction equal, the elasticity of the
+worker’s private claim with respect to provision is constant at
+$-(1-\theta)/\theta$; and the owner consumes more privately than the
+worker exactly when provision per worker exceeds the worker’s own claim.
+Capital-funded provision in kind does not arrive on top of the wage. It
+displaces it.
 
-The fiscal structure gives this result a political-economy
-interpretation. The model stipulates a tax on capital income as the
-stock’s only funding source. Given that structure, an unfunded but
-reproduction-relevant stock makes the worker population decline at the
-stock’s depreciation rate; with full depreciation, it stops in one
-period. Wherever the class ratio is stationary the same rate pins the
-capitalist’s dynasty, though that stock enters neither his reproduction
-nor any use of the tax he pays. At the reported parameter cells, the
-worker directs the full tax receipt to public provision, and the
-capitalist’s payoff rises in that split with the reported tax and
-reinvestment rate held fixed. This is evidence of agreement over one
-instrument at those cells, not a general financing result or a welfare
-ranking.
+The funding route is the policy rather than its implementation. If the
+public input is reproduction-relevant and nothing is spent building it,
+worker growth is pinned at the stock’s own survival rate at every
+stationary positive stock, whatever the tax rate, and no such
+configuration has an interior rest point. Taxing capital at the ceiling
+and paying the whole receipt out as cash leaves worker reproduction
+exactly where no taxation leaves it.
 
-The capitalist’s payoff weights retained consumption and owned capital,
-and the weight on capital may be zero. What keeps reinvestment contested
-is that consumption keeps a positive weight: reinvestment raises the
-capital stock while reducing current consumption, and its marginal cost
-is proportional to that weight. The endpoint at which capital alone is
-valued is degenerate, because the cost vanishes there. The dependence
-runs in both directions: the capitalist’s own interior reinvestment rate
-rises with the price he puts on the workforce he must reproduce, the
-rest of his rate rule held fixed. That price is a closed form in the
-primitives, and it arises because labour is an input his production
-needs — not because he values worker numbers as such.
+What the identity leaves entirely free is the relative number on each
+side. The stationary ratio of owners to workers is a closed form in the
+instruments and the growth factor from which the capital stock cancels.
+A higher tax on capital income lowers it strictly at every admissible
+interior point and at every weight on public provision. Reinvestment is
+the instrument whose direction turns, and the turning is exact: where
+the public stock depreciates no faster than capital, reinvestment
+reverses its private-consumption-only direction; where it depreciates
+faster, reversal occurs exactly when the reproduction scale exceeds a
+closed-form threshold $B^\ast$.
 
-The analysis holds the tax, public-investment split, and reinvestment
-rate at fixed shares. Within that class an interior long-run state
-exists and is unique at every interior setting of the three instruments
-— save at the no-social-wage corner, where it exists exactly when the
-corner’s growth factor clears the public stock’s depreciation floor:
-automatically where the stock depreciates at least as fast as capital,
-and otherwise above a closed-form floor on net reinvestment — both
-classes are present there as a conclusion rather than an assumption, and
-it is locally stable throughout the admissible parameter space; a
-stationary profile exists under an explicit condition. Relative class
-size is a second margin, and equal reproduction leaves it alone. It is
-pinned instead by the class ratio’s own law of motion, a first-order
-process whose forcing term is free of the ratio itself, so the ratio
-cannot oscillate on its own and its stationary value is a closed form
-from which the capital stock cancels. Read against that form,
-reinvestment lowers the capitalist class’s relative size at every rate
-when the worker reproduces on private consumption alone; the
-public-input weight is the only channel that can reverse the direction,
-and whether it does is settled rather than surveyed: where provision
-carries weight, the direction reverses exactly when the public stock
-depreciates no faster than capital, or, where it depreciates faster,
-when the reproduction technology’s scale clears a threshold the paper
-gives in closed form. The tax admits no such reversal at all: a higher
-tax lowers the capitalist class’s relative size at every admissible
-public-input weight, because the channel through which provision would
-reverse that sign is one strictly positive summand of the very
-derivative it must outweigh. The cap is an identity on the admissible
-set rather than a restriction on the primitives, so no calibration can
-turn it — though, unlike the displacement result above, it is read off
-the model’s specified growth side and is not a form-free fact. The paper
-proves the stationary single-crossing results for the public-investment
-split and reinvestment, and shows how their one-shot margins translate
-to the full payoff at a profile’s own rest point. Moving those results
-to a fixed declared start requires further curvature conditions. The
-worker’s joint tax-and-split condition and the capitalist’s rate
-condition are not proved generally on that path; the worker’s condition
-is proved when both stocks fully depreciate. The paper does not
-establish a general state-dependent equilibrium, rule out cycles far
-from the long-run state, or rank outcomes by welfare.
+Underneath the fiscal contest sits a price nobody sets. The owner’s
+objective contains his own consumption and his owned capital, no term in
+the number of workers, and no altruism parameter. His own optimisation
+nonetheless returns a strictly positive marginal value of the workforce,
+in closed form, at every admissible interior profile, at an elasticity
+equal to labour’s share — through the production function and the
+competitive wage rather than through anything he wants. The persistence
+of the working class is thereby obtained as a condition of the
+accumulation of capital rather than imposed as one.
 
-**Keywords:** social wage; public reproduction; differential game of
-capitalism; discrete-time dynamic game; reproductive capacity; fiscal
-incidence; class conflict.
+**Keywords:** public provision; social wage; dynamic game; class
+structure; fiscal incidence; endogenous population; in-kind transfers.
 
-**JEL:** C73; H41 (Public Goods); H23 (Externalities, Redistributive
-Effects); D31; J13.
-
-------------------------------------------------------------------------
-
-# Non-technical summary
-
-Public policy can supply part of what people need for class continuation
-through collectively provided goods rather than through their private
-budgets alone. The model represents that continuation as a population
-technology, not a household fertility choice or an empirical demographic
-forecast. It asks what this changes for class distribution when
-provision is funded from capital income and supports workers’
-continuation but not capitalists’.
-
-Its central point is simple. A stable ratio between the two classes does
-not show that they command the same private consumption. In the model,
-workers can continue at the same rate as capitalists while relying on a
-larger public stock and receiving a smaller private claim. What looks
-like stable reproduction can therefore conceal a shift in the private
-distribution of the resources on which reproduction depends.
-
-That result directs attention to two questions that are often treated
-separately: what public provision replaces in private budgets, and who
-finances it. The model does not show that any such arrangement is
-desirable, nor that a particular country has this structure. It shows
-why equal rates of reproduction alone cannot answer either
-distributional or financing questions.
+**JEL:** H23, H42, E25, C73, O41.
 
 # 1. Introduction
 
-The question is simple. Can public provision change the private
-distribution between classes even when the two classes continue at the
-same rate? If it can, then equal reproduction is not the same thing as
-equal private consumption. That distinction matters wherever public
-provision supports the conditions under which a working class continues
-over time.
+A state taxes capital income and spends the proceeds on the physical
+infrastructure of subsistence — clinics, schools, housing — the things a
+working population needs in order to raise the next generation of
+workers. The composition of the population has settled, so the two
+classes grow at a common rate. What can that policy still achieve?
 
-This paper answers that question in a deliberately small two-class
-model. The worker controls a tax on capital income and decides how to
-divide its receipts between a direct transfer and a public stock. The
-capitalist controls the share of remaining capital income that is
-reinvested. These choices affect future capital, public provision, and
-the two class populations, so the paper treats them as a dynamic game
-rather than as a one-period transfer problem. Each class sets its
-instruments as constant shares. That is a restriction on strategies, of
-the kind the policy literature makes when it studies simple rules:
-confine the rule to a small parametric family and optimise inside it,
-because the unrestricted optimum responds to the entire state.
+The natural first answer is: nothing. If both classes grow at the same
+rate and reproduce through a common technology, then whatever that
+technology takes as its input is equal across classes. Redistribution
+moves resources and the identity moves them back. Class disadvantage
+cannot appear as unequal reproduced condition, because stationarity
+forbids it.
 
-The model uses “reproduction” in a precise sense. Consumption and public
-provision determine how each class population grows; they are not
-household fertility preferences. The public stock enters the worker’s
-growth technology but not the capitalist’s, and the stock is funded
-solely from capital income. The paper interprets this stipulated
-asymmetry as a class mechanism. Its question is not whether every
-economy has this structure, but what follows when the tax, the split,
-and accumulation are chosen within it.
+That answer is right, and it is narrower than it looks. The identity
+equalises whatever the reproduction technology takes as its *argument*.
+Three quantities are commonly collapsed into one here, and this paper
+separates them: the reproduced **condition** of a class, the **private
+claim** its members hold, and the relative **number** on each side.
+Stationarity pins the first. The public stock moves the second. The
+class-ratio law carries the third. Only the first is foreclosed.
 
-The starting point is a boundary result. If the ratio of the two
-populations stops changing, both classes must grow at the same rate.
-With a common, strictly increasing reproduction technology, this
-equalises their reproduction inputs. When private consumption is the
-only such input, stationary reproduction requires equal private
-consumption per person. Taxes and reinvestment can still change
-population sizes, but they cannot open a private-consumption gap at that
-boundary.
+**The private claim.** Theorem 1 gives the gap in closed form. At any
+interior stationary class ratio the owner consumes more privately than
+the worker exactly when public provision per worker exceeds the worker’s
+own private claim, and along the locus that holds reproduction equal the
+elasticity of the worker’s private consumption with respect to provision
+is constant and equal to $-(1-\theta)/\theta$. A worker sustained by a
+larger public provision is reproduced equally on a smaller private
+claim, and the rate at which one substitutes for the other does not
+soften as provision grows. Neither the sign of the displacement nor the
+ordering needs the functional form: Lemmas 1$''$ and 1$'''$ obtain them
+from monotonicity and idempotence, and they are independent — each has a
+witness satisfying the other’s hypotheses and failing its conclusion.
 
-Getting past that boundary is not a modelling convenience. The argument
-that sets it rests on three things and no more: that a stationary ratio
-forces equal growth, that the reproduction map is one-to-one, and that
-the object in dispute is the map’s own argument. Denying one of the
-three is the only way through, and this paper denies the third, leaving
-the first two standing.
+**Relative class size.** Theorem 2$'$ gives the stationary ratio of
+owners to workers as a closed form in the instruments and the growth
+factor, from which the capital stock has cancelled. How many owners
+there are per worker is a matter of fiscal structure, not of accumulated
+capital. A higher tax on capital income lowers that ratio strictly, at
+every admissible interior point and at every weight on public provision
+— a uniform sign, proved rather than sampled, and Theorem 2$'$(v) shows
+why the one channel that could reverse it is capped by the very
+derivative it would have to overcome. Reinvestment is the instrument
+that turns, and the turning is settled outright: away from the corner
+its direction reverses on $(0,1)$ if and only if $\delta_G\le\delta$ or
+the reproduction scale exceeds a closed-form threshold $B^\ast$.
 
-Public provision changes the input being equalised, not the boundary
-itself. The worker’s reproduction input becomes a combination of private
-consumption and the public stock; the capitalist’s remains private
-consumption. The same reproduction rate can therefore coexist with
-unequal private claims. A larger public stock supports worker
-reproduction on less private consumption. This is the paper’s central
-result: public provision can redistribute the means of reproduction
-between a private claim and a public stock without, on that account
-alone, changing the common reproduction rate.
+**The funding route is the policy.** Between the two margins sits a
+precondition. Proposition 2(iii) shows that if the public input is
+reproduction-relevant and unfunded, worker growth is pinned at the
+stock’s own survival rate at every stationary positive stock — a value
+carrying no instrument and no state — and the configuration has no
+interior rest point at all. A worker who taxes capital at the ceiling
+and takes the whole receipt as cash reproduces at exactly the rate of a
+worker who does not tax. The composition of public spending, not its
+level, carries the distributive content.
 
-One objection meets that result at once, and the paper grants it rather
-than evading it. Written out in private consumption alone, the worker’s
-technology is class-specific, so the private gap between the classes
-offsets something, and a gap that merely offsets is not a difference in
-condition. What the objection does not reach is whether the thing being
-offset is a primitive. A class-specific efficiency parameter is
-exogenous: it pins the gap, and no instrument touches it. What offsets
-the gap here is a public stock the contested tax builds, so the gap
-moves when the instruments move. The compensating-differential verdict
-disposes of a gap that is fixed; it does not dispose of one the contest
-itself sets.
+**The price of the workforce.** The result that gives the model its bite
+concerns the other side. The owner’s objective is his own consumption
+and his owned capital. It contains no term in the number of workers, and
+no altruism parameter appears anywhere in the model. Proposition 4$'$
+shows that his own optimisation returns a strictly positive marginal
+value of the workforce at every admissible interior profile, closed in
+form, and that this valuation enters his accumulation rule directly
+through (12). Labour reaches his payoff along two routes — the
+consumption his workers’ product finances, and the capital that same
+product helps accumulate — and the production function and the
+competitive wage, not his preferences, put them there.
 
-The financing arrangement determines why that result is a class
-question. The tax base is stipulated: the public stock is built from the
-capital share, not from the wage bill. If a stock that matters for
-worker reproduction receives no funding, the worker population declines
-at the stock’s depreciation rate; with full depreciation it stops in one
-period. At the reported parameter cells, the worker directs the full tax
-receipt to the public stock. Holding the reported tax and reinvestment
-rate fixed, the capitalist also prefers that split. This is a local
-incidence finding, not a claim that capitalists choose the tax base or
-that all public provision works this way.
+**Premises and conclusions.** The apparatus is standard throughout:
+Cobb–Douglas production, factors paid their marginal products,
+discounted dynamic optimisation, Nash equilibrium in a restricted
+strategy class, envelope conditions. Nothing unorthodox is assumed
+anywhere. The conclusions — that reproduced condition is unreachable
+while relative numbers are not; that capital-funded provision displaces
+the wage rather than supplementing it; that cash and provision in kind
+are not two implementations of one policy; that an owner indifferent to
+worker numbers is nonetheless made to price their reproduction — follow
+from those premises, and cannot be declined by declining a premise.
 
-The capitalist’s objective is equally important. His payoff weights
-current consumption and owned capital, and what makes reinvestment a
-trade-off rather than an automatic choice is that consumption keeps a
-positive weight — the weight on capital may be zero, and the paper’s
-baseline sets it there. When capital alone is valued, reinvestment has
-no cost in his objective and the choice collapses to a corner. The paper
-therefore studies the interior case in which accumulation remains a
-contested decision.
+**Relation to the literature.** The chassis is a one-sector optimal
+growth model with two dynasties and a public stock. It departs from the
+Barro and Becker (1989) line in what the reproduction function is:
+$\gamma$ is the elasticity of a technology converting this period’s
+resources into next period’s numbers, not a taste for children, and no
+altruism parameter appears below. The restriction to constant policy
+shares follows Schmitt-Grohé and Uribe (2007), who evaluate policy
+confined to a small parametric family in place of the Ramsey problem and
+find the best member of that family attains virtually the welfare of the
+Ramsey optimum. The incidence result belongs with the literature
+comparing in-kind provision to cash, and is sharper than that comparison
+usually permits: here cash does not under-perform provision, it achieves
+nothing whatever for the object it is aimed at.
 
-Neither the boundary result nor the central result depends on how the
-game is solved. Both hold at any state where the class-population ratio
-has stopped changing — whether or not that state is an equilibrium, and
-whatever either class is taken to maximise. They follow from the
-reproduction technology and from stationarity itself, not from an
-optimisation. What the equilibrium concept is needed for is the rest:
-who chooses which instrument, and which way each margin moves.
-
-Inside the constant-share class the long-run state is not in doubt.
-Wherever both stocks are funded and the capitalist consumes at all there
-is exactly one interior long-run state; it is locally stable at every
-point of the admissible parameter space, and no route to a
-distributional cycle is open at a rest point anywhere in it. There is a
-single exception, and it is not a technicality but a theorem of its own:
-at the no-social-wage corner the public stock leaves the growth
-condition altogether, and the reduced system becomes triangular — the
-class ratio and the capital ratio are each autonomous contractions,
-converging from every start, and the public stock follows them and
-settles exactly when the corner’s growth factor clears the stock’s own
-depreciation floor. Where the stock depreciates at least as fast as
-capital that is automatic. Where it is the more durable of the two it is
-a floor on the capitalist’s net reinvestment, given in closed form;
-below that floor the growth factor stays under the stock’s floor, the
-reduced condition still has its unique root, and the one stock nothing
-in the corner’s economy uses accumulates without bound relative to the
-workforce it cannot benefit. Both classes are present there as a
-conclusion and not as an assumption, and the class ratio returns to its
-long-run value from any initial composition — at the corner whatever the
-stocks do, and elsewhere once they settle — so the composition of the
-two classes is not a knife edge. The one setting that breaks this while
-the stocks still settle is the capitalist’s own: reinvesting everything
-leaves him nothing to consume and stops his dynasty in a single period.
-
-The formal results have clear limits. Deviations are graded only within
-the constant-share class, so nothing below shows that restriction is
-without loss against state-dependent rules. Within that class a
-stationary profile exists under an explicit condition. The paper proves
-stationary single-crossing results for the public-investment split and
-reinvestment, and translates their one-shot margins to the full payoff
-at a profile’s own rest point. Extending those results to a fixed
-declared start requires further curvature conditions. The capitalist’s
-stationary rate criterion is proved on the proper region, but its
-fixed-start best-reply condition remains conditional. The worker’s joint
-tax-and-split condition is likewise not proved generally on that path;
-it is proved when both stocks fully depreciate. The computations
-describe the reported parameter cells and named rule families. They do
-not establish a general state-dependent equilibrium, exclude cycles far
-from the long-run state, or rank the outcomes by welfare.
-
-The contribution is therefore specific but consequential. Both classes
-reproduce through the same increasing map from an index to next-period
-numbers, so a stationary class ratio equalises those indices; it does
-not equalise private consumption, because the worker’s index is a
-composite of his own consumption and a public stock built from the
-capital share, while the capitalist’s index is his consumption alone. A
-capital-funded public stock can therefore lower the worker’s private
-claim while sustaining the same reproduction rate, leaving the financing
-arrangement tied to the conflict over accumulation.
-
-The tie runs in the other direction too: the capitalist’s own interior
-reinvestment rate rises with the price he puts on the workforce he must
-reproduce, the rest of his rate rule held fixed. That price is a closed
-form in the primitives, it enters his rate directly, and it arises
-because labour is an input his production needs — not because he values
-worker numbers as such. The qualification is not decorative: what the
-rule contains is that price weighted by the reproduction elasticity, and
-Section 6 exhibits a sweep along which the price falls while the rate
-rises.
-
-Class condition is what the equalised index pins; what it leaves free is
-relative class size, and the instruments are among the things that set
-it through a closed form. That form carries the paper’s own wedge a
-second time: where the worker reproduces on private consumption alone,
-reinvestment shrinks the capitalist class relative to the worker class
-at every admissible rate, and once public provision enters, the
-public-input weight is the only channel that can reverse the direction.
-The corner is sharper still: there the ratio is a function of the three
-instruments and the capital share alone, with the entire reproduction
-technology absent from it, and all three instruments signed. Public
-provision is what puts the technology back, and it unsettles two of
-those three signs but not the third: the tax’s remains negative
-everywhere, and for a reason the model supplies rather than a range it
-happens to occupy.
-
-Each instrument reaches relative class size along two kinds of route —
-directly through the shares, and indirectly through the growth factor.
-For reinvestment and for the tax every direct route is negative, so for
-those two only the indirect route can change a sign; the split is not in
-that position, its direct route being positive already at the corner.
-Reinvestment’s indirect route carries a free $1/i$ and can be made to
-win. Where provision carries any weight at all, whether it does is
-settled rather than surveyed: the direction reverses exactly when the
-public stock depreciates no faster than capital, or, where it
-depreciates faster, when the scale of the reproduction technology clears
-a threshold the paper gives in closed form. The tax’s cannot: the
-strength of its indirect route is bounded by the same derivative of the
-rest-point equation that the route must overcome, because the numerator
-of the one is literally a summand of the other. A channel that is capped
-by its own denominator cannot reverse anything, and the tax is therefore
-the one instrument whose direction is a property of the model and not of
-the cell. That property is read off the model’s specified growth side;
-unlike the displacement result above, it is not a form-free fact. What
-makes that a statement about conditions rather than about biology is the
-engine: one strictly increasing map applies to both classes, and only
-the composite it is applied to differs. Whether the financing
-arrangement is desirable is a welfare and institutional question the
-model does not answer.
+Section 2 sets out the model and the scope. Section 3 shows the public
+stock cannot be dropped from the state, and characterises completely the
+one family of feedback rules that could make it irrelevant. Section 4
+derives the corner at which the impossibility is exact. Section 5 opens
+the private gap. Sections 6 and 7 turn to equilibrium and to relative
+class size, Section 8 to existence and the one-shot bridge. Proofs of
+the load-bearing results are in the text; the envelope derivations,
+spectral arguments and computations are in the Online Technical
+Appendix.
 
 # 2. The Model
 
-## 2.1 Environment
+Two dynasties, of sizes $N_{W,t}$ and $N_{C,t}$, inhabit a one-sector
+economy. Write $\nu_t \equiv N_{C,t}/N_{W,t}$ for the class ratio,
+$x_t \equiv K_t/N_{W,t}$ for capital per worker and
+$z_t \equiv G_t/N_{W,t}$ for the public stock per worker.
 
-The environment is a Lancaster-lineage accumulation game with one
-addition. Time is discrete. The lineage that runs from Lancaster (1973)
-through Hoel (1978) and Pohjola (1983) works in continuous time — its
-apparatus is the differential-game one of Dockner, Jørgensen, Long and
-Sorger (2000), and the linear-homogeneous Markov class in which such
-games are usually solved is Long and Shimomura’s (1998) — so the
-equilibrium object here is a *map* rather than a flow; nothing in
-Sections 3–6 turns on the difference, and Section 7 turns on it
-entirely. Two classes $j \in \{W,C\}$ are dynasties with populations
-$N_{j,t}$; capital $K_t$ is owned by $C$; output is
-$Y_t = A K_t^{\alpha} N_{W,t}^{1-\alpha}$, paid competitively so the
-wage share $(1-\alpha)Y$ accrues to $W$ and the capital share $\alpha Y$
-to $C$.
+The state taxes capital income at rate $\tau_t$, spends a share $\phi_t$
+of the receipt on a public stock and pays the remainder to workers as
+cash; the owner reinvests a share $i_t$ of post-tax capital income. The
+two classes’ consumption and the two stock laws are then
 
-A stock $G_t$ of publicly provided reproduction goods accumulates from
-tax-funded investment and depreciates:
-$$G_{t+1} = (1-\delta_G)G_t + \phi_t\,\tau_t\,\alpha Y_t .$$
+$$C_{W,t} = \big[(1-\alpha)+(1-\phi_t)\tau_t\alpha\big]Y_t, \qquad
+  C_{C,t} = (1-i_t)(1-\tau_t)\alpha Y_t,$$
+$$K_{t+1} = (1-\delta)K_t + i_t(1-\tau_t)\alpha Y_t, \qquad
+  G_{t+1} = (1-\delta_G)G_t + \phi_t\tau_t\alpha Y_t. \tag{$\star$}$$
 
-The worker sets a redistributive tax $\tau_t \in [0,\bar\tau]$ on
-capital income and a fiscal split $\phi_t \in [0,1]$, the fraction of
-tax revenue directed to infrastructure investment rather than to a
-direct transfer. The capitalist sets the reinvested fraction
-$i_t \in [0,1]$ of after-tax capital income. All three instruments are
-shares. The assignment — redistribution to the worker, accumulation to
-the capitalist — follows Kaitala and Pohjola (1990) rather than
-Lancaster, whose worker sets a consumption share.
+Write $\kappa_W \equiv (1-\alpha)+(1-\phi_t)\tau_t\alpha$ for the
+bracketed share — labour’s share of output plus the cash rebate — which
+recurs throughout.
 
-The worker is borrowing-constrained and consumes wages plus the direct
-transfer; the capitalist consumes the retained, unreinvested slice:
-$$C_{W,t} = \big[(1-\alpha) + (1-\phi_t)\tau_t\alpha\big]Y_t, \qquad
-  C_{C,t} = (1-i_t)(1-\tau_t)\alpha Y_t .$$
-
-Capitalists reproduce on private consumption alone; workers reproduce on
-a Cobb–Douglas composite of private consumption per head and public
-infrastructure per worker,
-$$g_{W,t} = B\big(c_{W,t}^{\theta}\,(G_t/N_{W,t})^{1-\theta}\big)^{\gamma}, \qquad
-  g_{C,t} = B\,c_{C,t}^{\gamma}, \qquad 0<\theta\le 1,\ 0<\gamma<1,$$
-where $c_{j,t} = C_{j,t}/N_{j,t}$ and $g_{j,t} = N_{j,t+1}/N_{j,t}$. The
-composite share $\theta$ governs how far reproduction is privatised;
-$\theta = 1$ is the no-social-wage corner of Section 4. Public provision
-is class-asymmetric in incidence: $G$ enters the worker’s reproduction
-because the working class depends on the social wage for the means of
-its reproduction, and enters the capitalist’s not at all. The corner
-where capitalists place no weight on $G$ is the clean case; a
-differential-weight family with capitalists valuing $G$ less than
-workers is a robustness extension.
-
-Capital accumulates as
-$K_{t+1} = (1-\delta)K_t + i_t(1-\tau_t)\alpha Y_t$.
-
-The two classes do not maximise the same thing, and the asymmetry is
-where this paper departs from its lineage. The worker maximises the
-discounted size of his dynasty,
-$\sum_t\beta^t N_{W,t}^{1-\sigma_W}/(1-\sigma_W)$: he is the class whose
-reproduction the social wage is about, and the object the model is built
-to price. The capitalist does not reproduce for a payoff. He maximises
-$$\sum_{t}\beta^{t}\,\frac{\big(C_{C,t}^{\,1-\omega}\,K_t^{\,\omega}\big)^{1-\sigma_C}}{1-\sigma_C},
-\qquad \omega\in[0,1),$$ a constant-elasticity aggregate of his own
-consumption and the capital stock he owns. At $\omega=0$ this is the
-standard consumption objective and the weight can be dialled to zero
-throughout; at $\omega>0$ the stock enters his payoff directly, which is
-the formal content of accumulation pursued for its own sake rather than
-for what it buys. The upper endpoint is excluded, and Proposition 5(i)
-is why: at $\omega=1$ reinvestment costs him nothing he values, his
-margin vanishes identically, and the game degenerates to $i^\ast=1$ with
-no first-order condition anywhere. That is not a modelling preference
-but a theorem, and it disposes of the objective a reader is likeliest to
-propose first.
-
-Symmetric dynastic objectives — both classes maximising
-$\sum\beta^t N_{j,t}^{1-\sigma}$ — are the benchmark this paper departs
-from, and they are the natural primitive for the worker alone.
-Reproduction is what a working class does with the goods it receives; a
-firm owner’s numbers are not plausibly the thing his accumulation
-decision is for. Section 4 records what the symmetry costs: with both
-classes reproducing on private consumption alone, the stationary
-consumption ratio is identically one and no instrument reaches
-distribution.
-
-Because production, both reproduction maps, the capital law and the
-infrastructure law are homogeneous of degree one, all instruments are
-shares, and the capitalist’s aggregate is homogeneous of degree one in
-$(C_C,K)$ and hence in $(K,N_W)$, the game reduces to the degree-zero
-ratios $$(x,\nu,z) = (K/N_W,\ N_C/N_W,\ G/N_W),$$ with
-$V_j = N_W^{1-\sigma_j} v_j(\cdot)$, provided the public input enters as
-the intensive ratio $G/N_W$. The reduction is *per player*: each class
-reduces at its own curvature, and no common $\sigma$ is required. The
-class ratio $\nu$ is payoff-relevant to neither class — the capitalist’s
-value function is $V_C(K,G,N_W)$, the worker’s own state list — so
-**both problems reduce to $(x,z)$.** Capitalists still reproduce,
-because Assumption 2 makes reproduction a technology rather than a
-choice, so $\nu$ remains a state of the *economy*, still pinned by
-$g_C=g_W$ at any stationary structure, and Theorem 1 still has a
-subject. Time being discrete, the reduction is proved for this game in
-Appendix A rather than cited: within the constant-share class of
-Definition 1 the argument is an induction on the primitive laws and
-needs no continuous-time theorem. Writing
-$y \equiv Y/N_W = A x^{\alpha}$, the reduced transition is
-$$x' = \frac{(1-\delta)x + i(1-\tau)\alpha y}{g_W}, \qquad
-  \nu' = \nu\,\frac{g_C}{g_W}, \qquad
-  z' = \frac{(1-\delta_G)z + \phi\tau\alpha y}{g_W}. \tag{$\star$}$$
-
-The homogeneity is conditional. An *aggregate* stock $G$ is degree one
-and would break the reduction: the value function would stop being
-homogeneous and the exact constant-policy computation would be lost,
-exactly as a lump-sum transfer would break it. The public input must be
-share-valued ($G/N_W$, equivalently $G/K$) for the method to survive,
-and what the method needs is exactly the degree: Appendix A.2 shows the
-primitive map is homogeneous of degree one if and only if the public
-argument of the worker’s composite is homogeneous of degree zero in the
-state. That is why those two ratios serve equally, and it makes the
-requirement exact rather than polar — in the congestion family
-$G/N_W^{\psi}$ the admissible set is the single point $\psi=1$, so the
-aggregate stock is one point of the failure rather than its shape and no
-departure from proportional congestion is admissible in either
-direction. Section 3 establishes the point rather than assuming it, and
-Appendix A.2 gives the two failure modes.
-
-## 2.2 Assumptions and Equilibrium
+Per-head consumptions are $c_{W,t}=C_{W,t}/N_{W,t}$ and
+$c_{C,t}=C_{C,t}/N_{C,t}$. One asymmetry in that pair carries a great
+deal below: the worker’s private claim is a share of output per
+*worker*, while the owner’s is a share of output per *owner*, and
+therefore carries the class ratio in its denominator. It is why relative
+class size appears in the owner’s problem at all.
 
 Everything below is proved from the following list. Where a proof needs
-a restriction, it is one of these; where a statement holds only on a
-sampled set, it is labelled a computation rather than a theorem.
+a restriction it is one of these; where a statement holds only on a
+sampled set it is labelled a computation rather than a theorem.
 
 **Assumption 1 (technology and shares).** $A>0$; $\alpha \in (0,1)$;
 output is $Y_t = A K_t^{\alpha} N_{W,t}^{1-\alpha}$ with factors paid
@@ -466,12 +208,20 @@ $$g_{W,t} = B\big(c_{W,t}^{\theta}\,z_t^{1-\theta}\big)^{\gamma}, \qquad
   g_{C,t} = B\,c_{C,t}^{\gamma}, \qquad z_t \equiv G_t/N_{W,t}.$$ The
 outer map $u \mapsto Bu^{\gamma}$ is common to both classes, strictly
 increasing and strictly concave. The public input enters the worker’s
-reproduction and the capitalist’s not at all. Reproduction here is a
-*technology* carrying this period’s consumption into next period’s
-numbers, not a fertility choice: $\gamma$ is an elasticity of that
-technology and not a taste for children, which is what separates this
-chassis from the Barro and Becker (1989) line and is why no altruism
-parameter appears anywhere below.
+reproduction and the owner’s not at all.
+
+Reproduction is a *technology* carrying this period’s resources into
+next period’s numbers, not a fertility choice: $\gamma$ is an elasticity
+of that technology and not a taste for children, which is what separates
+this chassis from the Barro and Becker (1989) line and is why no
+altruism parameter appears anywhere below.
+
+The public input enters per worker. That looks like a modelling
+convenience and is not one: Appendix A.2 shows that among the
+specifications $G/N_W^{\psi}$ the degree-zero homogeneity the state
+reduction requires holds at $\psi=1$ and at no other exponent, so the
+admissible set is the singleton $\{1\}$. The intensive form is forced by
+the reduction rather than chosen for it.
 
 **Assumption 3 (preferences).** $\beta \in (0,1)$ and
 $\sigma_W,\sigma_C>1$. The worker maximises
@@ -493,22 +243,18 @@ capitalist’s payoff without modification. Third, $\omega<1$ leaves
 $\partial\ln P/\partial\ln C_C=1-\omega>0$: reinvesting still costs him
 something he values. Only the third is delicate, and Proposition 5(i)
 shows it is exactly what separates a game with a reinvestment margin
-from one without.
-
-The felicity must be a *power*. A specification such as $\ln(1+K)$ is
-homogeneous of no degree and destroys the reduction outright; the
-reduction survives a different $\sigma$ per class but not a different
-functional family.
+from one without. The felicity must be a *power*: a specification such
+as $\ln(1+K)$ is homogeneous of no degree and destroys the reduction
+outright.
 
 **Assumption 4 (interiority).** A rest point is *interior* if
 $x^\ast,\nu^\ast,z^\ast \in (0,\infty)$ and both stocks carry strictly
 positive gross investment there, which is
 $$g > 1-\delta \qquad\text{and}\qquad g > 1-\delta_G. \tag{A}$$
-Equivalently the two **survival shares**
-$$a \;\equiv\; \frac{1-\delta}{g}, \qquad c \;\equiv\; \frac{1-\delta_G}{g}$$
-lie in $[0,1)$. Every spectral statement below is proved for
-$a,c \in [0,1]$, hence on the closure, and the equality cases are
-reported rather than assumed away.
+Equivalently the two **survival shares** $a \equiv (1-\delta)/g$ and
+$c \equiv (1-\delta_G)/g$ lie in $[0,1)$. Every spectral statement below
+is proved for $a,c \in [0,1]$, hence on the closure, and the equality
+cases are reported rather than assumed away.
 
 **Assumption 5 (admissibility / properness).** A profile is *admissible*
 only if both classes’ discounted payoffs converge along the realised
@@ -521,70 +267,21 @@ $\tilde\beta_C=\beta g^{1-\sigma_C}$ for the two discount factors these
 conditions govern, and $\tilde\beta$ for the common value where the
 exponents coincide.
 
-The capitalist’s clause is not the one the symmetric benchmark carries,
+The capitalist’s clause is not the one a symmetric benchmark carries,
 and the difference is a consequence of (O) rather than a choice. His
 payoff object is $P$, not $N_C$, and $P$ is homogeneous of degree one in
 $(K,N_W)$; so **at a rest point** $P$ grows at the *worker’s* factor and
-(A5) reduces to $\beta g_W^{1-\sigma_C}<1$, with the capitalist’s own
-reproduction rate $g_C$ absent from his admissibility condition
-altogether. Where the two exponents also agree the two clauses of (A5)
-collapse into one, and the two-sided mask of Appendix C.2 becomes a
-single test — a simplification the symmetric objective did not permit,
-and one worth naming because it removes an entire failure mode from the
-computation.
-
-Away from a rest point $g_P$ and $g_W$ genuinely differ and the clause
-is not redundant, which is why (A5) is stated on the realised path
-rather than on $g_W$. At the reported cells the three factors $g_P$,
-$g_W$ and $g_C$ agree to $5\times10^{-15}$ once the path has settled;
-three periods into a transition from a distant start they do not,
-$g_P=0.957$ against $g_W=1.069$. Admissibility is a condition on a whole
-path, and on a path that has not settled the capitalist’s payoff can
-diverge while the worker’s converges, or the reverse.
-
-For $\sigma_j>1$ an improper side is a payoff of $-\infty$; whenever the
+(A5) reduces to $\beta g_W^{1-\sigma_C}<1$, with his own reproduction
+rate absent from his admissibility condition altogether. Away from a
+rest point $g_P$ and $g_W$ genuinely differ and the clause is not
+redundant, which is why (A5) is stated on the realised path. For
+$\sigma_j>1$ an improper side is a payoff of $-\infty$; whenever the
 affected class has a feasible unilateral deviation restoring properness,
 that deviation dominates and the profile is reported
-*inadmissible-improper*, never as an equilibrium. On a path that
-oscillates rather than settling, convergence is the condition on the
-*geometric* mean of the growth factor over the cycle, not on its
-minimum: at period two the successive-block ratio of the worker’s
-$\sum_t\beta^t N_{W,t}^{1-\sigma_W}$ is
-$\beta^{2}(g_ag_b)^{1-\sigma_W}$, so the condition is
-$g_ag_b>\beta^{2/(\sigma_W-1)}$ — which at the $\sigma=2$ of the
-reported cells reads $\beta^{2}<g_ag_b$, and identically for the
-capitalist with $g_P$ and $\sigma_C$ in place.
-
-The curvatures are curvatures of each class’s felicity in *its own*
-payoff object, and only one of those objects is consumption. The
-worker’s is the size of his dynasty, so an elasticity calibrated against
-consumption data does not transfer to $\sigma_W$ at all. The
-capitalist’s is $P$, which is consumption itself at $\omega=0$ and a
-consumption–capital composite above it, so the transfer reaches
-$\sigma_C$ at the baseline weight and weakens as $\omega$ rises. What
-$\sigma_j>1$ buys is the sign. Above one the felicity is negative and
-the payoff bounded above by zero, so an improper path pays $-\infty$ and
-(A5) is enforceable by dominance — wherever the affected class has a
-feasible deviation restoring properness — rather than by fiat. Below one
-it is positive, divergence pays $+\infty$, and a class would deviate
-*towards* the improper side: what fails at $\sigma<1$ is the equilibrium
-concept, not the arithmetic of convergence.
-
-Properness is not itself a consequence of $\sigma>1$, and where (A5)
-binds it binds on decay. For $\sigma>1$ and any $g\ge1$,
-$\beta g^{1-\sigma}<\beta<1$; the condition has content only below
-$g=\beta^{1/(\sigma-1)}<1$, which is the case Section 4 meets at
-(N$''$), where a decay factor $1-\delta_G$ is what threatens
-admissibility. Nor is the log benchmark excluded by divergence: at
-$\sigma=1$ the felicity is the log limit and its discounted sum
-converges for every geometric path, since $\beta g^{0}=\beta<1$. What
-changes at $\sigma=1$ is the *form* of the reduction and not its
-availability: the homogeneity degree $1-\sigma_j$ is zero, so the
-separation $V_j=N_W^{1-\sigma_j}v_j$ cannot carry the scale, and the log
-case separates additively instead, as $V_W=\ln N_W/(1-\beta)+v_W(x,z)$ —
-immediate from Lemma A.1, since $g_W$ is homogeneous of degree zero and
-the discounted double sum reorders. Assumption 3’s restriction to
-$\sigma_j>1$ is therefore about the sign, not about the reduction.
+*inadmissible-improper*, never as an equilibrium. What $\sigma_j>1$ buys
+is that sign: below one, divergence pays $+\infty$ and a class would
+deviate *towards* the improper side, so what fails there is the
+equilibrium concept and not the arithmetic of convergence.
 
 **Definition 1 (constant-share stationary equilibrium).** Fix an initial
 state $(x_0,\nu_0,z_0)$. A profile
@@ -599,45 +296,38 @@ deviation to another constant share.
 The initial state is carried because the concept is start-dependent. A
 constant share cannot condition on the state, so a deviator trades the
 transition off against the limit, and where the transition begins
-decides the balance. At the reported cells $\tau^\ast \in [0.51,0.72]$
-across three starts, with the corner $\phi^\ast=1$ at every one. Call
-the profile a **self-consistent stationary equilibrium** when the start
-is in addition the rest point the profile induces,
-$(x_0,\nu_0,z_0) = (x^\ast,\nu^\ast,z^\ast)$ — a fixed point of the map
-from start to equilibrium to rest point.
+decides the balance. Call the profile a **self-consistent stationary
+equilibrium** when the start is in addition the rest point the profile
+induces.
 
 What Definition 1 grades, and what does not need it, separate cleanly.
 It grades the positive layer — which class chooses which instrument, and
-the sign of each margin — and Sections 6 and 8 are where it does that
-work. It carries none of the stationary results of Sections 4 and 5.
-Lemma 1, Proposition 2 and Theorem 1 hold at any interior stationary
-class ratio, whether or not that state is an equilibrium, and they hold
-whatever either class maximises: the first names no assumption on
-preferences at all, and the other two turn on the stationarity identity
-and the reproduction technology rather than on any payoff (Appendix
-G.1). Those three are therefore invariant to the solution concept, which
-is strictly stronger than holding only at its equilibria. Nash
-equilibrium is not a complete account of long-run play: Milionis,
+the sign of each margin. It carries none of the stationary results of
+Sections 4 and 5: Lemma 1, Proposition 2 and Theorem 1 hold at any
+interior stationary class ratio, whether or not that state is an
+equilibrium, and they hold whatever either class maximises. The first
+names no assumption on preferences at all; the other two turn on the
+stationarity identity and the reproduction technology rather than on any
+payoff. Those three are therefore invariant to the solution concept,
+which is strictly stronger than holding only at its equilibria. Nash
+equilibrium is not a complete account of long-run play — Milionis,
 Papadimitriou, Piliouras and Spendlove (2023) prove there are games in
-which every dynamic fails to reach the Nash set, or even the approximate
-Nash set, from some starting points. A statement that holds at any
-stationary state does not inherit that gap.
+which every dynamic fails to reach the Nash set from some starting
+points — and a statement that holds at any stationary state does not
+inherit that gap.
 
 Two things a reader of this literature will look for do not appear
 below, and in both cases the absence follows from the equilibrium
 concept rather than being an omission. There is no transversality
 condition: Definition 1 grades deviations to another *constant share*,
 so each class’s problem is a maximisation over a compact subset of
-$\mathbb{R}$ or $\mathbb{R}^{2}$ and not over an infinite-dimensional
-control path, and a transversality condition is a necessary condition
-for the latter with no role in the former. What it would have done —
-excluding paths whose discounted value does not converge — is done
-directly by Assumption 5, imposed on the realised path and checked at
-every profile reported here. Section 7 prices named feedback families on
-a printed grid and is finite-dimensional for the same reason. There is
-also no Euler equation in the body: the first-order conditions of
-Sections 5–6 are derivatives in a *share*, which is a parameter of the
-whole path, not in a date’s consumption.
+$\mathbb{R}$ or $\mathbb{R}^{2}$ rather than over an
+infinite-dimensional control path. What a transversality condition would
+have done — excluding paths whose discounted value does not converge —
+is done directly by Assumption 5. There is also no Euler equation in the
+body: the first-order conditions of Sections 5–6 are derivatives in a
+*share*, which is a parameter of the whole path, not in a date’s
+consumption.
 
 **Definition 2 (reproduction index).** Where each class reproduces
 through a scalar index of its own inputs, $g_j = F(x_j)$ with $F$
@@ -647,377 +337,114 @@ $x_C = c_C$.
 
 ## 2.3 Scope
 
-Six restrictions govern every claim below.
+Six restrictions govern every claim below, and each is a design choice
+with a consequence rather than an oversight.
 
 *The strategy class.* The deviation set in Definition 1 is the constant
 shares and no wider class. The object is a Nash equilibrium of the
 constant-share restriction, and nothing in this paper shows that
 restriction is without loss against state-contingent or
-history-dependent rules. Appendix A proves the state reduction within
+history-dependent rules. Appendix A proves the state reduction *within*
 that class; the reduction follows from the restriction and does not
-license it.
+license it. Section 3 does what can be done from inside: it
+characterises completely the one family of feedback rules capable of
+annihilating the mechanism, and bounds what that family can achieve.
 
-The device itself is a standing one. Where a policy problem’s
-unrestricted solution responds to the whole state, the usual response is
-to confine policy to a small parametric family and optimise inside it:
-Schmitt-Grohé and Uribe (2007) evaluate monetary and fiscal rules set as
-functions of a small number of easily observable indicators, in place of
-the Ramsey problem, and find that the best member of that family attains
-virtually the welfare of the Ramsey optimum. Constant shares are that
-restriction at its smallest — no observable at all, one number per
-instrument. The parallel is to the device and not to its warrant: that
-literature restricts a *planner’s* rule and can price the restriction
-against an unrestricted optimum it computes, whereas here the
-restriction falls on both players in a game and no unrestricted
-benchmark is available to price it against. The restriction is therefore
-a design choice of a recognised kind, and what prices it here is
-Appendix E, whose deviations are graded against a replying opponent
-rather than against a Ramsey benchmark.
+*The funding route.* Public provision is funded from one tax base, on
+capital income, and no money, interest-bearing asset or credit market
+exists. Changing the base or admitting borrowing changes both the
+incidence result and the worker’s reach into capital income; the results
+below are statements about this fiscal architecture.
 
-The restriction is not costless to defend, and the defence differs by
-instrument. The tax rate and the fiscal split are set by legislative
-processes that do not re-optimise each period; a constant share is the
-polar case of that sluggishness rather than a description of it, and
-this model is the limit in which the commitment is complete. No such
-cover extends to the reinvestment rate, which is a private accumulation
-decision its owner may revisit every period, and whose constancy is a
-behavioural restriction rather than an institutional one. The lineage
-does not supply the warrant either: Lancaster’s capitalists also choose
-a share of the surplus, but the solution there is bang-bang rather than
-constant, so *open-loop* and *constant-share* are not the same class and
-this equilibrium should not be named after the former.
+*The public input is intensive.* Assumption 2 takes $z=G/N_W$, and
+Appendix A.2 shows the exponent is forced rather than chosen. An
+aggregate or congested public good is a different model.
 
-Nor is the restriction an approximation whose relaxation would only
-sharpen what follows. Section 3 records why: under general Markov
-feedback a rule in $\phi$ alone annihilates the payoff-relevance of $z$
-identically, and with it the channel this paper is about. Proposition
-1$'$ characterises that family completely and bounds what it can do — it
-is the only such family, it is nowhere dense, and the relevance it
-removes times the width of the band on which it can remove it is bounded
-on the whole parameter box. The restriction is still not shown to be
-without loss; Proposition 1$'$ bounds this route out of it. It is also
-why the question is posed inside the constant-share class rather than
-merely solved there — widening the class does not automatically deliver
-a stronger version of the same statement.
+*Determinism.* All paths are deterministic. Under stochastic
+stationarity the equality of growth factors becomes a statement about
+geometric means, and the per-head gap that opens is the Jensen term in
+the two classes’ risk difference — compensation for risk rather than a
+distributive wedge.
 
-What the restriction *has* been tested against is set out in Appendix E,
-and the test is adversarial rather than illustrative. At the reported
-cells the enlarged family is priced in both directions. No
-state-contingent split beats the flat equilibrium rule, over sixteen
-hundred rules at each of the three equilibria. A counter-cyclical *tax*
-rule does beat it, by one per cent of discounted payoff, at two of the
-three. Then the reply: asked for his best constant reinvestment rate
-against the announced rule, the capitalist withdraws enough to
-extinguish the orbit and leave the worker thirty per cent below the
-equilibrium he left, the same reversal at the other two cells and again
-when he is freed into the same feedback family with his own level free
-(Appendix E.5). The deviation that pays against a fixed opponent does
-not survive being chosen.
+*Curvature away from full depreciation.* Moving from rest-point
+derivatives to global best replies from a declared start requires
+curvature conditions that durable stocks do not supply in general.
+Section 8 proves what can be proved and states exactly what is left.
 
-One finding cuts the other way, and it is a limit on the equilibrium
-rather than on the restriction. Once the worker can *commit* instead of
-deviate, the constant-share equilibrium is not Pareto-efficient in the
-enlarged class: a rule taxing capital more lightly when capital is
-abundant raises the return to accumulating, and at the cell where it is
-priced leaves the worker eleven per cent and the capitalist one and a
-half per cent better off. But the worker’s own best commitment is not
-one of the improving rules, only eight of three hundred and sixty-four
-improve both sides, and freed with both slopes commitment becomes an
-extraction device and not a joint improvement — at every cell the
-capitalist’s loss exceeds the worker’s gain, once by a factor of sixty
-(Appendix E.7–E.8, which carries the cell-by-cell figures and the
-profiles they are priced at). Commitment therefore makes a joint
-improvement available without making it anyone’s choice, and none of it
-is a Markov-perfect equilibrium; freeing the tax *level* alone,
-anticipating the constant reply, is worth six tenths of a per cent or
-less. What is punished is also specific, and the appendix is careful
-about it: commitment to a rule optimised against a *passive* opponent is
-punished on whichever side announces it — the capitalist’s own such rule
-is turned into a loss of twenty-six per cent by the worker’s reply, as
-the worker’s is by his. Rules in the capitalist’s family priced *at* the
-reply do settle on a joint improvement at every cell. So what is
-self-defeating is optimising against a passive opponent rather than
-commitment as such, and where his optimum against a *replying* worker
-lies is not established. These are computations at three cells over
-priced rule families and they do not show the restriction is without
-loss. What they show is which widenings pay and which are
-self-defeating, which is the most this paper claims about the class it
-did not solve in.
-
-*Existence.* Theorem 3 proves that a *stationary profile* exists — a
-profile satisfying each instrument’s own one-shot condition at the rest
-point it induces, admissible there, with that rest point interior,
-unique and locally stable — under an explicit inequality in the
-primitives which Computation 3 verifies at the reported cells. Section
-8.1 is what that argument runs on, and it yields a result of its own.
-Making the growth factor an explicit inverse turns the feedback from the
-instruments through that factor and back into a single scalar: where the
-two transition wedges are jointly signed and one sign condition holds on
-an explicit function of the growth factor — itself free of the
-reproduction elasticity — that feedback has gain below one at every
-fixed point, and the growth factor a stationary profile composes to is
-unique at every admissible value of that elasticity. Since the
-constant-share concept is start-dependent by construction and different
-starts give different profiles, what that rules out is a multiplicity of
-growth factors behind them; the sign condition is discharged by an
-interval cover at the reported cells, and on an explicit band of the
-capital share, the public-input weight and the curvature the wedge
-condition carries both conclusions alone.
-
-That is not the same object as Definition 1, which asks in addition for
-a global best reply along the path from a declared start, and no profile
-is proved to be one. Two steps separated them, both named below: the
-one-shot bridge, and quasi-concavity of the discounted payoff in the
-deviating share. Section 8.4 closes the first outright, and reduces the
-second, by Corollary 2, to single-crossing of an explicit scalar
-function rather than concavity of a value function. The fixed declared
-start has a reduction of its own, Theorem 7: concavity of the discounted
-payoff on a convex set of deviating shares follows from concavity of one
-per-date object at every date, for either class and for any number of
-instruments varied at once. What that start costs is therefore a
-curvature hypothesis on a per-period object rather than on a value
-function, and the sections below spend the rest of their effort
-discharging it instrument by instrument.
-
-Theorem 5 then closes that question for the fiscal split,
-unconditionally on the admissible region: the feedback from the split to
-the growth factor to the transition wedge and back is a contraction, so
-every crossing is downward. Section 8.5 carries the same construction to
-the tax and the rate and reaches an explicit criterion for each — an
-inequality between two elasticities, with the divergence that made the
-split’s case look hard shown not to arise in either. Theorem 6 then
-proves the rate’s criterion outright, on the whole proper region and
-with no condition beyond properness. Section 8.7 then reaches the
-worker’s joint condition in the pair he owns, by writing his instruments
-as the three coefficients they act through: in those coordinates all
-three are affine, his instrument box is a convex triangle, and the
-date-zero saddle that appeared to close the route turns out to belong to
-the coordinates rather than to the route. What remains is the tax’s
-inequality, one elasticity in the split, and the hypothesis that carries
-the pair — narrower than a step, but not nothing. That last one is
-discharged outright where both stocks depreciate fully, so what remains
-of it is a statement about durable stocks and not about the argument.
-
-*Proof against computation.* Sections 3–5 and Theorems 2 and 2$''$ are
-proved from Assumptions 1–4, Theorem 2(ii) adding the strict positivity
-of two instruments ($i>0$, $\phi\tau>0$) stated in its hypotheses and
-Theorem 2$''$ taking those at the endpoint $\theta=1$. No numerical
-input enters them. Section 6’s equilibrium levels, and every count and
-sweep verdict in Sections 6–7, are computations at the reported cells
-and are labelled *Computation* rather than *Proposition*. No verdict
-obtained by sweeping is written as a statement about the parameter
-space.
-
-*The one-shot bridge.* Propositions 3, 5 and 7 sign a one-shot marginal
-value at a fixed balanced-growth factor. Theorem 4 proves that this
-costs nothing: at a profile evaluated at the rest point it induces, each
-such margin carries the sign of the total derivative of the deviator’s
-discounted payoff, transition and induced growth change included. The
-theorem is stated at that start and no other; from a transitional start
-the linearised coefficients move with $t$ and the argument does not
-close.
-
-*What the economy contains.* The model is real throughout. There is no
-money and no nominal quantity, and no asset is traded between the two
-classes: the worker is borrowing-constrained, the capitalist’s rate is a
-share of his own after-tax income rather than a price at which the two
-sides exchange, and the four uses of output in Section 2.1 already
-exhaust it. No interest rate and no risk premium appear anywhere below,
-and neither is set to zero — there is no margin at which either could be
-quoted. That restricts the worker before it restricts the model. The
-fiscal split is his whole reach into the future; a claim on the capital
-he is taxed to build would give him a second one, and every result that
-turns on his having only the one would have to be argued again. Section
-9 names where such a channel goes back in. Nothing here shows the
-results survive it.
-
-*Determinism.* Every path below is deterministic, and this is
-load-bearing rather than incidental. Section 5 puts the stochastic
-version of the *first* of its three exits and finds it does not deliver
-— a stationary log class ratio has zero mean drift, so the gap that
-opens is the Jensen term and reads as compensation for risk. The other
-two exits are not put stochastically, no result is stated for a
-stochastic chassis, and the paragraph that does the work is a paragraph
-rather than a model. A stochastic version is a different paper and not a
-robustness check on this one.
-
-The proof status of every numbered result — which Assumptions it rests
-on, which of its clauses are proved and which computed, and what each
-open hypothesis would cost — is set out in Appendix G.1, and is not
-repeated in the body. Where a result carries a hypothesis beyond
-Assumptions 1–5 it is stated in that result and not left to inference.
-Assumptions 1–5 and Definitions 1–2 carry no proof status, being
-hypotheses and definitions rather than claims; what each is used for is
-stated where it is used.
-
-## 2.4 Notation
-
-The symbols a reader needs to follow the statements are collected here,
-together with the three names the proof of Theorem 2(iii) gives to the
-clauses of (J); symbols used once, or otherwise confined to a single
-proof, are not. Objects defined later in the paper are included with the
-equation that defines them, so the table serves a reader working
-backwards from a result as well as forwards from the model.
-
-| state or aggregate | meaning | defined at |
-|----|----|----|
-| $K,\ G$ | private capital stock; public stock of reproduction goods | §2.1 |
-| $N_W,\ N_C$ | worker and capitalist populations | §2.1 |
-| $Y,\ y$ | output $AK^{\alpha}N_W^{1-\alpha}$; per worker, $y = Y/N_W = Ax^{\alpha}$ | §2.1 |
-| $x,\ z,\ \nu$ | the degree-zero states $K/N_W$, $G/N_W$, $N_C/N_W$; both classes’ problems reduce to $(x,z)$ | §2.1, $(\star)$ |
-| $C_{j,t},\ c_{j,t}$ | class $j$’s consumption and consumption per head, $c_{j,t} = C_{j,t}/N_{j,t}$, for $j\in\{W,C\}$ | §2.1 |
-| $g_W,\ g_C$ | the reproduction factors $N_{j,t+1}/N_{j,t}$; $g$ is their common value at a rest point | §2.1, Assumption 2 |
-| $x_W,\ x_C$ | the reproduction indices $c_W^{\theta}z^{1-\theta}$ and $c_C$ — distinct from the state $x$ | Definition 2 |
-| $V_j,\ v_j$ | class $j$’s value function and its reduced form, $V_j = N_W^{1-\sigma_j}v_j$ | §2.1 |
-
-| instrument | meaning | defined at |
-|----|----|----|
-| $\tau\in[0,\bar\tau]$ | the tax on capital income — the worker’s | §2.1 |
-| $\phi\in[0,1]$ | the fiscal split: the share of revenue building $G$ rather than transferred — the worker’s | §2.1 |
-| $i\in[0,1]$ | the reinvested fraction of after-tax capital income — the capitalist’s | §2.1 |
-| $\kappa_W,\ \varpi,\ \iota$ | the three coefficients the worker’s instruments act through, $(1-\alpha)+(1-\phi)\tau\alpha$, $\phi\tau$ and $i(1-\tau)$; $\kappa_W$ is his consumption share, written $\kappa$ in Section 8.7 | \(33\) |
-
-| primitive | meaning | defined at |
-|----|----|----|
-| $A,\ \alpha$ | total factor productivity; the capital share | Assumption 1 |
-| $\delta,\ \delta_G$ | the depreciation rates of $K$ and of $G$ | Assumption 1 |
-| $B,\ \gamma$ | the scale and the elasticity of the reproduction technology | Assumption 2 |
-| $\theta$ | the private share in the worker’s reproduction composite; $\theta=1$ is the no-social-wage corner of Section 4 | Assumption 2 |
-| $\beta,\ \sigma_W,\ \sigma_C$ | the discount factor and the two curvatures, written $\sigma$ where the exponents coincide | Assumption 3 |
-| $\omega\in[0,1)$ | the weight on his own capital stock in the capitalist’s payoff | \(O\) |
-| $P$ | the capitalist’s payoff aggregate $C_C^{\,1-\omega}K^{\,\omega}$ | \(O\) |
-| $\tilde\beta$ | the effective discount factor $\beta g^{1-\sigma}$, read at each class’s own exponent where the two differ | Assumption 5 |
-
-| stationarity object | meaning | defined at |
-|----|----|----|
-| $p,\ q$ | the elasticities of $g_W$ in $x$ and in $z$: $p=\alpha\theta\gamma$ and $q=(1-\theta)\gamma$ | \(G\) |
-| $\Omega$ | the transition wedge on the public stock, $\tilde\beta(g-1+\delta_G)\big/\big[g-\tilde\beta(1-\delta_G)\big]$ | \(6\) |
-| $J,\ D_x$ | the capital-side twin of $\Omega$, $J=\tilde\beta(g-1+\delta)/D_x$, with $D_x=g-\tilde\beta(1-\delta)-\tilde\beta\alpha(g-1+\delta)$, positive under properness | \(8\) |
-| $a_j$ | the marginal value of a state times that state | §6 |
-| $\zeta,\ \varphi$ | the elasticity of $P$ in $K$, $\alpha+\omega(1-\alpha)$; and $\varphi=P^{1-\sigma}$, the scale of the capitalist’s flow marginal value | §6 |
-| $\rho$ | his valuation of the workforce against that scale, $a_{N_W}/\varphi$ | \(12\) |
-| $\Psi(\phi),\ \Xi(\tau;\phi)$ | the worker’s split and tax margins; their zeros are his two stationary conditions | (6), (14) |
-| $\Lambda$ | the capitalist’s rate index: his stationary rate is $i^\ast=\Lambda/(1+\Lambda)$ | \(12\) |
-| $\mu,\ \mu_K$ | the stock poles $g/(g-1+\delta_G)$ and $g/(g-1+\delta)$ | \(21\) |
-| $\mathcal{H},\ \mathcal{P}$ | the growth side and the share side of the rest-point condition, $g=\mathcal{H}^{-1}(\mathcal{P})$ | \(13\) |
-| $\mathcal{H}_1,\ \mathcal{P}_1,\ \underline{\iota}$ | the two sides at the corner $\theta=1$, and, where the public stock outlasts capital, the floor on net reinvestment $\iota=i(1-\tau)$ below which that stock does not settle there | Theorem 2$''$ |
-
-| stability object | meaning | defined at |
-|----|----|----|
-| $a,\ c$ | the survival shares $(1-\delta)/g$ and $(1-\delta_G)/g$, in $[0,1)$ at an interior rest point | Assumption 4 |
-| $\mathcal{J},\ D,\ T$ | the $(x,z)$ Jacobian in logarithms at a rest point, with its determinant and trace | Theorem 2(iii) |
-| $M_{\mathrm{NS}},\ M_{\mathrm{flip}},\ M_{\mathrm{fold}}$ | the three margins of (J), which strengthen the Jury conditions by $p+q$, $1-q$ and $0$ | Theorem 2(iii) |
-
-Eight symbols carry more than one meaning, the extra ones local to a
-proof, and the table gives the one they carry in the statements. Section
-8.7 writes $a$ and $c$ for $b_1\mu_K$ and $b_2\mu$, and $A$ and $p$ for
-the matrix and gradient of the weighted family it builds there from
-Lemma 2, in each case defined where they are used; $c$ carries a third
-meaning in Section 8.1, the strictly positive coefficient
-$\gamma[(1-\theta)(1-\alpha)+\alpha]/(1-\alpha)$ of the tax wedge
-$\Delta$, defined at the display that introduces it. The fifth is
-$\rho$, which carries three besides the table’s: the widest flat of a
-non-decreasing reproduction map in Lemma 1$'$, the spectral radius in
-$\rho(\mathcal{J})$ of Theorem 2(i), and
-$|\mathcal{G}''|/(\mathcal{G}')^{2}$ in Section 8.7. The sixth is a date
-index: $u$ runs over dates in (30) and in the cumulated sums
-$\sum_{u<t}$, but denotes the gross investment flow $g-1+\delta$ in
-Proposition 12 and in the decomposition of $D_x$. The seventh is $\Phi$,
-and it carries three: the reproduction composite $(4)$ of Section 6; the
-rest-point gap $\mathcal{H}-\mathcal{P}$ of Section 8.1, whose zeros are
-the balanced-growth factors and whose derivative that section signs; and
-the weighted quadratic of Proposition 15$'$. The eighth is $\psi$: the
-strong-stable curve $z=\psi(x)$ of Section 3, and the congestion
-exponent of the counterfactual family $G/N_W^{\psi}$ in Appendix A.2,
-which is a specification this model does not adopt rather than a
-primitive of it. Each is defined where it is used.
+*No welfare ranking.* The incidence result is distributive. Ranking two
+configurations would need a welfare function over the two dynastic sizes
+and a price for a transfer funded by taxing capital, and this paper
+writes neither.
 
 # 3. Payoff Relevance of the Public Stock
 
-Adding $G$ risks a redundant state: if $z$ is pinned to a function of
-the distribution state $(x,\nu)$ once players condition on it, the
-economy is the two-state corner in disguise and the addition buys
-nothing. The test is whether $z$ can be dropped from $(\star)$ without
-loss.
+Before the public stock can carry a distributive result it must earn its
+place in the state. A third state variable that the first two determine
+is a redundancy, and the test is whether $z$ can be dropped from
+$(\star)$ without loss.
 
 **Proposition 1 (the state-space gate).** *Let Assumptions 1–2 hold and
 fix any constant shares $(\tau,\phi,i)$. Write*
 $$p \;\equiv\; \frac{\partial \ln g_W}{\partial \ln x}, \qquad
   q \;\equiv\; \frac{\partial \ln g_W}{\partial \ln z}.$$ *Then, at
-every interior state — every $(x,\nu,z)\in(0,\infty)^{3}$, which is
-where the logarithmic elasticities are defined — and not merely at a
-rest point,*
+every interior state — every $(x,\nu,z)\in(0,\infty)^{3}$ — and not
+merely at a rest point,*
 $$p \;=\; \alpha\theta\gamma, \qquad q \;=\; (1-\theta)\gamma, \qquad
   \frac{\partial \ln x'}{\partial \ln z} \;=\; -\,(1-\theta)\gamma \;=\; -q. \tag{G}$$
 *Consequently: (i) $q>0$ if and only if $\theta<1$, so the public stock
 is payoff-relevant exactly when public provision is
 reproduction-effective; (ii) $\partial x'/\partial z = -q\,x'/z \neq 0$
 whenever $\theta<1$ and $x'>0$ — the second failing only at $\delta=1$
-with $i=0$, where nothing is carried forward and next period’s capital
-is zero whatever $z$ does — so the distribution block $(x,\nu)$ does not
-close without $z$; and (iii) neither elasticity contains $\delta_G$,
-$A$, $B$, or any instrument, so independence is carried by $\theta<1$
-alone and not by the stock’s durability or by the policy at which it is
-evaluated.*
+with $i=0$, where nothing is carried forward — so the distribution block
+$(x,\nu)$ does not close without $z$; and (iii) neither elasticity
+contains $\delta_G$, $A$, $B$, or any instrument, so independence is
+carried by $\theta<1$ alone and not by the stock’s durability or by the
+policy at which it is evaluated.*
 
 *Proof.* By Assumption 2,
 $\ln g_W = \ln B + \gamma\theta \ln c_W + \gamma(1-\theta)\ln z$. Under
-constant shares $c_W = \kappa_W A x^{\alpha}$ with
-$\kappa_W = (1-\alpha)+(1-\phi)\tau\alpha$ a constant, so $\ln c_W$ is
-affine in $\ln x$ with slope $\alpha$ and contains no $z$.
-Differentiating, $p = \gamma\theta\alpha$ and $q = \gamma(1-\theta)$,
-which is the first pair in (G). For the third, write
-$x' = \mathcal{N}_x/g_W$ with
-$\mathcal{N}_x = (1-\delta)x + i(1-\tau)\alpha A x^{\alpha}$. The
-numerator $\mathcal{N}_x$ contains no $z$, so
+constant shares $c_W = \kappa_W A x^{\alpha}$ with $\kappa_W$ a
+constant, so $\ln c_W$ is affine in $\ln x$ with slope $\alpha$ and
+contains no $z$. Differentiating, $p = \gamma\theta\alpha$ and
+$q = \gamma(1-\theta)$. For the third, write $x' = \mathcal{N}_x/g_W$
+with $\mathcal{N}_x = (1-\delta)x + i(1-\tau)\alpha A x^{\alpha}$. The
+numerator contains no $z$, so
 $\partial \ln x'/\partial \ln z = -\partial \ln g_W/\partial\ln z = -q$.
 Claim (i) is immediate from $q=(1-\theta)\gamma$ and $\gamma>0$. Claim
 (ii) follows by converting the elasticity,
-$\partial x'/\partial z = (x'/z)\,\partial \ln x'/\partial \ln z = -q\,x'/z$,
-which is non-zero because $z>0$ at an interior state and $x'>0$ wherever
-$\mathcal{N}_x>0$, which fails only at $\delta=1$ with $i=0$. Claim
-(iii) is read off (G): $\delta_G$ enters the law of motion for $z$ alone
-and appears in neither $g_W$ nor $\mathcal{N}_x$, and $\kappa_W$ cancels
-in logarithmic differentiation. $\blacksquare$
+$\partial x'/\partial z = -q\,x'/z$, non-zero because $z>0$ at an
+interior state and $x'>0$ wherever $\mathcal{N}_x>0$, which fails only
+at $\delta=1$ with $i=0$. Claim (iii) is read off (G): $\delta_G$ enters
+the law of motion for $z$ alone and appears in neither $g_W$ nor
+$\mathcal{N}_x$, and $\kappa_W$ cancels in logarithmic differentiation.
+$\blacksquare$
 
-The result holds at every interior state, not only at a rest point, so
-it is not a linearisation, and it is exact in closed form. The two
-elasticities $p$ and $q$ are the same objects that carry Theorem 2 in
-Section 7, which is why the fiscal asymmetry and the stability bound
-share one condition. Both conditions switch off together at $\theta=1$:
-what is load-bearing is $\theta<1$, not the existence of a stock. Since
-$\partial g_W/\partial z \neq 0$ whenever $\theta<1$, the public stock
-feeds the worker’s reproduction and hence, through $\nu$, both players’
-continuation values, and no equilibrium can render $z$ idle while public
-provision is reproduction-effective. Durability is not what carries
-this: $\delta_G$ enters the law of motion for $z$ alone and appears in
-neither $g_W$ nor $x'$ nor $\nu'$.
+The result holds at every interior state rather than at a rest point, so
+it is exact rather than a linearisation, and the two elasticities $p$
+and $q$ are the same objects that carry Theorem 2 in Section 7 — which
+is why the fiscal asymmetry and the stability bound share one condition.
+Both switch off together at $\theta=1$: what is load-bearing is
+$\theta<1$, not the existence of a stock. Durability is not what carries
+it.
 
 Two limits belong with the result. Non-redundancy here is
-payoff-relevance and non-closure, not a rank condition. The Jacobian is
-of rank three at $\theta=1$ as well, where $z$ leaves $g_W$ altogether
-and the $(x,\nu)$ block closes, so rank does not discriminate; and an
-invariant relation $z=\psi(x)$ does exist, as the strong-stable curve
-through the steady state of the autonomous $(x,z)$ block, costing the
-result nothing because it is of measure zero in initial conditions and
-not attracting. And the test uses fixed share policies, which is the
-relevant case, since the equilibrium below is solved within the
-constant-share class. Under general Markov feedback the payoff-relevance
-of $z$ becomes a total derivative and can be annihilated: a rule in
-$\phi$ alone,
+payoff-relevance and non-closure, not a rank condition: the Jacobian has
+rank three at $\theta=1$ as well, so rank does not discriminate. And the
+test uses fixed share policies, which is the relevant case. Under
+general Markov feedback the payoff-relevance of $z$ becomes a total
+derivative and *can* be annihilated: a rule in $\phi$ alone,
 $$\phi(z) \;=\; 1 + \frac{1-\alpha}{\alpha\tau} + \xi\, z^{-(1-\theta)/\theta},$$
 makes $\partial \ln g_W/\partial z$ vanish identically and stays an
 admissible share on a band of $z$ containing the steady state. Because
-the flow payoff is dynasty size and carries no consumption term, $z$
-then leaves $x'$, $\nu'$ and both payoffs at once. That family is not an
-example among others, and calling it a knife-edge is a statement that
-can be proved rather than a word.
+the worker’s flow payoff is dynasty size and carries no consumption
+term, $z$ then leaves $x'$, $\nu'$ and both payoffs at once. That family
+is not one example among others, and calling it a knife-edge is a
+statement that can be proved rather than a word.
 
 **Proposition 1$'$ (the annihilating family, characterised).** *Let
 Assumptions 1–2 hold with $\theta\in(0,1)$, fix $\tau>0$ and $i$, and
 let the split be a **differentiable** Markov rule $\phi(\cdot)$ in $z$
-alone — differentiability is what makes the elasticity below an object
-at all, and the characterisation is within that class.*
+alone.*
 
 *(i) **It is the only one.** $\partial\ln g_W/\partial\ln z \equiv 0$ on
 an open band of $z$ if and only if
@@ -1031,37 +458,22 @@ Admissibility $\phi\in[0,1]$ confines $\kappa_W$ to
 $[1-\alpha,\ 1-\alpha+\tau\alpha]$, so such a rule annihilates only on a
 band $[z_{\rm lo},z_{\rm hi}]$ with*
 $$\frac{z_{\rm hi}}{z_{\rm lo}} \;=\; \Big(1+\frac{\tau\alpha}{1-\alpha}\Big)^{\theta/(1-\theta)},$$
-*a ratio fixed by the primitives alone: $\xi$ translates the band
-multiplicatively and leaves its width unchanged.*
+*a ratio fixed by the primitives alone.*
 
-*(iii) **The trade-off.** That width diverges as $\theta\to1$, so
-annihilation is not uniformly local. But the quantity a reader should
-watch is not the width. Under a constant share $\partial\ln
-g_W/\partial\ln z=q=(1-\theta)\gamma$ exactly, by (G), so as $z$ crosses
+*(iii) **The trade-off.** That width diverges as $\theta\to1$, but the
+quantity to watch is not the width. Under a constant share
+$\partial\ln g_W/\partial\ln z=q=(1-\theta)\gamma$ exactly, so across
 the band a constant-share worker’s log growth swings by
-$q\ln(z_{\rm hi}/z_{\rm lo})$ — and that swing is precisely what the
-annihilating rule holds at zero. It is therefore the log-growth
-variation the rule suppresses, on the widest interval on which it can
-suppress anything, and in it the $(1-\theta)$ cancels exactly:*
+$q\ln(z_{\rm hi}/z_{\rm lo})$ — precisely what the annihilating rule
+holds at zero — and in that product the $(1-\theta)$ cancels exactly:*
 $$q\,\ln\frac{z_{\rm hi}}{z_{\rm lo}} \;=\; \gamma\,\theta\,\ln\Big(1+\frac{\tau\alpha}{1-\alpha}\Big).$$
 *No $1/(1-\theta)$ survives, so the suppressed variation stays bounded
 as $\theta\to1$: annihilation is strong and local, or wide and
-negligible, and not both. The bound is uniform on any parameter set with
-$\alpha$ bounded away from one — it is
-$\gamma\ln\!\big(1+\bar\tau\bar\alpha/(1-\bar\alpha)\big)$ for
-$\alpha\le\bar\alpha<1$, $\tau\le\bar\tau$, the expression being
-increasing in both — and it is **not** uniform on the open set
-$\alpha\in(0,1)$, where it grows like $\ln[1/(1-\alpha)]$. That
-divergence is the vanishing-labour-share corner and not the composite
-one, and it is a different statement from the $\theta\to1$ limit this
-clause is about.*
+negligible, and not both.*
 
 *(iv) **It is nowhere dense.** In the supremum norm on admissible rules
 over any compact subinterval of the open band, the annihilating set is
-closed and has empty interior. The restriction to the interior is not a
-formality: at the band’s endpoints the rule sits at $\phi=1$ and
-$\phi=0$ by construction, so a two-sided perturbation there would leave
-the instrument set.*
+closed and has empty interior.*
 
 *Proof.* Write $k(z)=\kappa_W(\phi(z))$. Under constant $\tau$ and $i$,
 Assumption 2 gives
@@ -1073,53 +485,50 @@ inverting $k=(1-\alpha)+(1-\phi)\tau\alpha$ gives the displayed $\phi$
 with $\xi=-C/(\tau\alpha)$, and $k>0$ forces $C>0$ and hence $\xi<0$.
 That is (i). For (ii), $k$ is strictly decreasing in $z$, so
 $k\le 1-\alpha+\tau\alpha$ and $k\ge 1-\alpha$ bound $z$ below and above
-respectively, and the ratio of the two endpoints is
+respectively, and the ratio of the endpoints is
 $\big[(1-\alpha+\tau\alpha)/(1-\alpha)\big]^{\theta/(1-\theta)}$, in
-which $C$ has cancelled. (iii) is that ratio’s logarithm multiplied by
-$q=(1-\theta)\gamma$, the $\theta/(1-\theta)$ in the exponent cancelling
-the $(1-\theta)$ in $q$; the uniformity clause is monotonicity of
-$\ln[1+\tau\alpha/(1-\alpha)]$ in $\tau$ and in $\alpha$, together with
-its divergence at $\alpha=1$. For (iv), let
+which $C$ has cancelled. Part (iii) is that ratio’s logarithm multiplied
+by $q=(1-\theta)\gamma$, the $\theta/(1-\theta)$ in the exponent
+cancelling the $(1-\theta)$ in $q$. For (iv), let
 $T(\phi)(z) = k(z)\,z^{(1-\theta)/\theta}$; by (i) the annihilating set
 is $T^{-1}(\text{constants})$, $T$ is continuous in the supremum norm
 and a uniform limit of constant functions on a compact set is constant,
 so the set is closed. Fix a compact subinterval of the open band; there
-$\phi_0$ takes values in the open interval $(0,1)$, so for small
-$\varepsilon$ any continuous $h$ with $\|h\|_\infty\le1$ keeps
-$\phi_0+\varepsilon h$ admissible. Then $k$ moves by
-$-\varepsilon\tau\alpha h$, so
+$\phi_0$ takes values in $(0,1)$, so for small $\varepsilon$ any
+continuous $h$ with $\|h\|_\infty\le1$ keeps $\phi_0+\varepsilon h$
+admissible. Then $k$ moves by $-\varepsilon\tau\alpha h$, so
 $T(\phi_0+\varepsilon h) = T(\phi_0)-\varepsilon\tau\alpha\,h(z)\,z^{(1-\theta)/\theta}$,
 and what must be non-constant is that *product* rather than $h$ itself —
-$h\equiv1$ delivers it, the exponent being strictly positive, where the
-non-constant $h(z)=z^{-(1-\theta)/\theta}$ would not, leaving $T$
-constant and the perturbed rule annihilating. And
-$\|\varepsilon h\|_\infty\le\varepsilon$. So every ball meets the
+$h\equiv1$ delivers it, the exponent being strictly positive. Since
+$\|\varepsilon h\|_\infty\le\varepsilon$, every ball meets the
 complement and the interior is empty. $\blacksquare$
 
-Two readings follow, and the second is the one that matters for the
-strategy class. The obstruction is not that some feedback rule *happens*
-to switch the channel off; it is that switching it off requires the
-worker’s consumption share to track $z^{-(1-\theta)/\theta}$ exactly, at
-an exponent the reproduction technology fixes and the worker does not
-choose. And the rule buys less the more of it there is: where it can act
-on a wide band, by (iii), the relevance it removes is correspondingly
-small. Nothing here shows the constant-share restriction is without loss
-— that remains open and is declared in Section 2.3 — but the particular
-route by which widening the class would destroy the paper’s channel is
-now bounded rather than merely named. It says nothing about rules that
-move $\tau$ or $i$ as well, and nothing about other routes to
-irrelevance.
+The obstruction is not that some feedback rule *happens* to switch the
+channel off. It is that switching it off requires the worker’s
+consumption share to track $z^{-(1-\theta)/\theta}$ exactly, at an
+exponent the reproduction technology fixes and the worker does not
+choose. And the rule buys less the more of it there is: where it acts on
+a wide band, the relevance it removes is correspondingly small.
+
+**So what.** The public stock is a genuine third state exactly when
+public provision is reproduction-effective, and the one route by which a
+wider strategy class could make it idle is a single family, signed,
+bounded in what it suppresses, and nowhere dense. That does not show the
+constant-share restriction is without loss — it is not, and Section 2.3
+says so — but the particular threat that would erase the mechanism is
+now measured rather than merely named.
 
 # 4. The No-Social-Wage Restriction
+
+The impossibility this paper starts from is exact somewhere, and it is
+worth seeing exactly where. Switch the public input off — set
+$\theta=1$, so a worker is reproduced by private consumption alone — and
+the identity of Section 5 bites without remainder.
 
 **Proposition 2 (exact nesting).** *Let Assumptions 1–2 hold; part (iii)
 uses in addition Assumption 4’s interiority criterion (A). No part uses
 Assumption 3: the nesting is a property of the reproduction technology
-and the budget, not of the objective. Part (iii)’s durable half uses
-Assumption 2 only to say what makes the public input
-reproduction-relevant; the pinning itself is proved with $g_W$ and $g_C$
-carried as arbitrary positive symbols, and Assumption 2 is needed for
-the full-depreciation half alone.*
+and the budget, not of the objective.*
 
 *(i) Impose $\theta=1$. Then the public stock leaves the worker’s
 reproduction map identically, the $(x,\nu)$ block closes so the economy
@@ -1129,174 +538,79 @@ $$c_W = c_C. \tag{N}$$
 *(ii) Impose in addition $\phi=0$. Then*
 $$\nu^\ast = \frac{(1-i)(1-\tau)\alpha}{(1-\alpha)+\tau\alpha}. \tag{N$'$}$$
 
-*Per-capita equalisation — class disadvantage as size and never as
-condition — therefore holds at this corner exactly, not approximately,
-and the two restrictions do different work: $\theta=1$ alone delivers
-the equalisation, and $\phi=0$ is needed only to make the tax a pure
-transfer and pin the ratio. It is the composite, not the funding route,
-that the impossibility turns on.*
-
 *(iii) **The other corner.** Impose instead $\theta<1$ with $\phi=0$:
 the public input is reproduction-relevant and unfunded. If $\delta_G=1$
 then $z_1=0$ and $g_{W,1}=0$. If $\delta_G<1$ then at any $z$ stationary
 under $(\star)$ with $z>0$,* $$g_W \;=\; 1-\delta_G \tag{N$''$}$$
 *exactly, and at any such state whose class ratio is also stationary,
 $g_C=g_W=1-\delta_G$ as well. Both dynasties then decline at the public
-stock’s own rate of depreciation, and the right-hand side of (N$''$)
-carries no instrument and no state: $\tau$ and $i$ move the stationary
-$(x,z)$ at which (N$''$) is met, but not the value it pins. At a rest
-point of $(\star)$ the common factor is $g=g_W$, so (N$''$) contradicts
-(A) and no such rest point is interior.*
+stock’s own rate of depreciation, and the right-hand side of* (N$''$)
+*carries no instrument and no state: $\tau$ and $i$ move the stationary
+$(x,z)$ at which* (N$''$) *is met, but not the value it pins. At a rest
+point of $(\star)$ the common factor is $g=g_W$, so* (N$''$)
+*contradicts* (A) *and no such rest point is interior.*
 
 *Proof.* **(i)** Setting $\theta=1$ in Assumption 2 gives
 $g_W = B c_W^{\gamma}$, in which $z$ does not appear; the worker’s
-reproduction is then a map of private consumption alone, and by (G)
-$q=(1-\theta)\gamma=0$, so $x'$ no longer depends on $z$ and the
-$(x,\nu)$ block closes. Stationarity of the class ratio means
-$\nu'=\nu$, which by $(\star)$ is $g_C = g_W$, that is
-$B c_C^{\gamma} = B c_W^{\gamma}$. Since $\gamma>0$,
-$u\mapsto Bu^{\gamma}$ is strictly increasing and hence injective on
-$(0,\infty)$, so $c_W = c_C$, which is (N). No restriction on $\phi$ has
-been used. **(ii)** Setting $\phi=0$ gives
-$\kappa_W = (1-\alpha)+\tau\alpha$, the whole of the tax returning to
-the worker as a direct transfer. Substituting the two consumption
-levels, $c_W = \kappa_W A x^{\alpha}$ and
-$c_C = (1-i)(1-\tau)\alpha A x^{\alpha}/\nu$, and cancelling
-$Ax^{\alpha}>0$,
-$$(1-\alpha)+\tau\alpha \;=\; \frac{(1-i)(1-\tau)\alpha}{\nu}
-\quad\Longleftrightarrow\quad
-\nu^\ast = \frac{(1-i)(1-\tau)\alpha}{(1-\alpha)+\tau\alpha},$$ which is
-(N$'$). **(iii)** At $\phi=0$ the public stock’s law in $(\star)$ loses
-its only source term, $\phi\tau\alpha y$, and reads
-$z' = (1-\delta_G)z/g_W$. If $\delta_G=1$ this gives $z_1=0$; since
-$\partial\ln g_W/\partial\ln z = (1-\theta)\gamma>0$ for $\theta<1$, the
-composite $g_W = B\,c_W^{\theta\gamma}z^{(1-\theta)\gamma}$ vanishes at
-$z=0$, so $g_{W,1}=0$. If $\delta_G<1$, then $z'=z$ with $z>0$ gives
-$(1-\delta_G)/g_W = 1$, which is (N$''$); the state cancels, and no
-instrument survives because none enters the numerator once $\phi=0$.
-Stationarity of the class ratio is $\nu'=\nu$, which by $(\star)$ with
-$\nu>0$ is $g_C=g_W$, so the same value pins the capitalist’s dynasty;
-$g_W$ and $g_C$ enter both steps as symbols and neither map’s form was
-used. Criterion (A) requires $g>1-\delta_G$ strictly, which (N$''$)
-contradicts. $\blacksquare$
+reproduction index is then $c_W$ and the outer map is common to both
+classes, so Lemma 1 applies and yields $c_W=c_C$. Since $g_W$ is a
+function of $c_W$ alone and $c_W=\kappa_W A x^{\alpha}$ depends on $x$
+and the shares but not on $z$, the public stock is payoff-irrelevant for
+the worker’s transition and the $(x,\nu)$ block closes — which is
+Proposition 1(i) read at $q=0$.
 
-The two halves rest on different things, and it is worth separating
-them. The $\delta_G<1$ half uses only the public stock’s law of motion
-divided by $N_{W,t+1}$: $g_W$ enters it as a symbol and its value never
-does, so (N$''$) holds for *any* worker reproduction map whatever —
-Cobb–Douglas, CES, subsistence floor, saturating — and for any $\theta$
-at which the map still makes $z$ payoff-relevant. The $\delta_G=1$ half
-is the one that asks something of Assumption 2, and it asks only that
-the composite vanish when the public input does; the Cobb–Douglas form
-has that property for every $\theta<1$, a CES composite has it below
-unit elasticity of substitution and not above, and a composite bounded
-away from zero in $z$ does not have it at all. The form-free half is the
-one that does the work below.
+**(ii)** With $\phi=0$ the whole receipt is paid as cash, so
+$\kappa_W=(1-\alpha)+\tau\alpha$ and $c_W=\kappa_W A x^{\alpha}$, while
+$c_C=(1-i)(1-\tau)\alpha A x^{\alpha}/\nu$. Imposing (N) and cancelling
+the common factor $Ax^{\alpha}>0$ gives
+$\kappa_W=(1-i)(1-\tau)\alpha/\nu^\ast$, which rearranges to (N$'$).
 
-The capitalist’s side of the corner does not mirror the worker’s.
-Stationarity of the class ratio is $g_C=g_W$, so wherever the unfunded
-corner pins the worker it pins the capitalist at the same number — the
-depreciation rate of a stock absent from his own reproduction map, built
-by no part of the tax he pays, and set by an instrument he does not
-hold. The asymmetry survives in the technology, where
-$\partial\ln g_W/\partial\ln z=(1-\theta)\gamma>0$ while $z$ does not
-enter $g_C$ at all. It does not survive in the outcome. A reproduction
-input the capitalist neither uses nor funds still fixes the rate at
-which his own dynasty reproduces, and (A) then excludes the corner for
-both classes by one number rather than by two arguments. Adding
-Assumption 2 turns that rate into a level,
-$c_C=\big((1-\delta_G)/B\big)^{1/\gamma}$, still free of $\tau$, $\phi$
-and $i$; the level is form-dependent and the rate is not.
+**(iii)** With $\phi=0$ the public-stock law in $(\star)$ becomes
+$G_{t+1}=(1-\delta_G)G_t$. If $\delta_G=1$ then $G_1=0$, so $z_1=0$, and
+since $\theta<1$ Assumption 2 gives
+$g_{W,1}=B\big(c_{W,1}^{\theta}\cdot 0^{1-\theta}\big)^{\gamma}=0$. If
+$\delta_G<1$, per worker the law reads
+$z_{t+1}=(1-\delta_G)z_t/g_{W,t}$; stationarity of $z$ at a value $z>0$
+requires $z=(1-\delta_G)z/g_W$, and cancelling $z>0$ gives (N$''$). That
+step is an identity along a path: it uses no rest point and no
+linearisation, and $g_W$ and $g_C$ are carried as arbitrary positive
+symbols. If the class ratio is also stationary then $g_C=g_W$ by
+$(\star)$. At a rest point of $(\star)$ the common growth factor is
+$g=g_W=1-\delta_G$, which violates $g>1-\delta_G$ in (A); hence no such
+rest point is interior. $\blacksquare$
 
-Part (iii) has a payoff once Assumptions 3 and 5 are added. For
-$\sigma>1$ the period payoff is $N_{W,t}^{1-\sigma}/(1-\sigma)$, so
-$g_{W,1}=0$ makes $N_{W,2}=0$ and the date-$2$ payoff $-\infty$: where
-the public stock fully depreciates, leaving it unfunded is not an
-inferior policy but an inadmissible one. Where it does not, the state
-(N$''$) is admissible only if $\beta(1-\delta_G)^{1-\sigma}<1$, that is
-$(1-\delta_G)^{\sigma-1}>\beta$. That is a real restriction rather than
-a formality: at the reported cells ($\beta=0.96$, $\sigma=2$) it
-requires $\delta_G<0.04$, so the baseline $\delta_G=0.05$ already puts
-the unfunded corner outside admissibility, while a stock durable enough
-leaves it inside — the corner is ruled out by depreciation, not by
-assumption, and only where depreciation is fast enough to rule it out.
-What every case shares is the term (N$''$) does not contain: the tax
-rate. Where public provision is reproduction-relevant, taxing capital is
-not a substitute for spending the proceeds on the stock, and at any
-stationary $z>0$ the worker who taxes at the ceiling and transfers all
-of it reproduces at exactly the rate of one who does not tax at all.
-This is the level counterpart of Proposition 3(ii)’s divergence of
-$\Psi$ as $\phi\to0^+$, which signs the margin rather than the level,
-and it is why $\theta<1$ makes $\phi$ an instrument the worker cannot
-decline to use.
+Per-capita equalisation at the first corner is exact rather than
+approximate, and the two restrictions do different work: $\theta=1$
+alone delivers the equalisation, and $\phi=0$ is needed only to make the
+tax a pure transfer and pin the ratio. **It is the composite, not the
+funding route, that the impossibility turns on.**
 
-The size-not-condition result is therefore a theorem of this model
-rather than a premise conceded to it, and proving it is what makes its
-content explicit. What would elsewhere be a pair of maintained
-assumptions is here a pair of falsifiable restrictions, and the boundary
-is a corner of the framework rather than a boundary of it:
+Part (iii) is the other half of that sentence, and it is the sharper
+one. What the right-hand side of (N$''$) omits is the whole of the
+result: it carries no instrument and no state. The tax and the
+reinvestment rate move the stationary quantities at which the condition
+is met; they do not move the value it pins. And because that value
+contradicts interiority, the unfunded configuration is not a worse
+outcome but a non-outcome.
 
-| restriction | what it asserts |
-|----|----|
-| $\theta = 1$: reproduction depends on private consumption only | public provision is reproduction-irrelevant |
-| $\phi = 0$: the tax is a pure transfer | the state does not fund reproduction |
+**A worker who taxes capital at the ceiling and hands over every penny
+as cash reproduces at exactly the rate of a worker who does not tax at
+all.**
 
-Read this way the result is located rather than overturned: it is what
-obtains when the social wage is switched off. The interest of the
-present model is the region $\theta < 1,\ \phi > 0$ that the corner
-excludes, and Lemma 1 below says why that region exists at all. The
-first restriction is what makes the reproduction index private
-consumption itself, which is the property the impossibility turns on.
-Imposing the second *without* the first is part (iii), and the two are
-not symmetric: the first switches the social wage off and nothing
-breaks, while the second switches its funding off and the dynasty it was
-feeding contracts at $\delta_G$.
+The scope is the stipulated instrument set — one tax on capital income,
+one split between cash and the stock, no borrowing against the stock
+being built — and this is not a theorem that no other funding route
+exists.
 
-Three of the model’s own facts now sit together, and they are worth
-reading side by side before any equilibrium is computed. The public
-stock’s law of motion carries exactly one source term, the flow
-$\phi\tau\alpha Y$: set the capital share to zero and that source
-vanishes while the worker’s consumption
-$[(1-\alpha)+(1-\phi)\tau\alpha]Y$ does not, so nothing that reaches $G$
-is drawn from the wage share. Part (iii) says that where $\theta<1$ the
-stock so funded is not an amenity — left unfunded it costs the worker
-$\delta_G$ a period whatever he taxes, and everything at once where the
-stock is fully perishable. And where the split sits at its corner —
-which Proposition 3(iii) delivers under an explicit inequality between
-the tax and the transition wedge, stated with that wedge in Section 6
-because it is defined there, and which the computations of Section 6
-return at nine of the ten distinct swept cells that admit a proper
-solution — the worker’s private claim is $\kappa_W(1)=1-\alpha$, exactly
-the competitive wage bill: the whole of the redistributive tax reaches
-him as public provision and none of it as private income.
-
-A fourth belongs with them and is proved in Section 6, where the objects
-it needs are defined. At the corner the worker’s own stationary
-condition puts his tax strictly below full expropriation, and the entire
-distance is the price his own problem puts on the capital that tax
-reduces. Assumption 1’s ceiling is not what is holding him back — it is
-slack at the reported cells, and nothing in the assumptions makes it
-bind.
-
-Together these say something the equalisation boundary does not reach.
-The instrument that reaches the stock on which the worker’s reproduction
-depends is funded out of the income of the class he contests, so in this
-economy his reproduction and the capitalist’s accumulation are not
-separable objects: at $\theta<1$ leaving $G$ unfunded costs the worker
-$\delta_G$ a period and is inadmissible outright unless the stock is
-durable enough that $(1-\delta_G)^{\sigma-1}>\beta$, and no funding for
-$G$ exists outside $\alpha Y$. Proposition 2(iii) puts the same
-$\delta_G$ on the other side of the class line: at that same corner,
-wherever the class ratio is stationary and the stock survives, the
-capitalist’s dynasty is pinned at $1-\delta_G$ as well, by a stock he
-neither uses nor funds. Non-separability is therefore not only a claim
-about the worker’s dependence on capital. It runs the other way by a
-different route: the worker’s dependence is a funding constraint, and
-the capitalist’s is the arithmetic of a stationary class ratio. Neither
-route needs a reproduction map to be written down. The non-separability
-statement is about this instrument set and is made no wider. The model
-gives the worker one tax base and one route to the public stock; that no
-other route exists in an economy is not shown here and is not claimed.
+**So what.** Fiscal transfers and provision in kind are not two
+implementations of one redistributive policy; in this architecture only
+one of them is redistribution. A state that taxes capital heavily and
+distributes the proceeds as cash achieves nothing for the reproduction
+of the class it taxes on behalf of, and cannot sustain an interior
+configuration while trying. The composition of public spending, not its
+level, carries the distributive content — and every margin in the rest
+of this paper exists only because provision is not private consumption
+alone.
 
 # 5. Stationary Incidence
 
@@ -1324,133 +638,78 @@ its range, so $x_W = F_W^{-1}(F_C(x_C))$ whenever $F_C(x_C)$ lies in
 that range. No policy variable enters either step. $\blacksquare$
 
 The proof uses only injectivity — not concavity, not differentiability,
-not the functional form — which is why the three exits enumerated below
-are exactly the ways to deny injectivity, deny stationarity, or change
-what the index is *of*. The class-specific version is policy-free only
-when $F_W$ and $F_C$ are primitives; when the apparent class-specificity
-is a state that policy builds, the locus moves with policy. The
-operative distinction is exogenous against endogenous, not common
-against class-specific, and from outside the two look alike.
+not the functional form. No tax rate enters the chain, and neither does
+an accumulation rate, a discount factor, or a utility function, which is
+why the conclusion is invariant to the solution concept rather than
+holding at its equilibria.
 
-Denying injectivity is the one exit whose size can be stated in advance,
-and the answer separates two cases usually named in one breath.
+Under Assumption 2’s form the equalised value can be named rather than
+merely asserted. Inverting $F$ at the common growth factor,
+$x_W = x_C = F^{-1}(g) = (g/B)^{1/\gamma}$, so the index at which the
+two classes meet is a function of the growth factor and the reproduction
+primitives alone. Two things follow by substitution. No instrument
+reaches the *level* of either index except through $g$; and any
+perturbation preserving stationarity moves both levels by the same
+proportion,
+$\mathrm{d}\ln x_W = \mathrm{d}\ln x_C = \gamma^{-1}\,\mathrm{d}\ln g$.
+**A class cannot lower the other’s reproduction index without lowering
+its own in the identical proportion.**
+
+Denying injectivity is the one escape whose size can be stated in
+advance, and the answer separates two cases usually named in one breath.
 
 **Lemma 1$'$ (what lumpiness buys, and what it does not).** *Let
 $g_j = F(x_j)$ with $F:(0,\infty)\to(0,\infty)$, and write
 $L(v) = \{u : F(u) = v\}$ for its level set at $v$. At any interior
 stationary class ratio, $x_W$ and $x_C$ lie in the same level set of
 $F$. If $F$ is **non-decreasing**, every non-empty level set is an
-interval, and with the supremum taken over the range of $F$, where the
-level sets are non-empty and the ratio is therefore at least one,*
-$$\rho \;\equiv\; \sup_{v\,\in\,F((0,\infty))}\ \frac{\sup L(v)}{\inf L(v)} \;\in\;[1,\infty]$$
-*the index gap is capped by the widest flat,*
-$$\rho^{-1} \;\le\; x_C/x_W \;\le\; \rho .$$ *If $F$ is strictly
-increasing then $\rho = 1$ and Lemma 1 is recovered. If $F$ is **not**
-monotone the first sentence still holds but the level sets need not be
-intervals, and no bound follows — nor is any available for that class:
-the proof exhibits a non-monotone map on which the index gap is
-unbounded.*
+interval, and with*
+$$\varrho \;\equiv\; \sup_{v\,\in\,F((0,\infty))}\ \frac{\sup L(v)}{\inf L(v)} \;\in\;[1,\infty]$$
+*the index gap is capped by the widest flat,
+$\varrho^{-1} \le x_C/x_W \le \varrho$. If $F$ is strictly increasing
+then $\varrho = 1$ and Lemma 1 is recovered. If $F$ is **not** monotone
+the first sentence still holds but the level sets need not be intervals,
+and no bound follows — nor is any available for that class.*
 
 *Proof.* Interior stationarity gives $g_W = g_C$, so
 $F(x_W) = F(x_C) =: v$ and both indices lie in $L(v)$. Let $F$ be
 non-decreasing and suppose $x_W < x_C$. For any $y \in [x_W,x_C]$
 monotonicity gives $v = F(x_W) \le F(y) \le F(x_C) = v$, so $F(y) = v$:
 the whole interval lies in $L(v)$, which is therefore an interval
-containing both indices, and $x_C/x_W \le \sup L(v)/\inf L(v) \le \rho$.
-The case $x_C < x_W$ is symmetric. Strict increase makes every level set
-a singleton, forcing $x_W = x_C$. For the last clause it is enough to
-exhibit a map: $F(u) = u/(1+u^2)$ is positive on $(0,\infty)$ and
-satisfies $F(1/k) = k/(k^2+1) = F(k)$ for every $k>1$, so the two
-classes may sit at $x_W = 1/k$ and $x_C = k$ with equal growth and an
-index gap of $k^2$, unbounded in $k$. $\blacksquare$
+containing both indices, and
+$x_C/x_W \le \sup L(v)/\inf L(v) \le \varrho$. The case $x_C < x_W$ is
+symmetric. Strict increase makes every level set a singleton, forcing
+$x_W = x_C$. For the last clause it is enough to exhibit a map:
+$F(u) = u/(1+u^2)$ is positive on $(0,\infty)$ and satisfies
+$F(1/k) = k/(k^2+1) = F(k)$ for every $k>1$, so the two classes may sit
+at $x_W = 1/k$ and $x_C = k$ with equal growth and an index gap of
+$k^2$, unbounded in $k$. $\blacksquare$
 
-The two readings point opposite ways. $\rho$ is a primitive of the
-reproduction technology: lumpiness lets policy move the wedge, but only
-inside a flat whose width no instrument touches, so the exit is real,
-bounded, and bounded by something outside the model’s control.
-Non-monotonicity is a different matter. A reproduction map that turns
-down at high income is the demographic transition, and against it the
-cap fails outright. Assumption 2 makes $F(u) = Bu^{\gamma}$ with
-$\gamma \in (0,1)$, strictly increasing, so $\rho = 1$ and Lemma 1
-applies unweakened; the enumeration below would overstate if it left the
-two exits fused.
-
-Under Assumption 2’s form the equalised value can be named rather than
-merely asserted. Inverting $F$ at the common growth factor,
-$$x_W \;=\; x_C \;=\; F^{-1}(g) \;=\; (g/B)^{1/\gamma},$$ so the index
-at which the two classes meet is a function of the growth factor and the
-reproduction primitives alone. Two things follow by substitution. No
-instrument reaches the *level* of either index except through $g$; and
-any perturbation preserving stationarity moves both levels by the same
-proportion, $d\ln x_W = d\ln x_C = \gamma^{-1}\,d\ln g$. A class cannot
-lower the other’s reproduction index without lowering its own in the
-identical proportion. What the instruments can still move is the subject
-of the rest of this section.
-
-At the no-social-wage corner the index *is* the object of interest. With
-$x_j = c_j$, index equalisation is per-capita equalisation and
-$c_C/c_W \equiv 1$ at every policy. The instruments are not idle there —
-they move the class *ratio*, and $\nu^\ast$ is an explicit function of
-$(\tau,\phi,i)$ whose $\phi = 0$ case is Proposition 2’s closed form.
-What they cannot move is the wedge.
+The two readings point opposite ways. Lumpiness lets policy move the
+wedge, but only inside a flat whose width no instrument touches, so the
+escape is real, bounded, and bounded by something outside the model’s
+control. Non-monotonicity is a different matter: a reproduction map that
+turns down at high income is the demographic transition, and against it
+the cap fails outright. Assumption 2 makes $F(u) = Bu^{\gamma}$ with
+$\gamma\in(0,1)$, strictly increasing, so $\varrho = 1$ and Lemma 1
+applies unweakened.
 
 An escape must therefore make the per-head ratio something other than
-the index ratio, which under these hypotheses leaves three exits and no
-others. One may deny that a stationary ratio means equal growth —
-through an unbounded ratio, cross-class flows in the law of motion, or
-no rest point at all; Section 7 closes the first and last for this
-chassis within the constant-share class, leaving the middle one, which
-is a change to the model rather than an outcome of it. One may deny that
-the map is injective in the index, so that a set of inputs shares a
-growth factor: a lumpy map, whose gap Lemma 1$'$ caps at the widest
-flat, or a non-monotone one, which Lemma 1$'$ shows is not capped. Or
-one may accept both and prise the object of interest apart from the
-index. A map of several arguments belongs to the third exit, not the
-second: it leaves Lemma 1 standing and moves what Lemma 1 is about.
-
-This paper takes the third exit, and what separates it from a
-class-specific technology is that the difference is endogenous. The map
-here is common in the index — $F(u) = Bu^{\gamma}$, the same $B$ and the
-same $\gamma$ on both sides — and that buys less than it appears to.
-Expanded as a map of private consumption alone, the worker’s
-reproduction is $\big[B\,z^{\gamma(1-\theta)}\big]\,
-c_W^{\gamma\theta}$, differing from the capitalist’s $B\,c_C^{\gamma}$
-in both level and exponent. In per-capita consumption the technologies
-are therefore class-specific, the compensating-differential argument of
-Section 1 applies, and its verdict stands: the private gap offsets
-something and is not by itself a condition advantage. What that argument
-does not reach is whether the thing being offset is a primitive. A
-class-specific efficiency parameter is exogenous, so it pins the wedge
-and no instrument touches it. Here the shifter $B\,z^{\gamma(1-\theta)}$
-is a state the contested fiscal instrument builds, and the same
-relabelling that makes the verdict apply is what makes the wedge move:
-$\partial \ln\big[B z^{\gamma(1-\theta)}\big]/\partial\phi = \gamma(1-\theta)/\phi \neq 0$,
-the direct channel with the capital stock and the growth factor held
-fixed — which is all that is needed here, since what is at issue is
-whether the shifter is reachable by an instrument at all.
-
-That the two arguments are genuinely two is not settled by Section 3.
-The risk is not that $z$ is redundant in the distribution state — even a
-redundant $z$ leaves policy moving the wedge through $c_W$ — but that
-$z$ is a function of the worker’s own first argument, in which case the
-composite is a one-argument map in disguise, the wedge is a fixed
-function of $c_W$, and policy reaches it only through the level. That is
-settled at the computed cells, on the stationary policy family rather
-than in the transition: $(\ln c_W^\ast,\ \ln z^\ast)$ has rank two in
-$(\tau,\phi,i)$, and there is an explicit instrument direction along
-which $c_W^\ast$ is stationary to first order while $\ln z^\ast$ moves
-at $0.40$ per unit, which no such function admits. Section 3’s gate
-answers a different question: it licenses $z$ as a third state, and a
-state can be irreducible in the dynamics and still be pinned to $c_W$ at
-every stationary policy.
-
-The stochastic version of the first exit does not deliver either. Making
-stationarity distributional rather than pointwise does break $g_W=g_C$
-period by period, but a stationary log class ratio has zero mean drift,
-so with a common isoelastic map the geometric means of the indices
-equalise instead, and the arithmetic per-head gap that then opens is
-exactly the Jensen term in the two classes’ risk difference —
-compensation for risk.
+the index ratio, which under these hypotheses leaves three routes and no
+others. One may deny that a stationary ratio means equal growth. One may
+deny that the map is injective in the index. Or one may accept both and
+prise the object of interest apart from the index. This paper takes the
+third, and what separates it from a class-specific technology is that
+the difference is *endogenous*. The map here is common — the same $B$
+and the same $\gamma$ on both sides — and that buys less than it appears
+to: expanded as a map of private consumption alone, the worker’s
+reproduction is $\big[B\,z^{\gamma(1-\theta)}\big]
+c_W^{\gamma\theta}$, differing from the capitalist’s $B c_C^{\gamma}$ in
+both level and exponent. A class-specific efficiency parameter would be
+exogenous and would pin the wedge beyond any instrument’s reach. Here
+the shifter $B z^{\gamma(1-\theta)}$ is a state the contested fiscal
+instrument builds, and the same relabelling that makes the
+compensating-differential reading apply is what makes the wedge move.
 
 In this model the index is the Cobb–Douglas composite, so Lemma 1 reads
 $$c_W^{\theta}\,(G/N_W)^{1-\theta} = c_C, \tag{1}$$ the composite
@@ -1480,11 +739,9 @@ $\blacksquare$
 No differentiability, no concavity, no continuity and no functional form
 is used, and neither $\gamma$ nor $B$ appears: the displacement is an
 order property of the stationarity locus rather than a feature of the
-technology chosen to represent it.
-
-The *level* comparison between the two classes is likewise an order
-property, and it rests on a different hypothesis rather than on more of
-the same one.
+technology chosen to represent it. The *level* comparison between the
+two classes is likewise an order property, and it rests on a different
+hypothesis rather than on more of the same one.
 
 **Lemma 1$'''$ (ordering, without a functional form).** *Let $x_C = c_C$
 and let the worker’s index be $x_W = h(c_W,z)$, with $F$ strictly
@@ -1507,27 +764,26 @@ for contradiction, $c_C \le c_W$. The first claim then gives
 $z \le c_W$, whence $h(c_W,z) \ge h(z,z) = z$, that is $c_C \ge z$ — a
 contradiction. $\blacksquare$
 
-**Lemmas 1$''$ and 1$'''$ are independent, and both differences are
-occupied.** Lemma 1$'''$ uses strict increase in the second argument and
-nothing whatever about the first; Lemma 1$''$ uses monotonicity in the
-first and nothing about idempotence, so neither is a corollary of the
-other. Under $h(c_W,z) = 2z - c_W$ — idempotent and strictly increasing
-in $z$, but falling in the private claim — the ordering holds while the
-displacement **reverses**: on the locus $c_C = 10$, raising $z$ from $6$
-to $8$ raises $c_W$ from $2$ to $6$. Under $h(c_W,z) = c_W + z$ —
-strictly increasing in both arguments but not idempotent — the
-displacement holds while the ordering **fails** at $z = c_W$: at
-$c_W = z = 5$ the index is $c_C = 10 > c_W$, while $z > c_W$ is false.
-Nor is the second claim’s extra hypothesis decorative: $h(c_W,z) = z$ is
-idempotent, nondecreasing in $c_W$ and strictly increasing in $z$, and
-it makes $z$ and $c_C$ coincide identically, so $z > c_C$ never holds
-and the sandwich collapses. Theorem 1 is the Cobb–Douglas case of
-**both** lemmas, and its two halves divide between them: the ratio
-$c_C/c_W = (z/c_W)^{1-\theta}$ exceeds one exactly when $z > c_W$, which
-is Lemma 1$'''$; the constant elasticity along the equalised-index locus
-is Lemma 1$''$’s displacement. What the functional form adds is those
-closed forms — under a composite with a non-unit substitution elasticity
-the same objects vary with the stock — and not either sign.
+**The two lemmas are independent, and both differences are occupied.**
+Lemma 1$'''$ uses strict increase in the second argument and nothing
+whatever about the first; Lemma 1$''$ uses monotonicity in the first and
+nothing about idempotence. Under $h(c_W,z) = 2z - c_W$ — idempotent and
+strictly increasing in $z$, but falling in the private claim — the
+ordering holds while the displacement **reverses**: on the locus
+$c_C = 10$, raising $z$ from $6$ to $8$ raises $c_W$ from $2$ to $6$.
+Under $h(c_W,z) = c_W + z$ — strictly increasing in both arguments but
+not idempotent — the displacement holds while the ordering **fails** at
+$z = c_W$. Nor is the second claim’s extra hypothesis decorative:
+$h(c_W,z) = z$ is idempotent, nondecreasing in $c_W$ and strictly
+increasing in $z$, and it makes $z$ and $c_C$ coincide identically, so
+the sandwich collapses.
+
+Theorem 1 is the Cobb–Douglas case of **both** lemmas, and its two
+halves divide between them: the ratio $c_C/c_W = (z/c_W)^{1-\theta}$
+exceeds one exactly when $z > c_W$, which is Lemma 1$'''$; the constant
+elasticity along the equalised-index locus is Lemma 1$''$’s
+displacement. What the functional form adds is the closed forms, not
+either sign.
 
 **Theorem 1 (stationary incidence).** *Let Assumptions 1–2 hold with
 $\theta \in (0,1)$, and let $(x,\nu,z)$ be any interior stationary class
@@ -1549,119 +805,76 @@ when $z > c_W$, equivalently exactly when $z > c_C$.*
 *Proof.* Under Assumption 2 the reproduction indices of Definition 2 are
 $x_W = c_W^{\theta}z^{1-\theta}$ and $x_C = c_C$, and the outer map
 $F(u)=Bu^{\gamma}$ is strictly increasing because $\gamma>0$. Lemma 1
-therefore applies and gives $x_W = x_C$, which is exactly equation (1),
-$c_W^{\theta}z^{1-\theta} = c_C$. Dividing (1) by $c_W$ gives
+therefore applies and gives $x_W = x_C$, which is exactly equation (1).
+
+Dividing (1) by $c_W$ gives
 $c_C/c_W = c_W^{\theta-1}z^{1-\theta} = (z/c_W)^{1-\theta}$, the first
 equality in (2). For the second, solve (1) for $c_W$: since $\theta>0$,
 $c_W = \big(c_C\,z^{\theta-1}\big)^{1/\theta}$, whence
 $c_C/c_W = c_C^{\,1-1/\theta} z^{(1-\theta)/\theta} = (z/c_C)^{(1-\theta)/\theta}$,
-using $1-1/\theta = -(1-\theta)/\theta$. This is (2). For the ordering,
-$t\mapsto t^{1-\theta}$ is strictly increasing on $(0,\infty)$ and takes
-the value one at $t=1$, because $1-\theta>0$; so the first equality in
-(2) gives $c_C>c_W$ exactly when $z>c_W$. For the second comparison, (1)
-turns $z>c_C$ into $z>c_W^{\theta}z^{1-\theta}$, that is
-$z^{\theta}>c_W^{\theta}$, and $\theta>0$ makes that $z>c_W$ in turn.
-Each bound on $\theta$ is consumed once, and the two differ in standing:
-$\theta=1$ is admitted by Assumption 2 and excluded by this theorem, and
-there the locus forces $c_C=c_W$; $\theta\to0$ lies outside Assumption 2
-altogether, and there it forces $z=c_C$. Neither is a limiting case of
-the ordering — each is a collapse of it.
+using $1-1/\theta = -(1-\theta)/\theta$.
+
+For the ordering, $t\mapsto t^{1-\theta}$ is strictly increasing on
+$(0,\infty)$ and takes the value one at $t=1$, because $1-\theta>0$; so
+the first equality in (2) gives $c_C>c_W$ exactly when $z>c_W$. For the
+second comparison, (1) turns $z>c_C$ into $z>c_W^{\theta}z^{1-\theta}$,
+that is $z^{\theta}>c_W^{\theta}$, and $\theta>0$ makes that $z>c_W$ in
+turn.
 
 For (3), take logarithms of (1):
-$\theta \ln c_W + (1-\theta)\ln z = \ln c_C$. This is an affine relation
-among $\ln c_W$, $\ln z$ and $\ln c_C$. Differentiating along it at
-fixed $c_C$ gives
+$\theta \ln c_W + (1-\theta)\ln z = \ln c_C$, an affine relation among
+$\ln c_W$, $\ln z$ and $\ln c_C$. Differentiating along it at fixed
+$c_C$ gives
 $\theta\, \mathrm{d}\ln c_W + (1-\theta)\,\mathrm{d}\ln z = 0$, so
 $\mathrm{d}\ln c_W/\mathrm{d}\ln z = -(1-\theta)/\theta$, which is
 negative because $\theta \in (0,1)$ and constant because $\theta$ is a
 parameter. $\blacksquare$
 
-The corner is the limit of the theorem rather than a case of it, the
-hypothesis $\theta\in(0,1)$ excluding it: both expressions are
-continuous in $\theta$ at $1$, and letting $\theta\to1$ sends (2) to
-$c_C/c_W\equiv1$ at every policy and (3) to zero. That is Proposition
-2(i) recovered from the interior formulas rather than proved a second
-time.
+Each bound on $\theta$ is consumed once, and the two endpoints differ in
+standing. $\theta=1$ is admitted by Assumption 2 and excluded by this
+theorem, and there the locus forces $c_C=c_W$: that is Proposition 2(i)
+recovered from the interior formulas rather than proved a second time.
+$\theta\to0$ lies outside Assumption 2 altogether, and there it forces
+$z=c_C$. Neither is a limiting case of the ordering — each is a collapse
+of it.
 
-The derivative in (3) is taken holding the equalised index $c_C$ fixed,
-which is the only reading under which it is a statement about the locus
-(1) rather than about a particular comparative static of the
-equilibrium. It is a fact about the shape of the stationarity locus, not
-a prediction of how $c_W$ responds when an instrument moves — an
-instrument generally moves $c_C$ too, and the total derivative then
-carries an extra term. Section 6 supplies the equilibrium comparative
-statics.
+The derivative in (3) is taken holding the equalised index fixed, which
+is the only reading under which it is a statement about the locus (1).
+It is a fact about the shape of that locus, not a prediction of how
+$c_W$ responds when an instrument moves: an instrument generally moves
+$c_C$ too, and the total derivative then carries an extra term. Section
+6 supplies the equilibrium comparative statics.
 
-Equations (2)–(3) are the paper’s core object, and four readings follow.
-
-The reproduction boundary is not broken; a private-consumption gap opens
-instead. The composite (1) equalises, so on the reproduction metric the
-classes remain equally well reproduced and the equalisation boundary
-continues to bind — by Lemma 1, and not by analogy with the
-compensating-differential argument of Section 1. The distinction
-matters, because that argument’s verdict is about a gap that merely
-offsets a difference in reproductive efficiency, and there is no such
-difference here: the maps are common. What offsets the private gap is
-public provision, not efficiency, and whether that offset is itself a
-compensating differential is the welfare question Section 6 takes up
-rather than one already answered. Unlike at the corner, where the
-private gap is identically one at every stationary structure, $c_C/c_W$
-is here a function of policy — of the public-provision ratio and the
-instruments that fund it. The contested instrument reaches a
-distributional object it could not touch before; it does not, by (1)
-alone, reach welfare condition.
-
-Equation (3) says that a worker sustained by a larger social wage
-reproduces equally on a smaller private claim: public provision crowds
-out private reproduction consumption at the stationary ratio, and
-raising the fiscal split $\phi$ strictly lowers $c_W^\ast$ — from
-$0.964$ at $\phi=0.20$ to $0.720$ at $\phi=0.80$ at the reported cells.
-This is the Speenhamland shape, a public supplement co-moving against
-the private claim. The name is used for the shape and not for a verdict
-on the English allowance system, whose standard account Block and Somers
-(2003) contest from four decades of scholarship. Its welfare sign is not
-settled here either: the social wage is funded by taxing capital, so a
-lower private $c_W$ paired with capital-funded public provision may
+Equations (2)–(3) are the paper’s core object, and two readings follow
+that point in opposite directions. The reproduction boundary is not
+broken — on the reproduction metric the classes remain equally well
+reproduced, and the equalisation continues to bind by Lemma 1 — while
+the private gap is now a function of policy, of the public-provision
+ratio and the instruments that fund it. The contested instrument reaches
+a distributional object it could not touch before. It does not, by (1)
+alone, reach welfare condition: the provision is funded by taxing
+capital, so a smaller private claim beside capital-funded provision may
 register as capital financing labour’s reproduction rather than as
 labour being squeezed. Ranking the two configurations would need a
-social welfare function over the two dynastic sizes, and this paper
-writes none; nor would writing one settle the matter, since the
-provision is funded by taxing capital and any ranking must therefore
-price that transfer on both sides rather than read the worker’s private
-claim alone.
+welfare function over the two dynastic sizes and a price for that
+transfer, and this paper writes neither; nor would writing one settle
+the matter, since any ranking must price the transfer on both sides
+rather than read the worker’s private claim alone.
 
-One margin (2)–(3) do not name is not a per-capita object at all.
-Equation (1) forces the two reproduction indices together at any
-stationary ratio, and (2)–(3) say what may still differ per head; what
-may also differ is the relative number on each side. Theorem 2(i) makes
-$\ln\nu$ a first-order process whose $\Theta$ is free of $\nu$, so a
-stationary ratio satisfies $\ln\nu^\ast=\Theta^\ast/\gamma$ — a closed
-form in the rest-point state, and hence in the instruments and the
-primitives, carrying $\ln\big[(1-i)(1-\tau)\big]$ explicitly. Class
-condition, read on the index the reproduction technology itself uses,
-cannot differ at a stationary ratio. Relative class size can, and the
-instruments are among the things that set it. Which way any one
-instrument moves it, the others held fixed, is a question Section 7
-answers: $\Theta^\ast$ carries the instruments directly and again
-through $(x^\ast,z^\ast)$, and Theorem 2$'$ takes the two channels
-together — the tax lowers the ratio at every public-input weight, all
-three instruments are signed at the no-social-wage corner,
-reinvestment’s direction turns on an exact comparison of the two
-depreciation rates and a threshold in the reproduction scale, and the
-split is exhibited reversing once provision enters. What is not signed
-here is the ratio’s response along a stationary profile with the other
-instruments re-optimising. What the model does deliver is that the two
-margins equal reproduction leaves open — the private-consumption gap and
-the relative size of the two classes — are both objects a fiscal
-instrument reaches, and neither of them is per-capita reproduction
-itself. Equations (2)–(3) hold at any stationary interior policy. Which
-policies a class chooses — and therefore the positive incidence, who
-funds the social wage and who captures the displacement — is an
-equilibrium object and is deferred to Section 6. Whether the
-displacement of the private wage claim makes public provision something
-a capitalist would rationally support is a comparison of his own value
-at a fixed tax and rate, not a welfare ranking. Computation 1 settles it
-at the reported cells; it is not proved on the whole domain.
+A public supplement moving against the private claim is the Speenhamland
+shape. The name marks the shape and not a verdict on the English
+allowance system, whose standard account Block and Somers (2003) contest
+from four decades of scholarship.
+
+**So what.** Measured private inequality and reproduced class condition
+are different objects, and a settled class structure separates them
+completely. An economy can equalise what reproduces its classes while
+running whatever private consumption gap the composition of the worker’s
+claim implies — and the state sets that composition. This is where a
+capital-funded social wage does its distributive work, and it does it by
+displacing the wage rather than supplementing it. What the equalisation
+leaves untouched is neither of these: it is the relative number on each
+side, and Section 7 shows which instrument reaches it and how.
 
 # 6. Equilibrium
 
@@ -2169,10 +1382,65 @@ different tenant — which is why the results built on (11) change their
 reading without changing their form.
 
 The remaining envelope is linear in $(a_K,a_{N_W})$ given $\varphi$, so
-with $$\rho \;\equiv\; \frac{a_{N_W}}{\varphi}$$ — the capitalist’s
-marginal valuation of the workforce against the scale of his own flow
-payoff, itself closed-form, and positive under properness by Lemma B.2 —
-the rate is explicit: $$i^\ast \;=\; \frac{\Lambda}{1+\Lambda}, \qquad
+write $$\rho \;\equiv\; \frac{a_{N_W}}{\varphi}$$ for the capitalist’s
+marginal valuation of the workforce, measured against the scale of his
+own flow payoff. Under (O) he values owned capital and not worker
+numbers: $N_W$ is absent from his felicity. It is not absent from his
+output. Labour enters production at the elasticity $1-\alpha$ and is
+paid its marginal product (Assumption 1), and his flow payoff reaches
+$N_W$ through that channel alone, with elasticity
+$(1-\omega)(1-\alpha)$. His $\ln N_W$ envelope row is therefore
+inhomogeneous where the worker’s was closed against an own-dynasty term,
+and what it returns is not zero.
+
+**Proposition 4$'$ (the owner prices the workforce, and the price is
+strictly positive).** *Let Assumptions 1–4 hold with $\theta\in(0,1)$
+and $\omega\in[0,1)$, and let the profile be admissible at a
+constant-share rest point, so that Assumption 5’s capitalist clause
+reads $\tilde\beta_C<1$. Then the capitalist’s marginal values of the
+workforce, of the public stock and of capital are all strictly
+positive,* $$a_{N_W}>0, \qquad a_G>0, \qquad a_K>0,$$ *hence $\rho>0$
+and $\Lambda>0$, and Proposition 5’s zero $i^\ast=\Lambda/(1+\Lambda)$
+is interior with no further hypothesis. The valuation is closed form:
+$\rho$ solves the scalar envelope equation (B.7), whose right-hand side
+is $(1-\alpha)\big[(1-\omega)+J\zeta\big]$ and whose left-hand
+coefficient is strictly positive under properness.*
+
+*Proof.* Lemma B.2, with (B.7)–(B.7$''$) supplying the closed form and
+the sign of the coefficient. $\blacksquare$
+
+The right-hand side is worth reading term by term, because it is the
+whole of the economics. It is the labour elasticity $1-\alpha$
+multiplied by the two routes along which an additional worker reaches
+the owner’s payoff: the consumption flow that worker’s product finances,
+weighted $1-\omega$, and the capital that same product helps accumulate,
+weighted $J\zeta$. Neither route is a preference over people. Both are
+the production function and the competitive wage. An owner who is
+indifferent to how many workers exist, and who would not pay a penny to
+have more, therefore carries a strictly positive shadow price on the
+workforce that produces his output.
+
+In words, that price raises the rate at which he ploughs profit back. It
+is not what makes him plough anything back at all: setting the workforce
+term in (12) to zero with the remaining terms held fixed leaves
+$\Lambda=J\zeta/(1-\omega)>0$, so capital’s direct claim on his felicity
+would sustain an interior rate on its own. What the workforce valuation
+adds is the second channel, the one running through the labour that
+produces the output — and it adds it with a strictly positive weight at
+every admissible interior profile.
+
+**So what.** The persistence of the working class is not a constraint
+imposed on the owning class from outside the model, and it is not a
+taste written into its objective. It is a shadow price that the owner’s
+own optimisation returns, strictly positive under properness, and it
+enters his accumulation rule directly through (12). The two classes
+contest the tax, the split and the rate; underneath that contest, the
+owner’s problem prices the reproduction of the class he is contesting
+with, at an elasticity equal to labour’s share. Nothing in the objective
+put it there. The technology did.
+
+With $\rho$ in hand the rate is explicit:
+$$i^\ast \;=\; \frac{\Lambda}{1+\Lambda}, \qquad
   \Lambda \;=\; \frac{J}{1-\omega}\Big[\,\zeta
     \;+\; \tilde\beta\,\alpha\gamma\,\big(\theta+(1-\theta)\Omega\big)\,\rho\,\Big]. \tag{12}$$
 At $\omega=0$, where $\zeta=\alpha$, this is
