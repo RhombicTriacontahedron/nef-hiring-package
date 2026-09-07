@@ -15,10 +15,10 @@ reproduced by private consumption together with a publicly provided
 stock, that index is a composite, and equalising a composite does not
 equalise its parts. At any interior stationary class ratio — whether or
 not it is an equilibrium, and whatever either class maximises — the
-private consumption gap is a closed form in public provision per worker;
-along the locus that holds reproduction equal, the elasticity of the
+private consumption gap is a closed form in public provision per worker.
+Along the locus that holds reproduction equal, the elasticity of the
 worker’s private claim with respect to provision is constant at
-$-(1-\theta)/\theta$; and the owner consumes more privately than the
+$-(1-\theta)/\theta$. And the owner consumes more privately than the
 worker exactly when provision per worker exceeds the worker’s own claim.
 Capital-funded provision in kind does not arrive on top of the wage. It
 displaces it.
@@ -29,7 +29,11 @@ worker growth is pinned at the stock’s own survival rate at every
 stationary positive stock, whatever the tax rate, and no such
 configuration has an interior rest point. Taxing capital at the ceiling
 and paying the whole receipt out as cash leaves worker reproduction
-exactly where no taxation leaves it.
+exactly where no taxation leaves it. Once some revenue does reach the
+stock and the reinvestment rate is interior, the long-run state can fail
+to exist only at the no-social-wage corner, only where the public stock
+outlasts capital, and only below a closed-form floor on net
+reinvestment.
 
 What the identity leaves entirely free is the relative number on each
 side. The stationary ratio of owners to workers is a closed form in the
@@ -104,7 +108,11 @@ why the one channel that could reverse it is capped by the very
 derivative it would have to overcome. Reinvestment is the instrument
 that turns, and the turning is settled outright: away from the corner
 its direction reverses on $(0,1)$ if and only if $\delta_G\le\delta$ or
-the reproduction scale exceeds a closed-form threshold $B^\ast$.
+the reproduction scale exceeds a closed-form threshold $B^\ast$. At the
+corner itself it does not turn at all — reinvestment lowers the
+owner-to-worker ratio at every rate — and the only question left there
+is whether the corner’s growth factor clears the public stock’s
+depreciation floor.
 
 **The funding route is the policy.** Between the two margins sits a
 precondition. Proposition 2(iii) shows that if the public input is
