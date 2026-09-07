@@ -5306,17 +5306,23 @@ the extra crossing is $\Omega$ passing through the pole of Proposition
 improper side — $\Omega$ negative above the pole, above one below it —
 is doing visible work here rather than sitting as a caveat.
 
-**So what.** A class deciding whether to move an instrument does not
-have to price what the move sets in motion. The transition, the dilution
-of capital by a workforce that is itself growing, and the change in the
-growth factor all reach that decision through a single positive number
-carrying no instrument, and a number carrying no instrument cannot turn
-a gain into a loss. The directions reported here for the split, the tax
-and the rate — every one of them computed at a fixed balanced-growth
-factor — are therefore directions of the true dynamic problem, not
-artefacts of the shortcut that produced them. Direction is settled;
-distance is not. How far a class should move still turns on curvature,
-and that is supplied for the split alone.
+**So what.** A class sitting at a settled position and deciding whether
+to move an instrument does not have to price what the move sets in
+motion. The transition, the dilution of capital by a workforce that is
+itself growing, and the change in the growth factor all reach that
+decision through a single positive number carrying no instrument, and a
+number carrying no instrument cannot turn a gain into a loss. So the
+best responses computed for the split, the tax and the rate — each read
+off a margin taken at a fixed balanced-growth factor — travel in the
+direction the true dynamic problem gives them, and are not artefacts of
+the shortcut that produced them. That is bounded in two places, and the
+owner carries the sharper one: at the degenerate weight where he values
+only the stock he owns, his prefactor vanishes and (18) stops being
+informative. The second is that direction is settled and distance is not
+— how far a class should move turns on curvature, closed here for the
+split alone. None of this says which way an instrument moves relative
+class size; that is Section 7’s question, and Theorem 2$'$ answers it
+under its own hypotheses.
 
 ## 8.5 The other two instruments
 
