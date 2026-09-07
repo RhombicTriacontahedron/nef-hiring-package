@@ -191,9 +191,9 @@ deal below: the worker’s private claim is a share of output per
 therefore carries the class ratio in its denominator. It is why relative
 class size appears in the owner’s problem at all.
 
-Everything below is proved from the following list. Where a proof needs
-a restriction it is one of these; where a statement holds only on a
-sampled set it is labelled a computation rather than a theorem.
+The economy is described completely by the five assumptions that follow,
+and each of them does work later. A claim resting only on computed cells
+is called a computation rather than a theorem.
 
 **Assumption 1 (technology and shares).** $A>0$; $\alpha \in (0,1)$;
 output is $Y_t = A K_t^{\alpha} N_{W,t}^{1-\alpha}$ with factors paid
@@ -241,19 +241,19 @@ $$\sum_{t\ge0}\beta^{t}\,\frac{P_t^{\,1-\sigma_C}}{1-\sigma_C},
 where the two exponents coincide, as they do at every computed cell
 below.
 
-Three properties of (O) are used and no others, which is what makes the
-results below robust to the specification rather than consequences of
-it. First, $P$ is homogeneous of degree one in $(C_C,K)$, so the whole
-objective is homogeneous of degree $1-\sigma_C$ and Appendix A’s
-reduction applies at the capitalist’s own exponent. Second, $\ln P$ is
-affine in $(\ln C_C,\ln K)$, which is what points Lemma 2 at the
-capitalist’s payoff without modification. Third, $\omega<1$ leaves
-$\partial\ln P/\partial\ln C_C=1-\omega>0$: reinvesting still costs him
-something he values. Only the third is delicate, and Proposition 5(i)
-shows it is exactly what separates a game with a reinvestment margin
-from one without. The felicity must be a *power*: a specification such
-as $\ln(1+K)$ is homogeneous of no degree and destroys the reduction
-outright.
+An owner described by (O) reaches everything below through three of its
+properties and no others, so the results survive any change of
+specification that preserves them. First, $P$ is homogeneous of degree
+one in $(C_C,K)$, so the whole objective is homogeneous of degree
+$1-\sigma_C$ and Appendix A’s reduction applies at the capitalist’s own
+exponent. Second, $\ln P$ is affine in $(\ln C_C,\ln K)$, which is what
+points Lemma 2 at the capitalist’s payoff without modification. Third,
+$\omega<1$ leaves $\partial\ln P/\partial\ln C_C=1-\omega>0$:
+reinvesting still costs him something he values. Only the third is
+delicate, and Proposition 5(i) shows it is exactly what separates a game
+with a reinvestment margin from one without. The felicity must be a
+*power*: a specification such as $\ln(1+K)$ is homogeneous of no degree
+and destroys the reduction outright.
 
 **Assumption 4 (interiority).** A rest point is *interior* if
 $x^\ast,\nu^\ast,z^\ast \in (0,\infty)$ and both stocks carry strictly
@@ -345,8 +345,9 @@ $x_C = c_C$.
 
 ## 2.3 Scope
 
-Six restrictions govern every claim below, and each is a design choice
-with a consequence rather than an oversight.
+Six restrictions bind every claim that follows. Each one fixes what
+economy is being described, and each carries a consequence a reader can
+price.
 
 *The strategy class.* The deviation set in Definition 1 is the constant
 shares and no wider class. The object is a Nash equilibrium of the
@@ -435,12 +436,13 @@ Both switch off together at $\theta=1$: what is load-bearing is
 $\theta<1$, not the existence of a stock. Durability is not what carries
 it.
 
-Two limits belong with the result. Non-redundancy here is
-payoff-relevance and non-closure, not a rank condition: the Jacobian has
-rank three at $\theta=1$ as well, so rank does not discriminate. And the
-test uses fixed share policies, which is the relevant case. Under
-general Markov feedback the payoff-relevance of $z$ becomes a total
-derivative and *can* be annihilated: a rule in $\phi$ alone,
+The public stock earns its place by mattering to a payoff, not by adding
+a dimension. Non-redundancy here is payoff-relevance and non-closure,
+not a rank condition: the Jacobian has rank three at $\theta=1$ as well,
+so rank does not discriminate. And the test uses fixed share policies,
+which is the relevant case. Under general Markov feedback the
+payoff-relevance of $z$ becomes a total derivative and *can* be
+annihilated: a rule in $\phi$ alone,
 $$\phi(z) \;=\; 1 + \frac{1-\alpha}{\alpha\tau} + \xi\, z^{-(1-\theta)/\theta},$$
 makes $\partial \ln g_W/\partial z$ vanish identically and stays an
 admissible share on a band of $z$ containing the steady state. Because
@@ -668,8 +670,8 @@ an accumulation rate, a discount factor, or a utility function, which is
 why the conclusion is invariant to the solution concept rather than
 holding at its equilibria.
 
-Under Assumption 2’s form the equalised value can be named rather than
-merely asserted. Inverting $F$ at the common growth factor,
+The two classes do not merely meet: the level at which they meet has a
+value. Inverting $F$ at the common growth factor,
 $x_W = x_C = F^{-1}(g) = (g/B)^{1/\gamma}$, so the index at which the
 two classes meet is a function of the growth factor and the reproduction
 primitives alone. Two things follow by substitution. No instrument
