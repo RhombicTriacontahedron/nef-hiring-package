@@ -3112,17 +3112,23 @@ between those who live on capital income and those who live on wages and
 provision. The instruments and the growth rate settle that. Which way an
 instrument pushes it, however, turns on whether public provision enters
 reproduction at all. Where it does not, reinvestment shrinks the
-capitalist class relative to the worker class at every admissible rate —
-a clean sign, but the sign of a corner. Once provision does enter, the
-same instrument acquires no uniform sign, and the reversal occurs within
-a single cell of the parameter space rather than between distant regions
+capitalist class relative to the worker class at every *interior* rate —
+a clean sign, but the sign of a corner, and one that stops at the ends
+of the interval, since $i=1$ is admissible under Assumption 1 and the
+derivative is not defined there. Once provision does enter, the same
+instrument acquires no uniform sign, and the reversal occurs within a
+single cell of the parameter space rather than between distant regions
 of it. **Public provision is what turns the direction of that effect
 into a question**, and the weight the channel carries is $1-\theta$,
 provision’s own elasticity in the reproduction index. Finally, the class
-relation settles at a point and not an orbit: inside the constant-share
-class no distributional cycle can be reached by bifurcation, so a cycle
-must be bought in the strategy space rather than found in the dynamics —
-and at the reported equilibria neither class buys it.
+relation cannot oscillate of its own accord: the ratio is a first-order
+contraction with a *positive* coefficient at every state, so it carries
+no cycle of its own, and whenever the two stocks settle it settles with
+them. Inside the constant-share class no distributional cycle can be
+reached by local bifurcation either. A cycle must therefore be bought in
+the strategy space rather than found in the dynamics — and at the
+reported equilibria neither class buys it. What is not shown, and is not
+claimed, is that no orbit exists far from the rest point.
 
 # 8. Existence, and the One-Shot Bridge
 
