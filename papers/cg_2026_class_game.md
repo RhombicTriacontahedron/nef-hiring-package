@@ -1641,21 +1641,27 @@ primitives, carrying $\ln\big[(1-i)(1-\tau)\big]$ explicitly. Class
 condition, read on the index the reproduction technology itself uses,
 cannot differ at a stationary ratio. Relative class size can, and the
 instruments are among the things that set it. Which way any one
-instrument moves it is a general-equilibrium question this paper does
-not answer: $\Theta^\ast$ carries the instruments directly and again
-through $(x^\ast,z^\ast)$, and neither channel is signed here. What the
-model does deliver is that the two margins equal reproduction leaves
-open — the private-consumption gap and the relative size of the two
-classes — are both objects a fiscal instrument reaches, and neither of
-them is per-capita reproduction itself. Equations (2)–(3) hold at any
-stationary interior policy. Which policies a class chooses — and
-therefore the positive incidence, who funds the social wage and who
-captures the displacement — is an equilibrium object and is deferred to
-Section 6. Whether the displacement of the private wage claim makes
-public provision something a capitalist would rationally support is a
-comparison of his own value at a fixed tax and rate, not a welfare
-ranking. Computation 1 settles it at the reported cells; it is not
-proved on the whole domain.
+instrument moves it, the others held fixed, is a question Section 7
+answers: $\Theta^\ast$ carries the instruments directly and again
+through $(x^\ast,z^\ast)$, and Theorem 2$'$ takes the two channels
+together — the tax lowers the ratio at every public-input weight, all
+three instruments are signed at the no-social-wage corner,
+reinvestment’s direction turns on an exact comparison of the two
+depreciation rates and a threshold in the reproduction scale, and the
+split is exhibited reversing once provision enters. What is not signed
+here is the ratio’s response along a stationary profile with the other
+instruments re-optimising. What the model does deliver is that the two
+margins equal reproduction leaves open — the private-consumption gap and
+the relative size of the two classes — are both objects a fiscal
+instrument reaches, and neither of them is per-capita reproduction
+itself. Equations (2)–(3) hold at any stationary interior policy. Which
+policies a class chooses — and therefore the positive incidence, who
+funds the social wage and who captures the displacement — is an
+equilibrium object and is deferred to Section 6. Whether the
+displacement of the private wage claim makes public provision something
+a capitalist would rationally support is a comparison of his own value
+at a fixed tax and rate, not a welfare ranking. Computation 1 settles it
+at the reported cells; it is not proved on the whole domain.
 
 # 6. Equilibrium
 
