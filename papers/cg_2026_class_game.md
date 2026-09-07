@@ -4495,6 +4495,17 @@ margin the constrained choice is the truncation of the root.
 
 ## 8.3 A stationary profile exists
 
+A constant-share profile is a standing fiscal settlement: one tax rate
+on capital income, one split of the proceeds between provision in kind
+and cash, and one reinvestment rate, each held for ever. Whether any
+such settlement is self-consistent is not obvious, and the difficulty is
+economic rather than technical. Each instrument’s condition is written
+at a growth factor that the other two help to determine, and the
+economy’s growth is in turn what the three of them jointly generate. A
+settlement at which every instrument sits where its own margin puts it,
+*at the growth factor that settlement itself produces*, is therefore a
+fixed point and not a calculation. This section shows one exists.
+
 Write $\phi^\dagger(\tau;g)$ for the root (7) and $\tau^\dagger(\phi;g)$
 for the root of Proposition 7, both evaluated at the wedges $\Omega(g)$
 and $J(g)$, and $\Lambda(g)$ for (12)’s bracket. The **stationary map**
@@ -4602,18 +4613,25 @@ $(1-i^\ast)(1-\tau^\ast)>0$, so the class ratio is interior too. By Step
 is Assumption 5; and Theorem 2(iii) makes the rest point locally
 asymptotically stable. $\blacksquare$
 
-Condition (E) is a finite comparison of explicit expressions in the
-primitives, with no fixed point and no simulation inside it: the three
-quantities $(\tau_\star,\phi_\star,i_\star)$ are the closed forms (9),
-(7) and (12) read at the single growth factor $g_\star$, and the minimum
-is over two points. It is also a genuine restriction rather than an
-identity, and what it restricts is whether the economy can grow fast
-enough to be proper at all: it fails when the reproduction scale or the
-instrument ceiling is small enough, and the theorem is silent there.
+The economy has to clear a bar before any of this is available, and the
+bar is written in the primitives rather than in a value function.
+Condition (E) is a finite comparison of explicit expressions, with no
+fixed point and no simulation inside it: the three quantities
+$(\tau_\star,\phi_\star,i_\star)$ are the closed forms (9), (7) and (12)
+read at the single growth factor $g_\star$, and the minimum is over two
+points. Nor is the bar vacuous. What it restricts is whether the economy
+can grow fast enough to be proper at all, and it fails when the
+reproduction scale or the ceiling on the tax is small enough. Where it
+fails the theorem is silent, which is weaker than saying no settlement
+exists there: (E) is sufficient for existence and is not claimed to be
+necessary.
 
-An existential over an auxiliary number is a weak thing to leave in a
-theorem’s hypotheses, and it need not stay there. Condition (E) turns
-out to be a floor on a single composite primitive.
+Written that way the hypothesis still quantifies over an auxiliary
+growth factor, which is a poor thing to ask an economist to check. It
+need not stay there. Productivity enters the whole condition through one
+composite of the reproduction scale and total factor productivity, and
+once that is seen the hypothesis collapses to a floor on that single
+number.
 
 **Proposition 8 (condition (E) is a floor on the reproduction scale).**
 *Let Assumptions 1–4 hold with $\theta\in(0,1)$ and $\bar\tau<1$, and
@@ -4660,12 +4678,16 @@ excludes — but $\mathcal{E}$ is continuous and (E) is strict, so any $S$
 above $S_{\min}$ supplies an admissible $g_\star$ just above the floor.*
 $\blacksquare$
 
-Three of the four terms subtracted in $\mathcal{E}$ are the instruments
-the theorem’s own construction pins down, so the threshold is not an
-extra object: it is what (E) already was, with the auxiliary number
-minimised out. The reading is that Theorem 3 needs the economy to be
-productive enough, and how much is enough is now a number rather than a
-search.
+The instruments do most of the subtracting: three of the four quantities
+removed in $\mathcal{E}$ are the shares the construction already pins
+down, so $S_{\min}$ is not an extra primitive smuggled into the model
+but what (E) always was, with the auxiliary number minimised out. The
+reproduction scale and total factor productivity never act separately:
+they survive only in the combination $S$, so a poorer technology of
+reproduction can be traded against a more productive one for output, at
+the fixed rate $\gamma/(1-\alpha)$. An economy sustains a stationary
+settlement when that composite clears $S_{\min}$, and how much is enough
+is now a number rather than a search.
 
 **Computation 3 (the hypothesis holds at the reported cells).** \*At the
 cells of Computation 1 the floor
@@ -4723,23 +4745,26 @@ and $i_\star$ within $10^{-8}$ of the boundary. So $0.50$ is a fair
 description of where (E) fails in any usable region, and $0.4972$ is
 where it fails exactly.\*
 
-The comparator there is the self-consistent equilibrium and not the
-three declared starts of Computation 1, whose $\tau^\ast\in[0.51,0.72]$
-is a different object: a constant-share concept is start-dependent, and
+Constant shares are start-dependent, so the settlement to compare
+against is the self-consistent one and not the three declared starts of
+Computation 1, whose $\tau^\ast\in[0.51,0.72]$ is a different object:
 what Theorem 3 delivers is the profile whose start is its own rest
-point. Against the right comparator the agreement is worth something,
-because the two computations share no step. The grid maximises a path
-payoff and never writes down a marginal value; $\Gamma$ evaluates three
-marginal values and never simulates a path. That they meet is evidence —
-at these cells and nowhere else — that neither of the two gaps below is
-binding there.
+point. Against that comparator the agreement is worth something, because
+the two computations share no step. The grid maximises a path payoff and
+never writes down a marginal value; $\Gamma$ evaluates three marginal
+values and never simulates a path. Two routes with nothing in common
+arriving at the same tax rate, the same split and the same reinvestment
+rate is evidence — at these cells and nowhere else — that neither of the
+two gaps below is binding there.
 
-The corner survives the change of object, which is the substantive
+Workers put the whole of the taxed proceeds into provision in kind, and
+that corner survives the change of object, which is the substantive
 reading. Computation 1 reaches $\phi^\ast=1$ by maximising path payoffs
 over a grid; Theorem 3 reaches it by a fixed point of the stationary
 conditions with no path and no grid; and $\Psi(1)>0$ strictly at the
 fixed point, so the corner is where the margin puts it rather than where
-the boundary catches it.
+the boundary catches it. At these cells, cash to the working class is
+dominated at the margin and not merely at the constraint.
 
 **What Theorem 3 does not establish.** A stationary profile satisfies
 the first-order content of Definition 1’s third clause, at the rest
@@ -4768,6 +4793,20 @@ the rest point a share induces to a fixed declared start. That is a
 narrower obstruction than a regularity statement about the payoff, and
 each part of it is stated in the primitives rather than as a hypothesis
 about a value function.
+
+**So what.** A society of this kind is not free to choose any fiscal
+settlement it likes and call it durable. The instruments must agree with
+each other *and* with the growth they jointly produce, and whether one
+can be *shown* to exist turns on a single composite of the reproduction
+scale and total factor productivity clearing an explicit floor. Below
+that floor this paper offers nothing either way — the floor is where the
+argument stops, not where the economy does. Above it a settlement
+exists, with the split somewhere in $(0,1]$; where it has been computed
+it sits at the top of that range, putting the whole of the taxed
+proceeds into provision in kind rather than cash, and doing so because
+the margin points there and not because the constraint arrives first.
+Existence, here, is a statement about productive capacity before it is a
+statement about policy.
 
 ## 8.4 The one-shot margin is the total margin
 
