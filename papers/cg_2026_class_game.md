@@ -4838,14 +4838,16 @@ statement about policy.
 
 ## 8.4 The one-shot margin is the total margin
 
-Theorem 4 closes the first step under the existing hypotheses. The
-obstacle is not the size of the omitted channels but the absence of
-separate expressions for them. Every condition in Section 6 is an
-envelope taken at a fixed balanced-growth factor, while a permanent
-deviation also moves that factor, the capital against which the
-workforce is diluted, and the path of both stocks. Section 6 measures
-the first at the reported cells; Proposition 9 supplies separate
-expressions for the other two. Written out, the three channels cancel.
+A class that changes its policy for good sets more in motion than the
+margin it can see. Workers come to grow in number at a new rate, the
+capital each of them works with is diluted at a new rate, and both
+stocks travel before they settle. Every instrument in Section 6 is
+priced by an envelope taken at a fixed balanced-growth factor, as though
+the rate at which the economy grows were a constant of nature. The
+obstacle to doing better was never the size of the omitted channels but
+the absence of separate expressions for them: Section 6 measures the
+first at the reported cells, and Proposition 9 supplies expressions for
+the other two. Written out, the three channels cancel.
 
 Fix constant shares at the interior rest point they induce, and move one
 instrument permanently by a small amount. The stocks are predetermined,
@@ -4888,12 +4890,13 @@ Proposition 4(iii), and
 $g-\tilde\beta(1-\delta_G) = (g-1+\delta_G)+(1-\tilde\beta)(1-\delta_G)>0$
 by Assumption 4 together with $\tilde\beta<1$. $\blacksquare$
 
-Appendix B.3$'$ already reads $\Omega$ as a discount factor, times the
-share of next period’s stock that one period’s investment buys, times
-the discounted survival sum thereafter. Proposition 9 says the same of
-$J$, and names what both objects are. They are not analogies for a
-transition price. They are the resolvents themselves, which is why they
-— and nothing else — survive into the answer below.
+Capital and the public stock are each priced by an object of the same
+kind. Appendix B.3$'$ already reads $\Omega$ as a discount factor, times
+the share of next period’s stock that one period’s investment buys,
+times the discounted survival sum thereafter; Proposition 9 says the
+same of $J$, and names what both objects are. They are not analogies for
+a transition price. They are the resolvents themselves, which is why
+they — and nothing else — survive into the answer below.
 
 **Theorem 4 (the one-shot margin is the total margin).** *Let
 Assumptions 1–4 hold with $\theta\in(0,1)$, let the constant-share
@@ -4926,8 +4929,8 @@ sign of the corresponding total derivative, and the direction of travel
 of the constant-share best response is what those propositions say it
 is.*
 
-Display (18) is simpler than the worker’s, and the simplification is the
-change of objective speaking. Under a dynastic capitalist the prefactor
+The owner’s margin is simpler than the worker’s, and the change of
+objective is what makes it so. Under a dynastic capitalist the prefactor
 was $1+\gamma\tilde\beta/(1-\tilde\beta)$, a dilution correction: his
 numbers had to be deflated by the workforce his own accumulation grew.
 Under (O) his payoff object scales with the workforce **one-for-one** —
@@ -5033,8 +5036,8 @@ Neither expression contains $\tau$, $\phi$ or $i$ anywhere: both are
 built from $\tilde\beta$, $g$ and the primitives, exactly as $\Omega$
 and $J$ are. $\blacksquare$
 
-What (17) and (18) say is that the fixed balanced-growth factor costs
-nothing. It is not that the omitted channels are small at the reported
+A class that reads its margin at a fixed growth factor loses nothing by
+doing so. It is not that the omitted channels are small at the reported
 cells, nor that they happen to reinforce the crossing; they enter only
 through $\Delta$, and a factor carrying no instrument cannot move a
 zero. The reason is Proposition 9. The envelope’s two wedges are the
@@ -5137,11 +5140,11 @@ one it crosses from above; the worker’s one-shot objective is
 single-peaked in the split there. No condition on $\Omega'(g)$ is
 required, and no restriction beyond properness is imposed.*
 
-Theorem 5 is a statement about an explicit scalar map and does not
-invoke Theorem 4. What Theorem 4 adds is the translation: it is why
-single-peakedness of that map is single-peakedness of the deviator’s
-true discounted payoff rather than of a proxy for it. The two results
-are independent and compose.
+The worker’s true payoff and the scalar map peak together, and that is
+what Theorem 4 buys. Theorem 5 is a statement about the map alone and
+does not invoke Theorem 4; Theorem 4 supplies the translation, without
+which single-peakedness of the map would be single-peakedness of a
+proxy. The two results are independent and compose.
 
 *Proof.* Clearing $g^{\sigma-1}$ from (6) gives
 $\Omega=\beta(g-1+\delta_G)\big/\big(g^{\sigma}-\beta(1-\delta_G)\big)$;
@@ -5190,38 +5193,40 @@ and $\kappa_W'=-\tau\alpha$; $\mathcal{H}^{-1}$ is strictly increasing,
 so $g$ inherits unimodality, and a superlevel set of a unimodal function
 on an interval is an interval. $\blacksquare$
 
-That the proper set can be a strict subinterval is not a formality. At
-the cells of Computation 5 it runs from $\phi=0.036$ upward at the
-baseline and from $\phi=0.212$ upward at $\sigma=3$ with $\gamma=0.7$;
-only the durable cells are proper on the whole of $(0,1]$. As
-$\phi\to0^{+}$ the scalar $\mathcal{P}$ falls without bound, $g$ falls
-to the left endpoint $\max(1-\delta,1-\delta_G)<1$, and
-$\tilde\beta=\beta g^{1-\sigma}$ rises through one. The improper tail is
-exactly where Proposition 3(i)’s catalogue applies and where the
-predecessor’s unmasked grid produced a spurious second crossing. Theorem
-5 says nothing there, and is not meant to.
+A society that puts too little of the taxed proceeds into provision can
+fall outside the range where any of this holds, and that is not a
+formality. At the cells of Computation 5 the proper set runs from
+$\phi=0.036$ upward at the baseline and from $\phi=0.212$ upward at
+$\sigma=3$ with $\gamma=0.7$; only the durable cells are proper on the
+whole of $(0,1]$. As $\phi\to0^{+}$ the scalar $\mathcal{P}$ falls
+without bound, $g$ falls to the left endpoint
+$\max(1-\delta,1-\delta_G)<1$, and $\tilde\beta=\beta g^{1-\sigma}$
+rises through one. The improper tail is exactly where Proposition 3(i)’s
+catalogue applies, and where an unmasked grid produces a spurious second
+crossing. Theorem 5 says nothing there, and is not meant to.
 
-The mechanism is a cancellation, and it is exact. As the public stock
-becomes permanent, $\delta_G\to0$, the elasticity $\varepsilon_\Omega$
-diverges — $\mu\to\infty$ — and that divergence is what made signing
-$\Omega'$ look necessary. But $\mathcal{H}$ carries the term
-$\gamma(1-\theta)\ln(g-1+\delta_G)$, so $g\mathcal{H}'$ diverges through
-the same pole and with the same coefficient. The growth factor becomes
-correspondingly insensitive to the split at precisely the rate at which
-the wedge becomes sensitive to the growth factor. In (23) the divergent
-$\mu$ appears in both numerator and denominator and cancels, leaving a
-ratio bounded by one. Durability of the public stock does not threaten
-the crossing; it only relocates where the sensitivity sits.
+A public stock that barely wears out does not threaten the crossing; it
+only relocates where the sensitivity sits. The cancellation behind that
+is exact. As the public stock becomes permanent, $\delta_G\to0$, the
+elasticity $\varepsilon_\Omega$ diverges — $\mu\to\infty$ — and that
+divergence is what made signing $\Omega'$ look necessary. But
+$\mathcal{H}$ carries the term $\gamma(1-\theta)\ln(g-1+\delta_G)$, so
+$g\mathcal{H}'$ diverges through the same pole and with the same
+coefficient. The growth factor becomes correspondingly insensitive to
+the split at precisely the rate at which the wedge becomes sensitive to
+the growth factor. In (23) the divergent $\mu$ appears in both numerator
+and denominator and cancels, leaving a ratio bounded by one.
 
 The bound is tight rather than generous: Computation 5 finds loop gains
 within five per cent of one, so (23) does not say the feedback is
 negligible, only that it is a contraction.
 
-Three limits travel with the theorem. It is written for the split, and
-neither the tax nor the rate is covered by it. The same construction
-applied to the tax margin (14) does not close in the same way, for a
-reason that is structural rather than technical: differentiating
-$\mathcal{P}$ in $\tau$ and subtracting $\gamma\alpha\,\Xi$ leaves
+The tax and the rate are not covered, and for the tax the reason is
+economic rather than technical. Three limits travel with the theorem. It
+is written for the split. The same construction applied to the tax
+margin (14) does not close in the same way, for a reason that is
+structural rather than technical: differentiating $\mathcal{P}$ in
+$\tau$ and subtracting $\gamma\alpha\,\Xi$ leaves
 $$\frac{\partial\mathcal{P}}{\partial\tau}\bigg|_{\Xi=0}
   \;=\; \frac{\gamma(1-\theta)(1-\Omega)}{\tau}
         \;-\; \frac{\gamma\alpha}{1-\tau}
@@ -5300,6 +5305,18 @@ the extra crossing is $\Omega$ passing through the pole of Proposition
 3(i) at $\tilde\beta=1$ rather than a margin turning. That proposition’s
 improper side — $\Omega$ negative above the pole, above one below it —
 is doing visible work here rather than sitting as a caveat.
+
+**So what.** A class deciding whether to move an instrument does not
+have to price what the move sets in motion. The transition, the dilution
+of capital by a workforce that is itself growing, and the change in the
+growth factor all reach that decision through a single positive number
+carrying no instrument, and a number carrying no instrument cannot turn
+a gain into a loss. The directions reported here for the split, the tax
+and the rate — every one of them computed at a fixed balanced-growth
+factor — are therefore directions of the true dynamic problem, not
+artefacts of the shortcut that produced them. Direction is settled;
+distance is not. How far a class should move still turns on curvature,
+and that is supplied for the split alone.
 
 ## 8.5 The other two instruments
 
