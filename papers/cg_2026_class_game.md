@@ -3103,6 +3103,27 @@ rather than away from it, and only period by period. The other two exits
 — lumpiness and prising the object of interest apart from the index —
 therefore still carry most of the weight.
 
+**So what.** Relative class size is not a free variable, and it is not a
+residue of accumulation. At any stationary configuration inside this
+class the ratio is pinned by the fiscal shares and the growth factor
+alone, and the capital stock has cancelled out of it: how much an
+economy has accumulated does not settle how its population divides
+between those who live on capital income and those who live on wages and
+provision. The instruments and the growth rate settle that. Which way an
+instrument pushes it, however, turns on whether public provision enters
+reproduction at all. Where it does not, reinvestment shrinks the
+capitalist class relative to the worker class at every admissible rate —
+a clean sign, but the sign of a corner. Once provision does enter, the
+same instrument acquires no uniform sign, and the reversal occurs within
+a single cell of the parameter space rather than between distant regions
+of it. **Public provision is what turns the direction of that effect
+into a question**, and the weight the channel carries is $1-\theta$,
+provision’s own elasticity in the reproduction index. Finally, the class
+relation settles at a point and not an orbit: inside the constant-share
+class no distributional cycle can be reached by bifurcation, so a cycle
+must be bought in the strategy space rather than found in the dynamics —
+and at the reported equilibria neither class buys it.
+
 # 8. Existence, and the One-Shot Bridge
 
 Section 6 characterises the equilibrium and Section 7 certifies the rest
