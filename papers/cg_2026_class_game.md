@@ -3465,6 +3465,13 @@ $(g-1+\delta_G)\mathcal{H}'(g)$ stays strictly positive, and the display
 reduces to part (iv)’s $-1/(1-\tau)-(1-\phi)\alpha/\kappa_W$, already
 proved from Lemma 1 and the budget. $\blacksquare$
 
+At the corner the hypothesis is stronger than parts (i) and (iii) need.
+Theorem 2$''$ below makes the class ratio at $\theta=1$ an autonomous
+recursion whose limit is (N$'''$)’s corner form whatever the two stocks
+do, so those two parts hold there without an interior rest point in the
+stocks; only the statements that name $x^\ast$ or $z^\ast$ need Theorem
+2$''$(iii)’s existence condition.
+
 The economics of (iii) is the paper’s own mechanism appearing on a
 second margin. When the worker reproduces on private consumption alone,
 capital deepening raises both classes’ reproduction inputs in the same
