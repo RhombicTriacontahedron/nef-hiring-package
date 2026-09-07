@@ -393,6 +393,24 @@ configurations would need a welfare function over the two dynastic sizes
 and a price for a transfer funded by taxing capital, and this paper
 writes neither.
 
+**So what.** The list above is what this setup declines to model; three
+choices inside it are what let it say anything at all. Reproduction is a
+technology and not a decision, so numbers move with consumption without
+anyone choosing family size — which is why the boundary results below
+hold whatever either class is taken to want, and equally why nothing
+here speaks to fertility behaviour. The public stock enters one class’s
+reproduction and not the other’s, and that asymmetry is the only reason
+the instruments have a distributional object at all: delete it and
+Section 4’s corner, where the private gap is identically one whatever
+the policy, is the entire story. The owner’s payoff runs on a composite
+of his consumption and the stock he owns rather than on his own numbers,
+which is what keeps reinvestment a live decision rather than a residual
+— at the limit where he values only the stock there is no reinvestment
+margin at all. What follows is therefore a claim about one fiscal
+architecture, with a single tax base and no credit, in which the class
+that does not own the workforce nonetheless funds the public component
+of what reproduces it.
+
 # 3. Payoff Relevance of the Public Stock
 
 Before the public stock can carry a distributive result it must earn its
@@ -7778,6 +7796,23 @@ reproduction rate standing in the denominator of every transition. His
 is a continuous-time appropriation game and this a discrete-time fiscal
 one, so what is settled is the dichotomy on this chassis, not his
 conjecture.
+
+**So what.** The mechanisms named above — a preference for wealth as
+such, a consumption stream each class maximises, a quantity–quality
+trade-off over children, the curvature of an appropriation function —
+are all things somebody chooses. The corresponding object here is a
+technology, and no one optimises over it. That is what the equalisation
+and the displacement following it are entitled to claim: they hold
+whatever either class maximises, so no respecification of an objective
+touches them. Where the comparable mechanism is a taste — for wealth,
+for consumption, for children — that same respecification is precisely
+what would dispose of the result. The same choice bounds the claim, and
+the bound is not small. What a technology buys in robustness it gives up
+in behavioural content: the results that do turn on what the classes
+want — the reinvestment margin, and the best responses in the tax and
+the split — carry the constant-share restriction with them, and this
+paper does not show that restriction is without loss against
+state-contingent rules.
 
 # 10. Conclusion
 
