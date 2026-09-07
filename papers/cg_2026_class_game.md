@@ -900,7 +900,7 @@ backwards from a result as well as forwards from the model.
 | $\Lambda$ | the capitalist’s rate index: his stationary rate is $i^\ast=\Lambda/(1+\Lambda)$ | \(12\) |
 | $\mu,\ \mu_K$ | the stock poles $g/(g-1+\delta_G)$ and $g/(g-1+\delta)$ | \(21\) |
 | $\mathcal{H},\ \mathcal{P}$ | the growth side and the share side of the rest-point condition, $g=\mathcal{H}^{-1}(\mathcal{P})$ | \(13\) |
-| $\mathcal{H}_1,\ \mathcal{P}_1,\ \underline{\iota}$ | the two sides at the corner $\theta=1$, and the floor on net reinvestment $\iota=i(1-\tau)$ below which the public stock does not settle there | Theorem 2$''$ |
+| $\mathcal{H}_1,\ \mathcal{P}_1,\ \underline{\iota}$ | the two sides at the corner $\theta=1$, and, where the public stock outlasts capital, the floor on net reinvestment $\iota=i(1-\tau)$ below which that stock does not settle there | Theorem 2$''$ |
 
 | stability object | meaning | defined at |
 |----|----|----|
@@ -3465,12 +3465,15 @@ $(g-1+\delta_G)\mathcal{H}'(g)$ stays strictly positive, and the display
 reduces to part (iv)’s $-1/(1-\tau)-(1-\phi)\alpha/\kappa_W$, already
 proved from Lemma 1 and the budget. $\blacksquare$
 
-At the corner the hypothesis is stronger than parts (i) and (iii) need.
-Theorem 2$''$ below makes the class ratio at $\theta=1$ an autonomous
-recursion whose limit is (N$'''$)’s corner form whatever the two stocks
-do, so those two parts hold there without an interior rest point in the
-stocks; only the statements that name $x^\ast$ or $z^\ast$ need Theorem
-2$''$(iii)’s existence condition.
+At the corner the hypothesis is stronger than four of the five parts
+need. Theorem 2$''$ below makes the class ratio at $\theta=1$ an
+autonomous recursion whose limit is (N$'''$)’s corner form whatever the
+two stocks do, so parts (i), (iii) and (iv) hold there without an
+interior rest point in the stocks, and part (v), which collapses to
+(iv)’s sign at $\theta=1$, holds with them. Only part (ii)’s
+decomposition, written at the rest point’s own growth factor, needs that
+rest point to exist — Theorem 2$''$(iii) says exactly when it does — and
+at the corner it reduces to (iii) wherever it does.
 
 The economics of (iii) is the paper’s own mechanism appearing on a
 second margin. When the worker reproduces on private consumption alone,
