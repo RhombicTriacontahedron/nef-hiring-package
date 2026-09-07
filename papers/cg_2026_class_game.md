@@ -217,11 +217,19 @@ this chassis from the Barro and Becker (1989) line and is why no
 altruism parameter appears anywhere below.
 
 The public input enters per worker. That looks like a modelling
-convenience and is not one: Appendix A.2 shows that among the
-specifications $G/N_W^{\psi}$ the degree-zero homogeneity the state
-reduction requires holds at $\psi=1$ and at no other exponent, so the
-admissible set is the singleton $\{1\}$. The intensive form is forced by
-the reduction rather than chosen for it.
+convenience and is not one. Write $z_\psi \equiv G/N_W^{\psi}$, so that
+$\psi=1$ is this paper’s specification, $\psi=0$ an aggregate stock
+shared without congestion, and $\psi>1$ congestion more than
+proportional to headcount. Appendix A.2 shows the degree of $z_\psi$ is
+$1-\psi$, so the worker’s transition is homogeneous of degree
+$1+\gamma(1-\theta)(1-\psi)$ and the state reduction admits the single
+point $\psi=1$. Nothing in the scaling bounds $\psi$, so no departure
+from proportional congestion is admissible in either direction:
+share-valuedness is a knife-edge rather than an approximation that a
+little non-rivalry would perturb. What the reduction requires, though,
+is the *degree* and not the particular ratio — $G/K$ serves exactly as
+well — so the knife-edge is about homogeneity rather than about
+headcount.
 
 **Assumption 3 (preferences).** $\beta \in (0,1)$ and
 $\sigma_W,\sigma_C>1$. The worker maximises
