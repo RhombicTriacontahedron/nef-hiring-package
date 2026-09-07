@@ -564,8 +564,12 @@ reproduction index is then $c_W$ and the outer map is common to both
 classes, so Lemma 1 applies and yields $c_W=c_C$. Since $g_W$ is a
 function of $c_W$ alone and $c_W=\kappa_W A x^{\alpha}$ depends on $x$
 and the shares but not on $z$, the public stock is payoff-irrelevant for
-the worker’s transition and the $(x,\nu)$ block closes — which is
-Proposition 1(i) read at $q=0$.
+the worker’s transition and the $(x,\nu)$ block closes. The first is
+Proposition 1(i) at $q=0$; the second is (G)’s third display,
+$\partial\ln x'/\partial\ln z=-q$, which vanishes identically there, so
+$z$ leaves $x'$. It is not Proposition 1(ii), whose conclusion is that
+the block fails to close when $\theta<1$ and whose hypothesis is simply
+absent here.
 
 **(ii)** With $\phi=0$ the whole receipt is paid as cash, so
 $\kappa_W=(1-\alpha)+\tau\alpha$ and $c_W=\kappa_W A x^{\alpha}$, while
@@ -586,6 +590,19 @@ symbols. If the class ratio is also stationary then $g_C=g_W$ by
 $(\star)$. At a rest point of $(\star)$ the common growth factor is
 $g=g_W=1-\delta_G$, which violates $g>1-\delta_G$ in (A); hence no such
 rest point is interior. $\blacksquare$
+
+The two halves rest on different things, and it is worth separating
+them. The $\delta_G<1$ half uses only the public stock’s law of motion
+divided by $N_{W,t+1}$: $g_W$ enters it as a symbol and its value never
+does, so (N$''$) holds for *any* worker reproduction map whatever —
+Cobb–Douglas, CES, subsistence floor, saturating — and for any $\theta$
+at which the map still makes $z$ payoff-relevant. The $\delta_G=1$ half
+is the one that asks something of Assumption 2, and it asks only that
+the composite vanish when the public input does; the Cobb–Douglas form
+has that property for every $\theta<1$, a CES composite has it below
+unit elasticity of substitution and not above, and a composite bounded
+away from zero in $z$ does not have it at all. **The form-free half is
+the one that does the work below.**
 
 Per-capita equalisation at the first corner is exact rather than
 approximate, and the two restrictions do different work: $\theta=1$
