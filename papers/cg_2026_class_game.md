@@ -872,14 +872,25 @@ $c_W$ responds when an instrument moves: an instrument generally moves
 $c_C$ too, and the total derivative then carries an extra term. Section
 6 supplies the equilibrium comparative statics.
 
-Equations (2)–(3) are the paper’s core object, and two readings follow
-that point in opposite directions. The reproduction boundary is not
-broken — on the reproduction metric the classes remain equally well
-reproduced, and the equalisation continues to bind by Lemma 1 — while
-the private gap is now a function of policy, of the public-provision
-ratio and the instruments that fund it. The contested instrument reaches
-a distributional object it could not touch before. It does not, by (1)
-alone, reach welfare condition: the provision is funded by taxing
+In words, a worker and an owner reproduce their dynasties equally well,
+and the worker does it on less private consumption the more the state
+provides in kind. The exchange rate between the two is fixed by the
+technology and not by the budget: raising provision by a tenth permits a
+private claim smaller by $(1-\theta)/\theta$ tenths, at every level of
+provision. And which class consumes more privately is read off one
+comparison — whether provision per worker exceeds the worker’s own claim
+— rather than off the tax rate, the split, or the reinvestment rate.
+
+Two readings follow, and they point in opposite directions. The
+reproduction boundary is not broken — on the reproduction metric the
+classes remain equally well reproduced, and the equalisation continues
+to bind by Lemma 1 — while the private gap is now a function of policy,
+of the public-provision ratio and the instruments that fund it. The
+contested instrument reaches a distributional object it could not touch
+before. To be sure, a reader will object that a smaller private claim
+reads as a worse-off worker, and that the theorem is therefore a welfare
+result in distributional clothing. It is not, and the reason is the
+funding route rather than caution: the provision is funded by taxing
 capital, so a smaller private claim beside capital-funded provision may
 register as capital financing labour’s reproduction rather than as
 labour being squeezed. Ranking the two configurations would need a
