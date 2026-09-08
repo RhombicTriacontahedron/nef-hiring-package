@@ -2341,16 +2341,25 @@ the primitives. The diagonal is excluded, and the exclusion is
 substantive rather than tidy: there the face’s product carries the
 polynomial factor $t^{\mathcal{C}}$ of (41), its series at the ceiling
 converges once $\sigma_W>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, and the
-disposal is then undischarged at **every** discount factor. ⚠ (41)’s
-exponent is an asymptotic balance checked at five cells, not a completed
-proof; the case exclusion it justifies does not depend on the exponent’s
-exact value, only on the factor being polynomial rather than constant.
-It is proved on its stated domain, and its conclusion is an existence
-statement about $\beta^\sharp$, not a formula for it. The closed form
-$\beta_\dagger$ reported beside it is the divergence rate of the
-marginal value of the public source on the ray and is **not** claimed to
-equal $\beta^\sharp$: the step from a divergent one-sided derivative to
-a strict payoff ordering is not taken. Where the two cells at
+disposal is then undischarged at **every** discount factor. (41)’s
+exponent is **proved**, by Proposition 17$'$: on the diagonal a change
+of variables leaves the face an autonomous plane map (43), and the
+exponent follows from a contraction and the increments of its second
+line. It needs Assumptions 1–2 with $\theta\in(0,1)$,
+$\delta=\delta_G\in(0,1)$, $i>0$, $\tau\le\bar\tau<1$ and $x_0,z_0>0$,
+and nothing else; the contraction it turns on is Lemma 3’s $D\in(0,1)$,
+which is Assumption 2’s $\gamma<1$, so no hypothesis is added anywhere.
+⚠ What remains undischarged on the diagonal is the **disposal** of the
+face above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof
+sharpens and does not narrow. The case exclusion never depended on the
+exponent’s exact value, only on the factor being polynomial rather than
+constant. Proposition 17 itself is proved on its stated domain, and its
+conclusion is an existence statement about $\beta^\sharp$, not a formula
+for it. The closed form $\beta_\dagger$ reported beside it is the
+divergence rate of the marginal value of the public source on the ray
+and is **not** claimed to equal $\beta^\sharp$: the step from a
+divergent one-sided derivative to a strict payoff ordering is not taken.
+Where the two cells at
 $(\delta,\delta_G,\theta,\sigma)=(0.10,0.70,0.60,2.5)$ and
 $(0.04,0.35,0.75,3.0)$ return the face under a search over $\varpi$,
 they refute a universal and establish no region. Proposition 16 and
@@ -2663,6 +2672,28 @@ Computation 12 carries its own positive control: pointed at Computation
 date of $\ln N_{W,t}$, and does, which is that computation’s headline
 figure reproduced by a route that shares none of its code.
 
+Proposition 17$'$ carries a certificate whose load-bearing half is the
+change of variables, not the simulation. The five identities behind (43)
+— the affinity of $\ln g_{W,t}$ in $(w,h)$, the two state identities,
+the two lines of the map and the contraction the error obeys — are
+verified as symbolic identities on a declared bounded domain, with every
+complement carried through a Möbius encoding so that no sign is taken on
+inspection; the nine denominators and factors the derivation clears, $D$
+and $1-D$ among them, are signed on that domain, against a control that
+must and does return *undecided* for $\alpha-\theta$. Its numerical half
+is corroboration and is labelled so: the map reproduces an independent
+simulation of the raw face to $2\times10^{-14}$ at seven cells, the
+increment of $\ln\Pi_t-t\ln(1-\delta)$ per decade agrees with
+$\mathcal{C}$ to $6\times10^{-5}$ over $[10^{6},10^{7}]$, and a positive
+control confirms that an exponent wrong by two per cent fails to
+converge at all. The exponent is reached a second way, from a scaling
+ansatz that shares no step with the first: $x_t\sim t^{1/(1-\alpha)}$ is
+what the capital law admits, $\ln g_{W,t}$ has a finite limit only if
+$\theta\alpha$ times that exponent equals $(1-\theta)$ times the decay
+exponent of $z$, and $\Pi_t=z_0(1-\delta)^{t}/z_t$ then makes
+$\mathcal{C}$ the rate at which provision per worker falls. The two
+exponents, measured separately, satisfy that cancellation to $10^{-5}$.
+
 The claim that Theorem 3’s fixed point is the same object the grid
 computation reaches is checked separately and directly, because the two
 procedures share no step: the grid maximises exact discounted path
@@ -2692,6 +2723,10 @@ instrument set rather than through a curvature criterion, with its
 horizon and start controls, the full-depreciation certificate behind
 Proposition 16 and Computation 12, likewise one script carrying its
 symbolic induction, its off-face control and its two positive controls,
+the certificate behind Proposition 17$'$, which verifies (43) as a set
+of symbolic identities on a declared domain and then corroborates the
+exponent against an independent simulation of the raw face, with an
+off-diagonal control establishing that the reduction holds nowhere else,
 and the symbolic certificates of G.2, together with the exact grids,
 horizons, starts and seeds used for every number reported here. One
 convention there is worth stating, because every path-dependent date in
