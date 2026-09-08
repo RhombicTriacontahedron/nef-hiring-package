@@ -6971,20 +6971,21 @@ such ray: $z$ settles at a stationary positive value, Proposition 2(iii)
 pins $g_W=1-\delta_G$, properness requires
 $(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge is
 inadmissible-improper and Assumption 5 disposes of it. Where
-$\delta<\delta_G$ it does not: $g_\varpi>1-\delta_G$ strictly, both
-clauses of (A5) hold for $\beta<g_\varpi^{\sigma-1}$, and the face is
-admissible.** That second case is left open here, and the reason it
-cannot be closed by the obvious route is worth stating: a growth-rate
-ordering is not a payoff ordering — at $\sigma>1$ and from a common
-start, a path of higher asymptotic growth can carry the smaller
-discounted value — so comparing $g_\varpi$ with an incumbent’s (A)
-settles nothing. Which case holds does not touch the construction below:
-$T$ is convex whether or not its $\varpi=0$ face is attached, and Lemma
-2 needs the face detached in either case. What it does touch is how far
-the conclusion reaches, and Corollary 4 carries that scope. The worker’s
-problem is therefore the maximisation of
-$\widetilde V_W(\tau,\varpi)=V_W(\tau,\varpi/\tau)$ over the convex set
-$T$.*
+$\delta<\delta_G$ it does not: $g_\varpi>1-\delta_G$ strictly, and since
+$g_W$ rises to $g_\varpi$ along the ray it is the tail that governs
+summability, so both clauses of (A5) hold for
+$\beta<g_\varpi^{\sigma-1}$ and the face is admissible.** That second
+case is left open here, and the reason it cannot be closed by the
+obvious route is worth stating: a growth-rate ordering is not a payoff
+ordering — at $\sigma>1$ and from a common start, a path of higher
+asymptotic growth can carry the smaller discounted value — so comparing
+$g_\varpi$ with an incumbent’s (A) settles nothing. Which case holds
+does not touch the construction below: $T$ is convex whether or not its
+$\varpi=0$ face is attached, and Lemma 2 needs the face detached in
+either case. What it does touch is how far the conclusion reaches, and
+Corollary 4 carries that scope. The worker’s problem is therefore the
+maximisation of $\widetilde V_W(\tau,\varpi)=V_W(\tau,\varpi/\tau)$ over
+the convex set $T$.*
 
 *(ii) **Proposition 13(v)’s saddle is a property of the coordinates.**
 On $T$, $\ln\kappa$ is concave, its Hessian being rank one and negative
