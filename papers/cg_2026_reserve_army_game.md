@@ -60,10 +60,11 @@ condition on the two classes’ effective prices, of which the core’s fold
 is one evaluation. Two conclusions do not survive the move. Raising the
 extractable day, which in the core creates two compromises at once,
 creates none at all once the ceiling responds sharply enough to
-employment; and where the unemployment pool is large enough to pin
-labour to its ceiling the compromise is unique, so the multiplicity
-itself belongs to the regime in which the bargain sets the wage and not
-to the economy.
+employment — and past that threshold none anywhere in the regime,
+whether labour is bargaining or pinned to its ceiling; and where the
+unemployment pool is large enough to pin labour to its ceiling there is
+at most one compromise and never two, so the multiplicity itself belongs
+to the regime in which the bargain sets the wage and not to the economy.
 
 # 1. Introduction
 
@@ -633,6 +634,20 @@ first decides, and the dichotomy is sharp:
 
 At $\zeta = 0$ the threshold is Proposition 4’s.
 
+The same coefficient settles the other side of the regime, so the second
+branch is stronger than a statement about labour’s interior condition.
+Proposition 11’s interiority requirement
+$(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ rearranges,
+using $\Gamma = \Theta\bar e$, to $$
+\bar e\,\big[(1+\lambda) - \Theta\rho\big] \;>\; \rho\kappa + (1+\lambda)\,\bar\omega ,
+$$ whose left side is non-positive exactly on the branch
+$\rho(1-c)\zeta \ge (1+\lambda)(\rho+b)$ while its right side is
+strictly positive for every $\bar\omega > 0$. Past that threshold,
+therefore, **no interior compromise exists at any employment rate,
+whether labour is bargaining or pinned to its own ceiling** — the
+economy has no class compromise anywhere in the regime, not merely none
+in the half of it where the bargain sets the wage.
+
 In words, the core says that raising the extractable day past the fold
 creates two compromises at once. In the regime that comparative static
 can reverse. Raising the ceiling also raises the wedge, because a higher
@@ -663,16 +678,26 @@ $\zeta = 0.5$ and $\hat e = 0.5$, the conjectured threshold is
 $v_{\text{f}} = 0.610$ and the regime’s is $0.140$.
 
 In words, the second self-undermining channel is real, and it bites
-earlier than the conjecture that named it. An accumulationist compromise
-that raises employment runs into the loss of its own existence condition
-before it runs into full employment whenever $v_{\text{f}} < 1$, and
-before $v_{\text{f}}$ itself. The compromise does not merely outgrow the
-description that priced it, as in Proposition 4$''$; it dissolves the
-condition under which it was a compromise at all.
+earlier than the conjecture that named it. The set of employment rates
+at which an interior stationary compromise exists at all is bounded
+strictly below $v_{\text{f}}$, and where Proposition 9 gives a finite
+fold it is bounded strictly below the regime’s own boundary, which lies
+below $v_{\text{f}}$ in turn. On Proposition 9’s second branch that set
+is empty and the bound says nothing, which is the stronger statement
+rather than a weaker one. Whenever $v_{\text{f}} < 1$ that set is
+therefore bounded away from full employment: the compromise ceases to
+exist before the unemployment pool is exhausted, not because a path
+carried it there. Whether an equilibrium path reaches the boundary is a
+question about non-stationary paths, which this section does not
+characterise. What is settled is the region, and it is smaller than the
+conjecture allowed: the compromise does not merely outgrow the
+description that priced it, as in Proposition 4$''$; the condition under
+which it was a compromise at all fails first.
 
 **Proposition 11 (below the threshold: the unemployment pool disciplines
-the wage, and the compromise is unique).** Labour’s ceiling is optimal
-for it exactly where $\bar\omega(v) \le \kappa\rho/s$, that is where $$
+the wage, and the compromise is one or none).** Labour’s ceiling is
+optimal for it exactly where $\bar\omega(v) \le \kappa\rho/s$, that is
+where $$
 v \;\le\; \hat v \;=\; \big(\kappa\rho/(s\hat\omega)\big)^{1/\eta} ,
 $$ and this threshold is **unmoved by the regime** even though labour’s
 costate at its own ceiling is not the core’s: labour’s own ceiling is
@@ -695,13 +720,15 @@ or none, never two.
 In words, the multiplicity is a property of the regime in which the
 bargain sets the wage, not of the one in which the unemployment pool
 does. Where the pool is large enough to pin labour to its ceiling, the
-economy has one compromise; where labour is off its ceiling, it has two
-or none. That is a sharper division than “which half of the mechanism
-does the work”: the two halves do not merely alternate, they differ in
-how many class compromises the economy admits at all. And the line
-between them is the one the core’s own costate draws — a coincidence
-that had to be checked rather than assumed, because labour’s costate at
-its ceiling is genuinely different.
+economy has one compromise or none, never two — one exactly when the
+extractable day clears labour’s ceiling by more than the discounted cost
+of carrying it, and none otherwise; where labour is off its ceiling, it
+has two or none. That is a sharper division than “which half of the
+mechanism does the work”: the two halves do not merely alternate, they
+differ in how many class compromises the economy admits at all. And the
+line between them is the one the core’s own costate draws — a
+coincidence that had to be checked rather than assumed, because labour’s
+costate at its ceiling is genuinely different.
 
 **Corollary to Proposition 11 (the persistence locus in the regime).**
 Along the regime’s stationary locus the accumulation rate at a given
@@ -773,10 +800,13 @@ first time. It generalises the fold to a symmetric condition on the two
 classes’ effective prices, of which the core’s fold is one evaluation.
 And it can reverse a comparative static: past a threshold in how sharply
 the extractable day responds to employment, raising that day creates no
-compromise at all where in the core it would create two. Below the
-employment rate at which the pool pins labour to its ceiling there is
-exactly one compromise, so even the multiplicity turns out to belong to
-the regime in which the bargain sets the wage, and not to the economy.
+compromise at all where in the core it would create two — and none on
+either side of the line where the pool takes the wage out of the
+bargain, so past that threshold the economy has no class compromise
+anywhere in the regime. Below the employment rate at which the pool pins
+labour to its ceiling there is at most one compromise and never two, so
+even the multiplicity turns out to belong to the regime in which the
+bargain sets the wage, and not to the economy.
 
 The warning is about how much weight the separation theorem can bear.
 Proposition 2 says a class that values its whole class is indifferent to
@@ -1112,30 +1142,50 @@ $Q_W/\bar e$ lies to the left of the vertex exactly when
 $Q_W + Q_C < \bar e$, which the fold implies since
 $(\sqrt{Q_W}+\sqrt{Q_C})^2 = Q_W + Q_C + 2\sqrt{Q_WQ_C}$; so
 $Q_W/\bar e$ lies left of both roots and $\omega = Q_W/s < \bar e$ at
-each. Below the smaller zero,
-$\bar e < (\sqrt{Q_W}-\sqrt{Q_C})^2 \le Q_W + Q_C$, so $Q_W/\bar e$ lies
-right of the vertex and hence right of both roots, and $\omega > \bar e$
-at each: the roots are real and inadmissible. Setting $Q_W = \kappa\rho$
-and $Q_C = \kappa\rho/(1+\lambda)$ returns Proposition 4 and its fold,
-which is the same argument A.4 makes at the core’s prices.
+each. Below the smaller zero the roots are real and inadmissible, but
+which admissibility condition they fail depends on the ordering of the
+two prices, and the reason differs with it. The product of the roots is
+$Q_W/\bar e > 0$, so they share a sign, and their sum is
+$(\bar e + Q_W - Q_C)/\bar e$. If $Q_W > Q_C$ the sum is positive and
+both roots are positive; the vertex exceeds $1$, because
+$Q_W - Q_C = (\sqrt{Q_W}-\sqrt{Q_C})(\sqrt{Q_W}+\sqrt{Q_C}) > (\sqrt{Q_W}-\sqrt{Q_C})^2 > \bar e$,
+so both roots exceed $1$, and $Q_W/\bar e$ lies right of both, giving
+$\omega = Q_W/s > \bar e$ at each. If $Q_C > Q_W$ the ordering reverses:
+$\bar e < (\sqrt{Q_C}-\sqrt{Q_W})^2$ gives
+$\bar e + Q_W - Q_C < 2\sqrt{Q_W}(\sqrt{Q_W}-\sqrt{Q_C}) < 0$, so **both
+roots are negative**, and it is $s > 0$ that fails, not
+$\omega < \bar e$ — indeed $\omega = Q_W/s < 0 < \bar e$ there, since
+dividing by a negative root reverses the inequality that the positive
+case relies on. Either way no admissible compromise exists below the
+smaller zero. Setting $Q_W = \kappa\rho$ and
+$Q_C = \kappa\rho/(1+\lambda)$ returns Proposition 4 and its fold, which
+is the same argument A.4 makes at the core’s prices.
 
 ## A.9 Proposition 9.
 
 With $Q_C = \rho(\kappa + \Theta\bar e)/(1+\lambda)$ and
-$T \equiv \sqrt{Q_C} > 0$, the map $\bar e \mapsto T$ is a strictly
-increasing bijection with inverse
-$\bar e = ((1+\lambda)T^2/\rho - \kappa)/\Theta$ for $\Theta > 0$.
-Multiplying $\bar e - (\sqrt{\kappa\rho}+T)^2$ by $\Theta > 0$ preserves
-the sign and gives the displayed quadratic, whose coefficients are
-$a_2 = ((1+\lambda)-\Theta\rho)/\rho$,
+$T \equiv \sqrt{Q_C} > 0$, the map $\bar e \mapsto T$ is, for
+$\Theta > 0$, a strictly increasing bijection from $(0,\infty)$ onto
+$(T_0,\infty)$ with $T_0 \equiv \sqrt{\kappa\rho/(1+\lambda)}$ and
+inverse $\bar e = ((1+\lambda)T^2/\rho - \kappa)/\Theta$ — the image is
+that half-line and not all of $T > 0$, since $\bar e \to 0^+$ sends
+$T \to T_0$. Multiplying $\bar e - (\sqrt{\kappa\rho}+T)^2$ by
+$\Theta > 0$ preserves the sign and gives the displayed quadratic, whose
+coefficients are $a_2 = ((1+\lambda)-\Theta\rho)/\rho$,
 $a_1 = -2\Theta\sqrt{\kappa\rho} < 0$ and
 $a_0 = -\kappa(1+\Theta\rho) < 0$ on the whole domain. If $a_2 \le 0$
 then $a_2T^2 \le 0$, $a_1T < 0$ and $a_0 < 0$ for every $T > 0$, so the
 quadratic is strictly negative there and no extractable day satisfies
 the fold. If $a_2 > 0$ the quadratic is convex with $a_0 < 0$ at
 $T = 0$, so the product of its roots is $a_0/a_2 < 0$ and it has exactly
-one positive root; since $T$ is strictly increasing in $\bar e$, the
-condition is a threshold on $\bar e$. The dichotomy $a_2 \lessgtr 0$ is
+one positive root. That root lies in the image of $\bar e \mapsto T$,
+which is what makes it a threshold on an admissible extractable day
+rather than on a value of $T$ nothing attains: evaluating at the
+endpoint gives
+$a_2T_0^2 + a_1T_0 + a_0 = -\Theta\big(\sqrt{\kappa\rho} + T_0\big)^2 < 0$,
+so the crossing lies strictly above $T_0$. Since $T$ is strictly
+increasing in $\bar e$, the condition is then a threshold on $\bar e$.
+The dichotomy $a_2 \lessgtr 0$ is
 $\rho(1-c)\zeta \gtrless (1+\lambda)(\rho+b)$. At $\Theta = 0$ the
 quadratic reduces to $(1+\lambda)T^2/\rho - \kappa$, which vanishes
 exactly at $T = \sqrt{\kappa\rho/(1+\lambda)}$, the core’s $\sqrt{Q_C}$:
@@ -1187,6 +1237,20 @@ $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$, which fails as
 $\bar\omega(v)$ approaches $\bar e(v)$. Hence *at most one*, not
 *exactly one* — the same admissibility separation A.4 makes for the
 core’s two roots.
+
+*And when the interiority condition can never hold.* Substituting
+$\Gamma = \Theta\bar e$, the condition
+$(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ is
+$\bar e[(1+\lambda) - \Theta\rho] > \rho\kappa + (1+\lambda)\bar\omega$.
+Its left side carries the same coefficient as A.9’s
+$a_2 = ((1+\lambda)-\Theta\rho)/\rho$, so on the branch $a_2 \le 0$ —
+that is, $\rho(1-c)\zeta \ge (1+\lambda)(\rho+b)$ — the left side is
+non-positive while the right side is strictly positive for every
+$\bar\omega > 0$ and every $\bar e > 0$. The condition then fails
+identically, and the count below $\hat v$ is *none* rather than *at most
+one*. Proposition 9’s second branch therefore empties the whole regime
+and not only the part of it in which labour bargains: it is a statement
+about the primitives, and no ceiling pair rescues it.
 
 *Corollary.* $A \equiv s(\bar e - \omega)/\kappa$ and
 $\bar e - \omega = \rho(\kappa+\Gamma)/((1+\lambda)(1-s))$ give
@@ -1271,10 +1335,10 @@ witnesses are witnesses and prove nothing universal.
 | Selection among the equilibria | UNDISCHARGED; dominance now covers the whole set where the accumulationist compromise persists, so payoff dominance is decisive there if it is accepted as a refinement, but the model contains no adjustment process; in the split case selection is over sustainable schedules and is open | an adjustment process, or a boundary law that restores the infinite-horizon comparison |
 | Continuation at full employment | UNDISCHARGED, outside the core | a boundary law |
 | Prop. 7 | proved at the rest points of the canonical system; the corner is derived, and substituting it is shown equivalent to the mixed-constraint Lagrangian route | a feedback information structure, under which labour’s costate also carries $\zeta$ |
-| Prop. 8 | proved for any pair of effective prices $Q_W, Q_C > 0$ **that do not depend on the accumulation share**, with root location and admissibility; Proposition 4 is its core specialisation. The hypothesis binds: it fails at labour’s own ceiling, which is why Proposition 11 argues directly | — |
-| Prop. 9 | proved, both branches; the branch with no admissible extractable day is an `unsat` over the domain, not a sample | — |
-| Prop. 10 | proved: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly | — |
-| Prop. 11 | proved: the threshold $\hat v$ is unmoved at $a_W = 1$, and below it there is **at most one** compromise, interior exactly where $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ | the insider case $a_W = 0$, where the threshold moves, is not solved |
+| Prop. 8 | proved for any pair of effective prices $Q_W, Q_C > 0$ **that do not depend on the accumulation share**, with root location and admissibility; Proposition 4 is its core specialisation. The hypothesis binds: it fails at labour’s own ceiling, which is why Proposition 11 argues directly. Below the smaller discriminant zero the roots are inadmissible for a reason that depends on the price ordering — $\omega > \bar e$ when $Q_W > Q_C$, and $s < 0$ when $Q_C > Q_W$ | — |
+| Prop. 9 | proved, both branches; the branch with no admissible extractable day is an `unsat` over the domain, not a sample. The second branch is proved in the stronger form: the same coefficient voids Prop. 11’s interiority for every $\bar\omega > 0$, so it empties the regime on both sides of $\hat v$ | — |
+| Prop. 10 | proved: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly. It bounds the *set* of employment rates carrying a stationary compromise; it is not a statement that a path crosses it | whether an equilibrium path reaches the boundary is the non-stationary question below |
+| Prop. 11 | proved: the threshold $\hat v$ is unmoved at $a_W = 1$, and below it there is **at most one** compromise, interior exactly where $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ — and *none at all* on Prop. 9’s second branch, where that inequality fails identically | the insider case $a_W = 0$, where the threshold moves, is not solved |
 | Corollary to Proposition 11 (the regime’s persistence locus) | proved (identity): $A$ is Proposition 5$'$’s locus times $1 + \Gamma/\kappa$ | — |
 | Section 6 regime, stationary layer | PROVED (Props. 7–11 and the Corollary): the shadow prices, the general fold, the existence dichotomy, the boundary $v_{\text{f}}$ and uniqueness below $\hat v$ | — |
 | Section 6 regime, non-stationary paths | UNDISCHARGED. The reduced problem is no longer linear-state, so Section 4’s direct verification does not extend and **Markov perfection is not claimed in the regime**; sufficiency of the first-order conditions there is also open | a verification argument for a non-linear-state value function, or a restriction to a class where one exists |
