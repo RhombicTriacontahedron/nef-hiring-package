@@ -7458,9 +7458,13 @@ curved worker ranks profiles by the worst single period he must survive
 rather than by the tail, and no profile spares him less in the first
 period than the one that hands the whole receipt back as cash. ⚠ That
 comparison is run from a common start, while Definition 1 evaluates a
-deviation from the incumbent’s own rest point. Whether the protocol
-changes the ordering is open, and it is now the sharpest remaining
-question about this face.
+deviation from the incumbent’s own rest point. That protocol has at
+least an admissible approach: by Proposition 17$'''$, below its joint
+bound on $\beta$ the incumbent’s payoffs stay finite and both clauses of
+(A5) hold at every member of the family, so a start the comparison can
+use exists at every $\varpi>0$. Whether the protocol changes the
+ordering is open, and it is now the sharpest remaining question about
+this face.
 
 The exponent is not fitted. On the diagonal a single change of variables
 removes the date from the face’s law of motion, and what remains is a
@@ -7592,6 +7596,100 @@ drives $w$ decays geometrically and the argument is three lines. On the
 diagonal $c=0$, the same forcing decays only like $1/t$, and everything
 laborious about (41) — the Riccati step, the summable error, the
 transient — is what that single degradation costs.
+
+Both propositions describe the face once the economy is on it. How the
+rest of the box *approaches* it is a separate question, and it turns out
+to be governed by the same constant.
+
+**Proposition 17$'''$ (how the rest points approach the face).** *Let
+Assumptions 1–4 hold with $\theta\in(0,1)$, $\delta,\delta_G\in(0,1)$,
+$i\in(0,1)$ and $\tau\in(0,\bar\tau]$, and let $\phi\downarrow0$, so
+that $\varpi=\phi\tau\downarrow0$. Write
+$(x^\ast,\nu^\ast,z^\ast)(\varpi)$ for the interior rest point Theorem 2
+supplies, $g(\varpi)$ for its common factor, and
+$\varepsilon=g-(1-\delta)$. Then $g(\varpi)$ falls to
+$\max\{1-\delta,\,1-\delta_G\}$, and*
+
+*(i) where $\delta\le\delta_G$: $x^\ast\to\infty$ and $z^\ast\to0$,
+with* $$z^\ast \;\asymp\; \varepsilon^{\,\mathcal{C}} , \tag{45}$$
+*$\mathcal{C}$ the exponent of* (41)*;*
+
+*(ii) where $\delta>\delta_G$: $x^\ast$ and $z^\ast$ converge to finite
+strictly positive limits.*
+
+*In either case both classes’ discounted payoffs at the induced rest
+point converge to finite limits whenever
+$\beta<g_{\min}^{\,\max\{\sigma_W,\sigma_C\}-1}$, where
+$g_{\min}=\max\{1-\delta,\,1-\delta_G\}$; where $\beta$ exceeds that
+bound the family leaves the admissible set at a strictly positive
+$\varpi$.*
+
+*Proof.* Substituting Theorem 2(ii)’s $x(g)$ and $z(g)$ into
+$\ln g=\ln g_W$ and collecting the two $\ln x$ terms gives that
+theorem’s own $H$,
+$$H(g)=\ln g+\frac{\gamma\alpha}{1-\alpha}\ln(g-1+\delta)+\gamma(1-\theta)\ln(g-1+\delta_G)
+  =\gamma(1-\theta)\ln\varpi+\text{const},$$ the constant depending on
+$\varpi$ only through $\kappa_W$ and so only at $O(\varpi)$. $H$ is
+strictly increasing on $g>g_{\min}:=\max\{1-\delta,1-\delta_G\}$ and
+falls to $-\infty$ at that endpoint, both established there, so as
+$\varpi\downarrow0$ the right-hand side falls without bound and $g$
+falls to $g_{\min}$.
+
+Which logarithm diverges at the endpoint decides the rest. Where
+$\delta<\delta_G$ the endpoint is $1-\delta$ and only the second
+diverges, so
+$\tfrac{\gamma\alpha}{1-\alpha}\ln\varepsilon=\gamma(1-\theta)\ln\varpi+O(1)$;
+where $\delta=\delta_G$ the second and third are one logarithm and their
+coefficients add to $\gamma\big[\alpha\theta+1-\theta\big]/(1-\alpha)$,
+the bracket being $(\varpi)$’s own. Either way $\varepsilon\to0$, so
+$x^\ast=\big[i(1-\tau)\alpha A/\varepsilon\big]^{1/(1-\alpha)}\to\infty$,
+and the other inversion,
+$\ln z^\ast=\ln\varpi+\alpha\ln x^\ast+\ln(\alpha A)-\ln(g-1+\delta_G)$,
+sends $z^\ast\to0$. Writing $p_\bullet$ for the exponent of $\varpi$ in
+each quantity, $p_x=-p_\varepsilon/(1-\alpha)$ and
+$p_z=1+\alpha p_x-p_{\varepsilon_G}$, with $p_{\varepsilon_G}=0$ off the
+diagonal and $p_{\varepsilon_G}=p_\varepsilon$ on it. Both give
+$$\frac{p_z}{p_\varepsilon}=\frac{\alpha\theta}{(1-\alpha)(1-\theta)}=\mathcal{C} ,$$
+the bracket cancelling on the diagonal and the $\alpha$ off it, which is
+$(45)$.
+
+Where $\delta>\delta_G$ the endpoint is $1-\delta_G$ and only the third
+logarithm diverges; its coefficient is already the coefficient of
+$\ln\varpi$, so $g-1+\delta_G\asymp\varpi$. Then
+$g-1+\delta\to\delta-\delta_G>0$, which pins $x^\ast$ at a finite
+positive limit, and the ratio $\varpi/(g-1+\delta_G)$ pins $z^\ast$ at
+one. For the last sentence, $N_{W,t}=N_{W,0}g^{t}$ at the induced rest
+point and, $P$ being homogeneous of degree one in $(K,N_W)$, $g_P=g$
+there as well, so (A5)’s two clauses read $\beta g^{1-\sigma_W}<1$ and
+$\beta g^{1-\sigma_C}<1$ and Assumption 3’s sums are geometric with
+those ratios. Both $\sigma_j$ exceed one and $g$ falls to $g_{\min}$, so
+both ratios rise, to $\beta g_{\min}^{1-\sigma_W}$ and
+$\beta g_{\min}^{1-\sigma_C}$; since $\delta,\delta_G\in(0,1)$ put
+$g_{\min}<1$ strictly, the **larger** curvature carries the smaller
+bound and therefore binds. Both are below one exactly on the stated
+range and one is above it beyond, where continuity puts the crossing at
+a strictly positive $\varpi$. $\blacksquare$
+
+The two cases say something about the economy and not merely about the
+algebra. Withdraw the social wage and the rest point does not slide
+gently onto the face. Where the public stock decays at least as fast as
+capital it runs away — capital per worker without bound, provision per
+worker to zero, and the two locked to one another by $\mathcal{C}$, the
+very exponent the face carries in time, with the gap $\varepsilon$
+standing where $1/t$ stood. Where capital decays faster it does not run
+away at all: it settles at a finite configuration carrying a strictly
+positive public stock, even though at $\varpi=0$ no interior rest point
+exists and the stock is bound for zero. The limit of the rest points is
+then not the rest point of the limit, and nothing decides which of the
+two happens but the order of the two depreciation rates.
+
+It also settles one half of what the comparison in Proposition 17 needs.
+Below the proposition’s joint bound the incumbent’s own payoffs stay
+finite along the whole approach and both clauses of (A5) hold at every
+member of the family, so an admissible start exists at every $\varpi>0$,
+however small. The other half it does not settle: off a rest point $g_P$
+and $g_W$ genuinely differ, so properness on the *deviation* path is a
+separate condition and is not established here.
 
 The economics of that crossing is worth separating from its proof. The
 collapsed face is the configuration in which the whole receipt is handed
