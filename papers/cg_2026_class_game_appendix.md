@@ -2334,29 +2334,34 @@ Proposition 17 needs Assumptions 1–4 with $\theta\in(0,1)$,
 $\delta,\delta_G\in(0,1)$, **$\delta\ne\delta_G$**, $\tau>0$,
 $\varpi>0$, $i>0$ and evaluation from the rest point the interior
 profile induces; where $\delta<\delta_G$ it carries one hypothesis more,
-that the face’s path from that start has $x_t\to\infty$ — the ray. That
-the ray is reached from a given start is **not** proved here and is the
-one place the proposition leans on a property of the path rather than of
-the primitives. The diagonal is excluded, and the exclusion is
-substantive rather than tidy: there the face’s product carries the
-polynomial factor $t^{\mathcal{C}}$ of (41), its series at the ceiling
-converges once $\sigma_W>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, and the
-disposal is then undischarged at **every** discount factor. (41)’s
-exponent is **proved**, by Proposition 17$'$: on the diagonal a change
-of variables leaves the face an autonomous plane map (43), and the
-exponent follows from a contraction and the increments of its second
-line. It needs Assumptions 1–2 with $\theta\in(0,1)$,
-$\delta=\delta_G\in(0,1)$, $i>0$, $\tau\le\bar\tau<1$ and $x_0,z_0>0$,
-and nothing else; the contraction it turns on is Lemma 3’s $D\in(0,1)$,
-which is Assumption 2’s $\gamma<1$, so no hypothesis is added anywhere.
-⭕ It also **removes** one, and the direction is worth naming: where
-$\delta<\delta_G$ Proposition 17 must assume the path reaches the ray,
-which is the one place it leans on a property of the path rather than of
-the primitives, whereas on the diagonal $x_t\to\infty$ and $z_t\to0$ are
-*conclusions* of Proposition 17$'$, proved from the primitives alone.
-The stratum that is hardest for the disposal is the easiest for the
-path. ⚠ What remains undischarged on the diagonal is the **disposal** of
-the face above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof
+that the face’s path from that start has $x_t\to\infty$ — the ray. ⭕
+**That hypothesis is discharged.** Proposition 17$''$ proves
+$x_t\to\infty$ from *every* start with $x_0,z_0>0$, geometrically at the
+rate $c=\gamma(1-\theta)D^{-1}\ln[(1-\delta)/(1-\delta_G)]$, by the
+substitution behind (43) carried through with both depreciation rates.
+So Proposition 17 no longer leans on a property of the path anywhere,
+and the rate the ray attains is named rather than assumed to exist. The
+diagonal is excluded, and the exclusion is substantive rather than tidy:
+there the face’s product carries the polynomial factor $t^{\mathcal{C}}$
+of (41), its series at the ceiling converges once
+$\sigma_W>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, and the disposal is
+then undischarged at **every** discount factor. (41)’s exponent is
+**proved**, by Proposition 17$'$: on the diagonal a change of variables
+leaves the face an autonomous plane map (43), and the exponent follows
+from a contraction and the increments of its second line. It needs
+Assumptions 1–2 with $\theta\in(0,1)$, $\delta=\delta_G\in(0,1)$, $i>0$,
+$\tau\le\bar\tau<1$ and $x_0,z_0>0$, and nothing else; the contraction
+it turns on is Lemma 3’s $D\in(0,1)$, which is Assumption 2’s
+$\gamma<1$, so no hypothesis is added anywhere. ⭕ It also **removes**
+one. On the diagonal $x_t\to\infty$ and $z_t\to0$ are *conclusions* of
+Proposition 17$'$ rather than assumptions; and because the same
+substitution never used $\delta=\delta_G$, Proposition 17$''$ carries it
+to $\delta<\delta_G$ and discharges the ray outright — see the entry for
+Proposition 17 below. Between them the collapsed face’s path is a
+theorem about primitives everywhere except $\delta>\delta_G$, where
+Proposition 2(iii) already supplies the stationary positive stock. ⚠
+What remains undischarged on the diagonal is the **disposal** of the
+face above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof
 sharpens and does not narrow. The case exclusion never depended on the
 exponent’s exact value, only on the factor being polynomial rather than
 constant. Proposition 17 itself is proved on its stated domain, and its
