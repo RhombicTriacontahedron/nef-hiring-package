@@ -56,6 +56,26 @@ and the competitive wage rather than through anything he wants. The
 persistence of the working class is thereby obtained as a condition of
 the accumulation of capital rather than imposed as one.
 
+That persistence has a second and blunter source, and it does not go
+through anyone’s optimisation. Labour is paid its marginal product
+before the state acts on the remainder, so the worker’s private claim
+never falls below labour’s share of output; and the workforce therefore
+grows, at every date and from any interior start, at least at the
+weighted geometric mean of the two stocks’ survival factors — weights
+supplied by the production and reproduction elasticities, and no
+instrument entering at all. The bound holds under every path of taxes,
+spending splits and reinvestment rates, including paths outside the
+class of constant shares and paths nobody would choose, and the rate is
+exactly the infimum of worker growth over the whole instrument box. The
+owner has no counterpart: his own consumption share can be driven to
+zero on the same box. Two things follow. The worker’s convergence
+condition stops being a restriction on play and becomes a restriction on
+parameters; and the configuration that funds nothing and hands the whole
+receipt back as cash is beaten, on payoff, by a funded profile whenever
+the worker is patient enough — beaten because it is the slowest-growing
+path available and so the first that discounting punishes, not because
+provision is worth more to him at the margin.
+
 **Keywords:** public provision; social wage; dynamic game; class
 structure; fiscal incidence; endogenous population; in-kind transfers.
 
@@ -6975,17 +6995,21 @@ $\delta<\delta_G$ it does not: $g_\varpi>1-\delta_G$ strictly, and since
 $g_W$ rises to $g_\varpi$ along the ray it is the tail that governs
 summability, so both clauses of (A5) hold for
 $\beta<g_\varpi^{\sigma-1}$ and the face is admissible.** That second
-case is left open here, and the reason it cannot be closed by the
-obvious route is worth stating: a growth-rate ordering is not a payoff
-ordering — at $\sigma>1$ and from a common start, a path of higher
-asymptotic growth can carry the smaller discounted value — so comparing
-$g_\varpi$ with an incumbent’s (A) settles nothing. Which case holds
-does not touch the construction below: $T$ is convex whether or not its
-$\varpi=0$ face is attached, and Lemma 2 needs the face detached in
-either case. What it does touch is how far the conclusion reaches, and
-Corollary 4 carries that scope. The worker’s problem is therefore the
-maximisation of $\widetilde V_W(\tau,\varpi)=V_W(\tau,\varpi/\tau)$ over
-the convex set $T$.*
+case is not closed by the obvious route, and the reason is worth
+stating: a growth-rate ordering is not a payoff ordering — at $\sigma>1$
+and from a common start, a path of higher asymptotic growth can carry
+the smaller discounted value — so comparing $g_\varpi$ with an
+incumbent’s (A) settles nothing. What does settle it, on an interval of
+discount factors reaching down from the admissibility ceiling, is
+Proposition 17: it compares the two discounted payoffs directly, and
+uses the growth factors only through the rate at which each series
+diverges. Which case holds does not touch the construction below: $T$ is
+convex whether or not its $\varpi=0$ face is attached, and Lemma 2 needs
+the face detached in either case. What it does touch is how far the
+conclusion reaches, and Corollary 4 carries that scope. The worker’s
+problem is therefore the maximisation of
+$\widetilde V_W(\tau,\varpi)=V_W(\tau,\varpi/\tau)$ over the convex set
+$T$.*
 
 *(ii) **Proposition 13(v)’s saddle is a property of the coordinates.**
 On $T$, $\ln\kappa$ is concave, its Hessian being rank one and negative
@@ -7037,16 +7061,31 @@ attained value set, hence carries maximisers to maximisers. For the
 excluded edges, $\varpi=0$ leaves the public law with no source, so
 $G_t=(1-\delta_G)^{t}G_0$ exactly and $z_t=(1-\delta_G)^{t}G_0/N_{W,t}$.
 At $\delta_G=1$ that is $z_1=0$, so $g_{W,1}=0$ and $N_{W,2}=0$. At
-$\delta_G<1$ the two cases are exhaustive by construction. If
-$N_{W,t}(1-\delta_G)^{-t}\to\infty$ then $z_t\to0$, and Assumption 2
-with $\theta<1$ sends $g_{W,t}\to0$, so $\beta g_W^{1-\sigma}$ diverges.
-Otherwise $N_{W,t}$ is bounded by a multiple of $(1-\delta_G)^{t}$, so
-the geometric mean of $g_W$ is at most $1-\delta_G$ and Assumption 5
-needs $(1-\delta_G)^{\sigma-1}>\beta$. Where that fails, the edge is
-improper; where it holds, this argument does not make it improper, and
-none below asks it to — Proposition 2(iii) already rules out
-improperness as a universal. **(ii)–(iv)** are Lemma 2 applied to
-$\ln\kappa$; to the three terms of (37), whose gradients
+$\delta_G<1$, $z_t\to0$ does not on its own send $g_{W,t}\to0$: the
+composite has two arguments, only one of them is starved, and $c_{W,t}$
+carries $x_t$, which need not fall. Which limit is reached is settled by
+the ordering of the two depreciation rates, and three cases occur rather
+than two. Where $\delta<\delta_G$, $x_t$ diverges and $g_W$ rises to
+$g_\varpi$ along the ray displayed above. Where $\delta>\delta_G$
+capital survives strictly worse than the public stock, no ray exists,
+and Proposition 2(iii) pins $g_W=1-\delta_G$ at the stationary positive
+stock the face settles at. **On the diagonal $\delta=\delta_G$ neither
+description applies, and the case must be carried separately.** There is
+no ray, because $g_\varpi$ is then $1-\delta$ itself and the two
+log-rates cannot be separated; and there is no stationary positive stock
+either, because stationarity of $z$ at a positive level would force
+$g_W=1-\delta$ exactly, hence
+$x_{t+1}=x_t+[\iota\alpha A/(1-\delta)]x_t^{\alpha}$ with
+$\iota=i(1-\tau)>0$, which diverges — and a diverging $x$ carries $c_W$
+with it, contradicting a constant $g_W$. What happens instead is that
+$z_t\to0$ and $x_t\to\infty$ together, at rates that leave $g_W$ falling
+to $1-\delta$ from above rather than sitting at it. The limiting rate is
+$\max\{g_\varpi,\,1-\delta_G\}$ in all three cases, so Assumption 5
+needs $\beta<\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$. Where
+that fails, the edge is improper; where it holds, this argument does not
+make it improper, and none below asks it to — Proposition 2(iii) already
+rules out improperness as a universal. **(ii)–(iv)** are Lemma 2 applied
+to $\ln\kappa$; to the three terms of (37), whose gradients
 $(\alpha,-\alpha)$, $(-i\alpha Ax_0^{\alpha},0)$ and
 $(0,\alpha Ax_0^{\alpha})$ span $\mathbb{R}^{2}$; and to the three
 logarithms of $\mathcal{P}$, whose gradients $(\alpha,-\alpha)$, $(1,0)$
@@ -7202,13 +7241,239 @@ because $\partial_\tau\widetilde V_W=-\partial_\varpi\widetilde V_W$
 there and $\partial_\varpi\widetilde V_W\ge0$ is what puts the split at
 its corner. The profile is therefore the worker’s global best reply over
 $T$, and his clause of Definition 1 closes — on that hypothesis, and on
-Proposition 15(i)’s disposal of the collapsed edge. That disposal
-reaches the whole instrument box at $\delta_G=1$, and at $\delta_G<1$
-exactly where
-$\beta\ge\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$ makes the
-edge improper — the maximum being the edge’s own limiting growth factor
-in either regime. Below that threshold the comparison with $\varpi=0$ is
-undischarged.*
+the disposal of the collapsed edge. That disposal reaches the whole
+instrument box at $\delta_G=1$; at $\delta_G<1$ it reaches every
+$\beta\ge\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$, where
+Proposition 15(i) makes the edge improper — the maximum being the edge’s
+own limiting growth factor in either regime — and, by Proposition 17, an
+interval strictly below that ceiling as well. Far below it the
+comparison with $\varpi=0$ is undischarged.*
+
+Two of that corollary’s three conditions are hypotheses about the
+worker’s problem. The third is not. Whether the collapsed face can be
+discarded is a question about the economy rather than about the
+analysis, and it has an answer that does not wait on concavity. The
+route to it is a bound on worker reproduction that holds before any
+optimisation is done at all.
+
+**Lemma 3 (a floor on the reproduction of the working class that no
+instrument reaches).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$
+and $\delta,\delta_G\in(0,1)$, and fix a start with $x_0,z_0>0$. Let the
+instruments follow **any** path
+$(\tau_t,\phi_t,i_t)\in[0,\bar\tau]\times[0,1]^{2}$ — time-varying,
+outside the constant-share class, and nobody’s best reply. Write
+$D=\gamma[\alpha\theta+1-\theta]\in(0,1)$ and*
+$$b \;=\; \ln B \;+\; \gamma\theta\ln\!\big[(1-\alpha)Ax_0^{\alpha}\big] \;+\; \gamma(1-\theta)\ln z_0 ,
+\qquad q \;=\; \frac{b-\ln g_\varpi}{D} ,$$ *with $g_\varpi$ as in
+$(\varpi)$. Then at every date*
+$$N_{W,t} \;\ge\; \underline{C}\,N_{W,0}\,g_\varpi^{\,t} , \qquad
+  \underline{C} \;=\; e^{\,q-|q|} \;\in\;(0,1] . \tag{$\dagger$}$$ *The
+rate is not improvable on the collapsed face: Proposition 15(i) exhibits
+paths whose limiting factor is $g_\varpi$ where $\delta<\delta_G$ and
+$1-\delta_G$ where $\delta\ge\delta_G$ — attained where
+$\delta>\delta_G$, approached from above where $\delta=\delta_G$ — so
+$\max\{g_\varpi,\,1-\delta_G\}$ is that face’s own limiting factor,
+which is the constant Corollary 4’s scope clause carries, reached in one
+line rather than in two cases. That maximum is **not** the infimum over
+the instrument box, and the two must not be run together: at
+$(\alpha,\theta,\gamma,\delta,\delta_G)=(0.456,0.854,0.683,0.933,0.039)$
+with $i=0$ the long-run factor is $0.1387$, against a face maximum of
+$0.9614$ and a floor $g_\varpi$ of $0.1385$. It is $(\dagger)$ that
+bounds the box, and the cell sits on that bound rather than near the
+maximum. Whether $g_\varpi$ is attained away from the face is not
+settled here; a computed cell within a tenth of a per cent of it neither
+settles nor refutes it.*
+
+*Proof.* Three inequalities, each holding at every date and at every
+instrument value. First,
+$\kappa_{W,t}=(1-\alpha)+(1-\phi_t)\tau_t\alpha\ge1-\alpha$: labour is
+paid its marginal product before the state acts on anything, so the
+fiscal split cannot reach beneath labour’s share. Second, the public
+source term $\phi_t\tau_t\alpha Y_t$ is non-negative, so
+$G_{t+1}\ge(1-\delta_G)G_t$ and
+$z_t\ge z_0(1-\delta_G)^{t}N_{W,0}/N_{W,t}$. Third, and for the same
+reason, $K_{t+1}\ge(1-\delta)K_t$, so
+$x_t\ge x_0(1-\delta)^{t}N_{W,0}/N_{W,t}$. Write
+$u_t=\ln(N_{W,t}/N_{W,0})$ and put all three into Assumption 2’s
+$\ln g_{W,t}=\ln B+\gamma\theta\ln(\kappa_{W,t}Ax_t^{\alpha})+\gamma(1-\theta)\ln z_t$:
+$$u_{t+1}-u_t \;\ge\; b \;+\; D\,t\ln g_\varpi \;-\; D\,u_t .$$ The
+coefficient on $t$ collects as
+$\gamma[\alpha\theta\ln(1-\delta)+(1-\theta)\ln(1-\delta_G)]$, which is
+$D\ln g_\varpi$ by $(\varpi)$: the weighted geometric mean is exactly
+the object that makes the two survival terms one. Set
+$v_t=u_t-(t\ln g_\varpi+q)$, the choice of $q$ making the affine part an
+exact solution of the associated equation, so that $v_{t+1}\ge(1-D)v_t$
+with $1-D\in(0,1)$ and $v_0=-q$. Such a sequence never falls below
+$-|v_0|$: where $v_t\ge0$ the next term is non-negative, and where
+$v_t<0$ multiplication by $1-D$ moves it towards zero. Hence
+$u_t\ge t\ln g_\varpi+q-|q|$, which is $(\dagger)$. $\blacksquare$
+
+The bound reaches the constant of Proposition 15(i) without deciding
+which limit the collapsed face attains, because a floor does not have to
+know where it binds: the two limits then say only where it is touched.
+It uses no rest point, no equilibrium, no strategy class and no
+objective, and that is what makes it worth stating separately. What it
+says is that the reproduction of the class that works is underwritten by
+the production function. Labour’s share $1-\alpha$ reaches the worker
+whatever the state does with the remainder, and $g_\varpi$ is assembled
+from that share together with the two depreciation rates and nothing
+else: no tax rate, no split and no reinvestment rate appears in it. The
+owner has no counterpart. His index is his own consumption, his share of
+output is $(1-i_t)(1-\tau_t)\alpha$, and the infimum of that over the
+same box is zero — at $i_t=1$ it is zero outright. So the asymmetry the
+two objectives are built on has a twin in the technology, and the
+technological one runs deeper: the point is not that the owner values
+the workforce, but that he could not stop it reproducing if he wanted
+to.
+
+The floor also settles one half of Assumption 5.
+
+**Corollary 6 (the worker’s admissibility clause restricts no play).**
+*Under Lemma 3’s hypotheses together with Assumption 3, which supplies
+$\sigma_W>1$ and $\beta\in(0,1)$: if $\beta<g_\varpi^{\,\sigma_W-1}$ the
+worker’s payoff converges at **every** instrument path, with*
+$$\Big|\sum_{t\ge0}\beta^{t}\frac{N_{W,t}^{1-\sigma_W}}{1-\sigma_W}\Big| \;\le\;
+  \frac{N_{W,0}^{1-\sigma_W}\;\underline{C}^{\,1-\sigma_W}}
+       {(\sigma_W-1)\big[1-\beta g_\varpi^{1-\sigma_W}\big]}$$
+*uniformly in the path. The worker’s clause of (A5) then excludes no
+strategy at all — constant-share, Markov, or arbitrary. That is a
+statement about the admissibility condition and not about the strategy
+class: Definition 1 still grades deviations to another constant share,
+and nothing here widens it.*
+
+*Proof.* With $\sigma_W>1$ each term has modulus
+$\beta^{t}N_{W,0}^{1-\sigma_W}(N_{W,t}/N_{W,0})^{-(\sigma_W-1)}/(\sigma_W-1)$,
+which $(\dagger)$ bounds by
+$N_{W,0}^{1-\sigma_W}\underline{C}^{\,1-\sigma_W}\big(\beta g_\varpi^{1-\sigma_W}\big)^{t}
+/(\sigma_W-1)$. $\blacksquare$
+
+Assumption 5 was written as a condition on the realised path, and for
+the owner it stays one: his growth factor has no floor, so whether his
+side converges depends on what is played. For the worker it is not a
+condition on play. Below one number assembled from the technology, every
+path he could choose and every path the other class could impose on him
+is proper, and (A5) on his side restricts the parameters rather than the
+game. Where it does bite — $\beta$ above that number — what it excludes
+is exactly the region in which the worst play available would cost him
+an infinite amount. That is also where the collapsed face can be
+disposed of on his own ranking.
+
+**Proposition 17 (the collapsed face loses where the worker is
+patient).** *Let Assumptions 1–4 hold with $\theta\in(0,1)$,
+$\delta,\delta_G\in(0,1)$ and $\delta\ne\delta_G$ — Assumption 4
+entering only through Proposition 6(ii), which the interior profile’s
+growth factor is read off, and the diagonal being excluded for the
+reason the remark below gives. Fix $\tau\in(0,\bar\tau]$,
+$\varpi\in(0,\tau]$ and $i>0$, evaluate from the interior rest point
+that profile induces, and — where $\delta<\delta_G$ — let the collapsed
+face’s path from that same start be one along which $x_t\to\infty$,
+which is the case Proposition 15(i) isolates as admissible. Write $g$
+for the interior profile’s growth factor and*
+$$R \;=\; \big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma_W-1}$$ *for
+the collapsed face’s admissibility ceiling. Then there is
+$\beta^{\sharp}<R$ such that at every $\beta\in(\beta^{\sharp},R)$ the
+worker strictly prefers $(\tau,\varpi)$ to the collapsed face $(\tau,0)$
+from that same start. The interval is non-empty, so the disposal of the
+face reaches strictly below the improper region — and reaches it without
+the concavity hypothesis Corollary 4 carries.*
+
+*Proof.* With $\sigma_W>1$, maximising the worker’s payoff is minimising
+$S(\beta)=\sum_{t\ge0}\beta^{t}\Pi_t^{-(\sigma_W-1)}$ with
+$\Pi_t=N_{W,t}/N_{W,0}$. At the interior profile the start is the rest
+point, so $\Pi_t=g^{t}$ exactly and
+$S_{\rm int}(\beta)=[1-\beta g^{1-\sigma_W}]^{-1}$. Proposition 6(ii)
+places $g$ above both $1-\delta$ and $1-\delta_G$, hence above their
+weighted geometric mean $g_\varpi$ and above $1-\delta_G$; so
+$Rg^{1-\sigma_W}<1$ and
+$S_{\rm int}(\beta)\le M:=[1-Rg^{1-\sigma_W}]^{-1}<\infty$ at every
+$\beta\le R$.
+
+On the face every term of $S_{\rm face}$ increases with $\beta$, so
+$S_{\rm face}(\beta)\uparrow
+S_{\rm face}(R)$ by monotone convergence, and what remains is that
+$S_{\rm face}(R)=+\infty$ — that
+$\big(\Pi_t\big/\max\{g_\varpi,1-\delta_G\}^{t}\big)^{-(\sigma_W-1)}$
+does not vanish. Where $\delta>\delta_G$ it is immediate: Proposition
+2(iii) pins $g_W=1-\delta_G$ at the stationary positive stock the face
+settles at, so $\Pi_t$ is a constant multiple of $(1-\delta_G)^{t}$ from
+that date on. Where $\delta<\delta_G$ the path is the ray, and there
+$(\dagger)$ is two-sided. On the face $\varpi=0$ holds $\kappa_W$
+constant and makes $G_t=(1-\delta_G)^{t}G_0$ exactly, so
+$\ln z_t=\ln z_0+t\ln(1-\delta_G)-u_t$ with equality rather than
+inequality. The capital law gives
+$\ln x_{t+1}=\ln(1-\delta)+\ln x_t+\ln\!\big(1+\psi x_t^{\alpha-1}\big)-\ln g_{W,t}$
+with $\psi=i(1-\tau)\alpha A/(1-\delta)$, so
+$w_t=\ln x_t-t\ln(1-\delta)+u_t$, with $u_t=\ln\Pi_t$ as in Lemma 3’s
+proof, obeys $w_{t+1}=w_t+\ln(1+\psi x_t^{\alpha-1})$; along the ray
+$x_t$ diverges geometrically, so $\sum_t x_t^{\alpha-1}$ converges and
+$w_t$ converges with it. Substituting turns Lemma 3’s inequality into
+the equality
+$u_{t+1}-u_t=b^{\circ}+\gamma\theta\alpha w_t+D\,t\ln g_\varpi-D\,u_t$
+with $b^{\circ}$ constant, and running the same comparison in both
+directions makes $u_t-t\ln g_\varpi$ converge. So $\Pi_t/g_\varpi^{t}$
+tends to a finite positive limit, the terms of $S_{\rm face}(R)$ tend to
+a positive constant, and the series diverges. Since
+$S_{\rm face}(\beta)\to+\infty$ while $S_{\rm int}(\beta)\le M$, the two
+cross at some $\beta^{\sharp}<R$. $\blacksquare$
+
+The diagonal is excluded for a reason, and the reason is not
+fastidiousness. When the two depreciation rates coincide the collapsed
+face’s product does not settle at a constant multiple of
+$(1-\delta_G)^{t}$: it carries a polynomial factor. Along that face
+$z_t\to0$ and $x_t\to\infty$ together, and the balance between them
+leaves
+$$\Pi_t \;\sim\; \text{const}\cdot(1-\delta)^{t}\,t^{\,\mathcal{C}} ,
+\qquad \mathcal{C} \;=\; \frac{\alpha\theta}{(1-\alpha)(1-\theta)} , \tag{41}$$
+an exponent built from the two elasticities alone — no depreciation
+rate, no reproduction scale, no instrument and no start appears in it.
+The face’s series at the ceiling is then
+$\sum_t t^{-\mathcal{C}(\sigma_W-1)}$, and it diverges, which is what
+Proposition 17’s argument needs, **exactly while**
+$$\sigma_W \;\le\; 1+\frac{1}{\mathcal{C}} \;=\; 1+\frac{(1-\alpha)(1-\theta)}{\alpha\theta} .$$
+Above that the face is proper even at the ceiling, the payoff it offers
+is finite there, and the crossing argument has nothing left to push
+against: on the diagonal, at a curvature that high, the disposal of the
+collapsed face is undischarged for every discount factor rather than
+only for small ones. The exponent in (41) is obtained from an asymptotic
+balance rather than from a completed proof, and it was checked at five
+parameter vectors, where the fitted exponent matches it to between
+$8\times10^{-5}$ and $2\times10^{-2}$; the convergence it predicts flips
+at the stated threshold and not elsewhere. That is a computation, and it
+can refute the exponent but not establish it.
+
+The economics of that crossing is worth separating from its proof. The
+collapsed face is the configuration in which the whole receipt is handed
+back as cash and nothing is built, and it is not obviously bad for the
+worker: he gets more cash, and where capital outlives the public stock
+his consumption can grow fast enough to hold the composite up while
+provision per worker falls to zero. What defeats it is patience. The
+face carries the lowest growth factor the box allows, so its payoff is
+the first to blow up as the discount factor rises, while the funded
+profile’s growth factor is bounded away from that floor by construction
+and its payoff stays finite over the same range. A sufficiently patient
+worker is therefore not bought off with cash — not because provision is
+worth more to him at the margin, but because the path that abandons the
+stock is the one his own discounting punishes first.
+
+The rate that governs the crossing can be named, even where the crossing
+point cannot. On the ray the marginal value of the public source at the
+face is a series whose terms grow at
+$\big(g_\varpi/(1-\delta_G)\big)^{1/\theta}$ against a discount weight
+$\beta g_\varpi^{1-\sigma_W}$, so it diverges exactly at and above
+$$\beta_\dagger \;=\; g_\varpi^{\,\sigma_W-1}
+  \left(\frac{1-\delta_G}{1-\delta}\right)^{\frac{\alpha}{\alpha\theta+1-\theta}} ,$$
+a fixed fraction of the ceiling $g_\varpi^{\sigma_W-1}$ whose size
+carries no preference parameter at all. An infinite marginal value at a
+boundary does not by itself order two payoffs, and that step is not
+taken here, so $\beta_\dagger$ is reported as the rate the crossing runs
+on rather than as $\beta^{\sharp}$. Below it the ranking is a comparison
+of finite numbers that can go either way: at
+$(\delta,\delta_G,\theta,\sigma)=(0.10,0.70,0.60,2.5)$ with
+$\beta=0.054$, and again at $(0.04,0.35,0.75,3.0)$ with $\beta=0.168$, a
+search over $\varpi$ returns the face itself. Those are computed cells,
+and what they establish is not a region but the fact that the
+restriction to an interval is real rather than an artefact of the
+argument.
 
 The joint condition is *not* proved. It requires the date-wise
 sufficient hypothesis of Theorem 7, with the same two free dates and
