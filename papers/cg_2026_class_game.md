@@ -7073,14 +7073,19 @@ and Proposition 2(iii) pins $g_W=1-\delta_G$ at the stationary positive
 stock the face settles at. **On the diagonal $\delta=\delta_G$ neither
 description applies, and the case must be carried separately.** There is
 no ray, because $g_\varpi$ is then $1-\delta$ itself and the two
-log-rates cannot be separated; and there is no stationary positive stock
-either, because stationarity of $z$ at a positive level would force
-$g_W=1-\delta$ exactly, hence
-$x_{t+1}=x_t+[\iota\alpha A/(1-\delta)]x_t^{\alpha}$ with
-$\iota=i(1-\tau)>0$, which diverges — and a diverging $x$ carries $c_W$
-with it, contradicting a constant $g_W$. What happens instead is that
-$z_t\to0$ and $x_t\to\infty$ together, at rates that leave $g_W$ falling
-to $1-\delta$ from above rather than sitting at it. The limiting rate is
+log-rates cannot be separated. Nor is there a stationary positive stock,
+and that needs no computation: on the face the two stock laws are
+divided by the same growth factor, and when the two survival rates
+coincide it cancels from their ratio, leaving
+$$\frac{x_{t+1}}{z_{t+1}} \;=\; \frac{x_t}{z_t} \;+\; \frac{\iota\,\alpha Ax_t^{\alpha}}{(1-\delta)\,z_t},
+\qquad \iota \;=\; i(1-\tau) \;\ge\; i(1-\bar\tau) \;>\; 0 . \tag{42}$$
+The growth factor is absent from (42) — it leaves the ratio only on the
+diagonal — so $x/z$ rises strictly at every date whatever the path does,
+while at a stationary positive stock it would have to stand still. The
+positivity of $\iota$ is Assumption 1’s $\bar\tau<1$ together with
+$i>0$, and not $i>0$ alone. What happens instead is that $z_t\to0$ and
+$x_t\to\infty$ together, at rates that leave $g_W$ falling to $1-\delta$
+from above rather than sitting at it. The limiting rate is
 $\max\{g_\varpi,\,1-\delta_G\}$ in all three cases, so Assumption 5
 needs $\beta<\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$. Where
 that fails, the edge is improper; where it holds, this argument does not
