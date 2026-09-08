@@ -7440,17 +7440,81 @@ Above that the face is proper even at the ceiling, the payoff it offers
 is finite there, and the crossing argument has nothing left to push
 against: on the diagonal, at a curvature that high, the disposal of the
 collapsed face is undischarged for every discount factor rather than
-only for small ones. The exponent in (41) is obtained from an asymptotic
-balance rather than from a completed proof. It was checked two ways.
-Fitting the exponent directly over five parameter vectors matches it to
-between $8\times10^{-5}$ and $2\times10^{-2}$; reading instead the
-increment of $\ln\Pi_t-t\ln(1-\delta)$ per decade of $t$ — which a
-polynomial factor holds constant at $\mathcal{C}\ln10$ and a geometric
-one does not — matches to $5\times10^{-5}$, and separates the diagonal
-from its neighbours by six orders of magnitude rather than by a
-threshold. The convergence the exponent predicts flips where it says and
-nowhere else. All of that is computation: it can refute the exponent and
-cannot establish it.
+only for small ones.
+
+The exponent is not fitted. On the diagonal a single change of variables
+removes the date from the face’s law of motion, and what remains is a
+plane map whose asymptotics can be read off it.
+
+**Proposition 17$'$ (the diagonal exponent).** *Let Assumptions 1–2 hold
+with $\theta\in(0,1)$, $\delta=\delta_G\in(0,1)$, $i>0$,
+$\tau\le\bar\tau<1$ and a start with $x_0,z_0>0$, and let the economy
+run on the collapsed face $\varpi=0$. Take $D$ from Lemma 3,
+$\psi=i(1-\tau)\alpha A/(1-\delta)$ and
+$\kappa_W=(1-\alpha)+\alpha\tau$, and write*
+$$h_t=\ln\Pi_t-t\ln(1-\delta), \qquad w_t=\ln x_t-t\ln(1-\delta)+\ln\Pi_t, \qquad
+  \mathcal{B}=\ln B+\gamma\theta\ln(\kappa_WA)+\gamma(1-\theta)\ln z_0-\ln(1-\delta).$$
+*Then $\ln z_t=\ln z_0-h_t$ and $\ln x_t=w_t-h_t$ at every date, and the
+pair obeys*
+$$h_{t+1}=(1-D)h_t+\gamma\theta\alpha\,w_t+\mathcal{B} , \qquad
+  w_{t+1}=w_t+\ln\!\big(1+\psi e^{-(1-\alpha)(w_t-h_t)}\big) , \tag{43}$$
+*in which the date does not appear. Along it $x_t\to\infty$ and
+$z_t\to0$, and $h_t-\mathcal{C}\ln t$ converges — which is $(41)$, with
+the $\mathcal{C}$ it names. Neither $\gamma$ nor a depreciation rate, a
+scale, an instrument or a start survives into the exponent.*
+
+*Proof.* On the face the public stock has no source, so
+$G_{t+1}=(1-\delta_G)G_t$ and $z_{t+1}=(1-\delta)z_t/g_{W,t}$ once
+$\delta_G=\delta$; since $\Pi_{t+1}=\Pi_tg_{W,t}$, the quantity
+$\ln z_t+\ln\Pi_t-t\ln(1-\delta)$ is constant, which is the first
+identity, and the second is the definition of $w_t$. Substituting both
+into Assumption 2’s
+$\ln g_{W,t}=\ln B+\gamma\theta\ln(\kappa_WAx_t^{\alpha})+\gamma(1-\theta)\ln z_t$
+makes it $\mathcal{B}+\ln(1-\delta)+\gamma\theta\alpha w_t-Dh_t$ —
+**affine** in the pair, the two survival factors having left the state
+together exactly as in (42) — and $h_{t+1}-h_t=\ln
+g_{W,t}-\ln(1-\delta)$ is then the first line of (43). The capital law
+gives
+$\ln x_{t+1}=\ln(1-\delta)+\ln x_t+\ln(1+\psi x_t^{\alpha-1})-\ln g_{W,t}$,
+which is the second.
+
+Four steps close it. Write
+$e_t=h_t-(\mathcal{B}+\gamma\theta\alpha w_t)/D$ for the departure of
+$h$ from its target at frozen $w$; the first line of (43) gives,
+exactly,
+$$e_{t+1}=(1-D)\,e_t-\frac{\gamma\theta\alpha}{D}\,(w_{t+1}-w_t) ,$$ a
+contraction, $D\in(0,1)$ being Lemma 3’s, driven by a strictly positive
+term. *First*, $w$ increases strictly and so has a limit; were that
+limit finite the increments would vanish, $e_t$ with them, and $x_t$
+would settle at a positive value — at which the increment is bounded
+away from zero. So $w_t\to\infty$. *Second*, $e_t\le(1-D)^{t}e_0$ is
+bounded above and $\ln x_t=\gamma(1-\theta)w_t/D-\mathcal{B}/D-e_t$, so
+$x_t\to\infty$; the increments then vanish and $e_t\to0$ with them,
+which is $z_t\to0$. *Third*, with $\nu=(1-\alpha)\gamma(1-\theta)/D$ and
+$R_t=\psi e^{(1-\alpha)\mathcal{B}/D}e^{-\nu w_t}$, the second line
+reads $R_{t+1}=R_t\big(1+R_te^{(1-\alpha)e_t}\big)^{-\nu}$, so
+$1/R_{t+1}-1/R_t=\nu+O(R_t)$ and $1/R_t=\nu t+O(\ln t)$: the increments
+of $w$ are $1/(\nu t)+O(\ln t/t^{2})$. *Fourth*, that error is summable,
+so $w_t=\nu^{-1}\ln t+\text{const}+o(1)$ and the first line carries it
+to $h_t=\gamma\theta\alpha(D\nu)^{-1}\ln t+\text{const}+o(1)$. The
+coefficient is $\gamma\theta\alpha/[(1-\alpha)\gamma(1-\theta)]$;
+$\gamma$ cancels, and what is left is $\mathcal{C}$. $\blacksquare$
+
+Two things are worth separating from the statement. The proof supplies a
+**transient** that no fit could: the polynomial law emerges only once
+$t$ passes $x_0^{\nu}/(\nu\psi)\,e^{-(1-\alpha)\mathcal{B}/D}$, so an
+economy starting with much capital and little provision spends a long
+time reading a *lower* exponent than it will settle at — at one such
+start $0.639$ against $\mathcal{C}=1$, a figure the same formula returns
+to four places. A sweep over starts alone would have recorded a
+start-dependence that is not there. And the earlier computation is left
+standing, because it is what a reader can run: fitting the exponent over
+five parameter vectors matched it to between $8\times10^{-5}$ and
+$2\times10^{-2}$, while the increment of $\ln\Pi_t-t\ln(1-\delta)$ per
+decade of $t$ — which a polynomial factor holds constant at
+$\mathcal{C}\ln10$ and a geometric one does not — matched to
+$5\times10^{-5}$ and separated the diagonal from its neighbours by six
+orders of magnitude rather than by a threshold.
 
 The economics of that crossing is worth separating from its proof. The
 collapsed face is the configuration in which the whole receipt is handed
