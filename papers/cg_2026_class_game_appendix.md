@@ -2277,46 +2277,84 @@ needs Assumptions 1–3 with $\theta\in(0,1)$ and a fixed start with
 $x_0,z_0>0$ and a rate $i>0$, its part (i) using admissibility
 (Assumption 5) to discard the collapsed edge **only where
 $\beta\ge\big(\max\{g_\varpi,1-\delta_G\}\big)^{\sigma-1}$ makes it
-improper, and leaving it undischarged below that threshold** — where
-$\delta<\delta_G$ the face carries an admissible ray on which $z_t\to0$
-while $c_W$ diverges and $g_W\to g_\varpi\in(1-\delta_G,1-\delta)$, so
-that neither improperness nor a growth comparison excludes it — and its
-parts (iv)–(v) adding Proposition 6’s hypotheses; it proves no concavity
-of the payoff, establishing instead that Proposition 13(v)’s obstruction
-is coordinate-dependent, that the two free dates survive jointly, and
-that the tail criterion generalises to $(\ast\ast)$ — which **implies**
-$(\ast)$, so the joint route is strictly the harder one. Proposition
-15$'$ takes Proposition 15’s hypotheses and adds Assumption 4, which
-enters through its Step 1 alone, where $(\mathrm{A})$ is what puts
-$\mu_K,\mu\ge1$ and so signs $\mathcal{G}''$; nothing else in it uses
-$\gamma$, the level of $g$, or how $\mu_K$ and $\mu$ were reached, which
-is why its condition reads only $(\alpha,\theta,\tau,\phi)$. Both of its
-clauses are proved: the sufficient condition $\Phi\le\Phi_c$ for
-$(\ast\ast)$, and the sharpness clause that above every exterior point
-there are admissible $(\gamma,\delta,\delta_G,\beta,\sigma,i,A,B)$ at
-which $(\ast\ast)$ fails — so no larger parameter-free region in those
-coordinates, of any shape, certifies the criterion. That second clause
-is what sends the residue into the other coordinates rather than leaving
-it as slack in the bound. Corollary 4 needs Theorem 4’s hypotheses with
+improper** — where $\delta<\delta_G$ the face carries an admissible ray
+on which $z_t\to0$ while $c_W$ diverges and
+$g_W\to g_\varpi\in(1-\delta_G,1-\delta)$, so that neither improperness
+nor a growth comparison excludes it. Proposition 17 disposes of it on an
+interval strictly below that ceiling by a payoff comparison rather than
+by admissibility, so what remains undischarged is the region well below
+the ceiling and not the whole of it. Parts (iv)–(v) add Proposition 6’s
+hypotheses; it proves no concavity of the payoff, establishing instead
+that Proposition 13(v)’s obstruction is coordinate-dependent, that the
+two free dates survive jointly, and that the tail criterion generalises
+to $(\ast\ast)$ — which **implies** $(\ast)$, so the joint route is
+strictly the harder one. Proposition 15$'$ takes Proposition 15’s
+hypotheses and adds Assumption 4, which enters through its Step 1 alone,
+where $(\mathrm{A})$ is what puts $\mu_K,\mu\ge1$ and so signs
+$\mathcal{G}''$; nothing else in it uses $\gamma$, the level of $g$, or
+how $\mu_K$ and $\mu$ were reached, which is why its condition reads
+only $(\alpha,\theta,\tau,\phi)$. Both of its clauses are proved: the
+sufficient condition $\Phi\le\Phi_c$ for $(\ast\ast)$, and the sharpness
+clause that above every exterior point there are admissible
+$(\gamma,\delta,\delta_G,\beta,\sigma,i,A,B)$ at which $(\ast\ast)$
+fails — so no larger parameter-free region in those coordinates, of any
+shape, certifies the criterion. That second clause is what sends the
+residue into the other coordinates rather than leaving it as slack in
+the bound. Corollary 4 needs Theorem 4’s hypotheses with
 $\theta\in(0,1)$, evaluated from the rest point the profile induces, and
 is conditional in addition on joint concavity of $\ln N_{W,t}$ on $T$,
 which is proved nowhere; its reach from $T$ to the whole instrument box
-carries Proposition 15(i)’s disposal of the collapsed edge, and so holds
-at $\delta_G=1$, and at $\delta_G<1$ only where
-$\beta\ge\big(\max\{g_\varpi,1-\delta_G\}\big)^{\sigma-1}$. What
-Computation 11 supplies is narrower than the hypothesis in two ways
-worth stating here rather than leaving to inference: it checks the
-per-date Hessian at the ten profiles of C.9 and the Hessian of
-$\widetilde V_W$ on an $11\times11$ grid at three of them, and those
-cells are Computation 11’s own, not the cells at which Computation 1
-reports its equilibria; and the grid is a sub-box of $T$, so it samples
-the set the hypothesis quantifies over and can refute it but never
-establish it. Proposition 16 and Corollary 5 need Assumptions 1–3 and 5
-with $\theta\in(0,1)$, $x_0,z_0>0$, $i>0$ and $\delta=\delta_G=1$; they
-discharge that hypothesis outright on that face and on no wider set,
-Computation 1’s cells not lying on it. Part (iv) of Proposition 13
-proves the vacuity of $(\ast)$ there and *not* its date-wise clause,
-which does not follow from $\mathcal{G}''=0$ and is Proposition 16’s.
+carries the disposal of the collapsed edge, and so holds at
+$\delta_G=1$, at $\delta_G<1$ where
+$\beta\ge\big(\max\{g_\varpi,1-\delta_G\}\big)^{\sigma-1}$, and on the
+interval below that ceiling Proposition 17 supplies. What Computation 11
+supplies is narrower than the hypothesis in two ways worth stating here
+rather than leaving to inference: it checks the per-date Hessian at the
+ten profiles of C.9 and the Hessian of $\widetilde V_W$ on an
+$11\times11$ grid at three of them, and those cells are Computation 11’s
+own, not the cells at which Computation 1 reports its equilibria; and
+the grid is a sub-box of $T$, so it samples the set the hypothesis
+quantifies over and can refute it but never establish it. Lemma 3 and
+Corollary 6 have the shortest hypothesis list of anything in the paper
+and it is worth recording as such: Assumptions 1–2 with
+$\theta\in(0,1)$, $\delta,\delta_G\in(0,1)$ and a start with
+$x_0,z_0>0$. They use no rest point, no equilibrium, no objective, no
+properness and no restriction to constant shares — the instrument path
+is arbitrary in $[0,\bar\tau]\times[0,1]^2$ — and both are proved
+outright, with $(\dagger)$’s constant explicit. Two clauses attached to
+Lemma 3 are *not* its own: that the rate is attained is Proposition
+15(i)’s and Proposition 2(iii)’s, and Corollary 6 adds Assumption 3 for
+$\sigma_W>1$ and the parameter condition $\beta<g_\varpi^{\sigma_W-1}$.
+Proposition 17 needs Assumptions 1–4 with $\theta\in(0,1)$,
+$\delta,\delta_G\in(0,1)$, **$\delta\ne\delta_G$**, $\tau>0$,
+$\varpi>0$, $i>0$ and evaluation from the rest point the interior
+profile induces; where $\delta<\delta_G$ it carries one hypothesis more,
+that the face’s path from that start has $x_t\to\infty$ — the ray. That
+the ray is reached from a given start is **not** proved here and is the
+one place the proposition leans on a property of the path rather than of
+the primitives. The diagonal is excluded, and the exclusion is
+substantive rather than tidy: there the face’s product carries the
+polynomial factor $t^{\mathcal{C}}$ of (41), its series at the ceiling
+converges once $\sigma_W>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, and the
+disposal is then undischarged at **every** discount factor. ⚠ (41)’s
+exponent is an asymptotic balance checked at five cells, not a completed
+proof; the case exclusion it justifies does not depend on the exponent’s
+exact value, only on the factor being polynomial rather than constant.
+It is proved on its stated domain, and its conclusion is an existence
+statement about $\beta^\sharp$, not a formula for it. The closed form
+$\beta_\dagger$ reported beside it is the divergence rate of the
+marginal value of the public source on the ray and is **not** claimed to
+equal $\beta^\sharp$: the step from a divergent one-sided derivative to
+a strict payoff ordering is not taken. Where the two cells at
+$(\delta,\delta_G,\theta,\sigma)=(0.10,0.70,0.60,2.5)$ and
+$(0.04,0.35,0.75,3.0)$ return the face under a search over $\varpi$,
+they refute a universal and establish no region. Proposition 16 and
+Corollary 5 need Assumptions 1–3 and 5 with $\theta\in(0,1)$,
+$x_0,z_0>0$, $i>0$ and $\delta=\delta_G=1$; they discharge that
+hypothesis outright on that face and on no wider set, Computation 1’s
+cells not lying on it. Part (iv) of Proposition 13 proves the vacuity of
+$(\ast)$ there and *not* its date-wise clause, which does not follow
+from $\mathcal{G}''=0$ and is Proposition 16’s.
 
 Everything else — the equilibrium levels, every sweep verdict, every
 priced deviation and every count — is computational. These establish
