@@ -2345,32 +2345,41 @@ diagonal is excluded, and the exclusion is substantive rather than tidy:
 there the face’s product carries the polynomial factor $t^{\mathcal{C}}$
 of (41), its series at the ceiling converges once
 $\sigma_W>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, and the disposal is
-then undischarged at **every** discount factor. (41)’s exponent is
-**proved**, by Proposition 17$'$: on the diagonal a change of variables
-leaves the face an autonomous plane map (43), and the exponent follows
-from a contraction and the increments of its second line. It needs
-Assumptions 1–2 with $\theta\in(0,1)$, $\delta=\delta_G\in(0,1)$, $i>0$,
-$\tau\le\bar\tau<1$ and $x_0,z_0>0$, and nothing else; the contraction
-it turns on is Lemma 3’s $D\in(0,1)$, which is Assumption 2’s
-$\gamma<1$, so no hypothesis is added anywhere. ⭕ It also **removes**
-one. On the diagonal $x_t\to\infty$ and $z_t\to0$ are *conclusions* of
-Proposition 17$'$ rather than assumptions; and because the same
-substitution never used $\delta=\delta_G$, Proposition 17$''$ carries it
-to $\delta<\delta_G$ and discharges the ray outright — see the entry for
-Proposition 17 below. Between them the collapsed face’s path is a
-theorem about primitives everywhere except $\delta>\delta_G$, where
-Proposition 2(iii) already supplies the stationary positive stock. ⚠
-What remains undischarged on the diagonal is the **disposal** of the
-face above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof
-sharpens and does not narrow. The case exclusion never depended on the
-exponent’s exact value, only on the factor being polynomial rather than
-constant. Proposition 17 itself is proved on its stated domain, and its
-conclusion is an existence statement about $\beta^\sharp$, not a formula
-for it. The closed form $\beta_\dagger$ reported beside it is the
-divergence rate of the marginal value of the public source on the ray
-and is **not** claimed to equal $\beta^\sharp$: the step from a
-divergent one-sided derivative to a strict payoff ordering is not taken.
-Where the two cells at
+then undischarged at **every** discount factor. ⭕ It is also, at one
+cell, **refuted as a universal**: at
+$\alpha=\theta=\gamma=\delta=\delta_G=\tfrac12$, $A=1$, $B=\tfrac18$,
+$\bar\tau=\tfrac12$, $\sigma_W=7$, $\beta=\tfrac{63}{64}R$ and the start
+$(1,558)$, the collapsed face is the worker’s argmin over a
+$21\times21\times11$ grid in $(\tau,\phi,i)$, so it is a best reply and
+no disposal exists there; and the turn sits at $1+\mathcal{C}^{-1}$
+itself rather than anywhere else. ⚠ **The scope of that witness is the
+common-start protocol**, not Definition 1’s incumbent-rest-point one,
+under which the question stays open — so the open item is narrowed and
+not closed. (41)’s exponent is **proved**, by Proposition 17$'$: on the
+diagonal a change of variables leaves the face an autonomous plane map
+(43), and the exponent follows from a contraction and the increments of
+its second line. It needs Assumptions 1–2 with $\theta\in(0,1)$,
+$\delta=\delta_G\in(0,1)$, $i>0$, $\tau\le\bar\tau<1$ and $x_0,z_0>0$,
+and nothing else; the contraction it turns on is Lemma 3’s $D\in(0,1)$,
+which is Assumption 2’s $\gamma<1$, so no hypothesis is added anywhere.
+⭕ It also **removes** one. On the diagonal $x_t\to\infty$ and $z_t\to0$
+are *conclusions* of Proposition 17$'$ rather than assumptions; and
+because the same substitution never used $\delta=\delta_G$, Proposition
+17$''$ carries it to $\delta<\delta_G$ and discharges the ray outright —
+see the entry for Proposition 17 below. Between them the collapsed
+face’s path is a theorem about primitives everywhere except
+$\delta>\delta_G$, where Proposition 2(iii) already supplies the
+stationary positive stock. ⚠ What remains undischarged on the diagonal
+is the **disposal** of the face above $\sigma_W=1+1/\mathcal{C}$, which
+the exponent’s proof sharpens and does not narrow. The case exclusion
+never depended on the exponent’s exact value, only on the factor being
+polynomial rather than constant. Proposition 17 itself is proved on its
+stated domain, and its conclusion is an existence statement about
+$\beta^\sharp$, not a formula for it. The closed form $\beta_\dagger$
+reported beside it is the divergence rate of the marginal value of the
+public source on the ray and is **not** claimed to equal $\beta^\sharp$:
+the step from a divergent one-sided derivative to a strict payoff
+ordering is not taken. Where the two cells at
 $(\delta,\delta_G,\theta,\sigma)=(0.10,0.70,0.60,2.5)$ and
 $(0.04,0.35,0.75,3.0)$ return the face under a search over $\varpi$,
 they refute a universal and establish no region. Proposition 16 and
