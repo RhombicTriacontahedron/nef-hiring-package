@@ -119,10 +119,10 @@ precondition. Proposition 2(iii) shows that if the public input is
 reproduction-relevant and unfunded, worker growth is pinned at the
 stock’s own survival rate at every stationary positive stock — a value
 carrying no instrument and no state — and the configuration has no
-interior rest point at all. A worker who taxes capital at the ceiling
-and takes the whole receipt as cash reproduces at exactly the rate of a
-worker who does not tax. The composition of public spending, not its
-level, carries the distributive content.
+interior rest point at all. At any such stock, a worker who taxes
+capital at the ceiling and takes the whole receipt as cash reproduces at
+exactly the rate of a worker who does not tax. The composition of public
+spending, not its level, carries the distributive content.
 
 **The price of the workforce.** The result that gives the model its bite
 concerns the other side. The owner’s objective is his own consumption
@@ -646,9 +646,9 @@ is met; they do not move the value it pins. And because that value
 contradicts interiority, the unfunded configuration is not a worse
 outcome but a non-outcome.
 
-**A worker who taxes capital at the ceiling and hands over every penny
-as cash reproduces at exactly the rate of a worker who does not tax at
-all.**
+**At any stationary positive stock, a worker who taxes capital at the
+ceiling and hands over every penny as cash reproduces at exactly the
+rate of a worker who does not tax at all.**
 
 The scope is the stipulated instrument set — one tax on capital income,
 one split between cash and the stock, no borrowing against the stock
@@ -6953,20 +6953,36 @@ maximisers to global maximisers. On the edges it collapses or flattens,
 $\tau=0$ and $\varpi=0$, the public stock has no source term and decays
 exactly, $G_t=(1-\delta_G)^{t}G_0$, and the edge splits in two rather
 than being disposed of at once. At $\delta_G=1$, $z_1=0$, so $g_{W,1}=0$
-and the payoff is $-\infty$ at date two. At $\delta_G<1$ either the
-worker’s dynasty shrinks more slowly than $(1-\delta_G)^{t}$, in which
-case $z_t\to0$ and $\theta<1$ drives $g_{W,t}\to0$, or it does not, in
-which case its growth factor is eventually at or below $1-\delta_G$ and
-properness requires $(1-\delta_G)^{\sigma-1}>\beta$. **So where
-$(1-\delta_G)^{\sigma-1}\le\beta$ the edge is inadmissible-improper and
-Assumption 5 disposes of it; where that inequality runs the other way it
-need not be, and admissibility alone does not exclude it** — what does
-is that a dynasty growing at $1-\delta_G$ or less is beaten by an
-incumbent whose own criterion (A) is $g>1-\delta_G$, which is a
-comparison and not a hypothesis. Nothing below rests on which case
-holds: $T$ is convex whether or not its $\varpi=0$ face is attached, and
-Lemma 2 needs the face detached in either case. The worker’s problem is
-therefore the maximisation of
+and the payoff is $-\infty$ at date two. At $\delta_G<1$ decay alone
+does not dispose of the face, and the reason is that $g_W$ has two
+arguments while only one of them is falling. The stock has no source, so
+$z$ declines at $(1-\delta_G)/g_W$; but the whole receipt is paid as
+cash, and wherever $g_W<1-\delta$ capital per worker rises at
+$(1-\delta)/g_W$, so $c_W=\kappa_W Ax^{\alpha}$ diverges and can hold
+the composite up while $z_t\to0$. Equating the two log-rates inside
+$c_W^{\theta}z^{1-\theta}$ leaves a ray along which $g_W$ is constant
+at*
+$$g_\varpi \;=\; (1-\delta)^{\frac{\alpha\theta}{\alpha\theta+1-\theta}}\,
+  (1-\delta_G)^{\frac{1-\theta}{\alpha\theta+1-\theta}} , \tag{$\varpi$}$$
+*the weighted geometric mean of the two survival factors, which lies
+strictly between them. The ray needs $g_\varpi<1-\delta$ and so exists
+exactly when $\delta<\delta_G$. **Where $\delta\ge\delta_G$ there is no
+such ray: $z$ settles at a stationary positive value, Proposition 2(iii)
+pins $g_W=1-\delta_G$, properness requires
+$(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge is
+inadmissible-improper and Assumption 5 disposes of it. Where
+$\delta<\delta_G$ it does not: $g_\varpi>1-\delta_G$ strictly, both
+clauses of (A5) hold for $\beta<g_\varpi^{\sigma-1}$, and the face is
+admissible.** That second case is left open here, and the reason it
+cannot be closed by the obvious route is worth stating: a growth-rate
+ordering is not a payoff ordering — at $\sigma>1$ and from a common
+start, a path of higher asymptotic growth can carry the smaller
+discounted value — so comparing $g_\varpi$ with an incumbent’s (A)
+settles nothing. Which case holds does not touch the construction below:
+$T$ is convex whether or not its $\varpi=0$ face is attached, and Lemma
+2 needs the face detached in either case. What it does touch is how far
+the conclusion reaches, and Corollary 4 carries that scope. The worker’s
+problem is therefore the maximisation of
 $\widetilde V_W(\tau,\varpi)=V_W(\tau,\varpi/\tau)$ over the convex set
 $T$.*
 
@@ -7184,8 +7200,10 @@ $\nabla\widetilde V_W\cdot d=\partial_\varpi\widetilde V_W\,(d_\varpi-d_\tau)\le
 because $\partial_\tau\widetilde V_W=-\partial_\varpi\widetilde V_W$
 there and $\partial_\varpi\widetilde V_W\ge0$ is what puts the split at
 its corner. The profile is therefore the worker’s global best reply over
-his whole instrument box, and his clause of Definition 1 closes — on
-that hypothesis and no other.*
+$T$, and his clause of Definition 1 closes — on that hypothesis, and on
+Proposition 15(i)’s disposal of the collapsed edge, which reaches the
+whole instrument box where $\delta\ge\delta_G$ and is open where
+$\delta<\delta_G$.*
 
 The joint condition is *not* proved. It requires the date-wise
 sufficient hypothesis of Theorem 7, with the same two free dates and
