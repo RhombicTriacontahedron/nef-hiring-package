@@ -66,10 +66,11 @@ obtained a cycle. Lancaster (1973) made the conflict over distribution a
 game between two classes and found it dynamically inefficient. Mehrling
 (1986) put the two together and derived steady states indexed by how
 well each class is organised. In Goodwin and in Lancaster the size of
-the unemployment pool is not what the game determines. How it is
-determined in Mehrling could not be established from the published
-record, so Section 8 states that boundary rather than guessing across
-it.
+the unemployment pool is not what the game determines. Neither is it an
+instrument in Mehrling, whose players choose the wage level and the
+investment level; what his game determines about it could not be
+established, so Section 8 states that boundary rather than guessing
+across it.
 
 This paper shows that once the employment rate is the state of a
 two-class differential game, and once the classes are organised enough
@@ -632,17 +633,24 @@ tax instrument here. Mehrling (1986) synthesises Lancaster and Goodwin
 into a differential game with steady states indexed by class
 organisation; this paper carries the extraction margin and an induced
 mechanisation law as primitives, and separates the compromise from the
-unemployment pool. Whether his game already contains either primitive
-could not be established from the published record, so no separation
-from him on primitives is claimed. Bowles (1985) and Bowles and Gintis
-(1993) put the extraction of labour under the threat of job loss into a
-static contested exchange; here the same margin sits inside a dynamic
-class game, and their result that ownership of the accumulation asset
-confers power is theirs. Cajas Guijarro and Vera (2022) carry the
-employment rate, the wage share and labour intensity as states of a
-business-cycle model without strategic players. Veneziani (2007) and
-Veneziani and Yoshihara study the persistence of exploitation in
-competitive accumulation economies; here the classes are strategic
+unemployment pool. His instruments are the wage level and the investment
+level — the Lancaster pair — and his payoffs are the present values of
+workers’ consumption and capitalists’ profits, so the effort extracted
+from an hour hired is not a control of his game and no class-size term
+or effort disutility enters his objectives. That much is established
+through a work that restates his model rather than from the paper
+itself, which is unobtainable here, and the ledger of Appendix B carries
+the grade. Two things it does not establish, and which are therefore not
+claimed: whether the wage Phillips curve survives his synthesis, and
+whether the employment rate is a state of his game. Bowles (1985) and
+Bowles and Gintis (1993) put the extraction of labour under the threat
+of job loss into a static contested exchange; here the same margin sits
+inside a dynamic class game, and their result that ownership of the
+accumulation asset confers power is theirs. Cajas Guijarro and Vera
+(2022) carry the employment rate, the wage share and labour intensity as
+states of a business-cycle model without strategic players. Veneziani
+(2007) and Veneziani and Yoshihara study the persistence of exploitation
+in competitive accumulation economies; here the classes are strategic
 players and distribution is tracked in output units throughout.
 
 # Appendix A. Proofs
@@ -873,7 +881,7 @@ witnesses are witnesses and prove nothing universal.
 | Continuation at full employment | UNDISCHARGED, outside the core | a boundary law |
 | Section 6 regime | UNDISCHARGED, stated as a programme | the equilibrium with state-dependent ceilings |
 | Section 6’s second self-undermining channel ($v_{\text{f}}$) | CONJECTURE, explicitly labelled; it substitutes $\bar e(v)$ into a fold condition proved for constant $\bar e$ | solving the regime’s equilibrium, which is the same computation the row above needs |
-| Separation from Mehrling (1986) | search grade; his controls and payoffs are unread | a witness reporting his instruments |
+| Separation from Mehrling (1986) | witness grade, and partial. His instruments (wage level, investment level) and his payoffs (present values of consumption and profit) are established through Miebach (2011), a dissertation that restates his model; his own body is unobtainable. So the extraction margin and the objectives separate; the mechanisation law and the state do not | his body, or a second witness reporting his state variables and his supply side |
 | Dockner et al. (2000) §7.2 | read at source; the linear-state conditions (7.35)–(7.36) and the Markov-perfectness of open-loop equilibria are stated in the text, not as a numbered theorem; cited as placement, not used as a step | — |
 | Lancaster/Pohjola payoffs are linear over a finite undiscounted horizon | verified through de Zeeuw (1992), body read; Hoel’s own payoffs still unread | reading Hoel (1978) at source |
 
