@@ -7442,6 +7442,26 @@ against: on the diagonal, at a curvature that high, the disposal of the
 collapsed face is undischarged for every discount factor rather than
 only for small ones.
 
+It is not merely undischarged, and what is known points the other way.
+At $\alpha=\theta=\gamma=\tfrac12$, $\delta=\delta_G=\tfrac12$, $A=1$,
+$B=\tfrac18$, $\bar\tau=\tfrac12$, $\sigma_W=7$ and
+$\beta=\tfrac{63}{64}R$, from the start $(x_0,z_0)=(1,558)$, the
+collapsed face **minimises** the worker’s discounted loss over a
+$21\times21\times11$ grid in $(\tau,\phi,i)$: there it is a best reply,
+and no disposal of it can exist. Sweeping the curvature at the same cell
+puts the turn between $\sigma_W=2$ and $\sigma_W=3$ — at
+$1+\mathcal{C}^{-1}=2$ itself. **The threshold is not merely where
+Proposition 17’s technique stops working. It is where the worker’s
+ranking reverses**: below it the face loses and Proposition 17 disposes
+of it; above it the face wins, and the reason is that a sufficiently
+curved worker ranks profiles by the worst single period he must survive
+rather than by the tail, and no profile spares him less in the first
+period than the one that hands the whole receipt back as cash. ⚠ That
+comparison is run from a common start, while Definition 1 evaluates a
+deviation from the incumbent’s own rest point. Whether the protocol
+changes the ordering is open, and it is now the sharpest remaining
+question about this face.
+
 The exponent is not fitted. On the diagonal a single change of variables
 removes the date from the face’s law of motion, and what remains is a
 plane map whose asymptotics can be read off it.
