@@ -8179,14 +8179,15 @@ capital outlives the public stock it is not merely a bound but exactly
 attained, and attained by the configuration that funds nothing. Two
 things follow. The worker’s convergence condition stops being a
 restriction on what may be played and becomes a restriction on
-parameters, so that below one number assembled from the technology his
-side of the model is proper whatever anyone does (Corollary 6). And the
-owner has no counterpart, his own consumption share having infimum zero
-on the same box: the class whose reproduction the technology secures is
-not the class that owns it. Read beside the marginal valuation of
-Section 6, that is the same conclusion reached twice from opposite
-directions — once through the owner’s optimisation, and once without
-consulting it at all.
+parameters — below one number, built from that floor and the curvature
+of his felicity, his side of the model is proper whatever anyone does,
+and the bound is nearly attained rather than loose (Corollary 6). And
+the owner has no counterpart, his own consumption share having infimum
+zero on the same box: the class whose reproduction the technology
+secures is not the class that owns it. Read beside the marginal
+valuation of Section 6, that is the same conclusion reached twice from
+opposite directions — once through the owner’s optimisation, and once
+without consulting it at all.
 
 That yields the model’s sharpest statement about what fixes those
 conditions, and it is a result here rather than a premise. What carries
