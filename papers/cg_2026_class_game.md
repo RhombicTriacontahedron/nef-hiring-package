@@ -7524,6 +7524,52 @@ $\mathcal{C}\ln10$ and a geometric one does not — matched to
 $5\times10^{-5}$ and separated the diagonal from its neighbours by six
 orders of magnitude rather than by a threshold.
 
+Nothing in the substitution used $\delta=\delta_G$, and carrying both
+rates through it says something about the cases the diagonal is excluded
+*from* — one of which Proposition 17 has to assume. With
+$H_t=\ln\Pi_t-t\ln g_\varpi$ in place of $h_t$ the first line is
+unchanged and the second gains one term:
+$$H_{t+1}=(1-D)H_t+\gamma\theta\alpha\,w_t+\mathcal{B}_\varpi , \qquad
+  \ln x_t=w_t-H_t+ct , \qquad
+  c=\frac{\gamma(1-\theta)}{D}\,\ln\frac{1-\delta}{1-\delta_G} , \tag{44}$$
+where $\mathcal{B}_\varpi$ is $\mathcal{B}$ with $\ln g_\varpi$ in place
+of $\ln(1-\delta)$, so that the two coincide on the diagonal. **The
+whole face is governed by the sign of $c$**, and the three cases
+Proposition 15(i) reaches by three separate arguments are its three
+signs.
+
+**Proposition 17$''$ (the ray is reached from every start, and at a rate
+the primitives name).** *Let Proposition 17$'$’s hypotheses hold except
+that $\delta<\delta_G$. Then from every start with $x_0,z_0>0$ the
+sequence $w_t$ converges, $\ln x_t-ct$ converges, and
+$g_{W,t}\to g_\varpi$. In particular $x_t\to\infty$ geometrically at
+rate $c$.*
+
+*Proof.* The first line of (44) is the first line of (43), so
+$e_{t+1}=(1-D)e_t-(\gamma\theta\alpha/D)(w_{t+1}-w_t)$ holds unchanged
+and, the increments being positive and $1-D\in(0,1)$,
+$e_t\le\max(e_0,0)$ at every date. The second line turns the increment
+into $w_{t+1}-w_t=\ln\big(1+R_te^{(1-\alpha)e_t}e^{-(1-\alpha)ct}\big)$
+with $R_t=\psi e^{(1-\alpha)\mathcal{B}_\varpi/D}e^{-\nu w_t}$. Since
+$w$ increases, $R_t\le R_0$; since $e_t$ is bounded above,
+$e^{(1-\alpha)e_t}\le\bar\varepsilon$; and $c>0$ precisely because
+$\delta<\delta_G$. Hence
+$w_{t+1}-w_t\le R_0\bar\varepsilon\,e^{-(1-\alpha)ct}$, a **geometric**
+bound, so the increments are summable and $w_t\uparrow w_\infty<\infty$.
+They therefore vanish, $e_t\to0$ with them,
+$H_t\to(\mathcal{B}_\varpi+\gamma\theta\alpha w_\infty)/D$, and the
+second line of (44) leaves $\ln x_t=ct+\text{const}+o(1)$.
+$\blacksquare$
+
+That the path reaches the ray was the one thing Proposition 17 assumed
+about a *path* rather than about primitives, and where $\delta<\delta_G$
+it is now discharged, rate included. What the two propositions share is
+the reason they differ in difficulty. Off the diagonal the forcing that
+drives $w$ decays geometrically and the argument is three lines. On the
+diagonal $c=0$, the same forcing decays only like $1/t$, and everything
+laborious about (41) — the Riccati step, the summable error, the
+transient — is what that single degradation costs.
+
 The economics of that crossing is worth separating from its proof. The
 collapsed face is the configuration in which the whole receipt is handed
 back as cash and nothing is built, and it is not obviously bad for the
