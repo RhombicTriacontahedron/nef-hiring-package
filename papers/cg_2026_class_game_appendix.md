@@ -2275,15 +2275,16 @@ condition is not proved. Lemma 2 is a standard fact about logarithms of
 positive affine functions and carries no model content. Proposition 15
 needs Assumptions 1–3 with $\theta\in(0,1)$ and a fixed start with
 $x_0,z_0>0$ and a rate $i>0$, its part (i) using admissibility
-(Assumption 5) to discard the collapsed edge **where $\delta\ge\delta_G$
-and leaving it undischarged where $\delta<\delta_G$** — the face there
-carrying an admissible ray on which $z_t\to0$ while $c_W$ diverges and
-$g_W\to g_\varpi\in(1-\delta_G,1-\delta)$, so that neither improperness
-nor a growth comparison excludes it — and its parts (iv)–(v) adding
-Proposition 6’s hypotheses; it proves no concavity of the payoff,
-establishing instead that Proposition 13(v)’s obstruction is
-coordinate-dependent, that the two free dates survive jointly, and that
-the tail criterion generalises to $(\ast\ast)$ — which **implies**
+(Assumption 5) to discard the collapsed edge **only where
+$\beta\ge\big(\max\{g_\varpi,1-\delta_G\}\big)^{\sigma-1}$ makes it
+improper, and leaving it undischarged below that threshold** — where
+$\delta<\delta_G$ the face carries an admissible ray on which $z_t\to0$
+while $c_W$ diverges and $g_W\to g_\varpi\in(1-\delta_G,1-\delta)$, so
+that neither improperness nor a growth comparison excludes it — and its
+parts (iv)–(v) adding Proposition 6’s hypotheses; it proves no concavity
+of the payoff, establishing instead that Proposition 13(v)’s obstruction
+is coordinate-dependent, that the two free dates survive jointly, and
+that the tail criterion generalises to $(\ast\ast)$ — which **implies**
 $(\ast)$, so the joint route is strictly the harder one. Proposition
 15$'$ takes Proposition 15’s hypotheses and adds Assumption 4, which
 enters through its Step 1 alone, where $(\mathrm{A})$ is what puts
@@ -2300,21 +2301,22 @@ it as slack in the bound. Corollary 4 needs Theorem 4’s hypotheses with
 $\theta\in(0,1)$, evaluated from the rest point the profile induces, and
 is conditional in addition on joint concavity of $\ln N_{W,t}$ on $T$,
 which is proved nowhere; its reach from $T$ to the whole instrument box
-carries Proposition 15(i)’s disposal of the collapsed edge and so holds
-where $\delta\ge\delta_G$ only. What Computation 11 supplies is narrower
-than the hypothesis in two ways worth stating here rather than leaving
-to inference: it checks the per-date Hessian at the ten profiles of C.9
-and the Hessian of $\widetilde V_W$ on an $11\times11$ grid at three of
-them, and those cells are Computation 11’s own, not the cells at which
-Computation 1 reports its equilibria; and the grid is a sub-box of $T$,
-so it samples the set the hypothesis quantifies over and can refute it
-but never establish it. Proposition 16 and Corollary 5 need Assumptions
-1–3 and 5 with $\theta\in(0,1)$, $x_0,z_0>0$, $i>0$ and
-$\delta=\delta_G=1$; they discharge that hypothesis outright on that
-face and on no wider set, Computation 1’s cells not lying on it. Part
-(iv) of Proposition 13 proves the vacuity of $(\ast)$ there and *not*
-its date-wise clause, which does not follow from $\mathcal{G}''=0$ and
-is Proposition 16’s.
+carries Proposition 15(i)’s disposal of the collapsed edge, and so holds
+at $\delta_G=1$, and at $\delta_G<1$ only where
+$\beta\ge\big(\max\{g_\varpi,1-\delta_G\}\big)^{\sigma-1}$. What
+Computation 11 supplies is narrower than the hypothesis in two ways
+worth stating here rather than leaving to inference: it checks the
+per-date Hessian at the ten profiles of C.9 and the Hessian of
+$\widetilde V_W$ on an $11\times11$ grid at three of them, and those
+cells are Computation 11’s own, not the cells at which Computation 1
+reports its equilibria; and the grid is a sub-box of $T$, so it samples
+the set the hypothesis quantifies over and can refute it but never
+establish it. Proposition 16 and Corollary 5 need Assumptions 1–3 and 5
+with $\theta\in(0,1)$, $x_0,z_0>0$, $i>0$ and $\delta=\delta_G=1$; they
+discharge that hypothesis outright on that face and on no wider set,
+Computation 1’s cells not lying on it. Part (iv) of Proposition 13
+proves the vacuity of $(\ast)$ there and *not* its date-wise clause,
+which does not follow from $\mathcal{G}''=0$ and is Proposition 16’s.
 
 Everything else — the equilibrium levels, every sweep verdict, every
 priced deviation and every count — is computational. These establish
