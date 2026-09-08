@@ -2349,8 +2349,14 @@ line. It needs Assumptions 1–2 with $\theta\in(0,1)$,
 $\delta=\delta_G\in(0,1)$, $i>0$, $\tau\le\bar\tau<1$ and $x_0,z_0>0$,
 and nothing else; the contraction it turns on is Lemma 3’s $D\in(0,1)$,
 which is Assumption 2’s $\gamma<1$, so no hypothesis is added anywhere.
-⚠ What remains undischarged on the diagonal is the **disposal** of the
-face above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof
+⭕ It also **removes** one, and the direction is worth naming: where
+$\delta<\delta_G$ Proposition 17 must assume the path reaches the ray,
+which is the one place it leans on a property of the path rather than of
+the primitives, whereas on the diagonal $x_t\to\infty$ and $z_t\to0$ are
+*conclusions* of Proposition 17$'$, proved from the primitives alone.
+The stratum that is hardest for the disposal is the easiest for the
+path. ⚠ What remains undischarged on the diagonal is the **disposal** of
+the face above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof
 sharpens and does not narrow. The case exclusion never depended on the
 exponent’s exact value, only on the factor being polynomial rather than
 constant. Proposition 17 itself is proved on its stated domain, and its
@@ -2686,13 +2692,22 @@ simulation of the raw face to $2\times10^{-14}$ at seven cells, the
 increment of $\ln\Pi_t-t\ln(1-\delta)$ per decade agrees with
 $\mathcal{C}$ to $6\times10^{-5}$ over $[10^{6},10^{7}]$, and a positive
 control confirms that an exponent wrong by two per cent fails to
-converge at all. The exponent is reached a second way, from a scaling
-ansatz that shares no step with the first: $x_t\sim t^{1/(1-\alpha)}$ is
-what the capital law admits, $\ln g_{W,t}$ has a finite limit only if
-$\theta\alpha$ times that exponent equals $(1-\theta)$ times the decay
-exponent of $z$, and $\Pi_t=z_0(1-\delta)^{t}/z_t$ then makes
-$\mathcal{C}$ the rate at which provision per worker falls. The two
-exponents, measured separately, satisfy that cancellation to $10^{-5}$.
+converge at all. The exponent is reached a second way, by a scaling
+ansatz: $x_t\sim t^{1/(1-\alpha)}$ is what the capital law admits,
+$\ln g_{W,t}$ has a finite limit only if $\theta\alpha$ times that
+exponent equals $(1-\theta)$ times the decay exponent of $z$, and
+$\Pi_t=z_0(1-\delta)^{t}/z_t$ then makes $\mathcal{C}$ the rate at which
+public provision per worker falls — a reading of the exponent the first
+derivation does not produce. ⚠ Of that route’s two balances only the
+**first** discriminates, and the certificate says so against itself. The
+cancellation is equivalent to the growth factor settling, so it holds
+off the diagonal as well, where the exponent law is false: at
+$(\delta,\delta_G)=(0.30,0.55)$ it holds with a capital exponent of
+$1.4\times10^{5}$ against the $1.49$ the diagonal requires. It is
+therefore reported as an identity and **not** offered as corroboration.
+What is checked is the capital exponent, which matches $1/(1-\alpha)$ to
+$10^{-4}$ on the diagonal and misses it by five orders of magnitude off
+it.
 
 The claim that Theorem 3’s fixed point is the same object the grid
 computation reaches is checked separately and directly, because the two
