@@ -65,9 +65,10 @@ weighted geometric mean of the two stocks’ survival factors — weights
 supplied by the production and reproduction elasticities, and no
 instrument entering at all. The bound holds under every path of taxes,
 spending splits and reinvestment rates, including paths outside the
-class of constant shares and paths nobody would choose, and the rate is
-exactly the infimum of worker growth over the whole instrument box. The
-owner has no counterpart: his own consumption share can be driven to
+class of constant shares and paths nobody would choose; and where
+capital outlives the public stock it is not merely a bound but the exact
+infimum, attained on the one configuration that funds nothing at all.
+The owner has no counterpart: his own consumption share can be driven to
 zero on the same box. Two things follow. The worker’s convergence
 condition stops being a restriction on play and becomes a restriction on
 parameters; and the configuration that funds nothing and hands the whole
@@ -7435,11 +7436,16 @@ is finite there, and the crossing argument has nothing left to push
 against: on the diagonal, at a curvature that high, the disposal of the
 collapsed face is undischarged for every discount factor rather than
 only for small ones. The exponent in (41) is obtained from an asymptotic
-balance rather than from a completed proof, and it was checked at five
-parameter vectors, where the fitted exponent matches it to between
-$8\times10^{-5}$ and $2\times10^{-2}$; the convergence it predicts flips
-at the stated threshold and not elsewhere. That is a computation, and it
-can refute the exponent but not establish it.
+balance rather than from a completed proof. It was checked two ways.
+Fitting the exponent directly over five parameter vectors matches it to
+between $8\times10^{-5}$ and $2\times10^{-2}$; reading instead the
+increment of $\ln\Pi_t-t\ln(1-\delta)$ per decade of $t$ — which a
+polynomial factor holds constant at $\mathcal{C}\ln10$ and a geometric
+one does not — matches to $5\times10^{-5}$, and separates the diagonal
+from its neighbours by six orders of magnitude rather than by a
+threshold. The convergence the exponent predicts flips where it says and
+nowhere else. All of that is computation: it can refute the exponent and
+cannot establish it.
 
 The economics of that crossing is worth separating from its proof. The
 collapsed face is the configuration in which the whole receipt is handed
@@ -8160,6 +8166,27 @@ closed form. So the wedge that separates reproduction from private
 consumption in Theorem 1 is the wedge that unsettles the direction here.
 What equal reproduction forecloses is a difference in condition, not a
 difference in number.
+
+Labour is paid its marginal product before the state acts on the
+remainder. That one fact, with the two stocks’ own survival rates, puts
+a floor under the growth of the workforce that no configuration of tax,
+split and reinvestment can breach — at every date, from any interior
+start, and along instrument paths that need not be constant, need not be
+optimal, and need not be anyone’s best reply (Lemma 3). The floor is a
+weighted geometric mean of the two survival factors, carrying the
+production and reproduction elasticities and no instrument at all; where
+capital outlives the public stock it is not merely a bound but exactly
+attained, and attained by the configuration that funds nothing. Two
+things follow. The worker’s convergence condition stops being a
+restriction on what may be played and becomes a restriction on
+parameters, so that below one number assembled from the technology his
+side of the model is proper whatever anyone does (Corollary 6). And the
+owner has no counterpart, his own consumption share having infimum zero
+on the same box: the class whose reproduction the technology secures is
+not the class that owns it. Read beside the marginal valuation of
+Section 6, that is the same conclusion reached twice from opposite
+directions — once through the owner’s optimisation, and once without
+consulting it at all.
 
 That yields the model’s sharpest statement about what fixes those
 conditions, and it is a result here rather than a premise. What carries
