@@ -7202,9 +7202,13 @@ because $\partial_\tau\widetilde V_W=-\partial_\varpi\widetilde V_W$
 there and $\partial_\varpi\widetilde V_W\ge0$ is what puts the split at
 its corner. The profile is therefore the worker’s global best reply over
 $T$, and his clause of Definition 1 closes — on that hypothesis, and on
-Proposition 15(i)’s disposal of the collapsed edge, which reaches the
-whole instrument box where $\delta\ge\delta_G$ and is open where
-$\delta<\delta_G$.*
+Proposition 15(i)’s disposal of the collapsed edge. That disposal
+reaches the whole instrument box at $\delta_G=1$, and at $\delta_G<1$
+exactly where
+$\beta\ge\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$ makes the
+edge improper — the maximum being the edge’s own limiting growth factor
+in either regime. Below that threshold the comparison with $\varpi=0$ is
+undischarged.*
 
 The joint condition is *not* proved. It requires the date-wise
 sufficient hypothesis of Theorem 7, with the same two free dates and
