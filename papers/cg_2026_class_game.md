@@ -7531,18 +7531,21 @@ $H_t=\ln\Pi_t-t\ln g_\varpi$ in place of $h_t$ the first line is
 unchanged and the second gains one term:
 $$H_{t+1}=(1-D)H_t+\gamma\theta\alpha\,w_t+\mathcal{B}_\varpi , \qquad
   \ln x_t=w_t-H_t+ct , \qquad
-  c=\frac{\gamma(1-\theta)}{D}\,\ln\frac{1-\delta}{1-\delta_G} , \tag{44}$$
+  c=\frac{\gamma(1-\theta)}{D}\,\ln\frac{1-\delta}{1-\delta_G}=\ln\frac{1-\delta}{g_\varpi} , \tag{44}$$
 where $\mathcal{B}_\varpi$ is $\mathcal{B}$ with $\ln g_\varpi$ in place
-of $\ln(1-\delta)$, so that the two coincide on the diagonal. **The
-whole face is governed by the sign of $c$**, and the three cases
+of $\ln(1-\delta)$, so that the two coincide on the diagonal. The second
+form of $c$ is the one to read: it is the sentence above — capital per
+worker rises at $(1-\delta)/g_W$ — with the limiting factor put in.
+**The whole face is governed by the sign of $c$**, and the three cases
 Proposition 15(i) reaches by three separate arguments are its three
-signs.
+signs; $c>0$ is $g_\varpi<1-\delta$, which is $(\varpi)$’s own existence
+condition for the ray.
 
 **Proposition 17$''$ (the ray is reached from every start, and at a rate
 the primitives name).** *Let Proposition 17$'$’s hypotheses hold except
-that $\delta<\delta_G$. Then from every start with $x_0,z_0>0$ the
-sequence $w_t$ converges, $\ln x_t-ct$ converges, and
-$g_{W,t}\to g_\varpi$. In particular $x_t\to\infty$ geometrically at
+that $\delta<\delta_G$, both still in $(0,1)$. Then from every start
+with $x_0,z_0>0$ the sequence $w_t$ converges, $\ln x_t-ct$ converges,
+and $g_{W,t}\to g_\varpi$. In particular $x_t\to\infty$ geometrically at
 rate $c$.*
 
 *Proof.* The first line of (44) is the first line of (43), so
