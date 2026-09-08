@@ -7493,10 +7493,18 @@ $x_t\to\infty$; the increments then vanish and $e_t\to0$ with them,
 which is $z_t\to0$. *Third*, with $\nu=(1-\alpha)\gamma(1-\theta)/D$ and
 $R_t=\psi e^{(1-\alpha)\mathcal{B}/D}e^{-\nu w_t}$, the second line
 reads $R_{t+1}=R_t\big(1+R_te^{(1-\alpha)e_t}\big)^{-\nu}$, so
-$1/R_{t+1}-1/R_t=\nu+O(R_t)$ and $1/R_t=\nu t+O(\ln t)$: the increments
-of $w$ are $1/(\nu t)+O(\ln t/t^{2})$. *Fourth*, that error is summable,
-so $w_t=\nu^{-1}\ln t+\text{const}+o(1)$ and the first line carries it
-to $h_t=\gamma\theta\alpha(D\nu)^{-1}\ln t+\text{const}+o(1)$. The
+$1/R_{t+1}-1/R_t=\nu e^{(1-\alpha)e_t}+O(R_t)$, which is read **twice**.
+Because $e_t\to0$ the right-hand side eventually lies in a compact
+subinterval of $(0,\infty)$, so $1/R_t\asymp t$ and $R_t\asymp1/t$; the
+displayed contraction then presents $e_t$ as a geometrically weighted
+average of increments that are $O(1/s)$, whence $e_t=O(1/t)=O(R_t)$. Fed
+back, the same line is $1/R_{t+1}-1/R_t=\nu+O(R_t)$ and
+$1/R_t=\nu t+O(\ln t)$: the increments of $w$ are
+$1/(\nu t)+O(\ln t/t^{2})$. The two readings are not interchangeable —
+the second needs a rate for $e_t$ that only the first supplies.
+*Fourth*, that error is summable, so
+$w_t=\nu^{-1}\ln t+\text{const}+o(1)$ and the first line carries it to
+$h_t=\gamma\theta\alpha(D\nu)^{-1}\ln t+\text{const}+o(1)$. The
 coefficient is $\gamma\theta\alpha/[(1-\alpha)\gamma(1-\theta)]$;
 $\gamma$ cancels, and what is left is $\mathcal{C}$. $\blacksquare$
 
