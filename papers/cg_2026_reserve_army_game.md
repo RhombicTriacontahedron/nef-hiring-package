@@ -543,8 +543,14 @@ The same substitution handles labour where its own ceiling binds. What
 the substitution does not buy is sufficiency: with $\bar e$ a function
 of the state the game is no longer linear-state, Section 4’s direct
 verification does not extend, and **Markov perfection is not claimed in
-the regime**. Nor are non-stationary paths characterised. Both are
-recorded in Appendix B.
+the regime**. Nor are non-stationary paths characterised. **And one
+scope line matters throughout: Propositions 8 to 11 characterise the
+compromise subsystem in $(s,\omega)$ at a given employment rate.** A
+full rest point of the canonical system requires $\dot x = 0$ as well,
+which pins $v$ and feeds $\bar e(v)$ back into the conditions; that the
+three equations admit a common solution inside the state space is not
+proved here for general primitives. All three are recorded in Appendix
+B.
 
 **Proposition 7 (the regime’s shadow prices, and where the separation
 breaks).** Write $P_i \equiv (1-c)p^i_x + c\,p^i_y$ for the price class
@@ -581,8 +587,14 @@ property of the equilibrium concept, not of the economics, and Section
 7’s warning is where it is priced.
 
 **Proposition 8 (the fold at any pair of effective prices).** Suppose
-labour’s share is interior. Then the two stationary conditions reduce to
-$$
+labour’s share is interior, and that neither effective price depends on
+the accumulation share — as neither does in the core, where the costates
+are constant, nor in the regime, where $\Gamma$ depends on the state and
+not on $s$. The hypothesis is load-bearing and not decorative: at
+labour’s own ceiling its effective price *does* depend on $s$, which is
+why Proposition 11 proves uniqueness directly instead of invoking this
+one. Then, at a given employment rate, the two stationary conditions
+reduce to $$
 \bar e\,s^2 - s\,(\bar e + Q_W - Q_C) + Q_W = 0 ,
 $$ which has two roots in $(0,1)$, both satisfying
 $\omega = Q_W/s < \bar e$, if and only if $$
@@ -612,11 +624,12 @@ $$ The last two coefficients are negative on the whole domain, so the
 first decides, and the dichotomy is sharp:
 
 - if $\rho\,(1-c)\,\zeta < (1+\lambda)(\rho+b)$, there is a unique
-  threshold $\bar e_{\text{f}}$, and an interior stationary compromise
-  exists exactly where the extractable day exceeds it — two compromises,
-  as in the core;
+  threshold $\bar e_{\text{f}}$, and the compromise subsystem at that
+  employment rate has two interior solutions exactly where the
+  extractable day exceeds it — two compromises, as in the core;
 - if $\rho\,(1-c)\,\zeta \ge (1+\lambda)(\rho+b)$, **no extractable day
-  whatever admits one**: the quadratic is negative at every $T > 0$.
+  whatever admits one, at any employment rate**: the quadratic is
+  negative at every $T > 0$.
 
 At $\zeta = 0$ the threshold is Proposition 4’s.
 
@@ -668,9 +681,16 @@ $\eta$ effects cancel identically at $a_W = 1$. For an insider
 organisation, $a_W = 0$, they do not cancel and the threshold moves.
 Below $\hat v$ labour has no interior condition, only capital optimises,
 and capital’s stationary condition is linear in $s$ once $\omega$ is
-pinned, so the compromise is unique and closed-form: $$
+pinned, so there is **at most one** compromise, and it is closed-form:
+$$
 s \;=\; 1 - \frac{\rho\,(\kappa+\Gamma)}{(1+\lambda)\,\big(\bar e(v) - \bar\omega(v)\big)} .
-$$ There is no fold below $\hat v$.
+$$ This root always satisfies $s < 1$, since the subtracted term is
+positive; it satisfies $s > 0$, and so is a compromise at all, if and
+only if $$
+(1+\lambda)\,\big(\bar e(v) - \bar\omega(v)\big) \;>\; \rho\,(\kappa+\Gamma) .
+$$ Below that inequality there is no interior compromise beneath
+$\hat v$ either. There is no fold below $\hat v$: the count there is one
+or none, never two.
 
 In words, the multiplicity is a property of the regime in which the
 bargain sets the wage, not of the one in which the unemployment pool
@@ -683,9 +703,9 @@ between them is the one the core’s own costate draws — a coincidence
 that had to be checked rather than assumed, because labour’s costate at
 its ceiling is genuinely different.
 
-**Corollary (the persistence locus in the regime).** Along the regime’s
-stationary locus the accumulation rate at a given share is Proposition
-5$'$’s multiplied by $1 + \Gamma/\kappa$, $$
+**Corollary to Proposition 11 (the persistence locus in the regime).**
+Along the regime’s stationary locus the accumulation rate at a given
+share is Proposition 5$'$’s multiplied by $1 + \Gamma/\kappa$, $$
 A \;=\; \frac{\rho\,s\,(\kappa+\Gamma)}{\kappa\,(1+\lambda)\,(1-s)} \;>\; \frac{\rho\,s}{(1+\lambda)(1-s)} ,
 $$ so at any given accumulation share the regime accumulates *faster*
 than the core, and Proposition 5’s persistence inequality is
@@ -772,7 +792,14 @@ preferences at all: ceilings that move with the unemployment pool break
 the separation through the action set, with the payoff weights left
 exactly as Proposition 2 assumes them. The theorem is narrower than its
 statement makes it look. It needs constant ceilings as much as it needs
-equal weights, and only the second of the two is on display.
+equal weights, and only the second of the two is on display. And the
+index $a_W$ now carries more than it did in the core. There it moved one
+shadow price. In the regime it also moves the employment rate at which
+the unemployment pool begins to discipline the wage, because Proposition
+11’s cancellation is a fact about $a_W = 1$ and fails at $a_W = 0$.
+Whether a labour organisation counts the unemployed among its own is
+therefore no longer only a question about preferences: it decides where
+the two halves of the mechanism meet.
 
 # 8. Placement, by one primitive each
 
@@ -1066,17 +1093,24 @@ structure, and it is declared as one rather than defended as economics.
 Labour’s interior condition $1/\omega = sP_W/\kappa$ gives
 $\omega = Q_W/s$; capital’s gives $(1-s)(\bar e - \omega) = Q_C$.
 Eliminating $\omega$ and multiplying by $s > 0$ gives
-$f(s) \equiv \bar e s^2 - s(\bar e + Q_W - Q_C) + Q_W = 0$. Its
-discriminant $(\bar e + Q_W - Q_C)^2 - 4\bar e Q_W$ is a convex
-quadratic in $\bar e$ with zeros $(\sqrt{Q_W} \pm \sqrt{Q_C})^2$, so the
-roots are real above the larger zero and below the smaller one, and
-complex between them. Above the larger zero: $f(0) = Q_W > 0$ and
-$f(1) = Q_C > 0$, and the vertex $(\bar e + Q_W - Q_C)/(2\bar e)$ lies
-in $(0,1)$ because $\bar e > (\sqrt{Q_W}+\sqrt{Q_C})^2 > |Q_W - Q_C|$;
-hence both roots lie in $(0,1)$. Further,
-$f(Q_W/\bar e) = Q_WQ_C/\bar e > 0$, and $Q_W/\bar e$ lies to the left
-of the vertex exactly when $Q_W + Q_C < \bar e$, which the fold implies
-since $(\sqrt{Q_W}+\sqrt{Q_C})^2 = Q_W + Q_C + 2\sqrt{Q_WQ_C}$; so
+$f(s) \equiv \bar e s^2 - s(\bar e + Q_W - Q_C) + Q_W = 0$. That last
+step is where the hypothesis in the statement is spent: if either price
+carried a dependence on $s$, the elimination would not be a polynomial
+in $s$ and there would be no discriminant to argue from. In the core the
+costates are constant; in the regime
+$Q_C = \rho(\kappa+\Gamma)/(1+\lambda)$ with $\Gamma$ a function of the
+state alone, so the hypothesis holds in both, and it fails at labour’s
+own ceiling, where A.11’s $\delta$ carries $s$. Its discriminant
+$(\bar e + Q_W - Q_C)^2 - 4\bar e Q_W$ is a convex quadratic in $\bar e$
+with zeros $(\sqrt{Q_W} \pm \sqrt{Q_C})^2$, so the roots are real above
+the larger zero and below the smaller one, and complex between them.
+Above the larger zero: $f(0) = Q_W > 0$ and $f(1) = Q_C > 0$, and the
+vertex $(\bar e + Q_W - Q_C)/(2\bar e)$ lies in $(0,1)$ because
+$\bar e > (\sqrt{Q_W}+\sqrt{Q_C})^2 > |Q_W - Q_C|$; hence both roots lie
+in $(0,1)$. Further, $f(Q_W/\bar e) = Q_WQ_C/\bar e > 0$, and
+$Q_W/\bar e$ lies to the left of the vertex exactly when
+$Q_W + Q_C < \bar e$, which the fold implies since
+$(\sqrt{Q_W}+\sqrt{Q_C})^2 = Q_W + Q_C + 2\sqrt{Q_WQ_C}$; so
 $Q_W/\bar e$ lies left of both roots and $\omega = Q_W/s < \bar e$ at
 each. Below the smaller zero,
 $\bar e < (\sqrt{Q_W}-\sqrt{Q_C})^2 \le Q_W + Q_C$, so $Q_W/\bar e$ lies
@@ -1141,11 +1175,18 @@ shadow price by exactly the amount that leaves the comparison unchanged.
 At $a_W = 0$ the same computation gives a different multiplier on
 $\bar\omega s$ and the threshold moves.
 
-*Uniqueness.* Below $\hat v$, $\omega$ is pinned at $\bar\omega(v)$ and
-capital’s stationary condition
+*Uniqueness, and the interiority it needs.* Below $\hat v$, $\omega$ is
+pinned at $\bar\omega(v)$ and capital’s stationary condition
 $(1-s)(\bar e(v) - \bar\omega(v)) = \rho(\kappa+\Gamma)/(1+\lambda)$ is
 linear in $s$, since $\Gamma$ depends on the state and not on $s$;
-solving gives the displayed root, which is the only one.
+solving gives the displayed root, which is the only one. It is a
+compromise only where it is interior:
+$1 - s = \rho(\kappa+\Gamma)/[(1+\lambda)(\bar e - \bar\omega)] > 0$
+always, so $s < 1$; and $s > 0$ iff
+$(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$, which fails as
+$\bar\omega(v)$ approaches $\bar e(v)$. Hence *at most one*, not
+*exactly one* — the same admissibility separation A.4 makes for the
+core’s two roots.
 
 *Corollary.* $A \equiv s(\bar e - \omega)/\kappa$ and
 $\bar e - \omega = \rho(\kappa+\Gamma)/((1+\lambda)(1-s))$ give
@@ -1156,8 +1197,9 @@ $A(s)$ times $1 + \Gamma/\kappa > 1$.
 
 Every identity in A.1–A.6, the sign in A.3, the drift identity of
 Section 5, the non-emptiness of the hypothesis set of Propositions 3–5
-under persistence, and the witnesses of the Corollary are checked
-symbolically, with controls that must fail on a wrong object, in
+under persistence, and the witnesses of the Corollary to Proposition
+5$'$ are checked symbolically, with controls that must fail on a wrong
+object, in
 `models/reserve_army_game/day0_stationary_locus_and_regimes_2026_09_08_8e8a87f3.py`.
 The fold of A.4 for every $\lambda$, the admissibility of the roots
 above it and their inadmissibility below it, the equality of capital’s
@@ -1197,7 +1239,16 @@ large extractable day does not always create a compromise. Its controls
 include the one that matters most here — that substituting $\bar e(x)$
 into *labour’s* Hamiltonian moves labour’s costate off $1/\rho$, so the
 asymmetry of A.7 is a fact about the information structure and not an
-algebra slip.
+algebra slip. Three further checks were added by the review of this
+section rather than by its construction, and each repaired the statement
+above it: that A.8’s reduction is not a polynomial at all once an
+effective price depends on the accumulation share, so the hypothesis is
+load-bearing; that A.11’s root is interior only under the inequality now
+stated there, with a cell on each side of it; and that the two
+identities the section rests on survive a change of coordinates in which
+$0 < s < 1$ and $0 < \omega < \bar e$ hold by construction rather than
+by declaration, which is the branch-cut exposure the repository’s
+instrument gate flags for this encoding.
 
 Every such `unsat` is a proof, not a sample. Each file prints its own
 check and control counts and exits non-zero on any failure. The
@@ -1215,18 +1266,19 @@ witnesses are witnesses and prove nothing universal.
 | Prop. 4$''$ | all three of Proposition 5$'$’s cases now separated: the split case proved (finite hitting time; sustainable set non-trivial by continuity in the duty cycle), and the case $\hat s_c \le s_-$ recorded as carrying NO welfare comparison at all | whether the Pareto supremum over sustainable schedules is attained is UNDISCHARGED; a boundary law would restore a comparison in both non-persisting cases |
 | Prop. 5 | proved under continuity, strict monotonicity and range inclusion of $m$ | — |
 | Prop. 5$'$ | proved | — |
-| Corollary | witnesses of two of the three cases; the third proved at $m_0 = n = 0$ | — |
+| Corollary to Proposition 5$'$ (the cases are realised) | witnesses of two of the three cases; the third proved at $m_0 = n = 0$ | — |
 | Prop. 6 | proved | — |
 | Selection among the equilibria | UNDISCHARGED; dominance now covers the whole set where the accumulationist compromise persists, so payoff dominance is decisive there if it is accepted as a refinement, but the model contains no adjustment process; in the split case selection is over sustainable schedules and is open | an adjustment process, or a boundary law that restores the infinite-horizon comparison |
 | Continuation at full employment | UNDISCHARGED, outside the core | a boundary law |
 | Prop. 7 | proved at the rest points of the canonical system; the corner is derived, and substituting it is shown equivalent to the mixed-constraint Lagrangian route | a feedback information structure, under which labour’s costate also carries $\zeta$ |
-| Prop. 8 | proved for any pair of effective prices $Q_W, Q_C > 0$, with root location and admissibility; Proposition 4 is its core specialisation | — |
+| Prop. 8 | proved for any pair of effective prices $Q_W, Q_C > 0$ **that do not depend on the accumulation share**, with root location and admissibility; Proposition 4 is its core specialisation. The hypothesis binds: it fails at labour’s own ceiling, which is why Proposition 11 argues directly | — |
 | Prop. 9 | proved, both branches; the branch with no admissible extractable day is an `unsat` over the domain, not a sample | — |
 | Prop. 10 | proved: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly | — |
-| Prop. 11 | proved: the threshold $\hat v$ is unmoved at $a_W = 1$ and the compromise below it is unique | the insider case $a_W = 0$, where the threshold moves, is not solved |
+| Prop. 11 | proved: the threshold $\hat v$ is unmoved at $a_W = 1$, and below it there is **at most one** compromise, interior exactly where $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ | the insider case $a_W = 0$, where the threshold moves, is not solved |
+| Corollary to Proposition 11 (the regime’s persistence locus) | proved (identity): $A$ is Proposition 5$'$’s locus times $1 + \Gamma/\kappa$ | — |
 | Section 6 regime, stationary layer | PROVED (Props. 7–11 and the Corollary): the shadow prices, the general fold, the existence dichotomy, the boundary $v_{\text{f}}$ and uniqueness below $\hat v$ | — |
 | Section 6 regime, non-stationary paths | UNDISCHARGED. The reduced problem is no longer linear-state, so Section 4’s direct verification does not extend and **Markov perfection is not claimed in the regime**; sufficiency of the first-order conditions there is also open | a verification argument for a non-linear-state value function, or a restriction to a class where one exists |
-| Existence of a regime rest point | UNDISCHARGED. Propositions 7–11 characterise rest points; that the three stationarity conditions in $(s, \omega, v)$ admit a common solution inside the state space is not proved for general primitives | the fixed-point argument, or a parameter class where it is explicit |
+| Existence of a regime rest point | UNDISCHARGED. Propositions 8–11 characterise the compromise subsystem in $(s,\omega)$ **at a given employment rate**; a full rest point needs $\dot x = 0$ too, and that the three equations admit a common solution inside the state space is not proved for general primitives | the fixed-point argument, or a parameter class where it is explicit |
 | Section 6’s second self-undermining channel ($v_{\text{f}}$) | SETTLED, and one-sided: the conjecture substituted $\bar e(v)$ into a fold condition proved for constant $\bar e$; Proposition 10 shows the substitution gives a valid NECESSARY bound and Proposition 9 gives the true boundary, strictly below it | — |
 | Separation from Mehrling (1986) | witness grade, and partial. His instruments (wage level, investment level) and his payoffs (present values of consumption and profit) are established through Miebach (2011), a dissertation that restates his model; his own body is unobtainable. So the extraction margin and the objectives separate; the mechanisation law and the state do not | his body, or a second witness reporting his state variables and his supply side |
 | Dockner et al. (2000) §7.2 | read at source; the linear-state conditions (7.35)–(7.36) and the Markov-perfectness of open-loop equilibria are stated in the text, not as a numbered theorem; cited as placement, not used as a step | — |
