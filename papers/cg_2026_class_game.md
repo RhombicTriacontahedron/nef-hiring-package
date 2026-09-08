@@ -50,9 +50,9 @@ Underneath the fiscal contest sits a price nobody sets. The owner’s
 objective contains his own consumption and his owned capital, no term in
 the number of workers, and no altruism parameter. His own optimisation
 nonetheless returns a strictly positive marginal value of the workforce,
-in closed form, at every admissible constant-share rest point, at an
-elasticity equal to labour’s share — through the production function and
-the competitive wage rather than through anything he wants. The
+in closed form, at every admissible constant-share rest point, carrying
+labour’s share of output as its factor — through the production function
+and the competitive wage rather than through anything he wants. The
 persistence of the working class is thereby obtained as a condition of
 the accumulation of capital rather than imposed as one.
 
@@ -1500,8 +1500,8 @@ own optimisation returns, strictly positive under properness, and it
 enters his accumulation rule directly through (12). The two classes
 contest the tax, the split and the rate; underneath that contest, the
 owner’s problem prices the reproduction of the class he is contesting
-with, at an elasticity equal to labour’s share. Nothing in the objective
-put it there. The technology did.
+with, and labour’s share of output is the factor that scales that price.
+Nothing in the objective put it there. The technology did.
 
 With $\rho$ in hand the rate is explicit:
 $$i^\ast \;=\; \frac{\Lambda}{1+\Lambda}, \qquad
