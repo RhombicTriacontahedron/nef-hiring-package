@@ -2275,8 +2275,12 @@ condition is not proved. Lemma 2 is a standard fact about logarithms of
 positive affine functions and carries no model content. Proposition 15
 needs Assumptions 1–3 with $\theta\in(0,1)$ and a fixed start with
 $x_0,z_0>0$ and a rate $i>0$, its part (i) using admissibility
-(Assumption 5) to discard the collapsed edge and its parts (iv)–(v)
-adding Proposition 6’s hypotheses; it proves no concavity of the payoff,
+(Assumption 5) to discard the collapsed edge **where $\delta\ge\delta_G$
+and leaving it undischarged where $\delta<\delta_G$** — the face there
+carrying an admissible ray on which $z_t\to0$ while $c_W$ diverges and
+$g_W\to g_\varpi\in(1-\delta_G,1-\delta)$, so that neither improperness
+nor a growth comparison excludes it — and its parts (iv)–(v) adding
+Proposition 6’s hypotheses; it proves no concavity of the payoff,
 establishing instead that Proposition 13(v)’s obstruction is
 coordinate-dependent, that the two free dates survive jointly, and that
 the tail criterion generalises to $(\ast\ast)$ — which **implies**
@@ -2295,10 +2299,12 @@ is what sends the residue into the other coordinates rather than leaving
 it as slack in the bound. Corollary 4 needs Theorem 4’s hypotheses with
 $\theta\in(0,1)$, evaluated from the rest point the profile induces, and
 is conditional in addition on joint concavity of $\ln N_{W,t}$ on $T$,
-which is proved nowhere. What Computation 11 supplies is narrower than
-the hypothesis in two ways worth stating here rather than leaving to
-inference: it checks the per-date Hessian at the ten profiles of C.9 and
-the Hessian of $\widetilde V_W$ on an $11\times11$ grid at three of
+which is proved nowhere; its reach from $T$ to the whole instrument box
+carries Proposition 15(i)’s disposal of the collapsed edge and so holds
+where $\delta\ge\delta_G$ only. What Computation 11 supplies is narrower
+than the hypothesis in two ways worth stating here rather than leaving
+to inference: it checks the per-date Hessian at the ten profiles of C.9
+and the Hessian of $\widetilde V_W$ on an $11\times11$ grid at three of
 them, and those cells are Computation 11’s own, not the cells at which
 Computation 1 reports its equilibria; and the grid is a sub-box of $T$,
 so it samples the set the hypothesis quantifies over and can refute it
