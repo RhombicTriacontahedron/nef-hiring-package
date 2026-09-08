@@ -241,6 +241,35 @@ the text of their §7.2 and not as a numbered theorem, so it is cited as
 placement and verified directly here in Appendix A.3; nothing is lost by
 the open-loop restriction in the core.
 
+Section 6’s regime needs one addition to that definition, because there
+the action sets move with a state both classes drive. A wage path that
+raises employment lowers the extractable day, so a unilateral deviation
+by labour can carry capital’s committed path outside capital’s own
+feasible set. The two classes share a constraint, and the object is a
+*generalised* game in Debreu’s (1952) sense rather than a game with
+fixed action sets. The concept used throughout Section 6 is the natural
+restriction: a jointly feasible profile from which no unilateral
+deviation *that keeps the profile feasible* improves the deviator.
+Nothing in the regime’s results turns on that restriction biting —
+labour’s candidate maximises its problem over the larger set that
+ignores joint feasibility, and a maximiser over a larger set which is
+itself feasible maximises over every feasible subset containing it — but
+the concept must be named, because a different strategy space is a
+different theorem.
+
+Suppose capital committed instead to a *utilisation rate* $q \in [0,1]$,
+extracting $e = q\,\bar e(v)$. Its action set would then be fixed, and
+the game standard rather than generalised — but labour’s payoff would
+carry the state through capital’s extraction, giving
+$\partial U_W/\partial x = a_W + \theta\zeta e$ in place of $a_W$, and
+labour’s shadow price would acquire a term in $\zeta$. Proposition 7’s
+asymmetry — capital’s price answers to how the ceiling responds to
+employment and labour’s does not — is therefore a property of the
+strategy space as well as of the information structure, and the two
+spaces agree exactly when $\theta = 0$, the case in which labour is
+indifferent to effort. This paper takes the first: each class commits to
+a path of its own instrument, and feasibility is imposed on the pair.
+
 **Domain.** $\bar e \ge e > \omega > 0$ with
 $\bar\omega < e_{\text{lo}}$, $\kappa, \rho > 0$, $b \ge 0$,
 $\lambda, m_0, n, \theta \ge 0$, $v \in (0,1]$. Every statement below is
@@ -1120,6 +1149,14 @@ $p^W_x = (a_W\rho + b)/(\rho(\rho+b))$. Substituting $E(x)$ into
 labour’s Hamiltonian instead — the feedback error — moves it off that
 value. The asymmetry is therefore a property of the information
 structure, and it is declared as one rather than defended as economics.
+It is equally a property of the strategy space, in the sense §2 makes
+precise: under a utilisation-rate commitment $e = q\,E(x)$ the
+extraction is a function of the state even in open loop,
+$\partial U_W/\partial x = a_W - \theta E'(x) q = a_W + \theta\zeta e$,
+and labour’s price carries $\zeta$ after all. The two commitments
+coincide at $\theta = 0$ and differ everywhere else, which is why the
+paper names the one it uses rather than leaving “open-loop” to carry the
+distinction.
 
 ## A.8 Proposition 8.
 
@@ -1337,7 +1374,7 @@ witnesses are witnesses and prove nothing universal.
 | Prop. 6 | proved | — |
 | Selection among the equilibria | UNDISCHARGED; dominance now covers the whole set where the accumulationist compromise persists, so payoff dominance is decisive there if it is accepted as a refinement, but the model contains no adjustment process; in the split case selection is over sustainable schedules and is open | an adjustment process, or a boundary law that restores the infinite-horizon comparison |
 | Continuation at full employment | UNDISCHARGED, outside the core | a boundary law |
-| Prop. 7 | proved at the rest points of the canonical system; the corner is derived, and substituting it is shown equivalent to the mixed-constraint Lagrangian route | a feedback information structure, under which labour’s costate also carries $\zeta$ |
+| Prop. 7 | proved at the rest points of the canonical system; the corner is derived, and substituting it is shown equivalent to the mixed-constraint Lagrangian route. ⚠ The $\zeta$-free labour price is a property of the **strategy space** named in §2 — each class commits to a path of its own instrument under a joint feasibility restriction — and not of the open-loop information structure alone | a feedback information structure, under which labour’s costate also carries $\zeta$; and a utilisation-rate parameterisation $e = q\,\bar e(v)$, under which $\partial U_W/\partial x = a_W + \theta\zeta e$ and labour’s price carries $\zeta$ too. The two strategy spaces agree iff $\theta = 0$ |
 | Prop. 8 | proved for any pair of effective prices $Q_W, Q_C > 0$ **that do not depend on the accumulation share**, with root location and admissibility; Proposition 4 is its core specialisation. The hypothesis binds: it fails at labour’s own ceiling, which is why Proposition 11 argues directly. Below the smaller discriminant zero the roots are inadmissible for a reason that depends on the price ordering — $\omega > \bar e$ when $Q_W > Q_C$, and $s < 0$ when $Q_C > Q_W$ | — |
 | Prop. 9 | proved, both branches; the branch with no admissible extractable day is an `unsat` over the domain, not a sample. The second branch is proved in the stronger form: the same coefficient voids Prop. 11’s interiority for every $\bar\omega > 0$, so it empties the regime on both sides of $\hat v$ | — |
 | Prop. 10 | proved: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly. It bounds the *set* of employment rates carrying a stationary compromise; it is not a statement that a path crosses it | whether an equilibrium path reaches the boundary is the non-stationary question below |
@@ -1369,6 +1406,9 @@ Economic Perspectives* 7(1): 83–102.
 Cajas Guijarro, J. and L. Vera (2022). The macrodynamics of an
 endogenous business cycle model of Marxist inspiration. *Structural
 Change and Economic Dynamics* 62: 566–585.
+
+Debreu, G. (1952). A social equilibrium existence theorem. *Proceedings
+of the National Academy of Sciences* 38(10): 886–893.
 
 de Zeeuw, A. J. (1992). Note on ‘Nash and Stackelberg solutions in a
 differential game model of capitalism’. *Journal of Economic Dynamics
