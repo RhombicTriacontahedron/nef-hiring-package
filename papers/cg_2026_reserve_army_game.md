@@ -60,11 +60,12 @@ condition on the two classes’ effective prices, of which the core’s fold
 is one evaluation. Two conclusions do not survive the move. Raising the
 extractable day, which in the core creates two compromises at once,
 creates none at all once the ceiling responds sharply enough to
-employment — and past that threshold none anywhere in the regime,
-whether labour is bargaining or pinned to its ceiling; and where the
-unemployment pool is large enough to pin labour to its ceiling there is
-at most one compromise and never two, so the multiplicity itself belongs
-to the regime in which the bargain sets the wage and not to the economy.
+employment — and past that threshold no interior compromise anywhere in
+the regime, whether labour is bargaining or pinned to its ceiling; and
+where the unemployment pool is large enough to pin labour to its ceiling
+there is at most one compromise and never two, so the multiplicity
+itself belongs to the regime in which the bargain sets the wage and not
+to the economy.
 
 # 1. Introduction
 
@@ -644,9 +645,11 @@ $$ whose left side is non-positive exactly on the branch
 $\rho(1-c)\zeta \ge (1+\lambda)(\rho+b)$ while its right side is
 strictly positive for every $\bar\omega > 0$. Past that threshold,
 therefore, **no interior compromise exists at any employment rate,
-whether labour is bargaining or pinned to its own ceiling** — the
-economy has no class compromise anywhere in the regime, not merely none
-in the half of it where the bargain sets the wage.
+whether labour is bargaining or pinned to its own ceiling** — the regime
+has no interior compromise anywhere, not merely none in the half of it
+where the bargain sets the wage. Boundary equilibria, where one of
+labour’s wage bounds binds, are outside this statement as they are
+outside Proposition 4’s.
 
 In words, the core says that raising the extractable day past the fold
 creates two compromises at once. In the regime that comparative static
@@ -802,11 +805,11 @@ And it can reverse a comparative static: past a threshold in how sharply
 the extractable day responds to employment, raising that day creates no
 compromise at all where in the core it would create two — and none on
 either side of the line where the pool takes the wage out of the
-bargain, so past that threshold the economy has no class compromise
-anywhere in the regime. Below the employment rate at which the pool pins
-labour to its ceiling there is at most one compromise and never two, so
-even the multiplicity turns out to belong to the regime in which the
-bargain sets the wage, and not to the economy.
+bargain, so past that threshold the regime admits no interior compromise
+anywhere. Below the employment rate at which the pool pins labour to its
+ceiling there is at most one compromise and never two, so even the
+multiplicity turns out to belong to the regime in which the bargain sets
+the wage, and not to the economy.
 
 The warning is about how much weight the separation theorem can bear.
 Proposition 2 says a class that values its whole class is indifferent to
