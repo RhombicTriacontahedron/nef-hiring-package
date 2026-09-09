@@ -877,12 +877,26 @@ there $v_0 = 0.7544$, labour is pinned at $v = 1/5$ and again at
 $v = 0.732$, and bargains at $v = 1/2$ in between. ⭕ **The pinned rest
 point $v^\ast = 0.732$ of part (iii) is therefore in the upper
 component** — the cell’s own third stationary employment rate sits where
-the threshold reading said labour would be bargaining. ⚠ Three points
-establish the disconnection and nothing more: located crossings near
-$0.242$ and $0.701$ bound the bargaining band, but that the band is a
-**single** interval is the undischarged single-peakedness question
-below, so the two components are a lower bound on the count and not a
-description of the set.
+the threshold reading said labour would be bargaining. ⭕⭕ **And the
+count is exactly two.** $g$ is single-peaked on $(0,v_0)$, so
+$\{g > \kappa\rho\}$ is an interval and the pinned set is that
+interval’s complement: the bargaining band is one band and there are
+never three pinned components. Clearing $v^{\zeta}$ from both parts of
+the quotient and writing $\sigma = \eta+\zeta$,
+$N_v = \beta\hat e - \hat\omega v^{\sigma} - \rho\kappa v^{\zeta}/(1+\lambda)$
+and $D_v = \hat e - \hat\omega v^{\sigma}$, $$
+v\,\frac{\mathrm{d}\ln g}{\mathrm{d}v} \;=\; \eta \;-\; \frac{\sigma\hat\omega v^{\sigma}\bigl[(1-\beta)\hat e + \rho\kappa v^{\zeta}/(1+\lambda)\bigr]}{N_v D_v} \;-\; \frac{\zeta\rho\kappa v^{\zeta}/(1+\lambda)}{N_v} .
+$$ What makes that expression signable is the same subtraction as
+before: written the obvious way the elasticity carries a term in $1/D_v$
+that *rises* in $v$ against two that fall, and
+$N_v - D_v = -[(1-\beta)\hat e + \rho\kappa v^{\zeta}/(1+\lambda)]$
+merges them into one term with a positive, increasing numerator over a
+positive, decreasing denominator. Every factor is then monotone, so the
+whole is strictly decreasing; it starts at $\eta > 0$ and diverges to
+$-\infty$ as $N_v \to 0$, and crosses once. **The elasticity of the wage
+ceiling is what buys uniqueness** — the same primitive that makes the
+ceiling answer to the pool at all — and $\beta \le 1$ is what keeps the
+merged numerator positive.
 
 In words, the same observable — labour taking its ceiling rather than
 bargaining for a share — has two opposite causes in this model, and they
@@ -1793,10 +1807,39 @@ $v_0$, and is disconnected whenever $g$ exceeds $\kappa\rho$ between
 them — which is a **witness** question, settled at Proposition 13’s cell
 in A.13, and not a universal. Under $\hat\omega \le \kappa\rho$ the
 chain $g = \bar\omega s < \bar\omega \le \hat\omega \le \kappa\rho$
-closes it off, which is why Proposition 12 never meets it. ⚠ Whether the
-bargaining band is always a *single* interval — whether $g$ is
-single-peaked on $(0,v_0)$ — is **undischarged**, and nothing above
-needs it.
+closes it off, which is why Proposition 12 never meets it.
+*Single-peakedness.* Multiply $N$ and $\bar e - \bar\omega$ through by
+$v^{\zeta}$ to clear the negative power: with $\sigma = \eta+\zeta$,
+$m = \rho\kappa/(1+\lambda)$,
+$N_v = v^{\zeta}N = \beta\hat e - \hat\omega v^{\sigma} - m v^{\zeta}$
+and
+$D_v = v^{\zeta}(\bar e-\bar\omega) = \hat e - \hat\omega v^{\sigma}$,
+so that $g = \hat\omega v^{\eta}N_v/D_v$ and the branch is
+$\{N_v>0\} = (0,v_0)$, on which $D_v > N_v > 0$ by the same subtraction
+as above. Differentiating logarithmically and using
+$N_v - D_v = -[(1-\beta)\hat e + m v^{\zeta}]$ to merge the two
+reciprocals, $$
+v\,\frac{\mathrm{d}\ln g}{\mathrm{d}v} \;=\; \eta \;-\; \frac{\sigma\hat\omega v^{\sigma}\bigl[(1-\beta)\hat e + m v^{\zeta}\bigr]}{N_v D_v} \;-\; \frac{\zeta m v^{\zeta}}{N_v} .
+$$ That merge is what the argument turns on: taken separately the
+$1/D_v$ term *increases* in $v$ while the other two decrease, and no
+sign follows. Merged, the second term has numerator
+$\sigma\hat\omega v^{\sigma}[(1-\beta)\hat e + mv^{\zeta}]$ strictly
+positive and strictly increasing — positive because $\beta \le 1$ — over
+$N_vD_v$ strictly positive and strictly decreasing, since
+$N_v' = -(\sigma\hat\omega v^{\sigma-1} + \zeta m v^{\zeta-1}) < 0$ and
+$D_v' = -\sigma\hat\omega v^{\sigma-1} < 0$; and the third term is
+$v^{\zeta}$ increasing over $N_v$ decreasing. Both subtracted terms
+therefore increase, so the whole is **strictly decreasing** on
+$(0,v_0)$. At $v \to 0^+$ it tends to $\eta > 0$; at $v \to v_0^-$ the
+third term diverges because $N_v \to 0^+$ while
+$\zeta m v_0^{\zeta} > 0$, so it tends to $-\infty$. A strictly
+decreasing function running from $\eta$ to $-\infty$ vanishes exactly
+once, so $g$ has exactly one interior critical point and it is a
+maximum. Hence $\{g > \kappa\rho\}$ is an interval and the pinned set
+has **exactly two** components whenever it is disconnected. ⭕ The
+uniqueness is bought by $\eta > 0$, and it fails to be automatic without
+$\beta \le 1$: allowing $\beta > 1$ makes the merged numerator
+two-signed and the elasticity is then not monotone.
 
 *Corollary (the persistence locus).*
 $A \equiv s(\bar e - \omega)/\kappa$ and
@@ -2153,7 +2196,28 @@ $v_0$ — and not the rise of the ceiling — as its cause; that a perturbed
 $\beta$ breaks the identity; that replacing $N$ by a constant destroys
 the vanishing at $v_0$; and that a different cell returns a different
 shape, so the witness is about the parameters and not about the
-encoding. It reports 17 checks and 5 controls.
+encoding. It reports 17 checks and 5 controls. The single-peakedness
+that turns the two components from a lower bound into an exact count is
+checked in
+`models/reserve_army_game/pinned_region_exactly_two_2026_09_09_941d5543.py`.
+Its symbolic half is where the content is: the $v^{\zeta}$ clearing, the
+merge $N_v - D_v = -[(1-\beta)\hat e + m v^{\zeta}]$, the closed form of
+$v\,\mathrm{d}\ln g/\mathrm{d}v$ that merge produces, the sign of each
+of the three monotone factors, and the limit $\eta$ at the left end —
+all identities in the field of rational functions of
+$(v^{\sigma}, v^{\zeta})$, so none of them is sampled. Its numerical
+half confirms over $40{,}000$ admissible cells and is reported with its
+window: the first version of the sweep used a uniform grid and read $0$
+crossings on $29$ cells whose $v_0$ was as small as $10^{-12}$, where
+the crossing sat left of the first sample — never $\ge 2$ crossings
+anywhere, so the theorem was not in question and the grid was. On a
+logarithmic grid no cell is dropped, and the peak is located by
+bisecting the elasticity rather than by differencing $g$, because
+differencing missed a peak that fell between two samples on one cell
+where $\beta \to 1$ and $m \to 0$ push it against $v_0$. Its seeded
+fault is the hypothesis: allowing $\beta > 1$ makes the merged numerator
+two-signed, and a cell is exhibited on which the elasticity is not
+monotone.
 
 Every such `unsat` is a proof, not a sample. Each file prints its own
 check and control counts and exits non-zero on any failure. The
@@ -2180,7 +2244,7 @@ witnesses are witnesses and prove nothing universal.
 | Prop. 9 | proved, both branches; the branch with no admissible extractable day is an `unsat` over the domain, not a sample. The second branch is proved in the stronger form: the same coefficient voids Prop. 11’s interiority for every $\bar\omega > 0$, so it empties the regime on both sides of $\hat v$ | — |
 | Prop. 10 | proved **for the labour-interior half only**, and the scope is load-bearing: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly, for employment rates carrying a *bargained* stationary compromise. ⛔ The earlier statement quantified over every interior compromise and is **refuted with a witness** in the pinned half — $(\kappa,\rho,\lambda,c,b,\zeta,\eta,\hat\omega,\hat e; v) = (4,\tfrac14,0,0,\tfrac1{20},\tfrac12,1,\tfrac1{20},1;\tfrac15)$ gives a pinned interior compromise at $v = 0.2$ with $v_{\text{f}} = 1/16$ — because A.10’s route runs through Proposition 8, whose hypothesis fails at labour’s own ceiling. It is not a statement that a path crosses the bound either | whether an equilibrium path reaches the boundary is the non-stationary question below |
 | Prop. 11 | proved: the pinning condition $\bar\omega(v)s \le \kappa\rho$ is unmoved at $a_W = 1$, and where it holds there is **at most one** compromise, interior exactly where $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ — and *none at all* on Prop. 9’s second branch, where that inequality fails identically. ⛔ $\hat v$ **carries $s$**: the display is a joint condition, and the earlier reading of it as a threshold in the employment rate alone is **refuted with a witness** by the Corollary below | the insider case $a_W = 0$, where the condition moves, is not solved |
-| Corollary to Proposition 11 (the shape of the pinned region) | **proved** by an identity plus two limits, not by a sweep: $g \equiv \bar\omega s$ vanishes at both ends of $(0,v_0)$ and is strictly positive inside, so labour is pinned at both ends and the pinned set is disconnected wherever $g$ exceeds $\kappa\rho$ between them. ⭕ **Attained at Proposition 13’s own cell** by three exactly-evaluated points — pinned at $v=1/5$, bargaining at $v=1/2$, pinned again at $v=0.732$ — with that cell’s pinned rest point $v^\ast = 0.732$ in the **upper** component. Blocked by Prop. 12’s hypothesis via $g < \bar\omega \le \hat\omega \le \kappa\rho$, so no earlier result is disturbed | ⚠ whether the bargaining band is a **single** interval — single-peakedness of $g$ on $(0,v_0)$ — is UNDISCHARGED and is not used; the two components are a LOWER bound on the count, not a description of the set |
+| Corollary to Proposition 11 (the shape of the pinned region) | **proved** by an identity plus two limits, not by a sweep: $g \equiv \bar\omega s$ vanishes at both ends of $(0,v_0)$ and is strictly positive inside, so labour is pinned at both ends and the pinned set is disconnected wherever $g$ exceeds $\kappa\rho$ between them. ⭕ **Attained at Proposition 13’s own cell** by three exactly-evaluated points — pinned at $v=1/5$, bargaining at $v=1/2$, pinned again at $v=0.732$ — with that cell’s pinned rest point $v^\ast = 0.732$ in the **upper** component. Blocked by Prop. 12’s hypothesis via $g < \bar\omega \le \hat\omega \le \kappa\rho$, so no earlier result is disturbed | ⭕ single-peakedness of $g$ on $(0,v_0)$ is now **proved**, so the count is EXACTLY two and not a lower bound: $v\,\mathrm{d}\ln g/\mathrm{d}v$ is strictly decreasing from $\eta>0$ to $-\infty$, by the merge $N_v-D_v=-[(1-\beta)\hat e + mv^{\zeta}]$ that turns a rising $1/D_v$ term and two falling ones into three monotone factors. Certificate `models/reserve_army_game/pinned_region_exactly_two_2026_09_09_941d5543.py`: identities symbolic, 40,000 cells confirming with 0 dropped, and a seeded fault that fires when $\beta\le1$ is dropped |
 | Corollary to Proposition 11 (the regime’s persistence locus) | proved (identity): $A$ is Proposition 5$'$’s locus times $1 + \Gamma/\kappa$ | — |
 | Section 6 regime, stationary layer | PROVED (Props. 7–12 and the two Corollaries): the shadow prices, the general fold and the rate at it, the existence dichotomy, the boundary $v_{\text{f}}$ **for the bargained half**, uniqueness below $\hat v$, and — in the reserve-army class — the stationary employment rate itself | — |
 | Section 6 regime, non-stationary paths | UNDISCHARGED. The reduced problem is no longer linear-state, so Section 4’s direct verification does not extend and **Markov perfection is not claimed in the regime**; sufficiency of the first-order conditions there is also open | a verification argument for a non-linear-state value function, or a restriction to a class where one exists |
