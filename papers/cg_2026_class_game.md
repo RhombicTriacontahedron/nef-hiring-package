@@ -4864,13 +4864,13 @@ the one a reader of national accounts already has. The margin
 $\alpha\theta\tau-(1-\alpha)(1-\theta)$ rises in the capital share at
 $\theta\tau+(1-\theta)>0$, so the fold is easier to enter the thinner
 labour’s share — the same quantity, and for the same reason, that pushes
-$\varpi^{\circ}$ down into the instrument box. An economy in which
-labour’s share has fallen is one whose growth-maximising state builds a
-smaller fraction of a given receipt, and one whose published total tells
-a reader less about what it did with it. The two consequences are not
-independent: both come from $\kappa_W$ starting at $1-\alpha$, so that
-every unit diverted from a thinner wage costs more reproduction than the
-same unit cost before.
+the growth peak $\phi_g$ down into the instrument box, at
+$-(1-\theta)/(\alpha^{2}\tau)$. An economy in which labour’s share has
+fallen is one whose growth-maximising state builds a smaller fraction of
+a given receipt, and one whose published total tells a reader less about
+what it did with it. The two consequences are not independent: both come
+from $\kappa_W$ starting at $1-\alpha$, so that every unit diverted from
+a thinner wage costs more reproduction than the same unit cost before.
 
 ## 8.2 The tax margin, and the ceiling
 
