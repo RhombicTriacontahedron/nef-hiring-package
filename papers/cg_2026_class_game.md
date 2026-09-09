@@ -995,7 +995,12 @@ $\delta_G=0.05$, where $\phi^\ast=0.94$ from the common start, and it
 returns to the corner at $\delta_G=0.20$. The four undecidable cells lie
 at the perishable end of the stock range ($\delta_G\in\{0.50,1.00\}$)
 and yielded no proper profile at the initialisations tried, which is
-absence rather than a proof of non-existence.*
+absence rather than a proof of non-existence. That the excluded splits
+are in every case the lowest ones, rather than a scattered set the grid
+happened to find, is Proposition 6(iv) and not an accident: the
+admissible splits form an interval, and at these cells the growth peak
+lies outside the instrument box, so that interval runs up to the
+corner.*
 
 *The corner is not a contested instrument. At every one of the nine
 computed equilibria — three starts by three weights, each holding its
@@ -3233,6 +3238,25 @@ $\mathcal{P}\ge\mathcal{H}(g_\star)$ for some
 $g_\star>\beta^{1/(\sigma-1)}$, every profile is proper, with
 $\tilde\beta\le\beta g_\star^{1-\sigma}<1$ uniformly.*
 
+*(iv) **The split has a growth optimum, and where it sits is free of the
+whole dynamic block.** Fix $\tau$ and $i$ and let $\varpi\equiv\phi\tau$
+range over $(0,\tau]$, so that
+$\kappa_W=(1-\alpha)+\alpha(\tau-\varpi)$. Then*
+$$\frac{\partial\mathcal{P}}{\partial\varpi} \;=\;
+  \gamma\Big[\frac{1-\theta}{\varpi}\;-\;\frac{\theta\alpha}{\kappa_W}\Big] ,$$
+*whose bracket is strictly decreasing in $\varpi$ and unbounded above as
+$\varpi\downarrow0$. It therefore vanishes exactly once, at*
+$$\varpi^{\dagger} \;=\; \frac{(1-\theta)\big(1-\alpha+\alpha\tau\big)}{\alpha} ,$$
+*and $g$ is **strictly single-peaked** in the split: strictly increasing
+below $\varpi^{\dagger}$ and strictly decreasing above it. The peak is
+interior to $(0,\tau]$ exactly when
+$\alpha\theta\tau>(1-\alpha)(1-\theta)$, and sits at the corner $\phi=1$
+otherwise. Consequently $\{\varpi:g(\varpi)>\bar g\}$ is an **interval**
+for every $\bar g$, so by (iii) the splits at which a profile is proper
+form an interval too. None of $\gamma$, $\delta$, $\delta_G$, $\beta$,
+$\sigma$, $i$, $A$ or $B$ appears in $\varpi^{\dagger}$, and
+$\partial\varpi^{\dagger}/\partial\theta=1-\tau-1/\alpha<0$.*
+
 *Proof.* **(i)** At a rest point Theorem 2(ii) inverts both stock laws:
 $x(g) = \big[i(1-\tau)\alpha A/(g-1+\delta)\big]^{1/(1-\alpha)}$ and
 $z(g) = \phi\tau\alpha A\,x(g)^{\alpha}/(g-1+\delta_G)$, both positive
@@ -3262,7 +3286,34 @@ only if $g^{\sigma-1}>\beta$, which is the displayed inequality; at a
 rest point $g_W=g_C=g$, so the two conditions of Assumption 5 coincide
 and this is Assumption 5. If $\mathcal{P}\ge\mathcal{H}(g_\star)$ then
 $g\ge g_\star$ by the monotonicity in (ii), and
-$g\mapsto\beta g^{1-\sigma}$ is decreasing. $\blacksquare$
+$g\mapsto\beta g^{1-\sigma}$ is decreasing.
+
+**(iv)** With $\tau$ and $i$ fixed the split reaches $\mathcal{P}$
+through two terms only, since $\phi\tau\alpha A=\varpi\alpha A$ and
+$\kappa_W=(1-\alpha)+\alpha(\tau-\varpi)$; the first and fourth terms
+carry no $\varpi$. Differentiating gives the display. Both entries of
+the bracket fall in $\varpi$ — the first because $\theta<1$, the second
+because $\kappa_W$ falls at the constant rate $\alpha$ while staying at
+or above $1-\alpha>0$ — so the bracket’s own derivative is
+$-(1-\theta)/\varpi^{2}-\theta\alpha^{2}/\kappa_W^{2}<0$ and the bracket
+is strictly decreasing. A strictly decreasing function that tends to
+$+\infty$ at the left endpoint crosses zero at most once; substituting
+$\varpi^{\dagger}$ shows it does cross, so $\mathcal{P}$ rises and then
+falls. By (13) $g$ is a strictly increasing function of $\mathcal{P}$,
+and a strictly increasing transformation moves neither the location of a
+peak nor the number of crossings of a level, which gives both the
+single-peakedness and the interval. At $\varpi=\tau$, where $\phi=1$ and
+$\kappa_W=1-\alpha$, the bracket equals
+$\big[(1-\theta)(1-\alpha)-\alpha\theta\tau\big]/\big[\tau(1-\alpha)\big]$
+with a strictly positive denominator, so the peak lies strictly inside
+exactly when that numerator is negative. The absences are read off the
+display, and each has its own reason: $\delta$, $\delta_G$, $\beta$ and
+$\sigma$ never enter $\mathcal{P}$ at all; $i$ enters only the fourth
+term, which carries no $\varpi$; $A$ and $B$ enter additively under the
+logarithms and so do not survive the derivative; and $\gamma$ multiplies
+**both** entries of the bracket, so it scales the derivative but cannot
+move the zero. Only $\tau$ survives, through $\kappa_W$ as well as
+through the upper endpoint. $\blacksquare$
 
 Part (iii) is what the instrument box needed. A fixed-point argument has
 to be run away from the faces where the map is undefined, and no
@@ -3279,6 +3330,50 @@ and no upper bound on $\phi$ below one is called for at all. The
 asymmetric box — floors on all three instruments, a ceiling on $i$ alone
 — is therefore forced by the model rather than chosen to keep the
 computed corner inside it.
+
+Part (iv) says that funding the stock is not a margin that keeps paying.
+Move a unit of the receipt from cash into the stock and two things
+happen at once. The public leg of the worker’s continuation gains, at a
+rate $(1-\theta)/\varpi$ that is large when little has been built and
+falls as more is; the private leg loses, at a rate
+$\theta\alpha/\kappa_W$ that is small when the cash share is generous
+and rises as it is cut. One rate falls and the other rises, so they
+cross once, and the crossing is the best the split can do for growth.
+Below it the receipt buys more continuation as clinics than as cash;
+above it the arithmetic reverses, and a state that keeps building past
+$\varpi^{\dagger}$ is buying provision with reproduction it cannot
+recover.
+
+Two things the crossing does not depend on are worth as much as its
+location. The reproduction elasticity $\gamma$ multiplies both rates, so
+it changes how sharply growth answers the split but not which way: there
+is no $\gamma$ margin to find here, and a sweep that looks for one is
+searching a coordinate the mechanism does not use. The public stock’s
+own durability is absent for a different and stronger reason —
+$\delta_G$ never enters $\mathcal{P}$, and it reaches $g$ only through
+$\mathcal{H}^{-1}$, a strictly increasing map, which can raise or lower
+the whole profile of $g$ but cannot move where that profile peaks. So
+where a computation reports the chosen split answering to $\delta_G$,
+that response is running through the worker’s valuation of the stock —
+through $\Omega$ of (6) — and not through anything the stock does to the
+growth factor. The two margins that move the corner are separated by
+channel, and only one of them is structural.
+
+At the reported cells the crossing is far outside the instrument box:
+$\phi^{\dagger}$ is $1.99$, $1.73$ and $1.53$ at the three equilibrium
+taxes $0.51$, $0.61$ and $0.72$, so growth is strictly increasing in the
+split across the whole of it and the corner is not a knife-edge. Raising
+$\theta$ to $0.80$ puts it inside at all three — $0.996$, $0.866$,
+$0.764$ — the turn falling between $\theta=0.738$ and $\theta=0.799$
+depending on the tax. ⚠ That is the same margin, and the same pair of
+swept values, at which the computed split leaves the corner; it is
+**not** the same object, and the agreement is not claimed as one. The
+worker ranks discounted payoffs, which carry $\Omega$, $J$ and
+$\tilde\beta$, and none of those appears in $\varpi^{\dagger}$. What
+(iv) supplies is the structural half: past a threshold written in
+$(\alpha,\theta,\tau)$ alone, the corner stops being the
+growth-maximising split, and any account of why the chosen split moves
+has that much already given to it.
 
 Proposition 6 makes the growth factor an explicit function of the
 shares. Propositions 4 and 5 make the shares explicit functions of the
@@ -7440,11 +7535,21 @@ $z_t\to0$ and $x_t\to\infty$ together, and the balance between them
 leaves
 $$\Pi_t \;\sim\; \text{const}\cdot(1-\delta)^{t}\,t^{\,\mathcal{C}} ,
 \qquad \mathcal{C} \;=\; \frac{\alpha\theta}{(1-\alpha)(1-\theta)} , \tag{41}$$
-an exponent built from the two elasticities alone — no depreciation
-rate, no reproduction scale, no instrument and no start appears in it.
-The face’s series at the ceiling is then
-$\sum_t t^{-\mathcal{C}(\sigma_W-1)}$, and it diverges, which is what
-Proposition 17’s argument needs, **exactly while**
+⛔ *This $\mathcal{C}$ is the approach exponent, and it is **not** the
+growth-side share
+$\gamma(1-\theta)/\big[(g-1+\delta_G)\mathcal{H}'(g)\big]$ of Theorem
+2$'$(v), which carries the same glyph in a different section. The
+distinction is load-bearing rather than notational: that one is a
+summand’s share of a sum and so lies below one always, which is why the
+bound there costs no hypothesis; this one is unbounded, and exceeds one
+exactly when $\alpha\theta>(1-\alpha)(1-\theta)$. Reading the earlier
+section’s “$\mathcal{C}<1$ restricts no parameter” into $(41)$ or $(45)$
+would put a ceiling on an exponent that has none.* an exponent built
+from the two elasticities alone — no depreciation rate, no reproduction
+scale, no instrument and no start appears in it. The face’s series at
+the ceiling is then $\sum_t t^{-\mathcal{C}(\sigma_W-1)}$, and it
+diverges, which is what Proposition 17’s argument needs, **exactly
+while**
 $$\sigma_W \;\le\; 1+\frac{1}{\mathcal{C}} \;=\; 1+\frac{(1-\alpha)(1-\theta)}{\alpha\theta} .$$
 Above that the face is proper even at the ceiling, the payoff it offers
 is finite there, and the crossing argument has nothing left to push
@@ -7724,7 +7829,13 @@ $\beta g_{\min}^{1-\sigma_C}$; since $\delta,\delta_G\in(0,1)$ put
 $g_{\min}<1$ strictly, the **larger** curvature carries the smaller
 bound and therefore binds. Both are below one exactly on the stated
 range and one is above it beyond, where continuity puts the crossing at
-a strictly positive $\varpi$. $\blacksquare$
+a strictly positive $\varpi$. That the crossing is a single point, so
+that the family leaves the admissible set once rather than re-entering
+it further out, is Proposition 6(iv): each clause of (A5) reads
+$g>\beta^{1/(\sigma_j-1)}$ by Proposition 6(iii), each such set of
+splits is an interval because $g$ is strictly single-peaked in $\varpi$,
+and an intersection of two intervals is an interval. Its lower endpoint
+is the exit. $\blacksquare$
 
 In words, the rates say how a withdrawn social wage is absorbed, and the
 answer is that it is not absorbed evenly. Provision per worker falls as
