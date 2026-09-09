@@ -65,7 +65,14 @@ the regime, whether labour is bargaining or pinned to its ceiling; and
 where the unemployment pool is large enough to pin labour to its ceiling
 there is at most one compromise and never two, so the multiplicity
 itself belongs to the regime in which the bargain sets the wage and not
-to the economy.
+to the economy. That stationary layer then closes on itself. Where the
+pool sets the wage at every employment rate — the reserve-army case —
+the accumulation rate the compromise delivers is, term for term, the
+expression whose sign decides whether the compromise is interior at all,
+so that a class compromise exists exactly where the economy grows; the
+employment rate the regime settles at is therefore unique when it
+exists, exists under a closed-form inequality in the primitives, and is
+not a slice taken at an employment rate the model never reaches.
 
 # 1. Introduction
 
@@ -142,10 +149,13 @@ equilibria, the ranking of the whole equilibrium set where the preferred
 compromise is sustainable, and the case in which it is not; and, in the
 regime where the ceilings move with the unemployment pool, the shadow
 prices and the single channel through which the compromise sees the
-pool, the fold at an arbitrary pair of effective prices, the dichotomy
-in which no extractable day whatever admits an interior compromise, and
-the uniqueness of the compromise where the pool pins labour to its
-ceiling.
+pool, the fold at an arbitrary pair of effective prices together with
+the accumulation rate it carries, the dichotomy in which no extractable
+day whatever admits an interior compromise, the uniqueness of the
+compromise where the pool pins labour to its ceiling, and the identity
+that closes the stationary layer on the employment rate itself in that
+case — existence and uniqueness of the regime’s stationary employment
+rate under a closed-form inequality.
 
 So what? A policy that reduces the unemployment pool by speeding
 accumulation is, in this model, a policy about which equilibrium the
@@ -578,10 +588,11 @@ the regime**. Nor are non-stationary paths characterised. **And one
 scope line matters throughout: Propositions 8 to 11 characterise the
 compromise subsystem in $(s,\omega)$ at a given employment rate.** A
 full rest point of the canonical system requires $\dot x = 0$ as well,
-which pins $v$ and feeds $\bar e(v)$ back into the conditions; that the
-three equations admit a common solution inside the state space is not
-proved here for general primitives. All three are recorded in Appendix
-B.
+which pins $v$ and feeds $\bar e(v)$ back into the conditions.
+Proposition 12 closes that where labour sits on its own ceiling
+throughout — the reserve-army case, $\hat\omega \le \kappa\rho$ — with
+existence and uniqueness in closed form; where labour bargains it
+remains open. All of these are recorded in Appendix B.
 
 **Proposition 7 (the regime’s shadow prices, and where the separation
 breaks).** Write $P_i \equiv (1-c)p^i_x + c\,p^i_y$ for the price class
@@ -643,6 +654,36 @@ exists is the sum of the square roots of the two effective prices,
 measured against the extractable day. Proposition 4 is that statement
 evaluated at the core’s prices, and the regime is the same statement
 evaluated at the regime’s.
+
+**Corollary to Proposition 8 (what the economy grows at where the
+compromise is born).** Under the same hypothesis, at the fold the two
+roots merge at $$
+s_{\text{f}} \;=\; \frac{\sqrt{Q_W}}{\sqrt{Q_W}+\sqrt{Q_C}} ,
+$$ and because capital’s stationary condition
+$(1-s)(\bar e - \omega) = Q_C$ holds at either root, the accumulation
+rate $A = s(\bar e-\omega)/\kappa$ carried by the merged compromise is
+$$
+A_{\text{f}} \;=\; \frac{\sqrt{Q_W\,Q_C}}{\kappa} .
+$$ At the core’s prices $A_{\text{f}} = \rho/\sqrt{1+\lambda}$, so by
+Proposition 5, with $b>0$, the unemployment pool survives the birth of
+the two compromises if and only if
+$(1-c)\,\rho < (m_0+n)\sqrt{1+\lambda}$. In the regime the same rate is
+$\rho\sqrt{(\kappa+\Gamma)/\kappa(1+\lambda)}$, strictly increasing in
+the ceiling.
+
+In words, whether a class compromise exists at all is decided by the
+**sum** of the square roots of the two effective prices; the growth the
+economy gets at the point where it is decided is their **product’s**
+root. Nothing forces those two to be the same kind of statement, and
+they are not. At the core’s prices the second collapses to a number in
+two primitives — impatience and the taste for accumulation — with no
+technology in it, no extractable day and no wage, so the question of
+whether the two compromises are born into an economy that still has an
+unemployment pool is answered without reference to anything the classes
+bargain over. The regime breaks that: there the same rate rises with the
+extractable day, so the wedge that makes an interior compromise harder
+to exist makes the one that does exist grow faster, and the pool harder
+to keep.
 
 **Proposition 9 (the regime’s fold, and when no extractable day admits a
 compromise).** In the regime $Q_W = \kappa\rho$ and
@@ -771,10 +812,67 @@ than the core, and Proposition 5’s persistence inequality is
 correspondingly harder to satisfy. The same wedge that makes an interior
 compromise harder to exist makes the unemployment pool harder to keep.
 
+**Proposition 12 (the regime has a stationary employment rate, and at
+most one).** Suppose $\hat\omega \le \kappa\rho$, so that labour sits on
+its own ceiling at every employment rate in $(0,1)$, and suppose
+Proposition 9’s first branch, $\rho(1-c)\zeta < (1+\lambda)(\rho+b)$ —
+equivalently $\beta \equiv 1 - \rho\Theta/(1+\lambda) > 0$. Write $$
+N(v) \;\equiv\; \beta\,\hat e\,v^{-\zeta} \;-\; \hat\omega\,v^{\eta} \;-\; \frac{\rho\kappa}{1+\lambda} .
+$$ Equivalently, and this is the form worth reading,
+$N = \big(\bar e(v)-\bar\omega(v)\big) - Q_C$: the surplus per worker
+net of the price capital puts on a unit of accumulation. Then along the
+compromise $s(v)\,\big(\bar e(v)-\bar\omega(v)\big) = N(v)$ identically,
+which is capital’s own stationary condition
+$(1-s)(\bar e-\bar\omega) = Q_C$ rearranged. Three things follow. First,
+$N/\kappa$ **is** the accumulation rate, and Proposition 11’s
+interiority condition is exactly $N(v) > 0$: below $\hat v$ the
+compromise is interior precisely where the economy accumulates, and
+these are not two conditions but one. Second, the employment rate’s
+drift and its slope are $$
+\dot x \;=\; \frac{(1-c)\,N(v)}{\kappa} - m_0 - b\ln v - n , \qquad
+\frac{d\dot x}{dv} \;=\; -\frac{1}{v}\left[\frac{(1-c)\big(\zeta\beta\,\bar e(v) + \eta\,\bar\omega(v)\big)}{\kappa} + b\right] \;<\; 0 ,
+$$ so the drift is strictly decreasing on $(0,1]$ and diverges to
+$+\infty$ as $v \to 0^+$. Third, therefore, the regime has **at most
+one** stationary employment rate, and it has exactly one,
+$v^\ast \in (0,1)$, if and only if $$
+(1-c)\Big[\beta\hat e - \hat\omega - \frac{\rho\kappa}{1+\lambda}\Big] \;<\; \kappa\,(m_0+n) .
+$$ At $v^\ast$ the accumulation share is
+$s^\ast = N(v^\ast)/\big(\bar e(v^\ast)-\bar\omega(v^\ast)\big)$, which
+is below one always and strictly positive if and only if
+$m_0 + n + b\ln v^\ast > 0$. Where the displayed inequality fails, no
+path settles: the employment rate rises to full employment and the
+regime’s equations stop describing the economy, as in Proposition 5.
+
+In words, the regime’s stationary layer is not a family of slices after
+all. Propositions 8 to 11 solve the compromise at a *given* employment
+rate, and the employment rate is itself an equilibrium object; the two
+are closed together here, and the closing is a one-dimensional monotone
+problem rather than a fixed point in three unknowns, because the
+compromise’s own accumulation rate turns out to be the expression whose
+sign Proposition 11 was already testing. That is the identity worth
+carrying: the condition under which the classes have an interior
+compromise at all is the condition under which the economy grows.
+Proposition 9’s second branch reads differently in that light — past its
+threshold the compromise fails not for a bargaining reason but because
+the only accumulation consistent with both classes optimising is
+negative.
+
+The hypothesis $\hat\omega \le \kappa\rho$ is the reserve-army case
+rather than a technical convenience: it says labour’s wage ceiling never
+rises far enough, at any employment rate the model admits, for labour to
+prefer bargaining to taking it, so the unemployment pool sets the wage
+throughout. Where it fails there is a $\hat v$ inside the state space,
+labour bargains above it, and the accumulation share there is a root of
+Proposition 8’s quadratic rather than a closed form; the drift is then
+still $\big((1-c)/\kappa\big)\big(sQ_C/(1-s)\big) - m_0 - b\ln v - n$ by
+capital’s stationary condition, but its monotonicity in $v$ along either
+root is not established, so neither existence nor uniqueness is claimed
+there. Appendix B records that as the open half.
+
 # 7. So what
 
-Six things a reader of this literature can take from the paper, and one
-warning.
+Seven things a reader of this literature can take from the paper, and
+one warning.
 
 First, the unemployment pool is an equilibrium object with a closed-form
 size, and its persistence is decided by an inequality in which the
@@ -839,6 +937,28 @@ anywhere. Below the employment rate at which the pool pins labour to its
 ceiling there is at most one compromise and never two, so even the
 multiplicity turns out to belong to the regime in which the bargain sets
 the wage, and not to the economy.
+
+Seventh, in the regime the question “do the classes have a compromise?”
+and the question “does this economy grow?” are the same question. Where
+the unemployment pool sets the wage throughout, the accumulation rate
+the compromise delivers is, term for term, the expression whose sign
+Proposition 11 tests for the compromise to be interior at all. That is
+not a coincidence of algebra with no reading: capital’s own stationary
+condition prices accumulation, and what is left over for accumulation
+after that price is paid is what makes the share positive. It has three
+consequences. The regime’s stationary employment rate exists and is
+unique under a closed-form inequality, so the section is not a family of
+slices at employment rates the model never reaches. Proposition 9’s
+second branch acquires a different meaning — past that threshold the
+compromise fails not because the two classes cannot agree but because
+the only accumulation consistent with both of them optimising is
+negative, which no ceiling pair can repair. And the growth rate at the
+fold, where a compromise is born, is the geometric mean of the two
+classes’ effective prices, so what decides whether a compromise exists
+is a sum and what it grows at is a product: an economy whose extractable
+day is falling towards the point where its compromise ceases to exist
+does not slow to a halt as it arrives, but reaches that point still
+growing — at the core’s prices, at $\rho/\sqrt{1+\lambda}$.
 
 The warning is about how much weight the separation theorem can bear.
 Proposition 2 says a class that values its whole class is indifferent to
@@ -1201,6 +1321,27 @@ smaller zero. Setting $Q_W = \kappa\rho$ and
 $Q_C = \kappa\rho/(1+\lambda)$ returns Proposition 4 and its fold, which
 is the same argument A.4 makes at the core’s prices.
 
+*Corollary.* At $\bar e = (\sqrt{Q_W}+\sqrt{Q_C})^2$ the discriminant
+vanishes and the double root is the vertex,
+$s_{\text{f}} = (\bar e + Q_W - Q_C)/(2\bar e)$. Writing
+$\bar e = (\sqrt{Q_W}+\sqrt{Q_C})^2$ gives
+$\bar e + Q_W - Q_C = 2\sqrt{Q_W}(\sqrt{Q_W}+\sqrt{Q_C})$, so
+$s_{\text{f}} = \sqrt{Q_W}/(\sqrt{Q_W}+\sqrt{Q_C})$ and
+$s_{\text{f}}/(1-s_{\text{f}}) = \sqrt{Q_W/Q_C}$. Capital’s stationary
+condition $(1-s)(\bar e - \omega) = Q_C$ holds at either root, so
+$A = s(\bar e-\omega)/\kappa = sQ_C/(\kappa(1-s))$ wherever it holds;
+evaluating at $s_{\text{f}}$ gives
+$A_{\text{f}} = \sqrt{Q_WQ_C}/\kappa$. At the core’s prices
+$\sqrt{Q_WQ_C} = \kappa\rho/\sqrt{1+\lambda}$, whence
+$A_{\text{f}} = \rho/\sqrt{1+\lambda}$, and Proposition 5’s persistence
+inequality $(1-c)A < m_0+n$ becomes
+$(1-c)\rho < (m_0+n)\sqrt{1+\lambda}$. At the regime’s prices
+$\sqrt{Q_WQ_C} = \kappa\rho\sqrt{(\kappa+\Gamma)/(\kappa(1+\lambda))}$,
+increasing in $\Gamma$ and hence in the ceiling. ⚠ The independence of
+$\kappa$ in the core’s $A_{\text{f}}$ is inherited from A.5$'$, where
+$\kappa$ cancels at *every* share; what the fold adds is that it pins
+the share, and with it the rate.
+
 ## A.9 Proposition 9.
 
 With $Q_C = \rho(\kappa + \Theta\bar e)/(1+\lambda)$ and
@@ -1297,7 +1438,68 @@ $\bar e - \omega = \rho(\kappa+\Gamma)/((1+\lambda)(1-s))$ give
 $A = \rho s(\kappa+\Gamma)/(\kappa(1+\lambda)(1-s))$, which is A.5$'$’s
 $A(s)$ times $1 + \Gamma/\kappa > 1$.
 
-## A.12 Certificates.
+## A.12 Proposition 12.
+
+*The branch hypothesis.* By A.11 labour is on its ceiling iff
+$\bar\omega(v)s \le \kappa\rho$. With $\hat\omega \le \kappa\rho$, and
+since $s < 1$ and $v^{\eta} < 1$ for $v \in (0,1)$ and $\eta > 0$,
+$\bar\omega(v)s = s\hat\omega v^{\eta} < \hat\omega \le \kappa\rho$; so
+$\hat v \ge 1$ and the ceiling branch is the whole state space.
+
+*The identity.* On that branch
+$1 - s = \rho(\kappa+\Gamma)/[(1+\lambda)(\bar e - \bar\omega)]$ by
+A.11, so $$
+s\,(\bar e - \bar\omega) \;=\; (\bar e - \bar\omega) - \frac{\rho(\kappa + \Theta\bar e)}{1+\lambda}
+\;=\; \bar e\Big(1 - \frac{\rho\Theta}{1+\lambda}\Big) - \bar\omega - \frac{\rho\kappa}{1+\lambda}
+\;=\; N(v)
+$$ with $\beta \equiv 1 - \rho\Theta/(1+\lambda)$, which is $N$ as
+displayed since $\bar e(v) = \hat e v^{-\zeta}$ and
+$\bar\omega(v) = \hat\omega v^{\eta}$. The first equality is the whole
+content and needs no ceiling parameterisation:
+$(1-s)(\bar e - \bar\omega) = Q_C$ gives
+$s(\bar e-\bar\omega) = (\bar e-\bar\omega) - Q_C$ directly, so
+$N = (\bar e - \bar\omega) - Q_C$. Nothing is divided by a quantity of
+indefinite sign: $\bar e - \bar\omega > 0$ on the domain. Multiplying
+A.11’s interiority condition through by $1/(1+\lambda)$ gives
+$\beta\bar e - \bar\omega - \rho\kappa/(1+\lambda) > 0$,
+i.e. $N(v) > 0$; and $A = s(\bar e-\bar\omega)/\kappa = N(v)/\kappa$. So
+interiority, positive accumulation and $N>0$ are one condition. Note
+$\beta > 0$ is A.9’s $a_2 > 0$ rescaled, so the hypothesis is
+Proposition 9’s first branch and nothing further.
+
+*Monotonicity and the two ends.* Substituting the identity into
+$\dot x = (1-c)s(\bar e-\bar\omega)/\kappa - m_0 - b\ln v - n$ gives the
+displayed drift as a function of $v$ alone. Differentiating, $$
+\frac{d\dot x}{dv} = \frac{(1-c)}{\kappa}\Big(-\zeta\beta\hat e\,v^{-\zeta-1} - \eta\hat\omega\,v^{\eta-1}\Big) - \frac{b}{v}
+= -\frac{1}{v}\left[\frac{(1-c)\big(\zeta\beta\bar e(v) + \eta\bar\omega(v)\big)}{\kappa} + b\right] ,
+$$ and every term in the bracket is non-negative with
+$\zeta\beta\bar e(v) > 0$ strictly, since $\beta > 0$, $\zeta > 0$,
+$\hat e > 0$ and $c < 1$. Hence $\dot x$ is strictly decreasing on
+$(0,1]$ — a sign read off the factorisation, with no sampling. As
+$v \to 0^+$, $\beta\hat e v^{-\zeta} \to +\infty$ and $-b\ln v \ge 0$,
+so $\dot x \to +\infty$. It is continuous on $(0,1]$. By strict
+monotonicity there is at most one zero, and by the intermediate value
+theorem there is one in $(0,1)$ iff $\dot x|_{v=1} < 0$, which is the
+displayed inequality since $\ln 1 = 0$. Where it fails, $\dot x > 0$ on
+all of $(0,1)$ and the employment rate rises to the boundary.
+
+*The share at $v^\ast$.*
+$s^\ast = N(v^\ast)/(\bar e(v^\ast)-\bar\omega(v^\ast))$ by the
+identity, and $s^\ast < 1$ by A.11. Setting the drift to zero at
+$v^\ast$ gives $(1-c)N(v^\ast)/\kappa = m_0 + n + b\ln v^\ast$, so
+$N(v^\ast) > 0$ — equivalently $s^\ast > 0$ — iff
+$m_0 + n + b\ln v^\ast > 0$. ⚠ The condition is on $v^\ast$ and not on
+the primitives directly; equivalently it is $v^\ast < v_0$, where $v_0$
+is the unique zero of the strictly decreasing $N$.
+
+*What is not proved.* Where $\hat\omega > \kappa\rho$ there is a
+$\hat v < 1$ and labour bargains above it. Capital’s stationary
+condition still gives
+$\dot x = (1-c)sQ_C/(\kappa(1-s)) - m_0 - b\ln v - n$, but $s$ is then a
+root of A.8’s quadratic with $Q_C$ moving in $v$, and neither root is
+shown monotone in $v$. Existence and uniqueness there are UNDISCHARGED.
+
+## A.13 Certificates.
 
 Every identity in A.1–A.6, the sign in A.3, the drift identity of
 Section 5, the non-emptiness of the hypothesis set of Propositions 3–5
@@ -1352,7 +1554,31 @@ stated there, with a cell on each side of it; and that the two
 identities the section rests on survive a change of coordinates in which
 $0 < s < 1$ and $0 < \omega < \bar e$ hold by construction rather than
 by declaration, which is the branch-cut exposure the repository’s
-instrument gate flags for this encoding.
+instrument gate flags for this encoding. Proposition 12 and the
+Corollary to Proposition 8 are checked in
+`models/reserve_army_game/rest_point_existence_and_fold_accumulation_2026_09_09_84443762.py`:
+the identity $s(\bar e-\bar\omega) = N$ and its failure under a
+perturbed $\beta$; the equality of A.11’s interiority gap with
+$(1+\lambda)\kappa A$, which is what makes interiority and positive
+accumulation one condition; the closed form of $d\dot x/dv$, with a
+control at $\beta < 0$ where the bracket turns negative and the
+monotonicity is lost; the two ends of the intermediate value argument,
+with a control at $\beta = 0$, $b = 0$ where the divergence disappears;
+the double root $s_{\text{f}}$ and the vanishing discriminant, against
+the mirrored guess which must not solve it;
+$A_{\text{f}} = \sqrt{Q_WQ_C}/\kappa$, its core value
+$\rho/\sqrt{1+\lambda}$, its agreement with A.5$'$’s locus at the core’s
+own $s_{\text{f}}$, and a control recording that $\kappa$ cancels on the
+whole core locus so the independence is A.5$'$’s and not the fold’s. The
+existence theorem is exercised at two cells differing only in $\hat e$,
+one on each side of its inequality, the first returning an interior
+$v^\ast$ whose drift recomputed from the primitives vanishes and whose
+core counterpart with $\Gamma$ dropped does not, the second returning a
+zero outside the state space. The branch hypothesis
+$\hat\omega \le \kappa\rho$ is an `unsat` over the box on a
+division-free encoding with the variable exponent $v^{\eta}$ relaxed to
+$w \in (0,1)$, with a control that must and does return a witness once
+the hypothesis is dropped.
 
 Every such `unsat` is a proof, not a sample. Each file prints its own
 check and control counts and exits non-zero on any failure. The
@@ -1380,9 +1606,11 @@ witnesses are witnesses and prove nothing universal.
 | Prop. 10 | proved: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly. It bounds the *set* of employment rates carrying a stationary compromise; it is not a statement that a path crosses it | whether an equilibrium path reaches the boundary is the non-stationary question below |
 | Prop. 11 | proved: the threshold $\hat v$ is unmoved at $a_W = 1$, and below it there is **at most one** compromise, interior exactly where $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ — and *none at all* on Prop. 9’s second branch, where that inequality fails identically | the insider case $a_W = 0$, where the threshold moves, is not solved |
 | Corollary to Proposition 11 (the regime’s persistence locus) | proved (identity): $A$ is Proposition 5$'$’s locus times $1 + \Gamma/\kappa$ | — |
-| Section 6 regime, stationary layer | PROVED (Props. 7–11 and the Corollary): the shadow prices, the general fold, the existence dichotomy, the boundary $v_{\text{f}}$ and uniqueness below $\hat v$ | — |
+| Section 6 regime, stationary layer | PROVED (Props. 7–12 and the two Corollaries): the shadow prices, the general fold and the rate at it, the existence dichotomy, the boundary $v_{\text{f}}$, uniqueness below $\hat v$, and — in the reserve-army class — the stationary employment rate itself | — |
 | Section 6 regime, non-stationary paths | UNDISCHARGED. The reduced problem is no longer linear-state, so Section 4’s direct verification does not extend and **Markov perfection is not claimed in the regime**; sufficiency of the first-order conditions there is also open | a verification argument for a non-linear-state value function, or a restriction to a class where one exists |
-| Existence of a regime rest point | UNDISCHARGED. Propositions 8–11 characterise the compromise subsystem in $(s,\omega)$ **at a given employment rate**; a full rest point needs $\dot x = 0$ too, and that the three equations admit a common solution inside the state space is not proved for general primitives | the fixed-point argument, or a parameter class where it is explicit |
+| Corollary to Proposition 8 (the fold’s accumulation rate) | proved (identity), at the same generality as Proposition 8: $s_{\text{f}} = \sqrt{Q_W}/(\sqrt{Q_W}+\sqrt{Q_C})$ and $A_{\text{f}} = \sqrt{Q_WQ_C}/\kappa$. ⚠ The $\kappa$-independence of its core value is A.5$'$’s and not the fold’s | — |
+| Prop. 12 | **proved** where $\hat\omega \le \kappa\rho$ and Proposition 9’s first branch holds: the drift reduces to a strictly decreasing function of $v$ alone through the identity $s(\bar e-\bar\omega) = N(v)$, giving at most one stationary employment rate and exactly one inside the state space under a closed-form inequality; interiority of the share is $m_0+n+b\ln v^\ast > 0$ | the bargaining branch below |
+| Existence of a regime rest point | **half discharged.** Proved by Proposition 12 in the reserve-army parameter class $\hat\omega \le \kappa\rho$, where labour is on its ceiling at every employment rate and the three equations reduce to one monotone equation in $v$. UNDISCHARGED where $\hat\omega > \kappa\rho$: above $\hat v$ the share is a root of Proposition 8’s quadratic with $Q_C$ moving in $v$, and neither root is shown monotone in $v$ | monotonicity of either root of A.8’s quadratic in $v$, or a fixed-point argument that does not need it |
 | Section 6’s second self-undermining channel ($v_{\text{f}}$) | SETTLED, and one-sided: the conjecture substituted $\bar e(v)$ into a fold condition proved for constant $\bar e$; Proposition 10 shows the substitution gives a valid NECESSARY bound and Proposition 9 gives the true boundary, strictly below it | — |
 | Separation from Mehrling (1986) | witness grade, and partial. His instruments (wage level, investment level) and his payoffs (present values of consumption and profit) are established through Miebach (2011), a dissertation that restates his model; his own body is unobtainable. So the extraction margin and the objectives separate; the mechanisation law and the state do not | his body, or a second witness reporting his state variables and his supply side |
 | Dockner et al. (2000) §7.2 | read at source; the linear-state conditions (7.35)–(7.36) and the Markov-perfectness of open-loop equilibria are stated in the text, not as a numbered theorem; cited as placement, not used as a step | — |
