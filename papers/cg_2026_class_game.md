@@ -8836,7 +8836,13 @@ Denmark, and Sweden (Eurostat 2025). Second, China combines improved
 access to services with a rebalancing process toward consumption that
 remains gradual (World Bank 2026). Neither fact makes either setting an
 instance of this game. Together they identify the missing theoretical
-margins.
+margins. The first also carries a caution about measurement rather than
+a result: a budget line reporting cash benefits and benefits in kind as
+one total, or leaving the base that financed the in-kind half
+unidentified, cannot be read against Theorem 1, whose displacement runs
+through a stock built from capital income — and at a stationary positive
+stock the same receipt paid out as cash leaves worker reproduction
+exactly where no tax leaves it (Proposition 2(iii)).
 
 The multi-source finance extension is a Nordic-motivated theory problem.
 Replace the single capital-income tax base with several revenue sources
@@ -8856,9 +8862,9 @@ applies to China. It is whether public influence over accumulation
 changes the separation between the public stock that sustains
 reproduction and the private claim it displaces.
 
-Two further extensions already follow from the present derivations. The
-fiscal asymmetry survives an arbitrary increasing outer reproduction map
-and an arbitrary composite; a successor should therefore replace
+Three further extensions already follow from the present derivations.
+The fiscal asymmetry survives an arbitrary increasing outer reproduction
+map and an arbitrary composite; a successor should therefore replace
 Cobb–Douglas only to study how state-dependent input shares alter the
 closed form, not to test whether the mechanism survives. And an
 intertemporal-exchange extension should introduce credit or an
@@ -8866,12 +8872,38 @@ interest-rate margin explicitly, because a claim on accumulated capital
 changes the worker’s fiscal choice rather than merely adding a financial
 label to it.
 
-Both extensions should preserve the paper’s central discipline. The
-relevant objects must be kept separate: in-kind provision, private
-household claims, funding sources, and accumulation responses. Neither
-aggregate public spending nor household consumption alone identifies
-their incidence. The task for future theory is to derive the conditions
-under which those margins collapse into one another, or remain distinct.
+The third is a separation the closed forms make by what they omit.
+Productivity and the capital share are not the same event for the
+state’s problem. A rise in $A$ raises the growth factor and moves
+neither the split that maximises it nor the rate in the floor beneath
+it: $\varpi^{\circ}$ carries $\alpha$, $\theta$ and $\tau$ and nothing
+else (Proposition 6(iv)), and $g_\varpi$ is the two survival factors
+under exponents in $\alpha$ and $\theta$ alone. Productivity reaches
+Lemma 3’s bound only through the level constant $\underline{C}$, which
+is capped at one and stops moving once it arrives there. A change in the
+capital share reaches both margins. The peak falls at
+$-(1-\theta)/\alpha^{2}$, and $g_\varpi$ moves with the weight its
+exponents place on capital’s own survival factor — up where capital
+wears out more slowly than the public stock, down where it wears out
+faster; the comparison of $\delta$ against $\delta_G$ that Theorem 2$'$
+already uses for reinvestment returns here on a different margin. So it
+is the division of the product between the factors, not the size of the
+product, that changes what a growth-maximising state should do with the
+receipt and how fast the workforce is guaranteed to grow. What
+Assumption 1 cannot supply is the passage between two such economies:
+factor shares are constant there, so moving $\alpha$ compares two
+technologies rather than tracing a change within one. A successor that
+wants the passage needs shares that move, and the pair to carry across
+is $\varpi^{\circ}$ and $g_\varpi$ — the state’s growth margin, and the
+floor beneath it.
+
+Every extension named here should preserve the paper’s central
+discipline. The relevant objects must be kept separate: in-kind
+provision, private household claims, funding sources, and accumulation
+responses. Neither aggregate public spending nor household consumption
+alone identifies their incidence. The task for future theory is to
+derive the conditions under which those margins collapse into one
+another, or remain distinct.
 
 ------------------------------------------------------------------------
 
