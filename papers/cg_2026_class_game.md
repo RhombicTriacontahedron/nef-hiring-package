@@ -6990,28 +6990,35 @@ $$g_\varpi \;=\; (1-\delta)^{\frac{\alpha\theta}{\alpha\theta+1-\theta}}\,
   (1-\delta_G)^{\frac{1-\theta}{\alpha\theta+1-\theta}} , \tag{$\varpi$}$$
 *the weighted geometric mean of the two survival factors, which lies
 strictly between them. The ray needs $g_\varpi<1-\delta$ and so exists
-exactly when $\delta<\delta_G$. **Where $\delta\ge\delta_G$ there is no
+exactly when $\delta<\delta_G$. **Where $\delta>\delta_G$ there is no
 such ray: $z$ settles at a stationary positive value, Proposition 2(iii)
 pins $g_W=1-\delta_G$, properness requires
 $(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge is
-inadmissible-improper and Assumption 5 disposes of it. Where
-$\delta<\delta_G$ it does not: $g_\varpi>1-\delta_G$ strictly, and since
-$g_W$ rises to $g_\varpi$ along the ray it is the tail that governs
-summability, so both clauses of (A5) hold for
-$\beta<g_\varpi^{\sigma-1}$ and the face is admissible.** That second
-case is not closed by the obvious route, and the reason is worth
-stating: a growth-rate ordering is not a payoff ordering — at $\sigma>1$
-and from a common start, a path of higher asymptotic growth can carry
-the smaller discounted value — so comparing $g_\varpi$ with an
-incumbent’s (A) settles nothing. What does settle it, on an interval of
-discount factors reaching down from the admissibility ceiling, is
-Proposition 17: it compares the two discounted payoffs directly, and
-uses the growth factors only through the rate at which each series
-diverges. Which case holds does not touch the construction below: $T$ is
-convex whether or not its $\varpi=0$ face is attached, and Lemma 2 needs
-the face detached in either case. What it does touch is how far the
-conclusion reaches, and Corollary 4 carries that scope. The worker’s
-problem is therefore the maximisation of
+inadmissible-improper and Assumption 5 disposes of it. ⛔ **On the
+diagonal $\delta=\delta_G$ neither description holds** — there is no
+ray, and there is no stationary positive stock either, because (42)
+below makes $x/z$ rise strictly at every date; instead $z_t\to0$ and
+$x_t\to\infty$ together, with $g_W$ falling to $1-\delta$ from above
+rather than sitting at it. The limiting rate is
+$\max\{g_\varpi,1-\delta_G\}$ in all three cases, so the properness
+condition is unchanged there. **Three cases occur, not two**, and the
+proof carries the third separately. Where $\delta<\delta_G$ it does not:
+$g_\varpi>1-\delta_G$ strictly, and since $g_W$ rises to $g_\varpi$
+along the ray it is the tail that governs summability, so both clauses
+of (A5) hold for $\beta<g_\varpi^{\sigma-1}$ and the face is
+admissible.** That second case is not closed by the obvious route, and
+the reason is worth stating: a growth-rate ordering is not a payoff
+ordering — at $\sigma>1$ and from a common start, a path of higher
+asymptotic growth can carry the smaller discounted value — so comparing
+$g_\varpi$ with an incumbent’s (A) settles nothing. What does settle it,
+on an interval of discount factors reaching down from the admissibility
+ceiling, is Proposition 17: it compares the two discounted payoffs
+directly, and uses the growth factors only through the rate at which
+each series diverges. Which case holds does not touch the construction
+below: $T$ is convex whether or not its $\varpi=0$ face is attached, and
+Lemma 2 needs the face detached in either case. What it does touch is
+how far the conclusion reaches, and Corollary 4 carries that scope. The
+worker’s problem is therefore the maximisation of
 $\widetilde V_W(\tau,\varpi)=V_W(\tau,\varpi/\tau)$ over the convex set
 $T$.*
 
