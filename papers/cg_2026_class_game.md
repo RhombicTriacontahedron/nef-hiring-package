@@ -3408,35 +3408,39 @@ at that cell’s own tax, and at $\tau=0.34$ that is $0.94$ against
 $1.39$.
 
 How much of this is Cobb–Douglas? Less than it looks, and not the part
-one would guess. Write the composite in its homogeneous form
-$X(c,z)=c\,f(z/c)$ and put $r=z/c$. Along the budget the growth margin
-is positive exactly when
-$$m(r)\;\equiv\;\frac{f'(r)}{f(r)-r f'(r)}\;>\;\alpha ,
-\qquad\text{and}\qquad m'(r)\;=\;\frac{f\,f''}{\big[f-rf'\big]^{2}} .$$
-So **strict quasiconcavity alone** — $f''<0$ — makes $m$ fall, allows
-one crossing, and delivers the single peak. No elasticity of
-substitution enters it, bounded or otherwise; the elasticity sets how
-fast $m$ rotates, never whether its level ever meets $\alpha$. What
-Cobb–Douglas supplies is the *boundary*: there
-$m(r)=(1-\theta)/(\theta r)$, which diverges as $r\downarrow0$, so the
-crossing is always reached from above. Drop that and the peak can simply
-fail to exist — at $f(r)=1+ar+\varepsilon\big(1-e^{-r}\big)$ with
-$a=\varepsilon=\tfrac{1}{10}$ and $\alpha=\tfrac12$,
-$m(0^{+})=\tfrac15<\alpha$ and provision never pays at the margin at any
-split. Uniqueness is quasiconcavity’s; existence is Cobb–Douglas’s; only
-the closed form is both.
+one would guess. Write the reproduction composite in its homogeneous
+form $\mathsf{X}(c,z)=c\,\mathcal{F}(z/c)$ and put $\mathsf{r}=z/c$.
+Along the budget the growth margin is positive exactly when
+$$\mathsf{m}(\mathsf{r})\;\equiv\;
+  \frac{\mathcal{F}'}{\mathcal{F}-\mathsf{r}\,\mathcal{F}'}\;>\;\alpha ,
+\qquad\text{and}\qquad
+\mathsf{m}'(\mathsf{r})\;=\;\frac{\mathcal{F}\,\mathcal{F}''}
+  {\big[\mathcal{F}-\mathsf{r}\,\mathcal{F}'\big]^{2}} .$$ So **strict
+quasiconcavity alone** — $\mathcal{F}''<0$ — makes $\mathsf{m}$ fall,
+allows one crossing, and delivers the single peak. No elasticity of
+substitution enters, bounded or otherwise: the elasticity sets how fast
+$\mathsf{m}$ rotates, never whether its level ever meets $\alpha$. What
+Cobb–Douglas supplies is the *boundary*. There
+$\mathsf{m}(\mathsf{r})=(1-\theta)/(\theta\mathsf{r})$, which diverges
+as $\mathsf{r}\downarrow0$, so the crossing is always reached from
+above. Drop that and the peak can fail to exist outright: at
+$\mathcal{F}(\mathsf{r})=1+\tfrac{1}{10}\mathsf{r}+\tfrac{1}{10}\big(1-e^{-\mathsf{r}}\big)$
+— smooth, increasing and strictly quasiconcave — with $\alpha=\tfrac12$,
+$\mathsf{m}(0^{+})=\tfrac15<\alpha$ and provision never pays at the
+margin at any split. **Uniqueness is quasiconcavity’s, existence is
+Cobb–Douglas’s, and only the closed form needs both.**
 
 ⚠ **The reach of that stops one step short, and the step is the
 reduction itself.** Both statements are about $\mathcal{P}$, and
 $\mathcal{P}$ exists because the rest-point condition *separates* —
-every $g$ on one side, every share on the other, which is Proposition
-6(i). Homogeneity alone does not buy the separation. It factors the
-scale out of $X$ and leaves $g$ inside the second argument through
-$g-1+\delta_G$, so for a composite that is homogeneous but not
-log-linear the line along which $X$ is read has a slope that moves with
-$g$, and the crossing argument no longer closes on its own. **What is
-established is that the shape needs no Cobb–Douglas once the condition
-separates, not that the condition separates.**
+every $g$ on one side, every share on the other, which is (i).
+Homogeneity alone does not buy the separation: it factors the scale out
+of $\mathsf{X}$ and leaves $g$ inside the second argument through
+$g-1+\delta_G$. For a composite homogeneous but not log-linear, the line
+along which $\mathsf{X}$ is read has a slope that moves with $g$, and
+the crossing argument stops closing on its own. **What is established is
+that the shape needs no Cobb–Douglas once the condition separates — not
+that the condition separates.**
 
 Three primitives are left, and
 $\varpi^{\circ}=(1-\theta)\big[1/\alpha-(1-\tau)\big]$ prices each. It
