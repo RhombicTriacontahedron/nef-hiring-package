@@ -4784,9 +4784,9 @@ outside, and it is the paper’s measurement claim proved rather than
 asserted. A single-peaked map is a two-to-one map on one side of its
 peak, and everything an observer of aggregates sees runs through it.
 
-**Proposition 18 (the stationary aggregates identify the split exactly
-when the growth peak is not interior, and the published total never
-does).** *Let the hypotheses of Proposition 6 hold with
+**Proposition 18 (the stationary aggregates identify the split globally
+exactly when the growth peak is not interior, and the published total
+never does).** *Let the hypotheses of Proposition 6 hold with
 $\theta\in(0,1)$, and hold $\tau$, $i$ and the primitives fixed while
 the split $\phi$ ranges over $(0,1]$. Then:*
 
