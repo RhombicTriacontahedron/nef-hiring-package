@@ -5976,7 +5976,7 @@ $\kappa_W(\phi)-\tau\alpha(1-\phi)=1-\alpha$ identically, the
 $(1-\phi)\tau\alpha$ terms cancelling. Every factor is strictly positive
 under properness, at every $\phi\in[0,1]$ and not only at the corner;
 $\Omega$ has left the expression altogether. The raw partial is signed
-by (B.7$'$) alone only at or below labour’s share, as §8.4 shows; the
+by (8) alone, but only at or below labour’s share, as §8.4 shows; the
 collapse signs it at every tax.*
 
 *(iii) **The criterion, at every split.** Write
