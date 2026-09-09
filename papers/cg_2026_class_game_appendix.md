@@ -2674,6 +2674,30 @@ improper points are removed. Proposition 3(i)’s catalogue of the
 improper side is doing work in both places rather than sitting as a
 caveat.
 
+Section 8.4’s sign statement for the second wedge derivative carries a
+certificate of its own, and it was written after the sentence it
+corrects rather than before it. The symbolic half carries $J$ from (8) —
+where it is defined, not derived — clears the three denominators, each
+strictly positive under properness and Proposition 4(iii), and reduces
+the sign to the affine numerator
+$(1-\tau)D_x-\tau\alpha\tilde\beta(g-1+\delta)$; the root
+$\tilde\beta^{\ast}$ and the cancellation of $(g-1+\delta)$ from
+$1-\tilde\beta^{\ast}$ are verified as rational identities rather than
+asserted, which is what makes the disappearance of the growth factor and
+both depreciation rates a fact about the expression instead of an
+impression from a grid. The numerical half draws $200{,}000$ admissible
+cells: the threshold predicts the sign on every one, no negative occurs
+anywhere at $\tau\le1-\alpha$, and above it a witness of each sign is
+exhibited, which is the standard the neighbouring unsigned claim is held
+to. A seeded fault fires — the deliberately wrong boundary
+$\alpha+\tau>1.2$ is refuted by $6{,}015$ cells in the band it would
+have excluded — and Proposition 12(ii)’s collapse is re-derived in the
+same script, so the new statement is checked against the one it sits
+beside rather than only against itself. What the certificate does not
+establish, and does not claim, is that the corner $\tau>1-\alpha$ is
+occupied at an interior rest point of the full game; the sentence it
+repairs quantifies over the expression, not over rest points.
+
 Theorem 5 carries a third certificate. Its symbolic part clears
 $g^{\sigma-1}$ from (6), derives
 $\varepsilon_\Omega=\mu(1-\sigma\Omega/\tilde\beta)$ and confirms that
