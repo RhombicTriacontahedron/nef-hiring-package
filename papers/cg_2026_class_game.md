@@ -7615,7 +7615,21 @@ $\max\{1-\delta,\,1-\delta_G\}$, and*
 
 *(i) where $\delta\le\delta_G$: $x^\ast\to\infty$ and $z^\ast\to0$,
 with* $$z^\ast \;\asymp\; \varepsilon^{\,\mathcal{C}} , \tag{45}$$
-*$\mathcal{C}$ the exponent of* (41)*;*
+*$\mathcal{C}$ the exponent of* (41)*. Each of the three quantities is
+in fact a power of $\varpi$ times a convergent factor, with*
+$$\varepsilon \sim L_\varepsilon\,\varpi^{\,p_\varepsilon}, \qquad
+  x^\ast \sim L_x\,\varpi^{\,-p_\varepsilon/(1-\alpha)}, \qquad
+  z^\ast \sim L_z'\,\varpi^{\,\mathcal{C}p_\varepsilon},$$ *for
+constants $L_\bullet\in(0,\infty)$, where*
+$$p_\varepsilon \;=\; \frac{(1-\alpha)(1-\theta)}{\alpha} \ \ \text{off the diagonal}, \qquad
+  p_\varepsilon \;=\; \frac{(1-\alpha)(1-\theta)}{\alpha\theta+1-\theta} \ \ \text{on it} ,$$
+*so that off the diagonal $x^\ast\asymp\varpi^{-(1-\theta)/\alpha}$ and
+$z^\ast\asymp\varpi^{\theta}$, while on it
+$x^\ast\asymp\varpi^{-(1-\theta)/(\alpha\theta+1-\theta)}$ and
+$z^\ast\asymp\varpi^{\alpha\theta/(\alpha\theta+1-\theta)}$ — the
+bracket being $(\varpi)$’s own. In particular
+$z^\ast/\varepsilon^{\mathcal{C}}$ converges to a strictly positive
+finite limit, which is more than* (45) *asserts;*
 
 *(ii) where $\delta>\delta_G$: $x^\ast$ and $z^\ast$ converge to finite
 strictly positive limits.*
@@ -7658,7 +7672,26 @@ $p_z=1+\alpha p_x-p_{\varepsilon_G}$, with $p_{\varepsilon_G}=0$ off the
 diagonal and $p_{\varepsilon_G}=p_\varepsilon$ on it. Both give
 $$\frac{p_z}{p_\varepsilon}=\frac{\alpha\theta}{(1-\alpha)(1-\theta)}=\mathcal{C} ,$$
 the bracket cancelling on the diagonal and the $\alpha$ off it, which is
-$(45)$.
+$(45)$. Matching the divergent coefficient against $\gamma(1-\theta)$
+gives $p_\varepsilon$ itself and not only the ratio: off the diagonal
+the divergent coefficient is $\gamma\alpha/(1-\alpha)$, on it the second
+and third add to $\gamma(\alpha\theta+1-\theta)/(1-\alpha)$, and
+dividing gives the two values displayed in the statement. **The ratio
+$(45)$ is the same on both branches while the exponents themselves are
+not**, which is why the ratio alone could not show them.
+
+That the powers carry *constants* rather than only orders is the step
+$(45)$ leaves on the table. Every term of $H$ other than the diverging
+logarithm converges: $\ln g\to\ln g_{\min}$; off the diagonal
+$\gamma(1-\theta)\ln(g-1+\delta_G)\to\gamma(1-\theta)\ln(\delta_G-\delta)$,
+finite and strictly so; and the constant moves only at $O(\varpi)$. So
+the residual after subtracting the divergent term converges rather than
+merely staying bounded, and exponentiating a convergent logarithm gives
+an asymptotic equivalence with a strictly positive finite constant. The
+two inversions then carry that property to $x^\ast$ and $z^\ast$, and
+$z^\ast/\varepsilon^{\mathcal{C}}$ inherits a limit. ⚠ **Bounded is not
+convergent, and only the second delivers the constant** — the
+distinction is where a reader could stop one step short.
 
 Where $\delta>\delta_G$ the endpoint is $1-\delta_G$ and only the third
 logarithm diverges; its coefficient is already the coefficient of
