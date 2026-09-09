@@ -4789,6 +4789,13 @@ differs in the private claim, in the public intensity and in the private
 gap. Both members are proper or neither is, because properness is a
 condition on $g$ alone by Proposition 6(iii) and the pair shares $g$.*
 
+*(iv) **The pair is indistinguishable to an observer and not to the
+worker.** By Corollary 2 every interior stationary split lies strictly
+below $\varpi^{\circ}$, and the two members straddle it, so only
+$\phi_1$ can be a worker’s own stationary choice: the high-provision
+member is a policy a planner may set and a worker’s best response never
+reaches.*
+
 *So where the peak is interior, no statistic assembled from the growth
 rate, the class ratio and a cash-plus-provision total separates a
 low-provision economy from a high-provision one; the private gap
