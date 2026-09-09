@@ -220,11 +220,11 @@ distance between the worker’s stationary tax and full expropriation is
 the capital wedge, in closed form — so the point at which redistribution
 stops is a decomposition of the worker’s own problem rather than a limit
 imposed on it from outside. And what a published budget cannot report is
-the composition of the spending rather than its level: Proposition 18
-names the band of splits over which the growth factor, the capital
-intensity, the class ratio and the total disbursement fall silent
-together, and that band sits at the generous end, so an economy that
-builds little is always read correctly.
+the composition of the spending rather than its level: the published
+total is silent at every split, by construction, and Proposition 18
+names the band over which the growth factor, the capital intensity and
+the class ratio go silent with it. That band sits at the generous end,
+so an economy that builds little is always read correctly.
 
 Section 2 sets out the model and the scope. Section 3 shows the public
 stock cannot be dropped from the state, and characterises completely the
