@@ -4744,6 +4744,77 @@ no derivative; where the matching half holds, the branch closes under
 $(\ddagger)$ by itself, and where it does not, that scalar is the whole
 of what $(\ddagger)$ does not deliver here.
 
+Part (iv) has a consequence for what can be read off an economy from the
+outside, and it is the paper’s measurement claim proved rather than
+asserted. A single-peaked map is a two-to-one map on one side of its
+peak, and everything an observer of aggregates sees runs through it.
+
+**Proposition 18 (a published cash-plus-provision total identifies the
+split exactly when the growth peak is not interior).** *Let the
+hypotheses of Proposition 6 hold with $\theta\in(0,1)$, and hold $\tau$,
+$i$ and the primitives fixed while the split $\phi$ ranges over $(0,1]$.
+Then:*
+
+*(i) **Everything aggregated depends on the split only through $\Phi$,
+and the total not even through that.** The growth factor is
+$\mathcal{H}^{-1}(\mathcal{P})$ and $\mathcal{P}$ reaches $\phi$ only
+through $\gamma\ln\Phi(\phi)$, which is Proposition 6(i)–(ii) with (4);
+the stationary capital intensity $x(g)$ of that proposition’s proof
+depends on $\phi$ only through $g$. Substituting (4) into (N$'''$)
+collapses the class ratio onto the same scalar,*
+$$\nu^\ast \;=\; \frac{(1-i)(1-\tau)\alpha\,\big(g-1+\delta_G\big)^{1-\theta}}{\Phi(\phi)} ,
+  \tag{N$''''$}$$ *and the split does not reach the fiscal total at all:
+workers receive $\kappa_W(\phi)$ of output and the stock receives
+$\phi\tau\alpha$, so cash plus provision is $\tau\alpha$ at every
+$\phi$.*
+
+*(ii) **The distribution, by contrast, separates any two splits that
+share a growth factor.** $\kappa_W$ falls strictly in $\phi$
+unconditionally; and **at a fixed $g$** — the only comparison part (iii)
+calls for, and a necessary qualifier because $g$ itself answers to the
+split — $z/Y=\phi\tau\alpha/(g-1+\delta_G)$ rises strictly in $\phi$, so
+$z/c_W$ does, and with it the private gap $c_C/c_W=(z/c_W)^{1-\theta}$
+of Lemma 1$'''$.*
+
+*(iii) **Hence a dichotomy, on the condition Proposition 6(iv) already
+carries.** If $\alpha\theta\tau\le(1-\alpha)(1-\theta)$ the peak is not
+interior to the box, $\Phi$ is strictly increasing on $(0,1]$, and the
+growth factor by itself recovers the split. If
+$\alpha\theta\tau>(1-\alpha)(1-\theta)$ the peak is interior at $\phi_g$
+of (5), $\ln\Phi$ is strictly concave, and every value in
+$\big(\Phi(1),\Phi(\phi_g)\big)$ is attained at exactly two splits
+$\phi_1<\phi_g<\phi_2$ in $(0,1)$. That pair shares the growth factor,
+the capital intensity, the class ratio and the total disbursement, and
+differs in the private claim, in the public intensity and in the private
+gap. Both members are proper or neither is, because properness is a
+condition on $g$ alone by Proposition 6(iii) and the pair shares $g$.*
+
+*So where the peak is interior, no statistic assembled from the growth
+rate, the class ratio and a cash-plus-provision total separates a
+low-provision economy from a high-provision one; the private gap
+separates them exactly, and so does the one further number those totals
+are already assembled from — the division of the same receipt between
+cash and provision.*
+
+The region is not empty, and the paper has already been inside it.
+Appendix D.4’s pair at $\theta=0.8,\ \tau=0.7$ — $\phi=0.624$ and
+$\phi=0.954$, both admissible, both returning $g^\ast=0.98222$ against
+the *simulated* three-state fixed point rather than against (4) — is a
+pair of this kind: $\phi_g=0.780$ lies between them, and
+$\alpha\theta\tau=0.185$ exceeds $(1-\alpha)(1-\theta)=0.134$ at
+$\alpha=0.33$. The two economies disburse the same $0.231$ of output and
+pay workers $0.757$ and $0.681$ of it privately; $z/c_W$ differs between
+them by $41\%$ and the private gap $c_C/c_W$ by $10\%$, the latter a
+ratio free of $\delta_G$ because the flow-to-stock factor cancels. ⚠
+**This paper’s own computed equilibria are not in that region**, and the
+claim is not that they are unidentified: at $\theta\approx0.6$ the
+crossing sits at $\phi^{\circ}$ between $1.39$ and $1.99$, outside the
+box, exactly as the discussion of (iv) reports above. What the dichotomy
+delivers is a checkable condition — high private weight in the composite
+together with a substantial capital tax — under which an aggregate that
+adds cash to provision cannot be read as an incidence, and outside which
+it can.
+
 ## 8.2 The tax margin, and the ceiling
 
 **Proposition 7 (the tax margin single-crosses at every split, and the
