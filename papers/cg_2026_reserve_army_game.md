@@ -65,12 +65,18 @@ the regime, whether labour is bargaining or pinned to its ceiling; and
 where the unemployment pool is large enough to pin labour to its ceiling
 there is at most one compromise and never two, so the multiplicity
 itself belongs to the regime in which the bargain sets the wage and not
-to the economy. That stationary layer then closes on itself. Where the
-pool sets the wage at every employment rate — the reserve-army case —
-the accumulation rate the compromise delivers is, term for term, the
-expression whose sign decides whether the compromise is interior at all,
-so that a class compromise exists exactly where the economy grows; the
-employment rate at which the regime’s canonical system rests is
+to the economy. Where labour is pinned is not an interval of low
+employment rates: labour sits on its ceiling at both ends of the branch
+that carries a compromise, and for opposite reasons — a large pool at
+one end, and at the other an accumulation share collapsing to zero,
+which drives labour’s interior demand past any ceiling it could be
+granted. A wage at its ceiling is therefore not a sufficient statistic
+for a large reserve army. That stationary layer then closes on itself.
+Where the pool sets the wage at every employment rate — the reserve-army
+case — the accumulation rate the compromise delivers is, term for term,
+the expression whose sign decides whether the compromise is interior at
+all, so that a class compromise exists exactly where the economy grows;
+the employment rate at which the regime’s canonical system rests is
 therefore unique when it exists, and exists under two closed-form
 conditions in the primitives — one placing the drift’s zero inside the
 state space, a second making the compromise there interior, neither
@@ -156,10 +162,11 @@ prices and the single channel through which the compromise sees the
 pool, the fold at an arbitrary pair of effective prices together with
 the accumulation rate it carries, the dichotomy in which no extractable
 day whatever admits an interior compromise, the uniqueness of the
-compromise where the pool pins labour to its ceiling, and the identity
-that closes the stationary layer on the employment rate itself in that
-case — existence and uniqueness of the regime’s stationary employment
-rate under a closed-form inequality.
+compromise where the pool pins labour to its ceiling together with the
+two-sided shape of the set where it does, and the identity that closes
+the stationary layer on the employment rate itself in that case —
+existence and uniqueness of the regime’s stationary employment rate
+under a closed-form inequality.
 
 So what? A policy that reduces the unemployment pool by speeding
 accumulation is, in this model, a policy about which equilibrium the
@@ -573,13 +580,16 @@ labour can enforce at most $\bar\omega(v)$, increasing in $v$, and
 capital can extract at most $\bar e(v)$, decreasing in $v$. With
 log-linear ceilings, $$
 \bar\omega(v) = \hat\omega\, v^{\eta}, \qquad \bar e(v) = \hat e\, v^{-\zeta}, \qquad \eta, \zeta > 0 ,
-$$ the labour ceiling binds for a large enough unemployment pool and is
-slack above a threshold employment rate $\hat v$. Below $\hat v$ the
-unemployment pool disciplines the wage; above it organised labour
-restrains itself, and the same economy can sit on either side of that
-line as it grows. This section solves that regime at its **stationary
-layer** — the rest points of the canonical system, which is where every
-equilibrium object of the core lives.
+$$ the labour ceiling binds where the unemployment pool is large and is
+slack where it is not. ⛔ That is a condition on the employment rate
+*and the accumulation share together*,
+$\bar\omega(v)\,s \le \kappa\rho$, and it is not a threshold in the
+employment rate alone: the Corollary to Proposition 11 shows that along
+the stationary locus labour is pinned to its ceiling at **both** ends of
+the region where a compromise exists, and bargains in a band between
+them. This section solves that regime at its **stationary layer** — the
+rest points of the canonical system, which is where every equilibrium
+object of the core lives.
 
 **Method, and what it does not buy.** Nothing below imports a maximum
 principle for control constraints that depend on the state. Capital’s
@@ -763,16 +773,15 @@ Proposition 8’s hypothesis holds, so that the fold governs — satisfies
 $$
 v \;<\; v_{\text{f}} \;=\; \Big(\hat e \big/ \kappa\rho(1 + 1/\sqrt{1+\lambda})^2\Big)^{1/\zeta} ,
 $$ and the inequality is strict. ⛔ **The bound does not extend to the
-pinned half, and the qualifier is not decorative.** Below $\hat v$
-labour sits on its own ceiling, Proposition 8’s hypothesis fails there —
-its effective price acquires a dependence on $s$, which is why
-Proposition 11 argues directly — and the binding condition is
-Proposition 11’s interiority, which is not ordered against the core’s
-fold at all. A pinned compromise can therefore sit above $v_{\text{f}}$:
-at $\kappa = 4$, $\rho = 1/4$, $\lambda = c = 0$, $b = 1/20$,
-$\zeta = 1/2$, $\eta = 1$, $\hat\omega = 1/20$, $\hat e = 1$ and
-$v = 1/5$, the first branch holds, $\bar e(v) = \sqrt 5$ lies *below*
-the core fold $4$, and yet
+pinned half, and the qualifier is not decorative.** Where labour sits on
+its own ceiling, Proposition 8’s hypothesis fails — its effective price
+acquires a dependence on $s$, which is why Proposition 11 argues
+directly — and the binding condition is Proposition 11’s interiority,
+which is not ordered against the core’s fold at all. A pinned compromise
+can therefore sit above $v_{\text{f}}$: at $\kappa = 4$, $\rho = 1/4$,
+$\lambda = c = 0$, $b = 1/20$, $\zeta = 1/2$, $\eta = 1$,
+$\hat\omega = 1/20$, $\hat e = 1$ and $v = 1/5$, the first branch holds,
+$\bar e(v) = \sqrt 5$ lies *below* the core fold $4$, and yet
 $N(v) = \tfrac{7}{12}\sqrt5 - \tfrac{101}{100} > 0$, so a pinned
 interior compromise exists with $s = 0.132$ — while
 $v_{\text{f}} = 1/16$. The employment rate is three times the bound. So
@@ -807,28 +816,30 @@ allowed: the compromise does not merely outgrow the description that
 priced it, as in Proposition 4$''$; the condition under which it was a
 compromise at all fails first.
 
-**Proposition 11 (below the threshold: the unemployment pool disciplines
-the wage, and the compromise is one or none).** Labour’s ceiling is
-optimal for it exactly where $\bar\omega(v) \le \kappa\rho/s$, that is
-where $$
+**Proposition 11 (where the pool pins labour to its ceiling, the
+compromise is one or none).** Labour’s ceiling is optimal for it exactly
+where $\bar\omega(v) \le \kappa\rho/s$, that is where $$
 v \;\le\; \hat v \;=\; \big(\kappa\rho/(s\hat\omega)\big)^{1/\eta} ,
-$$ and this threshold is **unmoved by the regime** even though labour’s
+$$ and this condition is **unmoved by the regime** even though labour’s
 costate at its own ceiling is not the core’s: labour’s own ceiling is
 state-dependent too, so its costate acquires an $\eta$ term, and the two
 $\eta$ effects cancel identically at $a_W = 1$. For an insider
-organisation, $a_W = 0$, they do not cancel and the threshold moves.
-Below $\hat v$ labour has no interior condition, only capital optimises,
-and capital’s stationary condition is linear in $s$ once $\omega$ is
-pinned, so there is **at most one** compromise, and it is closed-form:
-$$
+organisation, $a_W = 0$, they do not cancel and the condition moves. ⛔
+**$\hat v$ carries $s$, so the display is a joint condition on the
+employment rate and the accumulation share and not a threshold in the
+employment rate alone**; the Corollary below says what shape it really
+has, and it is not an interval. Where labour is pinned it has no
+interior condition, only capital optimises, and capital’s stationary
+condition is linear in $s$ once $\omega$ is pinned, so there is **at
+most one** compromise, and it is closed-form: $$
 s \;=\; 1 - \frac{\rho\,(\kappa+\Gamma)}{(1+\lambda)\,\big(\bar e(v) - \bar\omega(v)\big)} .
 $$ This root always satisfies $s < 1$, since the subtracted term is
 positive; it satisfies $s > 0$, and so is a compromise at all, if and
 only if $$
 (1+\lambda)\,\big(\bar e(v) - \bar\omega(v)\big) \;>\; \rho\,(\kappa+\Gamma) .
-$$ Below that inequality there is no interior compromise beneath
-$\hat v$ either. There is no fold below $\hat v$: the count there is one
-or none, never two.
+$$ Below that inequality there is no interior compromise on the pinned
+branch either. There is no fold there: the count is one or none, never
+two.
 
 In words, the multiplicity is a property of the regime in which the
 bargain sets the wage, not of the one in which the unemployment pool
@@ -839,9 +850,49 @@ of carrying it, and none otherwise; where labour is off its ceiling, it
 has two or none. That is a sharper division than “which half of the
 mechanism does the work”: the two halves do not merely alternate, they
 differ in how many class compromises the economy admits at all. And the
-line between them is the one the core’s own costate draws — a
+condition separating them is the one the core’s own costate draws — a
 coincidence that had to be checked rather than assumed, because labour’s
 costate at its ceiling is genuinely different.
+
+**Corollary to Proposition 11 (labour is pinned at both ends, and the
+two pinnings have opposite causes).** Write
+$g(v) \equiv \bar\omega(v)\,s(v)$ for the left-hand side of the pinning
+condition evaluated along the pinned branch’s own share, so that labour
+is pinned exactly where $g(v) \le \kappa\rho$, and let $v_0$ be the
+unique zero of $N$, so that the branch carries an interior compromise
+exactly on $(0, v_0)$. Then $g > 0$ on $(0,v_0)$ and $$
+g(0^+) \;=\; 0, \qquad g(v_0^-) \;=\; 0 ,
+$$ the first because $s \to \beta$ while $\bar\omega \to 0$, the second
+because $s \to 0$ while $\bar e - \bar\omega$ stays bounded away from
+zero. Labour is therefore pinned on a right-neighbourhood of $0$ always,
+and on a left-neighbourhood of $v_0$ whenever $v_0 < 1$; and wherever
+$g$ exceeds $\kappa\rho$ at one interior point, **the pinned region is
+disconnected**, with labour bargaining in a band and pinned on both
+sides of it. Under Proposition 12’s hypothesis
+$\hat\omega \le \kappa\rho$ this cannot happen, since $s < 1$ gives
+$g < \bar\omega \le \hat\omega \le \kappa\rho$ throughout; the
+disconnection belongs to the case $\hat\omega > \kappa\rho$ in which
+labour can bargain at all, and Proposition 13’s own cell attains it,
+with pinned region $(0, 0.242] \cup [0.701, 0.754)$ and with the pinned
+rest point $v^\ast = 0.732$ of part (iii) lying in the **upper**
+component.
+
+In words, the same observable — labour taking its ceiling rather than
+bargaining for a share — has two opposite causes in this model, and they
+sit at opposite ends of the same branch. At a low employment rate labour
+is pinned because the unemployment pool is large, which is the
+reserve-army reading and the one the regime was built for. Near $v_0$ it
+is pinned for the opposite reason: the compromise is barely interior,
+capital’s accumulation share is collapsing to zero, and labour’s
+interior demand $\kappa\rho/s$ diverges past any ceiling it could be
+granted. There is nothing left to bargain over. So an economy observed
+with wages at a ceiling is not thereby an economy with a large reserve
+army; without the accumulation share the observation does not identify
+which half of the mechanism is operating, and the two halves have
+opposite policy readings. This is also why the region cannot be
+summarised by a threshold employment rate: $\hat v$ carries the
+accumulation share, and along the branch that share is not monotone in
+employment.
 
 **Corollary to Proposition 11 (the persistence locus in the regime).**
 Along the regime’s stationary locus the accumulation rate at a given
@@ -951,17 +1002,144 @@ is, as in Proposition 12, **at most one** stationary employment rate;
 along the distributionist compromise the accumulation term rises in $v$
 while the mechanisation term falls, monotonicity is unavailable, and
 more than one stationary employment rate is **not excluded**.
+Proposition 13 settles both branches and exhibits an economy in which
+two are attained.
 
 In words, the two compromises do not only differ in the wage share, the
 growth rate and the payoff each class gets. They differ in how many
 reserve armies they admit. The accumulationist compromise leaves one
-unemployment pool or none; the distributionist compromise may leave
-several, and which one an economy is in would then depend on where it
-started. That asymmetry has the same source as the fold itself — the two
-roots sit on opposite sides of the discriminant, so a change in the
-extractable day moves them in opposite directions — and it sharpens the
-paper’s central division: the equilibrium the classes disagree about is
-also the one whose macroeconomics is determinate.
+unemployment pool or none; the distributionist compromise can leave two,
+and which of them an economy is in depends on where it started. That
+asymmetry has the same source as the fold itself — the two roots sit on
+opposite sides of the discriminant, so a change in the extractable day
+moves them in opposite directions — and it sharpens the paper’s central
+division: the equilibrium the classes disagree about is also the one
+whose macroeconomics is determinate.
+
+**Proposition 13 (where labour bargains, the drift is convex in the
+accumulation share, and the distributionist compromise really does admit
+two reserve armies).** Index the bargained stationary locus by the
+accumulation share rather than by the employment rate. Capital’s
+effective price is affine in the extractable day,
+$Q_C = A_0 + B_0\bar e$, so Proposition 8’s quadratic is *linear* in
+$\bar e$ and inverts: $$
+\bar e(s) \;=\; \frac{P(s)}{s\,(\beta - s)}, \qquad
+\kappa A(s) \;=\; \frac{Q_W B_0 + A_0 s}{\beta - s}, \qquad
+P(s) \equiv Q_W - q s, \quad q \equiv Q_W - A_0 \ge 0 ,
+$$ on $s \in (0,\beta)$ — and on that interval only. At $s = \beta$ the
+quadratic reads $Q_W(1-\beta) + \beta A_0 = 0$, a sum of positive terms:
+**where labour bargains, capital’s accumulation share never reaches
+$\beta = 1 - \rho\Theta/(1+\lambda)$**, which is sharper than the $s<1$
+Proposition 8 delivers and is a cost of the extraction channel, not of
+the discount. The square root is gone. Proposition 8’s two roots are the
+two arms of the single-valued curve $s \mapsto \bar e(s)$, which is
+$U$-shaped with its minimum exactly at the fold — at $\lambda = 0$, at
+$s_{\text{f}} = \beta/2$ — with the distributionist arm below and the
+accumulationist arm above; and $A$ is strictly increasing in $s$ along
+the whole curve, which is the Corollary to Proposition 12 read off the
+parametrisation instead of off the discriminant.
+
+Written in the share, the drift is $$
+\dot x(s) \;=\; (1-c)A(s) \;+\; \frac{b}{\zeta}\,\ln\bar e(s) \;-\; \Big[m_0 + n + \frac{b}{\zeta}\ln\hat e\Big] ,
+$$ and it is **strictly convex on $(0,\beta)$**. Both pieces are:
+$A'' = 2G/\big(\kappa(\beta-s)^3\big) > 0$ with
+$G \equiv A_0\beta + Q_WB_0$, and $$
+(\ln\bar e)'' \;=\; \frac{1}{s^2} + \frac{1}{(\beta-s)^2} - \frac{q^2}{P^2} \;>\; 0 ,
+$$ because $q/P < 1/(1-s)$ on $s<1$ while $\beta \le 1$ gives
+$1/(\beta-s)^2 \ge 1/(1-s)^2$. At the fold $\bar e'$ vanishes, so
+$\dot x'(s_{\text{f}}) = (1-c)A'(s_{\text{f}}) > 0$: the drift’s
+minimiser lies strictly inside the **distributionist** arm. With $b>0$
+the drift diverges to $+\infty$ at both ends of the locus. Three things
+follow, and they are a count rather than a bound.
+
+1)  On the accumulationist arm the drift is strictly increasing in the
+    share and so strictly decreasing in the employment rate: **at most
+    one** stationary employment rate, and exactly one iff it changes
+    sign across the admissible interval. That interval’s ends are now
+    identified. Its upper end is the fold, not full employment, and the
+    drift there is $(1-c)\sqrt{Q_WQ_C}/\kappa - m_0 - b\ln v - n$ by the
+    Corollary to Proposition 8. Its lower end is the handover to the
+    pinned branch: where $\bar\omega s = \kappa\rho$ the bargained root
+    *is* Proposition 11’s root, $\kappa A = N(v)$ identically, and the
+    drift there is Proposition 12’s. The two halves of the mechanism
+    close on each other rather than merely abutting.
+
+2)  On the distributionist arm the drift is strictly convex, so **at
+    most two**, and exactly two iff it is negative at its interior
+    minimum and positive at both ends of the admissible interval.
+
+3)  Two is attained. At $\kappa = 1$, $\rho = 1/10$,
+    $\lambda = c = n = 0$, $b = 9/10$, $\zeta = \eta = 1$,
+    $\hat e = 2/5$, $\hat\omega = 1/2$ and $m_0 = 307/1000$ the drift is
+    $+0.0553$ at $s = 3/10$, $-0.0063$ at $s = 0.4046$ and $+0.0049$ at
+    the fold $s_{\text{f}} = 9/20$, so the distributionist compromise
+    carries exactly two stationary employment rates, $v^\ast = 0.7848$
+    and $v^\ast = 0.8095$ — both interior, both with labour strictly off
+    its ceiling, both inside the Domain. At that cell the
+    accumulationist compromise carries **none**, and the pinned branch
+    carries one, at $v^\ast = 0.732$.
+
+4)  **The regime therefore has at most three stationary employment
+    rates, and never more.** Proposition 12’s monotonicity uses
+    $\beta > 0$ and nothing else: $\hat\omega \le \kappa\rho$ enters
+    there only to make the pinned branch the whole state space, not to
+    make the pinned drift decreasing. So
+    $\dot x = (1-c)N(v)/\kappa - m_0 - b\ln v - n$ is strictly
+    decreasing in $v$ wherever it is defined, and the pinned branch
+    carries at most one zero however its validity region is shaped; the
+    bargained locus carries at most two, in total and not per arm. One
+    where the pool sets the wage, two where the bargain does, and the
+    cell above attains all three. That is the section’s one statement
+    about the *economy* rather than about a compromise, and it is
+    finite: on Proposition 9’s first branch, however the classes settle,
+    the number of reserve armies this economy can rest at is at most
+    three. ⭕ **At $b = 0$ the bound tightens to two**, since the
+    bargained locus then carries at most one across both arms together
+    while the pinned branch still carries at most one: the third rest
+    point, like the multiplicity that produces it, is bought by the
+    mechanisation law’s response to employment and by nothing else.
+
+That pairing is not an accident of the cell. Because the drift is convex
+and diverges at both ends, the locus carries two zeros, one or none
+according as its minimum is negative, zero or positive; and because the
+minimiser sits inside the distributionist arm, a **negative** drift at
+the fold puts one zero on each arm, while a **positive** one puts both
+on the distributionist arm. So an economy never has one reserve army
+under the accumulationist compromise and two under the distributionist
+one. Multiplicity is bought exactly where the accumulationist compromise
+stops having a rest point at all — where it accumulates fast enough to
+exhaust the pool, which is Proposition 4$''$’s split case seen from
+inside the regime. Admissibility can delete a zero from that count; it
+can never add one.
+
+⭕ **And the multiplicity needs $b > 0$.** At $b = 0$ the drift
+collapses to $(1-c)A(s) - m_0 - n$, strictly increasing on the whole
+locus: at most one stationary employment rate across both arms together.
+That is the exact converse of Proposition 12, where $b = 0$ costs the
+argument nothing. Where the unemployment pool sets the wage, the
+extraction ceiling stabilises employment on its own and the
+mechanisation law is dispensable; where the bargain sets it, the
+mechanisation law is the entire source of the second rest point. The two
+halves of the mechanism do not only differ in how many compromises they
+admit at a given employment rate. They differ in which primitive does
+the stabilising, and the half in which labour is weakest is the half
+that needs no help.
+
+In words, a convex function crosses zero at most twice, and that is the
+whole count. Written in the accumulation share rather than the
+employment rate, the bargained locus is a single curve instead of two
+roots: capital’s accumulation rate rises with its share, the extractable
+day falls to the fold and rises away from it, and the drift these two
+make is convex. So the employment rate the bargain leaves behind is one
+of at most two, and the economy as a whole rests at one of at most
+three. That is stronger than the mechanism looked capable of. An
+extraction margin that moves with the unemployment pool was the place to
+expect indeterminacy — a wage that answers to the pool, a pool that
+answers to accumulation, and accumulation that answers to the wage. It
+buys a count instead. And where that count is two, the classes are
+bargaining, the pool has lost its grip on the wage, and which of the two
+reserve armies the economy carries is settled by where it started rather
+than by anything either class chooses.
 
 The hypothesis $\hat\omega \le \kappa\rho$ is the reserve-army case
 rather than a technical convenience: it says labour’s wage ceiling never
@@ -971,9 +1149,8 @@ throughout. Where it fails there is a $\hat v$ inside the state space,
 labour bargains above it, and the accumulation share there is a root of
 Proposition 8’s quadratic rather than a closed form; the drift is then
 still $\big((1-c)/\kappa\big)\big(sQ_C/(1-s)\big) - m_0 - b\ln v - n$ by
-capital’s stationary condition, but its monotonicity in $v$ along either
-root is not established, so neither existence nor uniqueness is claimed
-there. Appendix B records that as the open half.
+capital’s stationary condition, and Proposition 13 counts its zeros by
+making that root the variable rather than the unknown.
 
 # 7. So what
 
@@ -998,9 +1175,16 @@ wage share; it is not a free parameter change. And where the bargain
 sets the wage the two disagree about more than the pool’s size: raising
 the extractable day moves their accumulation rates in *opposite*
 directions, so the accumulationist compromise leaves one unemployment
-pool or none, while the distributionist one is not shown to leave a
-determinate number at all. The equilibrium the classes disagree about is
-the one whose macroeconomics is settled.
+pool or none, while the distributionist one can leave two — an economy
+in which it does is exhibited, and there the accumulationist compromise
+leaves none. The two counts are not independent: whichever way the drift
+at the fold falls, an economy never has one reserve army under the
+accumulationist compromise and two under the distributionist one, so the
+multiplicity is bought exactly where the compromise both classes prefer
+has stopped having a rest point at all. The equilibrium the classes
+disagree about is the one whose macroeconomics is settled; the one they
+might otherwise have settled for is the one where history decides how
+many unemployed there are.
 
 Third, whether the unemployment pool regulates the wage depends on whom
 the organisation of labour counts as its own. An organisation that
@@ -1045,10 +1229,20 @@ the extractable day responds to employment, raising that day creates no
 compromise at all where in the core it would create two — and none on
 either side of the line where the pool takes the wage out of the
 bargain, so past that threshold the regime admits no interior compromise
-anywhere. Below the employment rate at which the pool pins labour to its
-ceiling there is at most one compromise and never two, so even the
-multiplicity turns out to belong to the regime in which the bargain sets
-the wage, and not to the economy.
+anywhere. Where the pool pins labour to its ceiling there is at most one
+compromise and never two, so even the multiplicity turns out to belong
+to the regime in which the bargain sets the wage, and not to the
+economy. And where labour is pinned is not “below a threshold”: it is
+pinned at both ends of the branch, for opposite reasons — by a large
+pool at low employment, and by a collapsing accumulation share near the
+point where the compromise stops being interior. Wages at a ceiling are
+therefore not a sufficient statistic for a large reserve army, in this
+model, which is a warning about identification and not only about
+algebra. And the whole regime is finitely determinate: at most one
+stationary employment rate where the pool sets the wage and at most two
+where the bargain does, so three in all, a bound an economy attains. A
+reader who expected the extraction margin to buy indeterminacy gets the
+opposite — it buys a count.
 
 Seventh, in the regime the question “do the classes have a compromise?”
 and the question “does this economy grow?” are the same question. Where
@@ -1535,15 +1729,16 @@ $\omega = \bar\omega$, that is iff
 $\delta \equiv \bar\omega sP_W/\kappa \le 1$; and $$
 (1-\delta)\,D \;=\; (\rho+b)\Big(1 - \frac{\bar\omega s}{\kappa\rho}\Big)
 $$ identically, so $\delta \le 1$ iff $\bar\omega \le \kappa\rho/s$ —
-the threshold computed with the core’s costate, and hence $\hat v$ as
-displayed. The two $\eta$ effects cancel: labour values a tighter market
-because it lifts its own ceiling, and that same anticipation raises its
-shadow price by exactly the amount that leaves the comparison unchanged.
-At $a_W = 0$ the same computation gives a different multiplier on
-$\bar\omega s$ and the threshold moves.
+the condition computed with the core’s costate, and hence $\hat v$ as
+displayed, which carries $s$ and is therefore joint. The two $\eta$
+effects cancel: labour values a tighter market because it lifts its own
+ceiling, and that same anticipation raises its shadow price by exactly
+the amount that leaves the comparison unchanged. At $a_W = 0$ the same
+computation gives a different multiplier on $\bar\omega s$ and the
+threshold moves.
 
-*Uniqueness, and the interiority it needs.* Below $\hat v$, $\omega$ is
-pinned at $\bar\omega(v)$ and capital’s stationary condition
+*Uniqueness, and the interiority it needs.* Where labour is pinned,
+$\omega = \bar\omega(v)$ and capital’s stationary condition
 $(1-s)(\bar e(v) - \bar\omega(v)) = \rho(\kappa+\Gamma)/(1+\lambda)$ is
 linear in $s$, since $\Gamma$ depends on the state and not on $s$;
 solving gives the displayed root, which is the only one. It is a
@@ -1569,7 +1764,35 @@ one*. Proposition 9’s second branch therefore empties the whole regime
 and not only the part of it in which labour bargains: it is a statement
 about the primitives, and no ceiling pair rescues it.
 
-*Corollary.* $A \equiv s(\bar e - \omega)/\kappa$ and
+*The shape of the pinned region.* Along the pinned branch
+$s = N/(\bar e - \bar\omega)$, so
+$g \equiv \bar\omega s = \bar\omega N/(\bar e - \bar\omega)$. The
+identity $$
+\bar e - \bar\omega \;=\; (1-\beta)\,\bar e \;+\; \frac{\rho\kappa}{1+\lambda} \;+\; N
+$$ is A.12’s $N = \beta\bar e - \bar\omega - \rho\kappa/(1+\lambda)$
+rearranged, and it does three things at once. It shows the denominator
+is a **sum of positive terms** on $\{N>0\}$, so nothing here divides by
+a quantity of indefinite sign; subtracting $N$ from it gives
+$(\bar e-\bar\omega) - N = (1-\beta)\bar e + \rho\kappa/(1+\lambda) > 0$,
+which is $s < 1$ without a further argument; and it bounds the
+denominator away from zero at $v_0$, where $N = 0$. Hence: as
+$v \to 0^+$, $N/(\bar e-\bar\omega) \to \beta$ while $\bar\omega \to 0$,
+so $g \to 0$; at $v_0$, $N = 0$ while the denominator is
+$(1-\beta)\bar e + \rho\kappa/(1+\lambda) > 0$, so $g \to 0$; and on
+$(0,v_0)$, $g$ is a product of three strictly positive factors. The
+pinned set $\{g \le \kappa\rho\}$ therefore contains a
+right-neighbourhood of $0$ and, when $v_0 < 1$, a left-neighbourhood of
+$v_0$, and is disconnected whenever $g$ exceeds $\kappa\rho$ between
+them — which is a **witness** question, settled at Proposition 13’s cell
+in A.13, and not a universal. Under $\hat\omega \le \kappa\rho$ the
+chain $g = \bar\omega s < \bar\omega \le \hat\omega \le \kappa\rho$
+closes it off, which is why Proposition 12 never meets it. ⚠ Whether the
+bargaining band is always a *single* interval — whether $g$ is
+single-peaked on $(0,v_0)$ — is **undischarged**, and nothing above
+needs it.
+
+*Corollary (the persistence locus).*
+$A \equiv s(\bar e - \omega)/\kappa$ and
 $\bar e - \omega = \rho(\kappa+\Gamma)/((1+\lambda)(1-s))$ give
 $A = \rho s(\kappa+\Gamma)/(\kappa(1+\lambda)(1-s))$, which is A.5$'$’s
 $A(s)$ times $1 + \Gamma/\kappa > 1$.
@@ -1646,8 +1869,9 @@ strictly between $v_0$ and $1$, which is exactly the region where
 $N < 0$. The two conditions are independent, and a statement asserting
 one from the other is false.
 
-*The Corollary.* Where $\hat\omega > \kappa\rho$ there is a $\hat v < 1$
-and labour bargains above it; there $\omega = Q_W/s$, so
+*The Corollary.* Where $\hat\omega > \kappa\rho$ labour bargains on a
+non-empty set of employment rates — a band, by the Corollary to
+Proposition 11, and not an upper interval; on it $\omega = Q_W/s$, so
 $\kappa A = s\bar e - Q_W$, and substituting the two roots of A.8’s
 quadratic with $Q_C = A_0 + B_0\bar e$ gives the displayed
 $\kappa A_\pm$. Differentiating, the sign of $d(\kappa A_\pm)/d\bar e$
@@ -1669,15 +1893,123 @@ $\beta + \Delta'/(2\sqrt\Delta) > 0$. ⚠ Note the second fact needs no
 admissibility at all — it is an identity plus two domain signs — while
 the first needs the fold.
 
-*What is still not proved.* Along the **distributionist** compromise the
-drift’s two terms move in opposite directions, so neither monotonicity
-nor a count is available and multiplicity is not excluded; a witness
-exhibiting two stationary employment rates there, or a proof that none
-exists, is the open item. Along the accumulationist compromise the count
-is settled at *at most one*, but **existence** on that branch is not: it
-needs the drift’s signs at the two ends of the bargaining region
-$(\hat v, 1)$, and the lower end $\hat v$ is not a point at which either
-end-condition has been evaluated here.
+*What was not proved here, and where it is.* Along the
+**distributionist** compromise the drift’s two terms move in opposite
+directions, so neither monotonicity nor a count is available from this
+argument. A.12$'$ supplies both, by changing the variable of the locus:
+the count on each arm, and a cell realising two.
+
+## A.12$'$ Proposition 13.
+
+*The inversion.* Substituting $Q_C = A_0 + B_0\bar e$ into A.8’s
+$f(s) = \bar e s^2 - s(\bar e + Q_W - Q_C) + Q_W$ leaves an expression
+**linear in $\bar e$**, since the $s Q_C$ term contributes $sB_0\bar e$.
+Collecting, $\bar e\,s\,(s - \beta) = s(Q_W - A_0) - Q_W$ with
+$\beta = 1 - B_0$, so $\bar e(s) = P(s)/(s(\beta-s))$ with
+$P(s) = Q_W - qs$ and $q = Q_W - A_0$. Since
+$q = \kappa\rho\lambda/(1+\lambda) \in [0, Q_W)$ and $s < 1$,
+$P(s) > P(1) = A_0 > 0$; positivity of $\bar e$ therefore forces
+$\beta - s > 0$, and $s = \beta$ is impossible outright because the
+quadratic collapses there to $Q_W(1-\beta) + \beta A_0 = 0$, a sum of
+positive terms. So the whole bargained locus lies in $s \in (0,\beta)$,
+and every bargained stationary point is on it: the locus is onto by
+construction from the quadratic, and it is the **graph of a function of
+$s$**, since $\bar e$ — and hence $v$ — is determined by $s$. ⛔ That is
+the property the count uses, and it is not injectivity:
+$s \mapsto \bar e(s)$ is $U$-shaped and therefore *not* one-to-one, so
+two shares can carry the same employment rate. The count of stationary
+employment rates is bounded by the count of shares, and can be strictly
+smaller. Then
+$\kappa A = s\bar e - Q_W = P/(\beta-s) - Q_W = (Q_WB_0 + A_0 s)/(\beta - s)$,
+which also equals the Corollary to Proposition 8’s $sQ_C/(1-s)$.
+Differentiating, $A' = G/(\kappa(\beta-s)^2)$ and
+$A'' = 2G/(\kappa(\beta-s)^3)$ with $G = A_0\beta + Q_WB_0 > 0$, so $A$
+is strictly increasing and strictly convex; $\bar e'(s)$ has numerator
+$-qs^2 + 2Q_Ws - Q_W\beta$, which is $-Q_W\beta < 0$ at $s = 0$ and
+$\beta(Q_W - q\beta) > 0$ at $s = \beta$, the latter because $q < Q_W$
+and $\beta \le 1$. A quadratic changing sign once on $(0,\beta)$ has
+**exactly one** zero there — not merely at most one, and the difference
+is what gives the locus an interior minimum and hence two arms rather
+than a monotone curve. That zero is the fold, since substituting
+$s = \sqrt{Q_W}/(\sqrt{Q_W}+\sqrt{Q_C})$ returns
+$\bar e = (\sqrt{Q_W}+\sqrt{Q_C})^2$ exactly. The mirrored share
+$\sqrt{Q_C}/(\sqrt{Q_W}+\sqrt{Q_C})$ does not. Because $A$ rises in $s$
+and $\bar e$ falls in $s$ below the fold and rises above it,
+$dA_+/d\bar e > 0$ and $dA_-/d\bar e < 0$ follow without a discriminant
+— an independent derivation of the Corollary to Proposition 12 from a
+different frame, and it agrees with it.
+
+*Convexity.* $\ln\bar e = \ln P - \ln s - \ln(\beta - s)$, so
+$(\ln\bar e)'' = 1/s^2 + 1/(\beta-s)^2 - q^2/P^2$. On
+$0 < s < \beta \le 1$ with $0 \le q < Q_W$ and $P > 0$: writing
+$x = q/Q_W \in [0,1)$, $q/P = x/(1-xs) < 1/(1-s)$ because
+$x(1-s) < 1 - xs$ reduces to $x < 1$; and $\beta \le 1$ gives
+$\beta - s \le 1 - s$, so $1/(\beta-s)^2 \ge 1/(1-s)^2$. Hence
+$(\ln\bar e)'' > 1/s^2 > 0$. Both hypotheses are load-bearing: dropping
+$\beta \le 1$, and dropping $q < Q_W$, each return a counterexample, so
+the statement is decided by `unsat` on a division-free encoding —
+multiply through by $s^2(\beta-s)^2P^2 > 0$ — with those two `sat`
+verdicts as its controls. The drift in the share is
+$(1-c)A(s) + (b/\zeta)\ln\bar e(s) - [m_0+n+(b/\zeta)\ln\hat e]$, which
+is the drift in $v$ rewritten through
+$\ln v = (\ln\hat e - \ln\bar e)/\zeta$, and it is a sum of two strictly
+convex functions.
+
+*The two arms.* $\dot x' = (1-c)A' + (b/\zeta)\,\bar e'/\bar e$. At the
+fold the second term vanishes and
+$\dot x'(s_{\text{f}}) = (1-c)A'(s_{\text{f}}) > 0$; since $\dot x'$ is
+increasing, $\dot x' > 0$ on the whole accumulationist arm and the
+minimiser lies strictly below $s_{\text{f}}$. As $s \to 0^+$,
+$\bar e \to +\infty$ and, if $b > 0$, $\dot x \to +\infty$; as
+$s \to \beta^-$, $A \to +\infty$ and $\dot x \to +\infty$ whatever $b$.
+A strictly convex function diverging at both ends has a unique minimiser
+and exactly two, one or no zeros as its minimum is negative, zero or
+positive — which gives (i) and (ii), and gives the distribution of those
+zeros across the arms from the sign at the fold. Admissibility —
+$v \in (0,1)$, $\bar\omega(v)s > \kappa\rho$ so that labour genuinely
+bargains, $\omega = Q_W/s < \bar\omega(v) < \bar e(v)$ — restricts each
+arm to a sub-interval and can only remove zeros. At $b = 0$ the log term
+is absent, $\dot x = (1-c)A(s) - m_0 - n$ is strictly increasing on all
+of $(0,\beta)$, and the count across both arms together is at most one.
+
+*The global count.* A.12 differentiates
+$N(v) = \beta\hat e v^{-\zeta} - \hat\omega v^{\eta} - \rho\kappa/(1+\lambda)$
+and gets
+$dN/dv = -\zeta\beta\hat e v^{-\zeta-1} - \eta\hat\omega v^{\eta-1} < 0$
+from $\beta > 0$ alone. The hypothesis $\hat\omega \le \kappa\rho$ is
+used in A.12 to establish that $\hat v \ge 1$, that is to make the
+pinned branch the whole state space; it does not enter the derivative.
+So $\dot x = (1-c)N(v)/\kappa - m_0 - b\ln v - n$ is a strictly
+decreasing function of $v$ on all of $(0,1)$ regardless of that
+hypothesis, and it has at most one zero there however the pinned
+branch’s validity region is shaped — connectedness is not needed,
+because the monotone function is defined on the whole interval and only
+its *admissible* zeros are counted. Adding the at-most-two of the
+bargained locus gives at most three in the regime, and the witness cell
+attains it. $\beta > 0$ is load-bearing and is Proposition 9’s first
+branch; on the second branch A.11 gives none anywhere.
+
+*The handover.* Where labour’s ceiling binds exactly,
+$\bar\omega = Q_W/s$, and then $N = (\bar e - \bar\omega) - Q_C$ equals
+$\kappa A(s)$ identically. So the drift is continuous where the pinned
+branch hands over to the bargained one, and its value there is A.12’s.
+
+*The witness.* At $\kappa=1$, $\rho=\tfrac1{10}$, $\lambda=c=n=0$,
+$b=\tfrac9{10}$, $\zeta=\eta=1$, $\hat e=\tfrac25$,
+$\hat\omega=\tfrac12$, $m_0=\tfrac{307}{1000}$: $\Theta = 1$,
+$B_0 = \tfrac1{10}$, $\beta = \tfrac9{10}$, $Q_W = \tfrac1{10}$,
+$q = 0$, and $s_{\text{f}} = \beta/2 = \tfrac9{20}$. The drift, enclosed
+in interval arithmetic rather than estimated, is $+0.0553$ at
+$s=\tfrac3{10}$, $-0.0063$ at $s=\tfrac{2023}{5000}$ and $+0.0049$ at
+$s_{\text{f}}$. Convexity then gives exactly two zeros on the arm and
+none elsewhere on the locus. They sit at $s = 0.3706$ and $s = 0.4387$,
+that is at $v^\ast = 0.7848$ and $v^\ast = 0.8095$, and each of the six
+admissibility conditions is checked at both. The cell also carries one
+**pinned** rest point, at $v^\ast = 0.732$ with $s = 0.143$, which is
+stated so that the count is not read as the economy’s: three stationary
+employment rates in all, on two different branches. Raising $m_0$ to
+$\tfrac{320}{1000}$ turns the fold drift negative and returns the other
+side of the dichotomy — one on each arm.
 
 ## A.13 Certificates.
 
@@ -1770,7 +2102,51 @@ $\kappa A_\pm$ takes the displayed form, that \$’ \$ is as stated, and
 that $4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0)-Q_W]$
 **identically** — an exact factorisation, not a bound — with a control
 that the gap is not identically zero; and it carries the two `unsat`
-verdicts and their two controls described above.
+verdicts and their two controls described above. Proposition 13 is
+checked in
+`models/reserve_army_game/bargained_branch_convexity_and_multiplicity_2026_09_09_2e82fac5.py`.
+The inversion first: that $\bar e(s) = P/(s(\beta-s))$ solves A.8’s
+quadratic identically, with the mirrored denominator as its control;
+that $\kappa A(s)$ takes the displayed form and agrees with the
+Corollary to Proposition 8’s $sQ_C/(1-s)$; the two derivatives of $A$
+and their signs; that the claimed fold share puts the locus exactly at
+$(\sqrt{Q_W}+\sqrt{Q_C})^2$ while the mirrored share does not; and the
+collapse at $s=\beta$ that bounds the share. Then the convexity, which
+is the load-bearing step: the second derivative of $\ln\bar e$ is
+positive by `unsat` over the box on a division-free encoding, with two
+controls — dropping $\beta \le 1$, and dropping $q < Q_W$ — each of
+which must and does return `sat`. Then the drift: its two writings
+agree, against a wrong exponent; the $\bar e$ term’s derivative vanishes
+at the fold and nowhere else on the locus; the two limits hold, with the
+$b=0$ face checked in both directions; and the handover identity
+survives a perturbed ceiling. Finally the witness, whose three drift
+signs are taken as **mpmath interval enclosures** rather than
+floating-point evaluations, whose two roots are located, and each of
+whose six admissibility conditions is verified at both — together with
+the pinned rest point at the same cell, which is what makes the count
+three rather than two, and the control cell on the other side of the
+dichotomy. The pinned branch’s monotonicity is re-derived there without
+the hypothesis $\hat\omega \le \kappa\rho$, which is what licenses the
+global count. It reports 38 checks and 13 controls. The Corollary to
+Proposition 11 is checked in
+`models/reserve_army_game/pinned_region_disconnected_2026_09_09_ddbb1422.py`:
+the rearrangement identity and the $s<1$ identity it yields; the two
+limits $g(0^+)=0$ and $g(v_0^-)=0$, the first through $s(0^+)=\beta$,
+which is what makes the vanishing a fact about the ceiling rather than
+about the share; and, at Proposition 13’s own cell in exact rationals,
+the two crossings that make the pinned region
+$(0,0.242] \cup [0.701,0.754)$, together with the location of that
+cell’s pinned rest point $v^\ast = 0.732$ in the upper component. Its
+five controls are the ones that matter for a witness of this kind: that
+Proposition 12’s hypothesis blocks the disconnection *by derivation*
+rather than by sampling, $\bar\omega - g = \bar\omega(1-s)$; that
+freezing the share at its left-end value $\beta$ destroys the
+disconnection, which is what identifies the collapse of the share near
+$v_0$ — and not the rise of the ceiling — as its cause; that a perturbed
+$\beta$ breaks the identity; that replacing $N$ by a constant destroys
+the vanishing at $v_0$; and that a different cell returns a different
+shape, so the witness is about the parameters and not about the
+encoding. It reports 17 checks and 5 controls.
 
 Every such `unsat` is a proof, not a sample. Each file prints its own
 check and control counts and exits non-zero on any failure. The
@@ -1796,15 +2172,18 @@ witnesses are witnesses and prove nothing universal.
 | Prop. 8 | proved for any pair of effective prices $Q_W, Q_C > 0$ **that do not depend on the accumulation share**, with root location and admissibility; Proposition 4 is its core specialisation. The hypothesis binds: it fails at labour’s own ceiling, which is why Proposition 11 argues directly. Below the smaller discriminant zero the roots are inadmissible for a reason that depends on the price ordering — $\omega > \bar e$ when $Q_W > Q_C$, and $s < 0$ when $Q_C > Q_W$ | — |
 | Prop. 9 | proved, both branches; the branch with no admissible extractable day is an `unsat` over the domain, not a sample. The second branch is proved in the stronger form: the same coefficient voids Prop. 11’s interiority for every $\bar\omega > 0$, so it empties the regime on both sides of $\hat v$ | — |
 | Prop. 10 | proved **for the labour-interior half only**, and the scope is load-bearing: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly, for employment rates carrying a *bargained* stationary compromise. ⛔ The earlier statement quantified over every interior compromise and is **refuted with a witness** in the pinned half — $(\kappa,\rho,\lambda,c,b,\zeta,\eta,\hat\omega,\hat e; v) = (4,\tfrac14,0,0,\tfrac1{20},\tfrac12,1,\tfrac1{20},1;\tfrac15)$ gives a pinned interior compromise at $v = 0.2$ with $v_{\text{f}} = 1/16$ — because A.10’s route runs through Proposition 8, whose hypothesis fails at labour’s own ceiling. It is not a statement that a path crosses the bound either | whether an equilibrium path reaches the boundary is the non-stationary question below |
-| Prop. 11 | proved: the threshold $\hat v$ is unmoved at $a_W = 1$, and below it there is **at most one** compromise, interior exactly where $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ — and *none at all* on Prop. 9’s second branch, where that inequality fails identically | the insider case $a_W = 0$, where the threshold moves, is not solved |
+| Prop. 11 | proved: the pinning condition $\bar\omega(v)s \le \kappa\rho$ is unmoved at $a_W = 1$, and where it holds there is **at most one** compromise, interior exactly where $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ — and *none at all* on Prop. 9’s second branch, where that inequality fails identically. ⛔ $\hat v$ **carries $s$**: the display is a joint condition, and the earlier reading of it as a threshold in the employment rate alone is **refuted with a witness** by the Corollary below | the insider case $a_W = 0$, where the condition moves, is not solved |
+| Corollary to Proposition 11 (the shape of the pinned region) | **proved** by an identity plus two limits, not by a sweep: $g \equiv \bar\omega s$ vanishes at both ends of $(0,v_0)$ and is strictly positive inside, so labour is pinned at both ends and the pinned set is disconnected wherever $g$ exceeds $\kappa\rho$ between them. ⭕ **Attained at Proposition 13’s own cell**, pinned region $(0,0.242] \cup [0.701,0.754)$, with that cell’s pinned rest point $v^\ast = 0.732$ in the **upper** component. Blocked by Prop. 12’s hypothesis via $g < \bar\omega \le \hat\omega \le \kappa\rho$, so no earlier result is disturbed | ⚠ whether the bargaining band is a **single** interval — single-peakedness of $g$ on $(0,v_0)$ — is UNDISCHARGED and is not used |
 | Corollary to Proposition 11 (the regime’s persistence locus) | proved (identity): $A$ is Proposition 5$'$’s locus times $1 + \Gamma/\kappa$ | — |
 | Section 6 regime, stationary layer | PROVED (Props. 7–12 and the two Corollaries): the shadow prices, the general fold and the rate at it, the existence dichotomy, the boundary $v_{\text{f}}$ **for the bargained half**, uniqueness below $\hat v$, and — in the reserve-army class — the stationary employment rate itself | — |
 | Section 6 regime, non-stationary paths | UNDISCHARGED. The reduced problem is no longer linear-state, so Section 4’s direct verification does not extend and **Markov perfection is not claimed in the regime**; sufficiency of the first-order conditions there is also open | a verification argument for a non-linear-state value function, or a restriction to a class where one exists |
 | Corollary to Proposition 8 (the fold’s accumulation rate) | proved (identity), at the same generality as Proposition 8: $s_{\text{f}} = \sqrt{Q_W}/(\sqrt{Q_W}+\sqrt{Q_C})$ and $A_{\text{f}} = \sqrt{Q_WQ_C}/\kappa$. ⚠ The $\kappa$-independence of its core value is A.5$'$’s and not the fold’s | — |
 | Prop. 12 | **proved** where $\hat\omega \le \kappa\rho$, $\hat e \ge \hat\omega$ and Proposition 9’s first branch holds: the drift reduces to a strictly decreasing function of $v$ alone through the identity $s(\bar e-\bar\omega) = N(v)$, so the drift has at most one zero and exactly one inside the state space under the endpoint inequality. ⛔ **The endpoint inequality is NOT sufficient for an interior compromise**, and the statement carries the witness that separates them: at $\kappa=1,\rho=\tfrac1{10},b=\tfrac9{10},\lambda=c=m_0=n=0,\zeta=\eta=1,\hat e=\tfrac7{45},\hat\omega=\tfrac1{20}$ it holds while $s^\ast=-0.077$. Interiority is the independent condition $N(v^\ast)>0$. ⭕ Proved **including at $b = 0$**, where Proposition 5 gives the core no interior rest point at all: the stabiliser is the ceiling’s response $\zeta$, not the mechanisation law’s $b$. ⚠ This is a statement about the **canonical stationary system**; sufficiency is not claimed in the regime, so it is not an equilibrium existence theorem | the bargaining branch below; and a sufficiency argument, which would upgrade the whole section |
 | Joint feasibility on **capital’s** side (§2, the generalised game) | UNDISCHARGED. The larger-set argument is supplied for labour only. Capital’s deviations move the employment rate and so can carry labour’s committed path outside labour’s feasible set; excluding those would need a global sufficiency argument for capital, which the section does not claim for either class | a global sufficiency argument for capital over the joint-feasibility-ignoring set |
-| Corollary to Proposition 12 (the bargaining branch’s two roots) | proved: $\Delta' > 0$ above the fold by `unsat` on a division-free encoding (control: dropping the fold returns `sat`, so the fold and not the box carries it; dropping the pinned $A_0 \le Q_W$ leaves it unchanged), and $4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0)-Q_W] < 0$ identically. Hence $A_+$ rises and $A_-$ falls in the ceiling, so the accumulationist compromise admits **at most one** stationary employment rate and the distributionist one is not shown to | a witness of two stationary rates on the lower root, or a proof there is none |
-| Existence of a regime rest point | **mostly discharged, and the residue is named.** Proved by Proposition 12 where $\hat\omega \le \kappa\rho$: labour is on its ceiling at every employment rate, the three equations reduce to one monotone equation in $v$, existence and uniqueness both follow, **including at $b=0$**. Where $\hat\omega > \kappa\rho$ the Corollary settles the *count* on the accumulationist root at **at most one**. UNDISCHARGED: **existence** on the accumulationist root above $\hat v$, which needs the drift’s signs at the ends of $(\hat v, 1)$; and **both count and existence** on the distributionist root, where the drift’s two terms move in opposite directions | the drift evaluated at $\hat v$ and at $1$; and for the lower root, a two-rest-point witness or a proof of none |
+| Corollary to Proposition 12 (the bargaining branch’s two roots) | proved: $\Delta' > 0$ above the fold by `unsat` on a division-free encoding (control: dropping the fold returns `sat`, so the fold and not the box carries it; dropping the pinned $A_0 \le Q_W$ leaves it unchanged), and $4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0)-Q_W] < 0$ identically. Hence $A_+$ rises and $A_-$ falls in the ceiling, so the accumulationist compromise admits **at most one** stationary employment rate and the distributionist one is not shown to. ⭕ Proposition 13 re-derives both signs from the $s$-parametrisation, without a discriminant, and agrees | — |
+| Prop. 13 | **proved.** The bargained locus inverts to $\bar e(s) = (Q_W - qs)/(s(\beta-s))$ on $s \in (0,\beta)$, the drift in the share is strictly convex — $A'' > 0$ by inspection, $(\ln\bar e)'' > 0$ by `unsat` on a division-free encoding with two `sat` controls (dropping $\beta\le1$; dropping $q<Q_W$) — and $\dot x'(s_{\text{f}}) = (1-c)A'(s_{\text{f}}) > 0$ puts the minimiser inside the distributionist arm. Hence at most one rest point on the accumulationist arm, at most two on the distributionist arm, **at most two on the bargained locus in total**, and at $b=0$ at most one. ⭕ Two are **attained**: the cell $(\kappa,\rho,\lambda,c,b,\zeta,\eta,\hat e,\hat\omega,m_0,n) = (1,\tfrac1{10},0,0,\tfrac9{10},1,1,\tfrac25,\tfrac12,\tfrac{307}{1000},0)$ carries distributionist rest points at $v^\ast = 0.7848$ and $0.8095$, both admissible, with none on the accumulationist arm and one pinned at $0.732$. Drift signs are **interval enclosures**, not floating-point evaluations. ⚠ Convexity is in the accumulation share, not in the employment rate | the non-stationary question is untouched: this counts rest points, it does not say which one a path selects |
+| Regime, global count of stationary employment rates | **proved: at most three**, on Proposition 9’s first branch, and **at most two at $b = 0$**. At most one pinned — A.12’s $dN/dv<0$ needs only $\beta>0$, and $\hat\omega\le\kappa\rho$ enters A.12 solely to make the pinned branch the whole state space — plus at most two bargained. Attained at Prop. 13’s cell. ⛔ Never one accumulationist together with two distributionist, since the bargained locus carries at most two in total | a selection argument would say which of the three an economy is at; none is offered |
+| Existence of a regime rest point | **mostly discharged, and the residue is named.** Proved by Proposition 12 where $\hat\omega \le \kappa\rho$: labour is on its ceiling at every employment rate, the three equations reduce to one monotone equation in $v$, existence and uniqueness both follow, **including at $b=0$**. Where $\hat\omega > \kappa\rho$, Proposition 13 **closes both residues**. Existence on the accumulationist root is now a sign change across an interval whose ends are identified — the fold above, the handover to the pinned branch below, and *not* $v=1$, which was the wrong upper end. Count and existence on the distributionist root follow from strict convexity of the drift in the accumulation share: at most two, and two attained at a named cell. ⭕ **The row is discharged**, and the global count of three is the statement it was reaching for | selection among the three, which no argument here supplies |
 | Section 6’s second self-undermining channel ($v_{\text{f}}$) | SETTLED **on the labour-interior half**, and one-sided there: the conjecture substituted $\bar e(v)$ into a fold condition proved for constant $\bar e$; Proposition 10 shows the substitution gives a valid NECESSARY bound and Proposition 9 gives the true boundary, strictly below it | — |
 | Separation from Mehrling (1986) | witness grade, and partial. His instruments (wage level, investment level) and his payoffs (present values of consumption and profit) are established through Miebach (2011), a dissertation that restates his model; his own body is unobtainable. So the extraction margin and the objectives separate; the mechanisation law and the state do not | his body, or a second witness reporting his state variables and his supply side |
 | Dockner et al. (2000) §7.2 | read at source; the linear-state conditions (7.35)–(7.36) and the Markov-perfectness of open-loop equilibria are stated in the text, not as a numbered theorem; cited as placement, not used as a step | — |
