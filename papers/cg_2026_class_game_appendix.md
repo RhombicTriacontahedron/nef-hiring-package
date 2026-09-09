@@ -2691,7 +2691,7 @@ anywhere at $\tau\le1-\alpha$, and above it a witness of each sign is
 exhibited, which is the standard the neighbouring unsigned claim is held
 to. A seeded fault fires — the deliberately wrong boundary
 $\alpha+\tau>1.2$ is refuted by $6{,}015$ cells in the band it would
-have excluded — and Proposition 12(ii)’s collapse is re-derived in the
+have excluded — and Proposition 11(ii)’s collapse is re-derived in the
 same script, so the new statement is checked against the one it sits
 beside rather than only against itself. What the certificate does not
 establish, and does not claim, is that the corner $\tau>1-\alpha$ is
