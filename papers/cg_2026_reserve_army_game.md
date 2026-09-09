@@ -872,10 +872,17 @@ sides of it. Under Proposition 12’s hypothesis
 $\hat\omega \le \kappa\rho$ this cannot happen, since $s < 1$ gives
 $g < \bar\omega \le \hat\omega \le \kappa\rho$ throughout; the
 disconnection belongs to the case $\hat\omega > \kappa\rho$ in which
-labour can bargain at all, and Proposition 13’s own cell attains it,
-with pinned region $(0, 0.242] \cup [0.701, 0.754)$ and with the pinned
-rest point $v^\ast = 0.732$ of part (iii) lying in the **upper**
-component.
+labour can bargain at all, and Proposition 13’s own cell attains it:
+there $v_0 = 0.7544$, labour is pinned at $v = 1/5$ and again at
+$v = 0.732$, and bargains at $v = 1/2$ in between. ⭕ **The pinned rest
+point $v^\ast = 0.732$ of part (iii) is therefore in the upper
+component** — the cell’s own third stationary employment rate sits where
+the threshold reading said labour would be bargaining. ⚠ Three points
+establish the disconnection and nothing more: located crossings near
+$0.242$ and $0.701$ bound the bargaining band, but that the band is a
+**single** interval is the undischarged single-peakedness question
+below, so the two components are a lower bound on the count and not a
+description of the set.
 
 In words, the same observable — labour taking its ceiling rather than
 bargaining for a share — has two opposite causes in this model, and they
@@ -2173,7 +2180,7 @@ witnesses are witnesses and prove nothing universal.
 | Prop. 9 | proved, both branches; the branch with no admissible extractable day is an `unsat` over the domain, not a sample. The second branch is proved in the stronger form: the same coefficient voids Prop. 11’s interiority for every $\bar\omega > 0$, so it empties the regime on both sides of $\hat v$ | — |
 | Prop. 10 | proved **for the labour-interior half only**, and the scope is load-bearing: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly, for employment rates carrying a *bargained* stationary compromise. ⛔ The earlier statement quantified over every interior compromise and is **refuted with a witness** in the pinned half — $(\kappa,\rho,\lambda,c,b,\zeta,\eta,\hat\omega,\hat e; v) = (4,\tfrac14,0,0,\tfrac1{20},\tfrac12,1,\tfrac1{20},1;\tfrac15)$ gives a pinned interior compromise at $v = 0.2$ with $v_{\text{f}} = 1/16$ — because A.10’s route runs through Proposition 8, whose hypothesis fails at labour’s own ceiling. It is not a statement that a path crosses the bound either | whether an equilibrium path reaches the boundary is the non-stationary question below |
 | Prop. 11 | proved: the pinning condition $\bar\omega(v)s \le \kappa\rho$ is unmoved at $a_W = 1$, and where it holds there is **at most one** compromise, interior exactly where $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ — and *none at all* on Prop. 9’s second branch, where that inequality fails identically. ⛔ $\hat v$ **carries $s$**: the display is a joint condition, and the earlier reading of it as a threshold in the employment rate alone is **refuted with a witness** by the Corollary below | the insider case $a_W = 0$, where the condition moves, is not solved |
-| Corollary to Proposition 11 (the shape of the pinned region) | **proved** by an identity plus two limits, not by a sweep: $g \equiv \bar\omega s$ vanishes at both ends of $(0,v_0)$ and is strictly positive inside, so labour is pinned at both ends and the pinned set is disconnected wherever $g$ exceeds $\kappa\rho$ between them. ⭕ **Attained at Proposition 13’s own cell**, pinned region $(0,0.242] \cup [0.701,0.754)$, with that cell’s pinned rest point $v^\ast = 0.732$ in the **upper** component. Blocked by Prop. 12’s hypothesis via $g < \bar\omega \le \hat\omega \le \kappa\rho$, so no earlier result is disturbed | ⚠ whether the bargaining band is a **single** interval — single-peakedness of $g$ on $(0,v_0)$ — is UNDISCHARGED and is not used |
+| Corollary to Proposition 11 (the shape of the pinned region) | **proved** by an identity plus two limits, not by a sweep: $g \equiv \bar\omega s$ vanishes at both ends of $(0,v_0)$ and is strictly positive inside, so labour is pinned at both ends and the pinned set is disconnected wherever $g$ exceeds $\kappa\rho$ between them. ⭕ **Attained at Proposition 13’s own cell** by three exactly-evaluated points — pinned at $v=1/5$, bargaining at $v=1/2$, pinned again at $v=0.732$ — with that cell’s pinned rest point $v^\ast = 0.732$ in the **upper** component. Blocked by Prop. 12’s hypothesis via $g < \bar\omega \le \hat\omega \le \kappa\rho$, so no earlier result is disturbed | ⚠ whether the bargaining band is a **single** interval — single-peakedness of $g$ on $(0,v_0)$ — is UNDISCHARGED and is not used; the two components are a LOWER bound on the count, not a description of the set |
 | Corollary to Proposition 11 (the regime’s persistence locus) | proved (identity): $A$ is Proposition 5$'$’s locus times $1 + \Gamma/\kappa$ | — |
 | Section 6 regime, stationary layer | PROVED (Props. 7–12 and the two Corollaries): the shadow prices, the general fold and the rate at it, the existence dichotomy, the boundary $v_{\text{f}}$ **for the bargained half**, uniqueness below $\hat v$, and — in the reserve-army class — the stationary employment rate itself | — |
 | Section 6 regime, non-stationary paths | UNDISCHARGED. The reduced problem is no longer linear-state, so Section 4’s direct verification does not extend and **Markov perfection is not claimed in the regime**; sufficiency of the first-order conditions there is also open | a verification argument for a non-linear-state value function, or a restriction to a class where one exists |
