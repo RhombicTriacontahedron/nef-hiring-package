@@ -8016,8 +8016,10 @@ Read as neighbouring cases the two branches invite the error that the
 speed of approach off the diagonal tends to the speed on it as $\delta$
 rises to $\delta_G$. It does not: $p_\varepsilon$ carries neither
 depreciation rate, so it is *constant* at $(1-\alpha)(1-\theta)/\alpha$
-on the whole of $\delta<\delta_G$ and drops at the diagonal. What
-survives the drop is the reciprocal, and it survives exactly:
+on the whole of $\delta<\delta_G$ and drops at the diagonal. Writing
+$p_\varepsilon^{\mathrm{off}}$ and $p_\varepsilon^{\mathrm{diag}}$ for
+the proposition’s two values, what survives the drop is the reciprocal,
+and it survives exactly:
 $$\frac{1}{p_\varepsilon^{\,\mathrm{diag}}}\;-\;\frac{1}{p_\varepsilon^{\,\mathrm{off}}}\;=\;1
 \qquad\text{at every }(\alpha,\theta)\in(0,1)^{2} . \tag{46}$$ The
 reason is the one Theorem 2$'$(v) already gives for its own bound. Each
@@ -8029,7 +8031,14 @@ gain in the reciprocal is therefore $\gamma(1-\theta)$ divided by itself
 — free of $\gamma$, of both depreciation rates, of the reproduction
 scale and of every instrument. At Computation 1’s primitives the two
 exponents are $0.812$ and $0.448$, so the discontinuity is not a
-rounding matter.
+rounding matter. The second of them has in fact already been computed
+once, under Theorem 2$'$(v): driving $i\to0$ at the knife-edge sends
+$(g-1+\delta_G)\mathcal{H}'(g)$ to
+$\gamma[1-\theta+\alpha\theta]/(1-\alpha)$ and the share to
+$(1-\alpha)(1-\theta)/(1-\theta+\alpha\theta)$, which is
+$p_\varepsilon^{\mathrm{diag}}$. Two different limits, in two different
+sections, reach the same number, and for the same reason: both collapse
+the two logarithms into one.
 
 **What jumps is the limit and not the economy.** Differentiating
 $\mathcal{H}(g)=\mathcal{P}$ along the locus $\varpi\mapsto g(\varpi)$
