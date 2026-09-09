@@ -2509,6 +2509,20 @@ derivations of Appendix B are certified separately and cross-checked
 against an independent arrangement, so that a shared error would have to
 survive two routes.
 
+Proposition 17$'''$(i)’s approach rates carry a certificate of their
+own. It matches the divergent coefficient of $H$ against
+$\gamma(1-\theta)$ on each branch and derives the exponent of $\varpi$
+in $\varepsilon$, $x^\ast$ and $z^\ast$ separately, on and off the
+diagonal; its load-bearing control is that both branches must
+**reproduce the published ratio** $p_z/p_\varepsilon=\mathcal{C}$ of
+(45), which they do while the underlying exponents differ, and three
+further controls fire on a wrong coefficient combination, on treating
+only one argument as vanishing at the diagonal, and on a symbol whose
+value the derivation forces. ⚠ It is an exponent identity and it does
+**not** decide the constants: that $z^\ast/\varepsilon^{\mathcal{C}}$
+has a limit rather than merely two-sided bounds rests on the convergence
+argument given with the proposition, not on the certificate.
+
 The existence results carry their own certificate. It verifies the
 separation identity of Proposition 6 and the equality of $\mathcal{H}'$
 with Theorem 2(ii)’s $H'$; the three divergences of $\mathcal{P}$ at the
