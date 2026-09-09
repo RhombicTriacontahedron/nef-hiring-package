@@ -70,9 +70,13 @@ pool sets the wage at every employment rate — the reserve-army case —
 the accumulation rate the compromise delivers is, term for term, the
 expression whose sign decides whether the compromise is interior at all,
 so that a class compromise exists exactly where the economy grows; the
-employment rate the regime settles at is therefore unique when it
-exists, exists under a closed-form inequality in the primitives, and is
-not a slice taken at an employment rate the model never reaches.
+employment rate at which the regime’s canonical system rests is
+therefore unique when it exists, and exists under two closed-form
+conditions in the primitives — one placing the drift’s zero inside the
+state space, a second making the compromise there interior, neither
+implying the other. Sufficiency of the first-order conditions is not
+claimed in the regime, so what is proved is a statement about the
+canonical stationary system and not an equilibrium existence theorem.
 
 # 1. Introduction
 
@@ -259,13 +263,20 @@ feasible set. The two classes share a constraint, and the object is a
 *generalised* game in Debreu’s (1952) sense rather than a game with
 fixed action sets. The concept used throughout Section 6 is the natural
 restriction: a jointly feasible profile from which no unilateral
-deviation *that keeps the profile feasible* improves the deviator.
-Nothing in the regime’s results turns on that restriction biting —
-labour’s candidate maximises its problem over the larger set that
-ignores joint feasibility, and a maximiser over a larger set which is
-itself feasible maximises over every feasible subset containing it — but
-the concept must be named, because a different strategy space is a
-different theorem.
+deviation *that keeps the profile feasible* improves the deviator. For
+**labour** the restriction does not bite: labour’s candidate solves its
+problem over the larger set that ignores joint feasibility, and a
+maximiser over a larger set which is itself feasible maximises over
+every feasible subset containing it. ⚠ **That argument is not supplied
+for capital.** Capital’s deviations move the employment rate too, and so
+can carry labour’s committed path outside labour’s own feasible set;
+excluding profitable capital deviations of that kind would need a global
+sufficiency argument for capital over the larger set, and Section 6 does
+not claim sufficiency for either class. So what is established is that
+joint feasibility does not bind on labour’s side; on capital’s side it
+is UNDISCHARGED, and Appendix B records it as such. The concept must be
+named regardless, because a different strategy space is a different
+theorem.
 
 Suppose capital committed instead to a *utilisation rate* $q \in [0,1]$,
 extracting $e = q\,\bar e(v)$. Its action set would then be fixed, and
@@ -624,9 +635,11 @@ not last is a smaller loss — and it vanishes as $c \to 1$, when
 accumulation displaces as much labour as it hires and so adds no
 employment for the ceiling to punish. Labour’s price is untouched
 because in an open-loop equilibrium labour takes capital’s extraction as
-a path in time rather than as a function of the state; that is a
-property of the equilibrium concept, not of the economics, and Section
-7’s warning is where it is priced.
+a path in time rather than as a function of the state. That is a joint
+property of the information structure and of the strategy space —
+Section 2 shows it fails under a utilisation-rate commitment, where
+labour’s price acquires a $\zeta$ term — and not of the economics;
+Section 7’s warning is where it is priced.
 
 **Proposition 8 (the fold at any pair of effective prices).** Suppose
 labour’s share is interior, and that neither effective price depends on
@@ -643,9 +656,14 @@ $\omega = Q_W/s < \bar e$, if and only if $$
 \bar e \;>\; \big(\sqrt{Q_W} + \sqrt{Q_C}\big)^2 ,
 $$ one at equality and none below it. Below the smaller discriminant
 zero $(\sqrt{Q_W}-\sqrt{Q_C})^2$ the roots are real again, but
-inadmissible: both violate $\omega < \bar e$. Proposition 4 is the case
-$Q_W = \kappa\rho$, $Q_C = \kappa\rho/(1+\lambda)$, which returns its
-fold $\kappa\rho(1+1/\sqrt{1+\lambda})^2$ exactly.
+inadmissible — and *which* admissibility condition fails depends on the
+ordering of the two prices. If $Q_W > Q_C$ both roots exceed one and
+$\omega > \bar e$ at each; if $Q_C > Q_W$ both roots are **negative**,
+so it is $s > 0$ that fails and not $\omega < \bar e$ (indeed
+$\omega = Q_W/s < 0 < \bar e$ there). Appendix A.8 derives both cases.
+Proposition 4 is the case $Q_W = \kappa\rho$,
+$Q_C = \kappa\rho/(1+\lambda)$, which returns its fold
+$\kappa\rho(1+1/\sqrt{1+\lambda})^2$ exactly.
 
 In words, the fold does not belong to the core. It belongs to the pair
 of prices the two classes put on accumulation, whatever produced them,
@@ -740,32 +758,54 @@ regime’s $Q_C$ strictly exceeds the core’s, so by Proposition 8 the
 regime’s fold threshold strictly exceeds
 $\kappa\rho(1+1/\sqrt{1+\lambda})^2$. Because
 $\bar e(v) = \hat e\,v^{-\zeta}$ falls in $v$, every employment rate
-carrying an interior stationary compromise satisfies $$
+carrying a **labour-interior** stationary compromise — one at which
+Proposition 8’s hypothesis holds, so that the fold governs — satisfies
+$$
 v \;<\; v_{\text{f}} \;=\; \Big(\hat e \big/ \kappa\rho(1 + 1/\sqrt{1+\lambda})^2\Big)^{1/\zeta} ,
-$$ and the inequality is strict. So $v_{\text{f}}$ — the threshold
-obtained by substituting $\bar e(v)$ into Proposition 4’s condition — is
-a **necessary bound and not a sufficient one**: the true boundary lies
-strictly below it, and where it lies is given by Proposition 9. At
-$\kappa = 2$, $\rho = 0.08$, $\lambda = 0$, $c = 0$, $b = 0.05$,
-$\zeta = 0.5$ and $\hat e = 0.5$, the conjectured threshold is
-$v_{\text{f}} = 0.610$ and the regime’s is $0.140$.
+$$ and the inequality is strict. ⛔ **The bound does not extend to the
+pinned half, and the qualifier is not decorative.** Below $\hat v$
+labour sits on its own ceiling, Proposition 8’s hypothesis fails there —
+its effective price acquires a dependence on $s$, which is why
+Proposition 11 argues directly — and the binding condition is
+Proposition 11’s interiority, which is not ordered against the core’s
+fold at all. A pinned compromise can therefore sit above $v_{\text{f}}$:
+at $\kappa = 4$, $\rho = 1/4$, $\lambda = c = 0$, $b = 1/20$,
+$\zeta = 1/2$, $\eta = 1$, $\hat\omega = 1/20$, $\hat e = 1$ and
+$v = 1/5$, the first branch holds, $\bar e(v) = \sqrt 5$ lies *below*
+the core fold $4$, and yet
+$N(v) = \tfrac{7}{12}\sqrt5 - \tfrac{101}{100} > 0$, so a pinned
+interior compromise exists with $s = 0.132$ — while
+$v_{\text{f}} = 1/16$. The employment rate is three times the bound. So
+$v_{\text{f}}$ — the threshold obtained by substituting $\bar e(v)$ into
+Proposition 4’s condition — is a **necessary bound and not a sufficient
+one**: the true boundary lies strictly below it, and where it lies is
+given by Proposition 9. At $\kappa = 2$, $\rho = 0.08$, $\lambda = 0$,
+$c = 0$, $b = 0.05$, $\zeta = 0.5$ and $\hat e = 0.5$, the conjectured
+threshold is $v_{\text{f}} = 0.610$ and the regime’s is $0.140$.
 
 In words, the second self-undermining channel is real, and it bites
-earlier than the conjecture that named it. The set of employment rates
-at which an interior stationary compromise exists at all is bounded
-strictly below $v_{\text{f}}$, and where Proposition 9 gives a finite
-fold it is bounded strictly below the regime’s own boundary, which lies
-below $v_{\text{f}}$ in turn. On Proposition 9’s second branch that set
-is empty and the bound says nothing, which is the stronger statement
-rather than a weaker one. Whenever $v_{\text{f}} < 1$ that set is
-therefore bounded away from full employment: the compromise ceases to
-exist before the unemployment pool is exhausted, not because a path
-carried it there. Whether an equilibrium path reaches the boundary is a
-question about non-stationary paths, which this section does not
-characterise. What is settled is the region, and it is smaller than the
-conjecture allowed: the compromise does not merely outgrow the
-description that priced it, as in Proposition 4$''$; the condition under
-which it was a compromise at all fails first.
+earlier than the conjecture that named it — but it is a statement about
+the half of the regime in which labour bargains, and only that half.
+There, the set of employment rates carrying an interior stationary
+compromise is bounded strictly below $v_{\text{f}}$, and where
+Proposition 9 gives a finite fold it is bounded strictly below the
+regime’s own boundary, which lies below $v_{\text{f}}$ in turn; whenever
+$v_{\text{f}} < 1$ that set is bounded away from full employment, so the
+bargained compromise ceases to exist before the unemployment pool is
+exhausted, not because a path carried it there. On Proposition 9’s
+second branch the set is empty and the bound says nothing, which is the
+stronger statement rather than a weaker one. ⚠ Where the pool pins
+labour to its ceiling none of this applies: that half is governed by
+Proposition 11’s interiority and by Proposition 12, and it can carry a
+compromise at an employment rate well above $v_{\text{f}}$. **The two
+halves are bounded by different objects, and reading $v_{\text{f}}$ as a
+bound on the regime as a whole is the error the witness above rules
+out.** Whether an equilibrium path reaches the boundary is a question
+about non-stationary paths, which this section does not characterise.
+What is settled is the region, and it is smaller than the conjecture
+allowed: the compromise does not merely outgrow the description that
+priced it, as in Proposition 4$''$; the condition under which it was a
+compromise at all fails first.
 
 **Proposition 11 (below the threshold: the unemployment pool disciplines
 the wage, and the compromise is one or none).** Labour’s ceiling is
@@ -835,16 +875,32 @@ drift and its slope are $$
 \dot x \;=\; \frac{(1-c)\,N(v)}{\kappa} - m_0 - b\ln v - n , \qquad
 \frac{d\dot x}{dv} \;=\; -\frac{1}{v}\left[\frac{(1-c)\big(\zeta\beta\,\bar e(v) + \eta\,\bar\omega(v)\big)}{\kappa} + b\right] \;<\; 0 ,
 $$ so the drift is strictly decreasing on $(0,1]$ and diverges to
-$+\infty$ as $v \to 0^+$. Third, therefore, the regime has **at most
-one** stationary employment rate, and it has exactly one,
-$v^\ast \in (0,1)$, if and only if $$
+$+\infty$ as $v \to 0^+$. Third, therefore, the reduced drift has **at
+most one** zero, and exactly one, $v^\ast \in (0,1)$, if and only if $$
 (1-c)\Big[\beta\hat e - \hat\omega - \frac{\rho\kappa}{1+\lambda}\Big] \;<\; \kappa\,(m_0+n) .
-$$ At $v^\ast$ the accumulation share is
+$$ ⚠ **That zero is a candidate, not yet a compromise, and the endpoint
+inequality does not make it one.** At $v^\ast$ the accumulation share is
 $s^\ast = N(v^\ast)/\big(\bar e(v^\ast)-\bar\omega(v^\ast)\big)$, which
 is below one always and strictly positive if and only if
-$m_0 + n + b\ln v^\ast > 0$. Where the displayed inequality fails, no
-path settles: the employment rate rises to full employment and the
-regime’s equations stop describing the economy, as in Proposition 5.
+$N(v^\ast) > 0$, equivalently $m_0 + n + b\ln v^\ast > 0$. That is a
+**second and independent** condition. At $\kappa = 1$, $\rho = 1/10$,
+$b = 9/10$, $\lambda = c = m_0 = n = 0$, $\zeta = \eta = 1$,
+$\hat e = 7/45$, $\hat\omega = 1/20$ every hypothesis above holds —
+$\beta = 9/10$, $\hat\omega \le \kappa\rho$, $\hat e \ge \hat\omega$ —
+and so does the endpoint inequality, with the drift at full employment
+equal to $-1/100$; yet the drift’s zero $v^\ast = 0.9909$ lies above
+$N$’s own zero $\sqrt{19/5}-1 = 0.9494$, so $N(v^\ast) < 0$,
+$s^\ast = -0.077$, and the regime has **no interior compromise at all**
+there. So: the regime has at most one stationary employment rate, and
+exactly one when both conditions hold.
+
+Where the endpoint inequality fails the drift does not vanish inside the
+state space, and Proposition 5’s distinction is inherited exactly. If it
+fails **strictly**, the drift is positive throughout and the employment
+rate reaches full employment in finite time, after which the regime’s
+equations no longer describe the economy. At **equality**, $v = 1$ is
+itself the drift’s zero and is approached asymptotically rather than
+reached.
 
 **None of this uses $b > 0$.** The strict decrease is carried by
 $\zeta\beta\bar e(v)$, and the divergence at $v \to 0^+$ by
@@ -1002,27 +1058,30 @@ Proposition 11 tests for the compromise to be interior at all. That is
 not a coincidence of algebra with no reading: capital’s own stationary
 condition prices accumulation, and what is left over for accumulation
 after that price is paid is what makes the share positive. It has three
-consequences. The regime’s stationary employment rate exists and is
-unique under a closed-form inequality, so the section is not a family of
-slices at employment rates the model never reaches — and it does so
-**without a mechanisation law that answers to the labour market**. In
-the core, that response is the whole stabiliser: switch it off and
-Proposition 5 leaves no interior rest point, which is the Lancaster face
-of Section 5. In the regime the extraction ceiling falls as employment
-rises, and that is enough on its own. The reserve army does not need a
-Phillips curve, and it does not need Goodwin’s mechanisation channel
-either; it needs only that what capital can take from an hour hired gets
-harder to take when labour is scarce. Proposition 9’s second branch
-acquires a different meaning — past that threshold the compromise fails
-not because the two classes cannot agree but because the only
-accumulation consistent with both of their stationary conditions is
-negative, which no ceiling pair can repair. And the growth rate at the
-fold, where a compromise is born, is the geometric mean of the two
-classes’ effective prices, so what decides whether a compromise exists
-is a sum and what it grows at is a product: an economy whose extractable
-day is falling towards the point where its compromise ceases to exist
-does not slow to a halt as it arrives, but reaches that point still
-growing — at the core’s prices, at $\rho/\sqrt{1+\lambda}$.
+consequences. The regime’s stationary employment rate is unique when it
+exists, and exists under two closed-form conditions — the drift’s zero
+must fall inside the state space, and the compromise at it must be
+interior, and neither condition implies the other — so the section is
+not a family of slices at employment rates the model never reaches — and
+it does so **without a mechanisation law that answers to the labour
+market**. In the core, that response is the whole stabiliser: switch it
+off and Proposition 5 leaves no interior rest point, which is the
+Lancaster face of Section 5. In the regime the extraction ceiling falls
+as employment rises, and that is enough on its own. The reserve army
+does not need a Phillips curve, and it does not need Goodwin’s
+mechanisation channel either; it needs only that what capital can take
+from an hour hired gets harder to take when labour is scarce.
+Proposition 9’s second branch acquires a different meaning — past that
+threshold the compromise fails not because the two classes cannot agree
+but because the only accumulation consistent with both of their
+stationary conditions is negative, which no ceiling pair can repair. And
+the growth rate at the fold, where a compromise is born, is the
+geometric mean of the two classes’ effective prices, so what decides
+whether a compromise exists is a sum and what it grows at is a product:
+an economy whose extractable day is falling towards the point where its
+compromise ceases to exist does not slow to a halt as it arrives, but
+reaches that point still growing — at the core’s prices, at
+$\rho/\sqrt{1+\lambda}$.
 
 The warning is about how much weight the separation theorem can bear.
 Proposition 2 says a class that values its whole class is indifferent to
@@ -1443,11 +1502,24 @@ $Q_C = \rho(\kappa+\Gamma)/(1+\lambda) > \kappa\rho/(1+\lambda)$
 strictly, and by Proposition 8 the fold threshold
 $(\sqrt{Q_W}+\sqrt{Q_C})^2$ is strictly increasing in $Q_C$. Hence at
 $\bar e$ equal to the core’s threshold the regime’s condition fails, and
-the regime’s threshold is strictly larger. Any $v$ carrying an interior
-stationary compromise therefore satisfies
+the regime’s threshold is strictly larger. Any $v$ carrying a
+**labour-interior** stationary compromise therefore satisfies
 $\bar e(v) > \kappa\rho(1+1/\sqrt{1+\lambda})^2$, and since
 $\bar e(v) = \hat e v^{-\zeta}$ is strictly decreasing this is
 $v < v_{\text{f}}$, strictly.
+
+⛔ *Why the qualifier is where the argument needs it.* Every step above
+runs through Proposition 8, and Proposition 8’s hypothesis is that
+neither effective price depends on the accumulation share. At labour’s
+own ceiling that hypothesis **fails** — the statement of Proposition 8
+says so, and A.11’s $\delta$ carries $s$ — so the fold does not govern
+the pinned half and nothing here bounds it. The witness in the statement
+exhibits a pinned interior compromise at $v = 1/5$ with
+$v_{\text{f}} = 1/16$, at a $\bar e(v) = \sqrt5$ strictly *below* the
+core fold $4$: the route cannot reach it, and the conclusion is false
+there. Proposition 11’s interiority condition, equivalently $N(v) > 0$
+of Proposition 12, is what bounds that half, and it is not ordered
+against $\kappa\rho(1+1/\sqrt{1+\lambda})^2$.
 
 ## A.11 Proposition 11 and its Corollary.
 
@@ -1558,14 +1630,21 @@ theorem there is one in $(0,1)$ iff $\dot x|_{v=1} < 0$, which is the
 displayed inequality since $\ln 1 = 0$. Where it fails, $\dot x > 0$ on
 all of $(0,1)$ and the employment rate rises to the boundary.
 
-*The share at $v^\ast$.*
-$s^\ast = N(v^\ast)/(\bar e(v^\ast)-\bar\omega(v^\ast))$ by the
+*The share at $v^\ast$, and why the endpoint inequality does not reach
+it.* $s^\ast = N(v^\ast)/(\bar e(v^\ast)-\bar\omega(v^\ast))$ by the
 identity, and $s^\ast < 1$ by A.11. Setting the drift to zero at
 $v^\ast$ gives $(1-c)N(v^\ast)/\kappa = m_0 + n + b\ln v^\ast$, so
 $N(v^\ast) > 0$ — equivalently $s^\ast > 0$ — iff
-$m_0 + n + b\ln v^\ast > 0$. ⚠ The condition is on $v^\ast$ and not on
-the primitives directly; equivalently it is $v^\ast < v_0$, where $v_0$
-is the unique zero of the strictly decreasing $N$.
+$m_0 + n + b\ln v^\ast > 0$; equivalently again, iff $v^\ast < v_0$,
+where $v_0$ is the unique zero of the strictly decreasing $N$. ⛔ **The
+endpoint inequality does not imply this**, and no rearrangement of it
+will: the endpoint inequality is a statement about the drift at $v = 1$,
+while $N(v^\ast) > 0$ compares two different zeros. The witness in the
+statement settles it — there $\dot x|_{v=1} = -1/100 < 0$ while
+$F(v_0) = -\tfrac{9}{10}\ln v_0 > 0$, so strict decrease puts $v^\ast$
+strictly between $v_0$ and $1$, which is exactly the region where
+$N < 0$. The two conditions are independent, and a statement asserting
+one from the other is false.
 
 *The Corollary.* Where $\hat\omega > \kappa\rho$ there is a $\hat v < 1$
 and labour bargains above it; there $\omega = Q_W/s$, so
@@ -1716,16 +1795,17 @@ witnesses are witnesses and prove nothing universal.
 | Prop. 7 | proved at the rest points of the canonical system; the corner is derived, and substituting it is shown equivalent to the mixed-constraint Lagrangian route. ⚠ The $\zeta$-free labour price is a property of the **strategy space** named in §2 — each class commits to a path of its own instrument under a joint feasibility restriction — and not of the open-loop information structure alone | a feedback information structure, under which labour’s costate also carries $\zeta$; and a utilisation-rate parameterisation $e = q\,\bar e(v)$, under which $\partial U_W/\partial x = a_W + \theta\zeta e$ and labour’s price carries $\zeta$ too. The two strategy spaces agree iff $\theta = 0$ |
 | Prop. 8 | proved for any pair of effective prices $Q_W, Q_C > 0$ **that do not depend on the accumulation share**, with root location and admissibility; Proposition 4 is its core specialisation. The hypothesis binds: it fails at labour’s own ceiling, which is why Proposition 11 argues directly. Below the smaller discriminant zero the roots are inadmissible for a reason that depends on the price ordering — $\omega > \bar e$ when $Q_W > Q_C$, and $s < 0$ when $Q_C > Q_W$ | — |
 | Prop. 9 | proved, both branches; the branch with no admissible extractable day is an `unsat` over the domain, not a sample. The second branch is proved in the stronger form: the same coefficient voids Prop. 11’s interiority for every $\bar\omega > 0$, so it empties the regime on both sides of $\hat v$ | — |
-| Prop. 10 | proved: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly. It bounds the *set* of employment rates carrying a stationary compromise; it is not a statement that a path crosses it | whether an equilibrium path reaches the boundary is the non-stationary question below |
+| Prop. 10 | proved **for the labour-interior half only**, and the scope is load-bearing: $v_{\text{f}}$ is NECESSARY and not sufficient, strictly, for employment rates carrying a *bargained* stationary compromise. ⛔ The earlier statement quantified over every interior compromise and is **refuted with a witness** in the pinned half — $(\kappa,\rho,\lambda,c,b,\zeta,\eta,\hat\omega,\hat e; v) = (4,\tfrac14,0,0,\tfrac1{20},\tfrac12,1,\tfrac1{20},1;\tfrac15)$ gives a pinned interior compromise at $v = 0.2$ with $v_{\text{f}} = 1/16$ — because A.10’s route runs through Proposition 8, whose hypothesis fails at labour’s own ceiling. It is not a statement that a path crosses the bound either | whether an equilibrium path reaches the boundary is the non-stationary question below |
 | Prop. 11 | proved: the threshold $\hat v$ is unmoved at $a_W = 1$, and below it there is **at most one** compromise, interior exactly where $(1+\lambda)(\bar e - \bar\omega) > \rho(\kappa+\Gamma)$ — and *none at all* on Prop. 9’s second branch, where that inequality fails identically | the insider case $a_W = 0$, where the threshold moves, is not solved |
 | Corollary to Proposition 11 (the regime’s persistence locus) | proved (identity): $A$ is Proposition 5$'$’s locus times $1 + \Gamma/\kappa$ | — |
-| Section 6 regime, stationary layer | PROVED (Props. 7–12 and the two Corollaries): the shadow prices, the general fold and the rate at it, the existence dichotomy, the boundary $v_{\text{f}}$, uniqueness below $\hat v$, and — in the reserve-army class — the stationary employment rate itself | — |
+| Section 6 regime, stationary layer | PROVED (Props. 7–12 and the two Corollaries): the shadow prices, the general fold and the rate at it, the existence dichotomy, the boundary $v_{\text{f}}$ **for the bargained half**, uniqueness below $\hat v$, and — in the reserve-army class — the stationary employment rate itself | — |
 | Section 6 regime, non-stationary paths | UNDISCHARGED. The reduced problem is no longer linear-state, so Section 4’s direct verification does not extend and **Markov perfection is not claimed in the regime**; sufficiency of the first-order conditions there is also open | a verification argument for a non-linear-state value function, or a restriction to a class where one exists |
 | Corollary to Proposition 8 (the fold’s accumulation rate) | proved (identity), at the same generality as Proposition 8: $s_{\text{f}} = \sqrt{Q_W}/(\sqrt{Q_W}+\sqrt{Q_C})$ and $A_{\text{f}} = \sqrt{Q_WQ_C}/\kappa$. ⚠ The $\kappa$-independence of its core value is A.5$'$’s and not the fold’s | — |
-| Prop. 12 | **proved** where $\hat\omega \le \kappa\rho$, $\hat e \ge \hat\omega$ and Proposition 9’s first branch holds: the drift reduces to a strictly decreasing function of $v$ alone through the identity $s(\bar e-\bar\omega) = N(v)$, giving at most one stationary employment rate and exactly one inside the state space under a closed-form inequality; interiority of the share is $m_0+n+b\ln v^\ast > 0$. ⭕ Proved **including at $b = 0$**, where Proposition 5 gives the core no interior rest point at all: the stabiliser is the ceiling’s response $\zeta$, not the mechanisation law’s $b$ | the bargaining branch below |
+| Prop. 12 | **proved** where $\hat\omega \le \kappa\rho$, $\hat e \ge \hat\omega$ and Proposition 9’s first branch holds: the drift reduces to a strictly decreasing function of $v$ alone through the identity $s(\bar e-\bar\omega) = N(v)$, so the drift has at most one zero and exactly one inside the state space under the endpoint inequality. ⛔ **The endpoint inequality is NOT sufficient for an interior compromise**, and the statement carries the witness that separates them: at $\kappa=1,\rho=\tfrac1{10},b=\tfrac9{10},\lambda=c=m_0=n=0,\zeta=\eta=1,\hat e=\tfrac7{45},\hat\omega=\tfrac1{20}$ it holds while $s^\ast=-0.077$. Interiority is the independent condition $N(v^\ast)>0$. ⭕ Proved **including at $b = 0$**, where Proposition 5 gives the core no interior rest point at all: the stabiliser is the ceiling’s response $\zeta$, not the mechanisation law’s $b$. ⚠ This is a statement about the **canonical stationary system**; sufficiency is not claimed in the regime, so it is not an equilibrium existence theorem | the bargaining branch below; and a sufficiency argument, which would upgrade the whole section |
+| Joint feasibility on **capital’s** side (§2, the generalised game) | UNDISCHARGED. The larger-set argument is supplied for labour only. Capital’s deviations move the employment rate and so can carry labour’s committed path outside labour’s feasible set; excluding those would need a global sufficiency argument for capital, which the section does not claim for either class | a global sufficiency argument for capital over the joint-feasibility-ignoring set |
 | Corollary to Proposition 12 (the bargaining branch’s two roots) | proved: $\Delta' > 0$ above the fold by `unsat` on a division-free encoding (control: dropping the fold returns `sat`, so the fold and not the box carries it; dropping the pinned $A_0 \le Q_W$ leaves it unchanged), and $4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0)-Q_W] < 0$ identically. Hence $A_+$ rises and $A_-$ falls in the ceiling, so the accumulationist compromise admits **at most one** stationary employment rate and the distributionist one is not shown to | a witness of two stationary rates on the lower root, or a proof there is none |
 | Existence of a regime rest point | **mostly discharged, and the residue is named.** Proved by Proposition 12 where $\hat\omega \le \kappa\rho$: labour is on its ceiling at every employment rate, the three equations reduce to one monotone equation in $v$, existence and uniqueness both follow, **including at $b=0$**. Where $\hat\omega > \kappa\rho$ the Corollary settles the *count* on the accumulationist root at **at most one**. UNDISCHARGED: **existence** on the accumulationist root above $\hat v$, which needs the drift’s signs at the ends of $(\hat v, 1)$; and **both count and existence** on the distributionist root, where the drift’s two terms move in opposite directions | the drift evaluated at $\hat v$ and at $1$; and for the lower root, a two-rest-point witness or a proof of none |
-| Section 6’s second self-undermining channel ($v_{\text{f}}$) | SETTLED, and one-sided: the conjecture substituted $\bar e(v)$ into a fold condition proved for constant $\bar e$; Proposition 10 shows the substitution gives a valid NECESSARY bound and Proposition 9 gives the true boundary, strictly below it | — |
+| Section 6’s second self-undermining channel ($v_{\text{f}}$) | SETTLED **on the labour-interior half**, and one-sided there: the conjecture substituted $\bar e(v)$ into a fold condition proved for constant $\bar e$; Proposition 10 shows the substitution gives a valid NECESSARY bound and Proposition 9 gives the true boundary, strictly below it | — |
 | Separation from Mehrling (1986) | witness grade, and partial. His instruments (wage level, investment level) and his payoffs (present values of consumption and profit) are established through Miebach (2011), a dissertation that restates his model; his own body is unobtainable. So the extraction margin and the objectives separate; the mechanisation law and the state do not | his body, or a second witness reporting his state variables and his supply side |
 | Dockner et al. (2000) §7.2 | read at source; the linear-state conditions (7.35)–(7.36) and the Markov-perfectness of open-loop equilibria are stated in the text, not as a numbered theorem; cited as placement, not used as a step | — |
 | Lancaster/Pohjola payoffs are linear over a finite undiscounted horizon | verified through de Zeeuw (1992), body read; Hoel’s own payoffs still unread | reading Hoel (1978) at source |
