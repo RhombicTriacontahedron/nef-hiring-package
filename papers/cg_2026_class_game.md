@@ -59,14 +59,20 @@ the accumulation of capital rather than imposed as one.
 That persistence has a second and blunter source, and it does not go
 through anyone’s optimisation. Labour is paid its marginal product
 before the state acts on the remainder, so the worker’s private claim
-never falls below labour’s share of output; and the workforce therefore
-grows, at every date and from any interior start, at least at the
-weighted geometric mean of the two stocks’ survival factors — weights
-supplied by the production and reproduction elasticities, and no
-instrument entering at all. The bound holds under every path of taxes,
-spending splits and reinvestment rates, including paths outside the
-class of constant shares and paths nobody would choose; and where
-capital outlives the public stock it is not merely a bound but the exact
+never falls below labour’s share of output; and the workforce **level**
+therefore never falls below a fixed multiple of the geometric path built
+from the weighted geometric mean of the two stocks’ survival factors —
+weights supplied by the production and reproduction elasticities, and no
+instrument entering at all. The multiple is one exactly when the start’s
+own guaranteed reproduction factor already reaches that mean, and from
+any interior start the long-run factor is at least the mean. What the
+floor does not bound is the one-period factor, which a poor start pushes
+below the mean: it is the level path that is underwritten, and the
+distinction is the difference between a cumulative bound and a
+date-by-date one. The bound holds under every path of taxes, spending
+splits and reinvestment rates, including paths outside the class of
+constant shares and paths nobody would choose; and where capital
+outlives the public stock it is not merely a bound but the exact
 infimum, attained on the one configuration that funds nothing at all.
 The owner has no counterpart: his own consumption share can be driven to
 zero on the same box. Two things follow. The worker’s convergence
@@ -937,17 +943,34 @@ classes remain equally well reproduced, and the equalisation continues
 to bind by Lemma 1 — while the private gap is now a function of policy,
 of the public-provision ratio and the instruments that fund it. The
 contested instrument reaches a distributional object it could not touch
-before. To be sure, a reader will object that a smaller private claim
-reads as a worse-off worker, and that the theorem is therefore a welfare
-result in distributional clothing. It is not, and the reason is the
-funding route rather than caution: the provision is funded by taxing
-capital, so a smaller private claim beside capital-funded provision may
-register as capital financing labour’s reproduction rather than as
-labour being squeezed. Ranking the two configurations would need a
-welfare function over the two dynastic sizes and a price for that
-transfer, and this paper writes neither; nor would writing one settle
-the matter, since any ranking must price the transfer on both sides
-rather than read the worker’s private claim alone.
+before.
+
+**And that function can be written down.** At any interior rest point of
+Theorem 2 the two stock inversions give $c_W=\kappa_WAx^{\alpha}$ and
+$z=\varpi\alpha Ax^{\alpha}/(g-1+\delta_G)$; the common $Ax^{\alpha}$
+cancels in the ratio $z/c_W$, and $(2)$ then reads
+$$\frac{c_C}{c_W} \;=\; \left(\frac{\alpha\varpi}{\kappa_W\,(g-1+\delta_G)}\right)^{1-\theta} ,
+\qquad \kappa_W=(1-\alpha)+\alpha(\tau-\varpi) . \tag{$2'$}$$ **The
+productivity level and the reproduction scale are absent from it, and so
+are $x^{\ast}$ and $\nu^{\ast}$: they reach the private gap only through
+the growth factor.** What is left is the split, the share of output the
+worker is left with after it, the stock’s own depreciation, and $g$ — so
+the gap at a rest point is a function of policy and growth alone, which
+is the sentence above with its function supplied. This is for the
+private gap what Theorem 2$'$(i) is for the class ratio, and it is the
+same substitution. At Computation 1’s three constant-share equilibria
+$(2')$ returns $1.772$, $1.963$ and $2.259$, against the $1.77$, $1.96$
+and $2.26$ that computation reports. To be sure, a reader will object
+that a smaller private claim reads as a worse-off worker, and that the
+theorem is therefore a welfare result in distributional clothing. It is
+not, and the reason is the funding route rather than caution: the
+provision is funded by taxing capital, so a smaller private claim beside
+capital-funded provision may register as capital financing labour’s
+reproduction rather than as labour being squeezed. Ranking the two
+configurations would need a welfare function over the two dynastic sizes
+and a price for that transfer, and this paper writes neither; nor would
+writing one settle the matter, since any ranking must price the transfer
+on both sides rather than read the worker’s private claim alone.
 
 A public supplement moving against the private claim is the Speenhamland
 shape. The name marks the shape and not a verdict on the English
@@ -7620,11 +7643,12 @@ $\delta,\delta_G\in(0,1)$ and $\delta\ne\delta_G$ — Assumption 4
 entering only through Proposition 6(ii), which the interior profile’s
 growth factor is read off, and the diagonal being excluded for the
 reason the remark below gives. Fix $\tau\in(0,\bar\tau]$,
-$\varpi\in(0,\tau]$ and $i>0$, evaluate from the interior rest point
-that profile induces, and — where $\delta<\delta_G$ — let the collapsed
-face’s path from that same start be one along which $x_t\to\infty$,
-which is the case Proposition 15(i) isolates as admissible. Write $g$
-for the interior profile’s growth factor and*
+$\varpi\in(0,\tau]$ and $i>0$, and evaluate from the interior rest point
+that profile induces. Where $\delta<\delta_G$ the collapsed face’s path
+from that same start has $x_t\to\infty$, geometrically, by Proposition
+17$''$, so **no hypothesis about the path is required**; that path is
+the case Proposition 15(i) isolates as admissible. Write $g$ for the
+interior profile’s growth factor and*
 $$R \;=\; \big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma_W-1}$$ *for
 the collapsed face’s admissibility ceiling. Then there is
 $\beta^{\sharp}<R$ such that at every $\beta\in(\beta^{\sharp},R)$ the
