@@ -7460,13 +7460,22 @@ collapsed face **minimises** the worker’s discounted loss over a
 $21\times21\times11$ grid in $(\tau,\phi,i)$: there it is a best reply,
 and no disposal of it can exist. Sweeping the curvature at the same cell
 puts the turn between $\sigma_W=2$ and $\sigma_W=3$ — at
-$1+\mathcal{C}^{-1}=2$ itself. **The threshold is not merely where
-Proposition 17’s technique stops working. It is where the worker’s
-ranking reverses**: below it the face loses and Proposition 17 disposes
-of it; above it the face wins, and the reason is that a sufficiently
-curved worker ranks profiles by the worst single period he must survive
-rather than by the tail, and no profile spares him less in the first
-period than the one that hands the whole receipt back as cash. ⚠ That
+$1+\mathcal{C}^{-1}=2$ itself. **So at this cell the threshold is not
+merely where Proposition 17’s technique stops working; it is where the
+worker’s ranking reverses.** ⛔ **The two halves of that sentence do not
+carry the same weight, and the difference is the whole of what is known
+here.** Below the threshold the face loses and Proposition 17 *disposes
+of it* — a theorem, on its stated domain. Above the threshold the face
+wins *at this cell*, on a $21\times21\times11$ grid at one parameter
+vector with the curvature swept at that same vector. **A grid refutes;
+it does not establish.** What is settled above the threshold is
+therefore that disposal is *impossible there* — one admissible best
+reply is enough to refute a universal — and not that the face wins
+generally. The suggested reading is that a sufficiently curved worker
+ranks profiles by the worst single period he must survive rather than by
+the tail, and that no profile spares him less in the first period than
+the one that hands the whole receipt back as cash; that is a mechanism
+the cell is consistent with, not one the cell proves. ⚠ Separately, the
 comparison is run from a common start, while Definition 1 evaluates a
 deviation from the incumbent’s own rest point. That protocol has at
 least an admissible approach: by Proposition 17$'''$, below its joint
@@ -7716,6 +7725,22 @@ $g_{\min}<1$ strictly, the **larger** curvature carries the smaller
 bound and therefore binds. Both are below one exactly on the stated
 range and one is above it beyond, where continuity puts the crossing at
 a strictly positive $\varpi$. $\blacksquare$
+
+In words, the rates say how a withdrawn social wage is absorbed, and the
+answer is that it is not absorbed evenly. Provision per worker falls as
+$\varpi^{\theta}$ off the diagonal — **more slowly than the instrument
+that funds it**, since $\theta<1$ — while capital per worker rises
+without bound as $\varpi^{-(1-\theta)/\alpha}$. The economy does not
+simply lose the public stock; it converts it, and the conversion rate is
+fixed by the two elasticities and by nothing else, with no depreciation
+rate and no reproduction scale anywhere in either exponent. On the
+diagonal the same withdrawal is gentler on the worker: $\theta$ is
+replaced by $\alpha\theta/(\alpha\theta+1-\theta)$, which is strictly
+smaller — the difference being
+$\theta(1-\theta)(1-\alpha)/(\alpha\theta+1-\theta)$, and vanishing only
+as $\alpha\to1$ or as $\theta$ approaches either end. **When the two
+stocks depreciate at the same rate, provision survives the withdrawal
+strictly better than when capital is the more durable of the two.**
 
 The two cases say something about the economy and not merely about the
 algebra. Withdraw the social wage and the rest point does not slide
