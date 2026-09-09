@@ -23,6 +23,17 @@ worker exactly when provision per worker exceeds the worker’s own claim.
 Capital-funded provision in kind does not arrive on top of the wage. It
 displaces it.
 
+None of that displacement is legible in the total a budget publishes.
+Cash and provision sum to the same receipt at every split, so the total
+is silent by construction; and where the growth-maximising split is
+interior, the growth factor and the relative size of the two classes
+fall silent as well, over an upper band of splits the model names.
+Inside that band a thrifty state and a lavish one show the same growth,
+the same class ratio and the same total, and differ only in the private
+gap. Outside it — and everywhere when the growth peak is not interior,
+which is where every equilibrium this paper computes lies — those same
+numbers identify the split exactly.
+
 The funding route is the policy rather than its implementation. If the
 public input is reproduction-relevant and nothing is spent building it,
 worker growth is pinned at the stock’s own survival rate at every
@@ -4755,8 +4766,9 @@ hypotheses of Proposition 6 hold with $\theta\in(0,1)$, and hold $\tau$,
 $i$ and the primitives fixed while the split $\phi$ ranges over $(0,1]$.
 Then:*
 
-*(i) **Everything aggregated depends on the split only through $\Phi$,
-and the total not even through that.** The growth factor is
+*(i) **The growth factor, the capital intensity and the class ratio
+depend on the split only through $\Phi$, and the disbursed total not
+even through that.** The growth factor is
 $\mathcal{H}^{-1}(\mathcal{P})$ and $\mathcal{P}$ reaches $\phi$ only
 through $\gamma\ln\Phi(\phi)$, which is Proposition 6(i)–(ii) with (4);
 the stationary capital intensity $x(g)$ of that proposition’s proof
@@ -4764,9 +4776,12 @@ depends on $\phi$ only through $g$. Substituting (4) into (N$'''$)
 collapses the class ratio onto the same scalar,*
 $$\nu^\ast \;=\; \frac{(1-i)(1-\tau)\alpha\,\big(g-1+\delta_G\big)^{1-\theta}}{\Phi(\phi)} ,
   \tag{N$''''$}$$ *and the split does not reach the fiscal total at all:
-workers receive $\kappa_W(\phi)$ of output and the stock receives
-$\phi\tau\alpha$, so cash plus provision is $\tau\alpha$ at every
-$\phi$.*
+the receipt $\tau\alpha$ leaves $(1-\phi)\tau\alpha$ as cash and
+$\phi\tau\alpha$ as provision, so cash plus provision is $\tau\alpha$ at
+every $\phi$ — and drawing the line the other way does not help, since
+the worker’s whole private claim and provision together come to
+$\kappa_W(\phi)+\phi\tau\alpha=(1-\alpha)+\tau\alpha$, free of $\phi$ as
+well.*
 
 *(ii) **The distribution, by contrast, separates any two splits that
 share a growth factor.** $\kappa_W$ falls strictly in $\phi$
@@ -4787,7 +4802,16 @@ $\phi_1<\phi_g<\phi_2$ in $(0,1)$. That pair shares the growth factor,
 the capital intensity, the class ratio and the total disbursement, and
 differs in the private claim, in the public intensity and in the private
 gap. Both members are proper or neither is, because properness is a
-condition on $g$ alone by Proposition 6(iii) and the pair shares $g$.*
+condition on $g$ alone by Proposition 6(iii) and the pair shares $g$.
+**The fold does not reach the low-provision end.** Since
+$\Phi(0^{+})=0<\Phi(1)$, the falling branch covers only
+$\big[\Phi(1),\Phi(\phi_g)\big]$, so a partner exists exactly at the
+values from $\Phi(1)$ up: writing $\underline{\phi}$ for the corner’s
+own mirror, the unique solution of $\Phi(\underline{\phi})=\Phi(1)$
+below $\phi_g$, the two-to-one set is $[\underline{\phi},1]$ with the
+peak removed, and every $\phi<\underline{\phi}$ is recovered from the
+growth factor even here. Both members of a pair therefore route at least
+$\underline{\phi}$ of the receipt into the stock.*
 
 *(iv) **The pair is indistinguishable to an observer and not to the
 worker.** By Corollary 2 every interior stationary split lies strictly
@@ -4796,12 +4820,16 @@ $\phi_1$ can be a worker’s own stationary choice: the high-provision
 member is a policy a planner may set and a worker’s best response never
 reaches.*
 
-*So where the peak is interior, no statistic assembled from the growth
-rate, the class ratio and a cash-plus-provision total separates a
-low-provision economy from a high-provision one; the private gap
-separates them exactly, and so does the one further number those totals
-are already assembled from — the division of the same receipt between
-cash and provision.*
+*So where the peak is interior and the split is at least
+$\underline{\phi}$, no statistic assembled from the growth rate, the
+class ratio and a cash-plus-provision total separates an economy from
+its mirror; below $\underline{\phi}$, and everywhere when the peak is
+not interior, those same statistics recover the split. Where they fail,
+the private gap separates the pair exactly, and so does the one further
+number those totals are already assembled from — the division of the
+same receipt between cash and provision. Non-identification is therefore
+not a property of provision but of generous provision: an economy that
+builds little is always read correctly.*
 
 The region is not empty, and the paper has already been inside it.
 Appendix D.4’s pair at $\theta=0.8,\ \tau=0.7$ — $\phi=0.624$ and
@@ -4809,18 +4837,21 @@ $\phi=0.954$, both admissible, both returning $g^\ast=0.98222$ against
 the *simulated* three-state fixed point rather than against (4) — is a
 pair of this kind: $\phi_g=0.780$ lies between them, and
 $\alpha\theta\tau=0.185$ exceeds $(1-\alpha)(1-\theta)=0.134$ at
-$\alpha=0.33$. The two economies disburse the same $0.231$ of output and
-pay workers $0.757$ and $0.681$ of it privately; $z/c_W$ differs between
-them by $41\%$ and the private gap $c_C/c_W$ by $10\%$, the latter a
-ratio free of $\delta_G$ because the flow-to-stock factor cancels. ⚠
-**This paper’s own computed equilibria are not in that region**, and the
-claim is not that they are unidentified: at $\theta\approx0.6$ the
-crossing sits at $\phi^{\circ}$ between $1.39$ and $1.99$, outside the
-box, exactly as the discussion of (iv) reports above. What the dichotomy
-delivers is a checkable condition — high private weight in the composite
-together with a substantial capital tax — under which an aggregate that
-adds cash to provision cannot be read as an incidence, and outside which
-it can.
+$\alpha=0.33$. At that cell $\underline{\phi}=0.587$, which both members
+clear; a state building less than $58.7\%$ of the receipt is identified
+by its growth rate at this very cell, which is what confines the
+ambiguity to the generous end. The two economies disburse the same
+$0.231$ of output and pay workers $0.757$ and $0.681$ of it privately;
+$z/c_W$ differs between them by $41\%$ and the private gap $c_C/c_W$ by
+$10\%$, the latter a ratio free of $\delta_G$ because the flow-to-stock
+factor cancels. ⚠ **This paper’s own computed equilibria are not in that
+region**, and the claim is not that they are unidentified: at
+$\theta\approx0.6$ the crossing sits at $\phi^{\circ}$ between $1.39$
+and $1.99$, outside the box, exactly as the discussion of (iv) reports
+above. What the dichotomy delivers is a checkable condition — high
+private weight in the composite together with a substantial capital tax
+— under which an aggregate that adds cash to provision cannot be read as
+an incidence, and outside which it can.
 
 ## 8.2 The tax margin, and the ceiling
 
