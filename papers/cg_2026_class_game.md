@@ -73,9 +73,12 @@ zero on the same box. Two things follow. The worker’s convergence
 condition stops being a restriction on play and becomes a restriction on
 parameters; and the configuration that funds nothing and hands the whole
 receipt back as cash is beaten, on payoff, by a funded profile whenever
-the worker is patient enough — beaten because it is the slowest-growing
-path available and so the first that discounting punishes, not because
-provision is worth more to him at the margin.
+the worker is patient enough — beaten because it grows more slowly than
+the funded profile it is set against, at the same tax and reinvestment
+rates, and so is the first of the two that discounting punishes, not
+because provision is worth more to him at the margin. It is not the
+slowest-growing path in the instrument box, and nothing here needs it to
+be.
 
 **Keywords:** public provision; social wage; dynamic game; class
 structure; fiscal incidence; endogenous population; in-kind transfers.
@@ -7620,9 +7623,13 @@ strictly positive limits.*
 *In either case both classes’ discounted payoffs at the induced rest
 point converge to finite limits whenever
 $\beta<g_{\min}^{\,\max\{\sigma_W,\sigma_C\}-1}$, where
-$g_{\min}=\max\{1-\delta,\,1-\delta_G\}$; where $\beta$ exceeds that
-bound the family leaves the admissible set at a strictly positive
-$\varpi$.*
+$g_{\min}=\max\{1-\delta,\,1-\delta_G\}$. Where $\beta$ exceeds that
+bound, every sufficiently small $\varpi$ is improper — and a family that
+is admissible at some $\varpi>0$ therefore leaves the admissible set at
+a strictly positive $\varpi$.* ⛔ *The scope clause is not decorative:
+“leaves the admissible set” presupposes having been in it, and nothing
+here establishes that any member is admissible. A family improper at
+every $\varpi>0$ satisfies the hypothesis vacuously and exits nowhere.*
 
 *Proof.* Substituting Theorem 2(ii)’s $x(g)$ and $z(g)$ into
 $\ln g=\ln g_W$ and collecting the two $\ln x$ terms gives that
