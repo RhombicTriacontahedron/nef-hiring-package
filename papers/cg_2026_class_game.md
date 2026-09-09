@@ -8011,6 +8011,65 @@ exists and the stock is bound for zero. The limit of the rest points is
 then not the rest point of the limit, and nothing decides which of the
 two happens but the order of the two depreciation rates.
 
+**A second limit fails to commute, and this one sits inside case (i).**
+Read as neighbouring cases the two branches invite the error that the
+speed of approach off the diagonal tends to the speed on it as $\delta$
+rises to $\delta_G$. It does not: $p_\varepsilon$ carries neither
+depreciation rate, so it is *constant* at $(1-\alpha)(1-\theta)/\alpha$
+on the whole of $\delta<\delta_G$ and drops at the diagonal. What
+survives the drop is the reciprocal, and it survives exactly:
+$$\frac{1}{p_\varepsilon^{\,\mathrm{diag}}}\;-\;\frac{1}{p_\varepsilon^{\,\mathrm{off}}}\;=\;1
+\qquad\text{at every }(\alpha,\theta)\in(0,1)^{2} . \tag{46}$$ The
+reason is the one Theorem 2$'$(v) already gives for its own bound. Each
+$p_\varepsilon$ is $\gamma(1-\theta)$ over the coefficient of the
+diverging logarithm; the public-stock term contributes exactly
+$\gamma(1-\theta)$ to $(g-1+\delta_G)\mathcal{H}'(g)$; and on the
+diagonal that term joins the divergence instead of staying finite. The
+gain in the reciprocal is therefore $\gamma(1-\theta)$ divided by itself
+— free of $\gamma$, of both depreciation rates, of the reproduction
+scale and of every instrument. At Computation 1’s primitives the two
+exponents are $0.812$ and $0.448$, so the discontinuity is not a
+rounding matter.
+
+**What jumps is the limit and not the economy.** Differentiating
+$\mathcal{H}(g)=\mathcal{P}$ along the locus $\varpi\mapsto g(\varpi)$
+gives, at every $\varpi>0$ and not only in the limit,
+$$\frac{\mathrm{d}\ln(g-1+\delta_G)}{\mathrm{d}\ln\varpi}
+   =\frac{\gamma(1-\theta)}{(g-1+\delta_G)\,\mathcal{H}'(g)},
+\qquad
+ \frac{\mathrm{d}\ln(g-1+\delta)}{\mathrm{d}\ln\varpi}
+   =\frac{\gamma(1-\theta)}{(g-1+\delta)\,\mathcal{H}'(g)},$$ up to the
+$O(\varpi)$ that $\kappa_W$ carries. The first is Theorem 2$'$(v)’s
+growth-side share, and lies in $[0,1)$ for the reason given there. Both
+are continuous in every primitive, and this proposition’s three cases
+are their three limits: $(0,\,p_\varepsilon^{\mathrm{off}})$ below the
+diagonal,
+$(p_\varepsilon^{\mathrm{diag}},\,p_\varepsilon^{\mathrm{diag}})$ on it,
+and $(1,0)$ above it — the last being case (ii), where the stock’s gap
+closes at the rate of the instrument and capital’s does not close at
+all.
+
+**So the exponent should not be read off a cell near the diagonal.**
+Freezing $\ln g$ at its endpoint, the step the proof already takes,
+reduces the locus to the single relation
+$$\varepsilon^{\,1/p_\varepsilon^{\mathrm{off}}}\big(\varepsilon+\delta_G-\delta\big)
+   \;=\;\text{const}\cdot\varpi ,$$ whose two regimes —
+$\varepsilon\ll\delta_G-\delta$ and $\varepsilon\gg\delta_G-\delta$ —
+carry the proposition’s two exponents. They meet where
+$\varepsilon\asymp\delta_G-\delta$, that is at
+$$\varpi_\times\;\asymp\;\big(\delta_G-\delta\big)^{\,1/p_\varepsilon^{\mathrm{diag}}} ,$$
+so the off-diagonal exponent governs only below a scale that vanishes as
+the diagonal is approached, while on $\varpi_\times\ll\varpi\ll1$ — a
+window that *opens* as $\delta_G\downarrow\delta$, because its lower end
+falls and its upper end does not move — what is visible is the diagonal
+exponent. Nothing in Computation 1 is touched: its nearest case-(i) cell
+has $\delta_G-\delta=0.12$, where $\varpi_\times$ lies above $\bar\tau$
+and the whole instrument box is off-diagonal at all three of its
+equilibria, and the crossover enters the box only below a
+$\delta_G-\delta$ of about $0.05$ to $0.06$, depending on which of the
+three. The distinction is owed to a reader who takes the two branches
+for neighbours, not to the computations.
+
 It also settles one half of what the comparison in Proposition 17 needs.
 Below the proposition’s joint bound the incumbent’s own payoffs stay
 finite along the whole approach and both clauses of (A5) hold at every
