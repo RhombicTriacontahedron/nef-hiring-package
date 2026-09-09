@@ -214,7 +214,8 @@ closed by two classes setting instruments against each other. Section 9
 shows that the placement is checkable rather than declared: in a minimal
 comparison, a stock placed in production has its output elasticity enter
 the worker’s own fiscal rule, and a reproduction map’s outer elasticity
-does not. Two results follow from that placement. The whole of the
+does not appear in it — it reaches the worker’s tax only through the
+growth factor. Two results follow from that placement. The whole of the
 distance between the worker’s stationary tax and full expropriation is
 the capital wedge, in closed form — so the point at which redistribution
 stops is a decomposition of the worker’s own problem rather than a limit
@@ -4783,11 +4784,11 @@ outside, and it is the paper’s measurement claim proved rather than
 asserted. A single-peaked map is a two-to-one map on one side of its
 peak, and everything an observer of aggregates sees runs through it.
 
-**Proposition 18 (a published cash-plus-provision total identifies the
-split exactly when the growth peak is not interior).** *Let the
-hypotheses of Proposition 6 hold with $\theta\in(0,1)$, and hold $\tau$,
-$i$ and the primitives fixed while the split $\phi$ ranges over $(0,1]$.
-Then:*
+**Proposition 18 (the stationary aggregates identify the split exactly
+when the growth peak is not interior, and the published total never
+does).** *Let the hypotheses of Proposition 6 hold with
+$\theta\in(0,1)$, and hold $\tau$, $i$ and the primitives fixed while
+the split $\phi$ ranges over $(0,1]$. Then:*
 
 *(i) **The growth factor, the capital intensity and the class ratio
 depend on the split only through $\Phi$, and the disbursed total not
@@ -4837,17 +4838,24 @@ growth factor even here. Both members of a pair therefore route at least
 $\underline{\phi}$ of the receipt into the stock.*
 
 *(iv) **The pair is indistinguishable to an observer and not to the
-worker.** By Corollary 2 every interior stationary split lies strictly
-below $\phi_g$, and the two members straddle $\phi_g$ by (iii), so only
-$\phi_1$ can be a worker’s own stationary choice: the high-provision
-member is a policy a planner may set and a worker’s best response never
-reaches. **So the pair has a second separator, and it is not a
-statistic.** An observer willing to assume the split is an *interior\*
-best response of this game resolves the pair without any further number,
-because it is the lower member; the ambiguity of (iii) is an ambiguity
-about policies a planner may choose, not about the game’s interior
-equilibria. The corner is the case the argument does not reach, since
-where the peak is interior the corner lies above it.\*
+worker, and this part alone assumes more than Proposition 6.** Parts
+(i)–(iii) are algebra on the stationary system. This one needs a
+stationary split to be a zero of Corollary 2’s map $\Psi$, and it is
+Theorem 4, not Proposition 6, that supplies that step — so add Theorem
+4’s hypotheses: an admissible constant-share profile at an interior rest
+point locally asymptotically stable by Theorem 2(iii), with that rest
+point as the declared start. Under them every interior stationary split
+lies strictly below $\phi_g$, and the two members straddle $\phi_g$ by
+(iii), so only $\phi_1$ can be a worker’s own stationary choice: the
+high-provision member is a policy a planner may set and a worker’s best
+response never reaches. **So the pair has a second separator, and it is
+not a statistic.** An observer who knows the observation is a proper
+interior stationary profile in Theorem 4’s sense resolves the pair
+without any further number, because it is the lower member; the
+ambiguity of (iii) is an ambiguity about policies a planner may choose,
+not about the game’s interior equilibria. The corner is the case the
+argument does not reach, since where the peak is interior the corner
+lies above it.*
 
 *So where the peak is interior and the split is at least
 $\underline{\phi}$, no statistic assembled from the growth rate, the
