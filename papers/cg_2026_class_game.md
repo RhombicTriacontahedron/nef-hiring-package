@@ -4818,7 +4818,13 @@ worker.** By Corollary 2 every interior stationary split lies strictly
 below $\varpi^{\circ}$, and the two members straddle it, so only
 $\phi_1$ can be a worker’s own stationary choice: the high-provision
 member is a policy a planner may set and a worker’s best response never
-reaches.*
+reaches. **So the pair has a second separator, and it is not a
+statistic.** An observer willing to assume the split is an *interior\*
+best response of this game resolves the pair without any further number,
+because it is the lower member; the ambiguity of (iii) is an ambiguity
+about policies a planner may choose, not about the game’s interior
+equilibria. The corner is the case the argument does not reach, since
+where the peak is interior the corner lies above it.\*
 
 *So where the peak is interior and the split is at least
 $\underline{\phi}$, no statistic assembled from the growth rate, the
@@ -4852,6 +4858,19 @@ above. What the dichotomy delivers is a checkable condition — high
 private weight in the composite together with a substantial capital tax
 — under which an aggregate that adds cash to provision cannot be read as
 an incidence, and outside which it can.
+
+That two-part reading leaves out the third primitive, and the third is
+the one a reader of national accounts already has. The margin
+$\alpha\theta\tau-(1-\alpha)(1-\theta)$ rises in the capital share at
+$\theta\tau+(1-\theta)>0$, so the fold is easier to enter the thinner
+labour’s share — the same quantity, and for the same reason, that pushes
+$\varpi^{\circ}$ down into the instrument box. An economy in which
+labour’s share has fallen is one whose growth-maximising state builds a
+smaller fraction of a given receipt, and one whose published total tells
+a reader less about what it did with it. The two consequences are not
+independent: both come from $\kappa_W$ starting at $1-\alpha$, so that
+every unit diverted from a thinner wage costs more reproduction than the
+same unit cost before.
 
 ## 8.2 The tax margin, and the ceiling
 
