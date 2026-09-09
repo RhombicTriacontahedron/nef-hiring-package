@@ -3407,6 +3407,37 @@ reported interior split at $\theta=0.80$ must sit below $\phi^{\circ}$
 at that cell’s own tax, and at $\tau=0.34$ that is $0.94$ against
 $1.39$.
 
+How much of this is Cobb–Douglas? Less than it looks, and not the part
+one would guess. Write the composite in its homogeneous form
+$X(c,z)=c\,f(z/c)$ and put $r=z/c$. Along the budget the growth margin
+is positive exactly when
+$$m(r)\;\equiv\;\frac{f'(r)}{f(r)-r f'(r)}\;>\;\alpha ,
+\qquad\text{and}\qquad m'(r)\;=\;\frac{f\,f''}{\big[f-rf'\big]^{2}} .$$
+So **strict quasiconcavity alone** — $f''<0$ — makes $m$ fall, allows
+one crossing, and delivers the single peak. No elasticity of
+substitution enters it, bounded or otherwise; the elasticity sets how
+fast $m$ rotates, never whether its level ever meets $\alpha$. What
+Cobb–Douglas supplies is the *boundary*: there
+$m(r)=(1-\theta)/(\theta r)$, which diverges as $r\downarrow0$, so the
+crossing is always reached from above. Drop that and the peak can simply
+fail to exist — at $f(r)=1+ar+\varepsilon\big(1-e^{-r}\big)$ with
+$a=\varepsilon=\tfrac{1}{10}$ and $\alpha=\tfrac12$,
+$m(0^{+})=\tfrac15<\alpha$ and provision never pays at the margin at any
+split. Uniqueness is quasiconcavity’s; existence is Cobb–Douglas’s; only
+the closed form is both.
+
+⚠ **The reach of that stops one step short, and the step is the
+reduction itself.** Both statements are about $\mathcal{P}$, and
+$\mathcal{P}$ exists because the rest-point condition *separates* —
+every $g$ on one side, every share on the other, which is Proposition
+6(i). Homogeneity alone does not buy the separation. It factors the
+scale out of $X$ and leaves $g$ inside the second argument through
+$g-1+\delta_G$, so for a composite that is homogeneous but not
+log-linear the line along which $X$ is read has a slope that moves with
+$g$, and the crossing argument no longer closes on its own. **What is
+established is that the shape needs no Cobb–Douglas once the condition
+separates, not that the condition separates.**
+
 Three primitives are left, and
 $\varpi^{\circ}=(1-\theta)\big[1/\alpha-(1-\tau)\big]$ prices each. It
 falls in $\theta$, which is the margin just discussed. It rises in the
