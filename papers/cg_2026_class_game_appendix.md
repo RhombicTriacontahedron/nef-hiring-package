@@ -1433,12 +1433,19 @@ strictly monotone on $(0,1]$ and hence injective, and $g$ strictly
 increasing in $\Phi$ inverts to $\phi$. If it is inside, strict
 concavity with $\ln\Phi\to-\infty$ as $\phi\downarrow0$ gives, for each
 value in $\big(\Phi(1),\Phi(\phi_g)\big)$, exactly one root on each of
-$(0,\phi_g)$ and $(\phi_g,1)$. The two roots share $\Phi$, hence $g$ by
-(ii) of Proposition 6, hence $x^\ast$ and $\nu^\ast$ by part (i) here,
-hence $\tau\alpha$; and they differ in $\kappa_W$, in $z/Y$ and in
-$c_C/c_W$ by part (ii). Properness is $g>\beta^{1/(\sigma-1)}$ by
-Proposition 6(iii), a condition on $g$ alone, so it holds at both roots
-or at neither. $\blacksquare$
+$(0,\phi_g)$ and $(\phi_g,1)$. Below $\Phi(1)$ there is no pair, because
+the falling branch has range $\big[\Phi(1),\Phi(\phi_g)\big]$ and a
+smaller value therefore has its single preimage on the rising branch;
+and on that branch $\Phi$ climbs continuously from $0$ to
+$\Phi(\phi_g)>\Phi(1)$, so $\Phi(\phi)=\Phi(1)$ has a unique root
+$\underline{\phi}\in(0,\phi_g)$ there. The two-to-one set is thus
+$[\underline{\phi},1]\setminus\{\phi_g\}$ and $(0,\underline{\phi})$ is
+identified. The two roots share $\Phi$, hence $g$ by (ii) of Proposition
+6, hence $x^\ast$ and $\nu^\ast$ by part (i) here, hence $\tau\alpha$;
+and they differ in $\kappa_W$, in $z/Y$ and in $c_C/c_W$ by part (ii).
+Properness is $g>\beta^{1/(\sigma-1)}$ by Proposition 6(iii), a
+condition on $g$ alone, so it holds at both roots or at neither.
+$\blacksquare$
 
 **Part (iv)** is Corollary 2’s last clause read on the pair: every
 interior stationary split lies strictly below $\varpi^{\circ}$, and
