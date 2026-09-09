@@ -356,24 +356,33 @@ $$
 
 *(ii) the width is strictly increasing in the split under the weaker condition $\zeta/(1-\zeta)\le[\alpha/\theta(1-\alpha)]\,(1+\kappa_W/\varsigma)$;*
 
-*(iii) since $\kappa_W/\varsigma>(1-\alpha)/\alpha$, a reversal therefore requires*
+*(iii) two conditions are therefore necessary for a reversal, and neither is mild. The growth term must be negative at all, which by $P$ requires the split to be large against the reproduction weight,*
 
 $$
-\zeta\;>\;\frac{1}{1+\theta(1-\alpha)}\;>\;\frac12 ,
+\frac{\varsigma}{\kappa_W}>\frac{1-\theta}{\theta}
+\qquad\Longleftrightarrow\qquad
+\frac{\varsigma}{\bar\kappa}>1-\theta ;
 \tag{14}
 $$
 
-*so replacement must take more than half the product before the direction can turn at all.*
+*and, since $\kappa_W\ge1-\alpha$ and $\varsigma\le\tau\alpha<\alpha$ give $\kappa_W/\varsigma>(1-\alpha)/\alpha$, the replacement share must satisfy*
+
+$$
+\zeta\;>\;\frac{1}{1+\theta(1-\alpha)}\;>\;\max\{\alpha,\tfrac12\} ,
+\tag{15}
+$$
+
+*the second inequality because $\alpha\theta<1$. Replacement must take more than half the product, and more than the capital share, before the direction can turn at all.*
 
 *Proof.* By Proposition 4, $\bar\kappa=\kappa_W+\varsigma$ carries no $\phi$; neither does $\iota=i(1-\tau)\alpha$. So in $\varepsilon_+-\varepsilon_-=(1-\zeta)\varsigma/(\kappa_W\bar\kappa)$ the split raises $\varsigma$, lowers $\kappa_W=\bar\kappa-\varsigma$ against it, and reaches $\zeta=\delta\iota/m$ only through $g$. Since $\partial\zeta/\partial\phi=-(\zeta/m)\,\partial g/\partial\phi$,
 
 $$
 \frac{\partial\ln(\varepsilon_+-\varepsilon_-)}{\partial\phi}
 =\frac{1}{\phi}+\frac{\tau\alpha}{\kappa_W}+\frac{\zeta}{m(1-\zeta)}\frac{\partial g}{\partial\phi} ,
-\tag{15}
+\tag{16}
 $$
 
-and Theorem 1’s proof gives $\partial g/\partial\phi=\gamma P/\mathcal{H}'$. Multiplying (15) by $\phi$ and using $\phi\tau\alpha=\varsigma$ gives (13).
+and Theorem 1’s proof gives $\partial g/\partial\phi=\gamma P/\mathcal{H}'$. Multiplying (16) by $\phi$ and using $\phi\tau\alpha=\varsigma$ gives (13).
 
 *The bound.* $P=(1-\theta)/\phi-\theta b$ with $b=\tau\alpha/\kappa_W$, so $P\ge-\theta b$; and $\mathcal{H}'>\gamma\alpha/[(1-\alpha)m]$ by (H), so $\gamma/(m\mathcal{H}')<(1-\alpha)/\alpha$. Where the growth term is negative its magnitude is therefore below $\phi\,b\,\theta\zeta(1-\alpha)/[(1-\zeta)\alpha]$, which is the stated expression.
 
@@ -397,19 +406,19 @@ Proposition 6 writes the reproduction requirement with the same $\varpi$ on both
 
 $$
 \rho_t:=\frac{\chi_{t+1}}{\chi_t}=\frac{n_t+b_t}{n_{t+1}\,g_{W,t}}
-\tag{16}
+\tag{17}
 $$
 
 *and leave $\chi_0$ free, so the dated system always solves for positive magnitudes wherever $n_t>0$. At a rest point,*
 
 $$
 \rho-1=\frac{b-b^{\ast}}{g\,(w-\delta x)},
-\tag{17}
+\tag{18}
 $$
 
 *so $\rho=1$ if and only if $b=b^{\ast}$.*
 
-*Proof.* Substitute $\varpi_t=\chi_t n_t$ into the reproduction requirement and cancel $\chi_t>0$ to obtain (16). Two unknowns and two requirements at each date fix the ratio and carry neither magnitude. At a rest point $n_{t+1}=n_t=n$ and $g_{W,t}=g$, so $\rho=(n+b)/(ng)$, and subtracting one gives (17). $\square$
+*Proof.* Substitute $\varpi_t=\chi_t n_t$ into the reproduction requirement and cancel $\chi_t>0$ to obtain (17). Two unknowns and two requirements at each date fix the ratio and carry neither magnitude. At a rest point $n_{t+1}=n_t=n$ and $g_{W,t}=g$, so $\rho=(n+b)/(ng)$, and subtracting one gives (18). $\square$
 
 The over-determination of Section 4 is therefore the price of forbidding the drift, not a property of the model standing alone. Forbidding it is exactly the closure condition of Proposition 8, and the sign of the drift is the failing edge: below the window $\rho>1$ under every rule in the class, above it $\rho<1$ under every rule. Propositions 7, 8, 9 and 10 are four readings of one scalar.
 
@@ -427,10 +436,10 @@ $$
 \rho\in\Bigl[\,\frac{1-\zeta+\kappa_W}{g\,(1-\zeta)},\;\frac{1-\zeta+\kappa_W+\varsigma}{g\,(1-\zeta)}\,\Bigr],
 \qquad
 \text{width}\;=\;\frac{\varsigma}{g\,(1-\zeta)} .
-\tag{18}
+\tag{19}
 $$
 
-Charging conventions pick a point in (18) exactly as they pick one in $[\varepsilon_-,\varepsilon_+]$, and for the same reason. One clarification belongs with it, because the phrase invites more than the proof gives: constancy across two otherwise identical rest-point dates is a **necessary** test for a magnitude to belong to the good rather than to the date, and what is shown here is that a consistent magnitude passes that test exactly on the band. Sufficiency would need an invariance criterion across admissible descriptions of the technique, and none is offered.
+Charging conventions pick a point in (19) exactly as they pick one in $[\varepsilon_-,\varepsilon_+]$, and for the same reason. One clarification belongs with it, because the phrase invites more than the proof gives: constancy across two otherwise identical rest-point dates is a **necessary** test for a magnitude to belong to the good rather than to the date, and what is shown here is that a consistent magnitude passes that test exactly on the band. Sufficiency would need an invariance criterion across admissible descriptions of the technique, and none is offered.
 
 # 7. The split
 
@@ -452,7 +461,7 @@ Write $a:=1/\phi$ and $b:=\tau\alpha/\kappa_W$. Since $\partial\kappa_W/\partial
 
 $$
 \frac{\partial}{\partial\phi}\ln\frac{z}{c_W}=a+b-\frac{1}{m_G}\frac{\partial g}{\partial\phi}.
-\tag{19}
+\tag{20}
 $$
 
 The stationary condition is $\ln B=\mathcal{H}(g)$ of (H), which written out is
@@ -467,7 +476,7 @@ $$
 \mathcal{H}'(g)\,\frac{\partial g}{\partial\phi}=\gamma P,\qquad P=(1-\theta)a-\theta b ,
 $$
 
-with $\mathcal{H}'$ as in (H) and strictly positive at an interior rest point. Substituting into (19) and clearing $m_G\mathcal{H}'>0$, the numerator is
+with $\mathcal{H}'$ as in (H) and strictly positive at an interior rest point. Substituting into (20) and clearing $m_G\mathcal{H}'>0$, the numerator is
 
 $$
 \mathcal{N}=(a+b)\Bigl(\frac{m_G}{g}+\frac{\gamma\alpha\,m_G}{(1-\alpha)m}\Bigr)+\gamma(1-\theta)(a+b)-\gamma P
@@ -478,7 +487,7 @@ because $\gamma(1-\theta)(a+b)-\gamma[(1-\theta)a-\theta b]=\gamma(1-\theta)b+\g
 
 $$
 \frac{\partial}{\partial\phi}\ln\frac{c_C}{c_W}=\frac{1-\theta}{m_G\,\mathcal{H}'(g)}\,\mathcal{N}>0 .
-\tag{20}
+\tag{21}
 $$
 
 The map $\phi\mapsto\ln(c_C/c_W)$ is strictly increasing on $(0,1]$, so the set on which $c_C>c_W$ is an upper interval, and by Proposition 1 its boundary is the split, if any, at which $z=c_W$. $\square$
