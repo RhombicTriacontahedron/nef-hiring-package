@@ -4,7 +4,7 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-A public stock that enters working-class continuation and is built only from a tax on profits is not cash and is not an additive social wage. At an interior rest point of the laws of motion, a labour-only charge conserves production, uniquely up to scale, if and only if replacement takes less than the product. The same charge does not conserve reproduction. The defect is an identity: owner consumption plus the net growth of both stocks. Inside the class of rules that charge a worker’s period between his private consumption and that plus the period’s gross public investment, every rule relocates the defect and none deletes it while the economy grows and owners consume. The ratio of remainder to charge is therefore an interval rather than a number, degenerate if and only if public investment is zero. Closure inside the class can happen only in a window in the growth factor that is never wider than the capital share; that window is empty read as a year and unremarkable read as a generation, and the model does not name its period. Along the split that turns the tax from cash toward the stock, growth cancels the direct provision channel exactly, and the private-consumption ratio rises for the remaining reason: less of the tax comes back as cash. The charge is imposed at rest. It is not a law of value and not a national net social wage.
+A public stock that enters working-class continuation and is built only from a tax on profits is not cash and is not an additive social wage. At an interior rest point of the laws of motion, a labour-only charge conserves production, uniquely up to scale, if and only if replacement takes less than the product. The same charge does not conserve reproduction. The defect is an identity: owner consumption plus the net growth of both stocks. Inside the class of rules that charge a worker’s period between his private consumption and that plus the period’s gross public investment, every rule relocates the defect and none deletes it while the economy grows and owners consume. The ratio of remainder to charge is therefore an interval rather than a number, degenerate if and only if public investment is zero; and measured against its own ceiling, the width of that interval is a pure instrument ratio in which the growth factor does not appear at all. Closure inside the class can happen only in a window in the growth factor that is never wider than the capital share; that window is empty read as a year and unremarkable read as a generation, and the model does not name its period. Along the split that turns the tax from cash toward the stock, growth cancels the direct provision channel exactly, and the private-consumption ratio rises for the remaining reason: less of the tax comes back as cash. The charge is imposed at rest. It is not a law of value and not a national net social wage.
 
 # 1. Introduction
 
@@ -12,9 +12,9 @@ Classical and Sraffian accounts treat the subsistence of labour as a circulating
 
 That coextension fails as soon as continuation takes two inputs and the second is a durable public stock financed only out of capital income. Cash paid from that same tax is not the stock. The sum of the cash and the provision is not the continuation index. A labour-only charge that balances the making of goods does not, except on a thin set of primitives, balance the making of workers. What it leaves over is not a residual of measurement. It is owner consumption plus the net enlargement of both stocks, and it has a closed form.
 
-There is a literature that measures the working class’s fiscal position as a scalar and finds the sign of that scalar turning on an accounting convention. Charitou, Maniatis and Passas (2025) report, in their own summary of a nine-country panel, that the net fiscal position of the working class is negative in eight countries when indirect taxes are assumed to be partly paid by labour, and that the finding reverses when that assumption is dropped. Their convention is the incidence of taxes attributed to labour. The interval below turns on a different convention: whether the public stock is charged to a worker’s period as upkeep or as gross investment. The two are not rival measurements of one object. The only tax base here is capital income, so the statistic those authors compute is not defined in this model, and nothing below explains a panel or a time series.
+There is a literature that measures the working class’s fiscal position as a single number, the net social wage, and finds the sign of that number turning on an accounting convention (Tonak 1987; Shaikh and Tonak 1994; Maniatis and Passas 2019; Karabacak and Tonak 2022; Charitou, Maniatis and Passas 2025). Charitou, Maniatis and Passas (2025) report, in their own summary of a nine-country panel, that the net fiscal position of the working class is negative in eight countries when indirect taxes are assumed to be partly paid by labour, and that the finding reverses when that assumption is dropped. Their convention is the incidence of taxes attributed to labour. The interval below turns on a different convention: whether the public stock is charged to a worker’s period as upkeep or as gross investment. The two are not rival measurements of one object. The only tax base here is capital income, so the statistic those authors compute is not defined in this model, and nothing below explains a panel or a time series.
 
-**What is restated and what is proved here.** The environment, the two lemmas of Section 3, and Propositions 1 through 4 are the setting of a companion working paper on the two-class dynamic game (Galindo 2026), restated at their own strength with proofs given so that this article stands alone; that paper’s existence and stability theorems are used nowhere below. The contribution is Propositions 5 through 10 and Theorem 1: that no additive total represents the continuation index unless the public stock has left it; that the labour-only charge closes on production and not on reproduction, with the defect exact; that the defect confines any closing rule to a bounded window in the growth factor; that the ratio of remainder to charge is an interval whose width is public investment; that forbidding the magnitude of the good to drift is exactly the closure condition; and that along the fiscal split the growth feedback annihilates the direct provision channel term for term.
+**What is restated and what is proved here.** The environment, the two lemmas of Section 3, and Propositions 1 through 4 are the setting of a companion working paper on the two-class dynamic game (Galindo 2026), restated at their own strength with proofs given so that this article stands alone; that paper’s existence and stability theorems are used nowhere below. The contribution is Propositions 5 through 10, Corollary 1 and Theorem 1: that no additive total represents the continuation index unless the public stock has left it; that the labour-only charge closes on production and not on reproduction, with the defect exact; that the defect confines any closing rule to a bounded window in the growth factor; that the ratio of remainder to charge is an interval whose width is public investment, and whose width against its own ceiling is an instrument ratio the growth feedback never enters; that forbidding the magnitude of the good to drift is exactly the closure condition; and that along the fiscal split the growth feedback annihilates the direct provision channel term for term.
 
 The charge is imposed on a rest point of stated laws. It is not an equilibrium object of the game that uses those laws, and constant shares are the class in which the rest point is written. Nothing below shows that restriction to be without loss against state-contingent play. Nothing below is a theory of surplus value or a national net social wage.
 
@@ -107,7 +107,7 @@ $$
 
 *Proof.* The inflow to $G$ is $\phi\tau\alpha Y$. At $\phi=0$ the law is $G_{t+1}=(1-\delta_G)G_t$. If $\delta_G=1$ then $z_{t+1}=0$, and for $\theta<1$ the worker’s factor is zero at the next date. If $\delta_G<1$ and $z'=z>0$, then $g_W=1-\delta_G$. $\square$
 
-The stock law has one source term, and cash from the same tax does not repair this. At a stationary positive stock, the whole receipt paid out as cash leaves worker continuation exactly where no tax leaves it.
+The stock law has one source term, and cash from the same tax does not stand in for it. At a stationary positive stock, the whole receipt paid out as cash leaves worker continuation exactly where no tax leaves it.
 
 **Proposition 3 (rest points, reparameterised by the scale of continuation).** *Fix admissible $(\alpha,\delta,\delta_G,\tau,\phi,i,\theta,\gamma)$ with $i\in(0,1)$ and $\phi\tau\in(0,1)$. For every target $g>\max(1-\delta,1-\delta_G)$ there exists a unique $B>0$ inducing an interior rest point of the laws with that growth factor.*
 
@@ -119,9 +119,17 @@ z(g)=\frac{\varsigma A\,x(g)^{\alpha}}{m_G},
 \tag{3}
 $$
 
-both positive and strictly decreasing on the open range, because $\alpha<1$. Hence $w(g)=Ax(g)^{\alpha}$ and $c_W(g)=\kappa_W w(g)$ are strictly decreasing, and by (1) so is $c_C(g)=c_W(g)^{\theta}z(g)^{1-\theta}$, from $+\infty$ to $0$. Then $g=Bc_C(g)^{\gamma}$ rearranges to $\ln B=\ln g-\gamma\ln c_C(g)$, whose right-hand side is continuous, strictly increasing, and takes the values $-\infty$ and $+\infty$ at the two ends of the range. Exactly one $B>0$ solves it. The class ratio $\nu=s_C w(g)/c_C(g)$ is then residual and positive. $\square$
+both positive and strictly decreasing on the open range, because $\alpha<1$. Hence $w(g)=Ax(g)^{\alpha}$ and $c_W(g)=\kappa_W w(g)$ are strictly decreasing, and by (1) so is $c_C(g)=c_W(g)^{\theta}z(g)^{1-\theta}$, from $+\infty$ to $0$. Then $g=Bc_C(g)^{\gamma}$ rearranges to $\ln B=\mathcal{H}(g)$, where
 
-Proposition 3 reparameterises rest points of the laws by the scale of continuation. It does not characterise play, and it is used below only to turn a stated tuple into an induced one: a growth factor is not a free parameter, so exhibiting a configuration is worth nothing until some admissible primitive puts a rest point there.
+$$
+\mathcal{H}(g):=\ln g-\gamma\ln c_C(g),\qquad
+\mathcal{H}'(g)=\frac{1}{g}+\frac{\gamma\alpha}{(1-\alpha)m}+\frac{\gamma(1-\theta)}{m_G}>0 .
+\tag{H}
+$$
+
+The derivative follows from $\ln c_C=\theta\ln\kappa_W+\ln w+(1-\theta)(\ln\varsigma-\ln m_G)$ together with $d\ln w/dg=-\alpha/[(1-\alpha)m]$, which is (3). Every term of $\mathcal{H}'$ is positive at an interior rest point, so $\mathcal{H}$ is continuous and strictly increasing, with limits $-\infty$ and $+\infty$ at the two ends of the range. Exactly one $B>0$ solves $\ln B=\mathcal{H}(g)$. The class ratio $\nu=s_C w(g)/c_C(g)$ is then residual and positive. $\square$
+
+Proposition 3 reparameterises rest points of the laws by the scale of continuation. Galindo (2026, Proposition 6) states the rest-point growth factor in closed form given $B$; Proposition 3 is that statement read the other way round, and the reading rather than the closed form is what is used below — to turn a stated tuple into an induced one. A growth factor is not a free parameter, so exhibiting a configuration that satisfies an inequality is worth nothing until some admissible primitive puts a rest point there. It does not characterise play.
 
 **Proposition 4 (adding-up).** *At any interior rest point, $\kappa_W+s_C+\iota+\varsigma=1$. Stationarity gives $\iota w=\delta x+(g-1)x$ and $\varsigma w=\delta_G z+(g-1)z$, and therefore*
 
@@ -290,6 +298,21 @@ The floor $\varepsilon_-$ is net private accumulation plus owner consumption, me
 
 Two remarks fence the interval. The strict monotonicity in $\varsigma$ is a statement about (9) at a fixed replacement share and a fixed ceiling $S$; it is not a comparative static of the rest point, along which $\zeta$ moves with $g$. And the degeneracy is $\varsigma=0$ and nothing else: $\mathcal{B}$ carries no $\theta$, so the width does not collapse at $\theta=1$. What happens at $\theta=1$ is different and simpler. By Proposition 1 the two classes’ private claims are then equal at every policy, the public stock has left the worker’s map, and there is no displacement for the accounting to be about. The interval survives $\theta=1$; the question does not.
 
+**Corollary 1 (the latitude, net of the growth feedback).** *At any interior rest point at which production conserves,*
+
+$$
+\varepsilon_+-\varepsilon_-=\bigl(1+\varepsilon_+\bigr)\,\frac{\varsigma}{\kappa_W+\varsigma},
+\qquad
+\frac{\varsigma}{\kappa_W+\varsigma}=\frac{\phi\tau\alpha}{(1-\alpha)+\tau\alpha}.
+\tag{14}
+$$
+
+*The second factor carries no growth factor, no replacement share and no technology constant. It is the fraction of the maximum defensible charge that public investment makes up, and it is strictly increasing in the split and in the tax.*
+
+*Proof.* By (9), $1+\varepsilon_+=(1-\zeta)/\kappa_W$; multiplying by $\varsigma/(\kappa_W+\varsigma)$ gives the width in (9). Proposition 4 gives $\kappa_W+\varsigma=(1-\alpha)+\tau\alpha$, which carries neither $\phi$ nor any dated object, and $\partial[\varsigma/S]/\partial\phi=\tau\alpha/S>0$ at that fixed $S$, with the same computation in $\tau$. $\square$
+
+The two factors of (14) separate what the rest point decides from what the instruments decide. The width itself is not claimed monotone in the split: raising $\phi$ moves the growth factor, and the growth factor’s own response is not signed here, since the numerator $P$ of Theorem 1’s proof changes sign across the family. The width *measured against its own ceiling* is monotone, and unconditionally so, because both the growth factor and the replacement share leave that ratio. So the instrument that turns the tax from cash toward the stock widens the accounting latitude in exactly the proportion in which it funds the stock — and by Theorem 1 below, the same instrument widens the private-consumption gap. One movement, two widenings, and neither of them is the stock getting larger.
+
 Incidence conventions choose a point in $[\varepsilon_-,\varepsilon_+]$. They do not choose whether anything remains.
 
 # 6. Dated magnitudes
@@ -339,21 +362,19 @@ $$
 \tag{12}
 $$
 
-The stationary condition $g=Bc_C^{\gamma}$ with $c_C=c_W^{\theta}z^{1-\theta}$ reads
+The stationary condition is $\ln B=\mathcal{H}(g)$ of (H), which written out is
 
 $$
-\ln g=\ln B+\gamma\theta\ln\kappa_W+\gamma\ln w+\gamma(1-\theta)\ln(\phi\tau\alpha)-\gamma(1-\theta)\ln m_G ,
+\ln g=\ln B+\gamma\theta\ln\kappa_W+\gamma\ln w+\gamma(1-\theta)\ln(\phi\tau\alpha)-\gamma(1-\theta)\ln m_G .
 $$
 
-and from $x=(\iota A/m)^{1/(1-\alpha)}$ we have $d\ln w/dg=-\alpha/[(1-\alpha)m]$. Differentiating at fixed $(\tau,i,B)$ and collecting the coefficients of $\partial g/\partial\phi$,
+Differentiating at fixed $(\tau,i,B)$ and collecting the coefficients of $\partial g/\partial\phi$,
 
 $$
-\mathcal{H}'(g)\,\frac{\partial g}{\partial\phi}=\gamma P,\qquad
-\mathcal{H}'(g)=\frac{1}{g}+\frac{\gamma\alpha}{(1-\alpha)m}+\frac{\gamma(1-\theta)}{m_G},\qquad
-P=(1-\theta)a-\theta b .
+\mathcal{H}'(g)\,\frac{\partial g}{\partial\phi}=\gamma P,\qquad P=(1-\theta)a-\theta b ,
 $$
 
-Every term of $\mathcal{H}'$ is positive at an interior rest point. Substituting into (12) and clearing $m_G\mathcal{H}'>0$, the numerator is
+with $\mathcal{H}'$ as in (H) and strictly positive at an interior rest point. Substituting into (12) and clearing $m_G\mathcal{H}'>0$, the numerator is
 
 $$
 \mathcal{N}=(a+b)\Bigl(\frac{m_G}{g}+\frac{\gamma\alpha\,m_G}{(1-\alpha)m}\Bigr)+\gamma(1-\theta)(a+b)-\gamma P
@@ -383,7 +404,7 @@ Closure inside $\mathcal{B}$ is a window in the growth factor, never wider than 
 
 The fiscal split that builds the stock is the split that widens private cash inequality, and the reason is not that the stock is small. The extra public intensity per worker is eaten exactly by the extra growth it finances. What remains is that less of the tax is paid as cash.
 
-What travels is the unfunded hole, identity (R), the necessary window, the interval $\varepsilon=R/b$, the no-drift reading of closure, and the cancellation that signs the private gap. They are statements about a rest point of stated laws under a stated charge, inside the constant-share class, and every step of Sections 4 and 5 is a statement about a single date. Existence of such a configuration under a wider class of policies is not shown here, and neither is uniqueness. This is not a theory of value, not a net social wage for any country, and not an equilibrium of the game whose laws have been used.
+What travels is the unfunded hole, identity (R), the necessary window, the interval $\varepsilon=R/b$, the ratio (14) that takes the growth feedback out of the latitude, the no-drift reading of closure, and the cancellation that signs the private gap. They are statements about a rest point of stated laws under a stated charge, inside the constant-share class, and every step of Sections 4 and 5 is a statement about a single date. Existence of such a configuration under a wider class of policies is not shown here, and neither is uniqueness. This is not a theory of value, not a net social wage for any country, and not an equilibrium of the game whose laws have been used.
 
 # References
 
