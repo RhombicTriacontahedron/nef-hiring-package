@@ -3246,16 +3246,20 @@ $$\frac{\partial\mathcal{P}}{\partial\varpi} \;=\;
   \gamma\Big[\frac{1-\theta}{\varpi}\;-\;\frac{\theta\alpha}{\kappa_W}\Big] ,$$
 *whose bracket is strictly decreasing in $\varpi$ and unbounded above as
 $\varpi\downarrow0$. It therefore vanishes exactly once, at*
-$$\varpi^{\dagger} \;=\; \frac{(1-\theta)\big(1-\alpha+\alpha\tau\big)}{\alpha} ,$$
+$$\varpi^{\circ} \;=\; \frac{(1-\theta)\big(1-\alpha+\alpha\tau\big)}{\alpha} ,$$
 *and $g$ is **strictly single-peaked** in the split: strictly increasing
-below $\varpi^{\dagger}$ and strictly decreasing above it. The peak is
-interior to $(0,\tau]$ exactly when
+on whatever part of $(0,\tau]$ lies below $\varpi^{\circ}$ and strictly
+decreasing on whatever part lies above, the second being empty when the
+peak is not interior. The peak is interior to $(0,\tau]$ exactly when
 $\alpha\theta\tau>(1-\alpha)(1-\theta)$, and sits at the corner $\phi=1$
 otherwise. Consequently $\{\varpi:g(\varpi)>\bar g\}$ is an **interval**
 for every $\bar g$, so by (iii) the splits at which a profile is proper
 form an interval too. None of $\gamma$, $\delta$, $\delta_G$, $\beta$,
-$\sigma$, $i$, $A$ or $B$ appears in $\varpi^{\dagger}$, and
-$\partial\varpi^{\dagger}/\partial\theta=1-\tau-1/\alpha<0$.*
+$\sigma$, $i$, $A$ or $B$ appears in $\varpi^{\circ}$, and
+$\partial\varpi^{\circ}/\partial\theta=1-\tau-1/\alpha<0$. Finally,
+every interior zero of Corollary 2’s split map $\Psi$ lies **strictly
+below** $\varpi^{\circ}$: a worker who stops inside the box stops short
+of the growth peak, never past it.*
 
 *Proof.* **(i)** At a rest point Theorem 2(ii) inverts both stock laws:
 $x(g) = \big[i(1-\tau)\alpha A/(g-1+\delta)\big]^{1/(1-\alpha)}$ and
@@ -3291,14 +3295,21 @@ $g\mapsto\beta g^{1-\sigma}$ is decreasing.
 **(iv)** With $\tau$ and $i$ fixed the split reaches $\mathcal{P}$
 through two terms only, since $\phi\tau\alpha A=\varpi\alpha A$ and
 $\kappa_W=(1-\alpha)+\alpha(\tau-\varpi)$; the first and fourth terms
-carry no $\varpi$. Differentiating gives the display. Both entries of
-the bracket fall in $\varpi$ — the first because $\theta<1$, the second
+carry no $\varpi$. Differentiating gives the display. ⭕ **The first
+derivative is not new here:** Corollary 2’s proof already carries it in
+the split, as
+$\mathcal{P}_\phi=\gamma\big[(1-\theta)/\phi-\theta\tau\alpha/\kappa_W\big]$,
+and $\partial\mathcal{P}/\partial\varpi=\mathcal{P}_\phi/\tau$ since
+$\varpi=\phi\tau$ at fixed $\tau$. What that corollary does with it is
+evaluate it *at a zero of $\Psi$*; what follows here is the **second**
+differentiation, which is where the peak comes from. Both entries of the
+bracket fall in $\varpi$ — the first because $\theta<1$, the second
 because $\kappa_W$ falls at the constant rate $\alpha$ while staying at
 or above $1-\alpha>0$ — so the bracket’s own derivative is
 $-(1-\theta)/\varpi^{2}-\theta\alpha^{2}/\kappa_W^{2}<0$ and the bracket
 is strictly decreasing. A strictly decreasing function that tends to
 $+\infty$ at the left endpoint crosses zero at most once; substituting
-$\varpi^{\dagger}$ shows it does cross, so $\mathcal{P}$ rises and then
+$\varpi^{\circ}$ shows it does cross, so $\mathcal{P}$ rises and then
 falls. By (13) $g$ is a strictly increasing function of $\mathcal{P}$,
 and a strictly increasing transformation moves neither the location of a
 peak nor the number of crossings of a level, which gives both the
@@ -3313,7 +3324,12 @@ term, which carries no $\varpi$; $A$ and $B$ enter additively under the
 logarithms and so do not survive the derivative; and $\gamma$ multiplies
 **both** entries of the bracket, so it scales the derivative but cannot
 move the zero. Only $\tau$ survives, through $\kappa_W$ as well as
-through the upper endpoint. $\blacksquare$
+through the upper endpoint. For the last clause, Corollary 2 shows that
+at a zero of $\Psi$ the same $\mathcal{P}_\phi$ collapses to
+$\gamma(1-\theta)(1-\Omega)/\phi$, which is strictly positive because
+$\Omega<1$ by Proposition 3(i); a strictly positive $\mathcal{P}_\phi$
+is a strictly positive $\partial\mathcal{P}/\partial\varpi$, and that
+holds exactly below $\varpi^{\circ}$. $\blacksquare$
 
 Part (iii) is what the instrument box needed. A fixed-point argument has
 to be run away from the faces where the map is undefined, and no
@@ -3341,7 +3357,7 @@ and rises as it is cut. One rate falls and the other rises, so they
 cross once, and the crossing is the best the split can do for growth.
 Below it the receipt buys more continuation as clinics than as cash;
 above it the arithmetic reverses, and a state that keeps building past
-$\varpi^{\dagger}$ is buying provision with reproduction it cannot
+$\varpi^{\circ}$ is buying provision with reproduction it cannot
 recover.
 
 Two things the crossing does not depend on are worth as much as its
@@ -3360,20 +3376,59 @@ growth factor. The two margins that move the corner are separated by
 channel, and only one of them is structural.
 
 At the reported cells the crossing is far outside the instrument box:
-$\phi^{\dagger}$ is $1.99$, $1.73$ and $1.53$ at the three equilibrium
+$\phi^{\circ}$ is $1.99$, $1.73$ and $1.53$ at the three equilibrium
 taxes $0.51$, $0.61$ and $0.72$, so growth is strictly increasing in the
-split across the whole of it and the corner is not a knife-edge. Raising
-$\theta$ to $0.80$ puts it inside at all three — $0.996$, $0.866$,
-$0.764$ — the turn falling between $\theta=0.738$ and $\theta=0.799$
-depending on the tax. ⚠ That is the same margin, and the same pair of
-swept values, at which the computed split leaves the corner; it is
-**not** the same object, and the agreement is not claimed as one. The
-worker ranks discounted payoffs, which carry $\Omega$, $J$ and
-$\tilde\beta$, and none of those appears in $\varpi^{\dagger}$. What
-(iv) supplies is the structural half: past a threshold written in
-$(\alpha,\theta,\tau)$ alone, the corner stops being the
-growth-maximising split, and any account of why the chosen split moves
-has that much already given to it.
+split across the whole of it and the corner is not a knife-edge. ⛔ **It
+is tempting to read the $\theta$ margin as the explanation of the
+computed corner-flip, and the temptation should be refused.** Holding
+those three taxes fixed, raising $\theta$ to $0.80$ would pull the
+crossing inside the box at all of them. But the tax does not hold fixed.
+At the cell where the split actually goes interior — $\theta=0.80$ at
+$\delta_G=0.05$ — the equilibrium tax falls to $0.34$, and there
+$\phi^{\circ}=1.39$: the crossing is still outside the box, and growth
+is still rising in the split everywhere the worker may go. **The growth
+peak is not what moves that split.** What moves it is the part of the
+problem $\varpi^{\circ}$ excludes — the discounted wedges $\Omega$ and
+$J$ — which is the conclusion (iv) already forces for $\delta_G$ by an
+absence, now reached for $\theta$ as well by a computation. (iv)’s
+content is the structural channel and where it stops, not the location
+of any chosen split.
+
+And the two are not merely near one another. Corollary 2’s collapse puts
+every interior stationary split **strictly below** $\varpi^{\circ}$: a
+worker who stops inside the box stops while the growth factor is still
+rising. He is not balancing growth against something else at the margin
+— he is declining growth he could still have, because the cash he would
+give up to buy it costs him more, discounted, than the larger dynasty it
+returns. The distance between the two splits is the price of impatience,
+and it is exactly the part of the decision $\varpi^{\circ}$ does not
+contain. ⚠ It is also a constraint the computed cells must satisfy: the
+reported interior split at $\theta=0.80$ must sit below $\phi^{\circ}$
+at that cell’s own tax, and at $\tau=0.34$ that is $0.94$ against
+$1.39$.
+
+Three primitives are left, and
+$\varpi^{\circ}=(1-\theta)\big[1/\alpha-(1-\tau)\big]$ prices each. It
+falls in $\theta$, which is the margin just discussed. It rises in the
+tax, at rate $1-\theta$, while the *split* it recommends falls, at
+$-(1-\theta)(1-\alpha)/(\alpha\tau^{2})$: a state that taxes more should
+build a smaller fraction of a larger receipt, and the two movements are
+not in tension because the receipt itself is growing faster than the
+fraction shrinks. The third is the one worth reading twice. The peak
+falls in the capital share, at $-(1-\theta)/\alpha^{2}$, so **the more
+of the product that accrues to capital, the less of the receipt a
+growth-maximising state routes into the stock.** The reason is not that
+provision has become less productive — $\theta$ and the reproduction
+technology have not moved. It is that the cash leg provision competes
+with has become scarcer: $\kappa_W$ starts from $1-\alpha$, and every
+unit diverted from a thinner wage share costs more reproduction than the
+same unit cost before. An economy in which labour’s share has fallen is
+one in which the funded share that maximises growth is smaller, and the
+model returns that in a closed form carrying no dynamic primitive at
+all. What it does not return, and what no rearrangement of it will
+return, is a level of provision that guarantees the workforce
+reproduces: $g_W\ge1$ is a joint restriction on $c_W$ and $z$ together
+with the primitives, not a threshold in either one alone.
 
 Proposition 6 makes the growth factor an explicit function of the
 shares. Propositions 4 and 5 make the shares explicit functions of the
