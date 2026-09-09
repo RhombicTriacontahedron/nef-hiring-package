@@ -5710,15 +5710,29 @@ does not, and the term that entry contributes pulls the other way. The
 second difference is that $\Xi$ moves with two wedges rather than one,
 and
 $\partial\Xi/\partial\Omega=(1-\theta)\big[1/(\tau\alpha)-J/(1-\tau)\big]$
-is unsigned as it stands. Section 8.5 takes both differences up: at a
-zero of $\Xi$ the second derivative collapses, and what it collapses to
-is signed at every split, which is enough to reduce the tax to a
-criterion. Finally, the worker owns two instruments, so his second-order
-condition is a joint statement about $(\tau,\phi)$ rather than two
-separate single-crossing conditions — the first-order content in (17) is
-a gradient and does close for the pair, but the curvature left open on
-his side is genuinely two-dimensional. What Theorem 5 removes is the
-split’s side condition, not the two-dimensionality.
+is unsigned on the face of it. It is not unsigned on the domain, and
+nothing beyond (8) is needed to see it. Carrying
+$J=\tilde\beta(g-1+\delta)/D_x$ into the bracket leaves it with the sign
+of $(1-\tau)D_x-\tau\alpha\tilde\beta(g-1+\delta)$, affine and strictly
+decreasing in $\tilde\beta$ with root
+$\tilde\beta^{\ast}=cg\big/\big[(g-1+\delta)+c\big(\alpha(g-1+\delta)+1-\delta\big)\big]$
+at $c=(1-\tau)/(\tau\alpha)$; and $1-\tilde\beta^{\ast}$ carries
+$(g-1+\delta)$ as a factor of its numerator, which cancels, leaving
+$\tilde\beta^{\ast}<1$ exactly when $\tau>1-\alpha$. The growth factor
+and both depreciation rates leave the condition altogether. So the
+second wedge derivative is strictly positive at every proper profile
+whose capital-income tax lies at or below labour’s share, and takes both
+signs only above it — unsigned in a corner, not on the domain, and the
+corner is a capital-income tax above labour’s share of output. Section
+8.5 takes both differences up: at a zero of $\Xi$ the second derivative
+collapses, and what it collapses to is signed at every split, which is
+enough to reduce the tax to a criterion. Finally, the worker owns two
+instruments, so his second-order condition is a joint statement about
+$(\tau,\phi)$ rather than two separate single-crossing conditions — the
+first-order content in (17) is a gradient and does close for the pair,
+but the curvature left open on his side is genuinely two-dimensional.
+What Theorem 5 removes is the split’s side condition, not the
+two-dimensionality.
 
 **Computation 4 (the identity against a route that shares no step).**
 *At the cells of Computation 1 and at three others — $\theta=0.80$;
@@ -5961,8 +5975,9 @@ $$\frac{\partial\Xi}{\partial\Omega}\bigg|_{\Xi=0}
 $\kappa_W(\phi)-\tau\alpha(1-\phi)=1-\alpha$ identically, the
 $(1-\phi)\tau\alpha$ terms cancelling. Every factor is strictly positive
 under properness, at every $\phi\in[0,1]$ and not only at the corner;
-$\Omega$ has left the expression altogether. The raw partial is
-unsigned, and the collapse is what signs it.*
+$\Omega$ has left the expression altogether. The raw partial is signed
+by (B.7$'$) alone only at or below labour’s share, as §8.4 shows; the
+collapse signs it at every tax.*
 
 *(iii) **The criterion, at every split.** Write
 $\varepsilon^{\tau}_g=(\tau/g)\,\partial g/\partial\tau$. At every zero
