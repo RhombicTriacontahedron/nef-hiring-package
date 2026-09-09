@@ -4,7 +4,7 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-A public stock that enters working-class continuation and is built only from a tax on profits is not cash and is not an additive social wage. At an interior rest point of the laws of motion, a labour-only charge conserves production, uniquely up to scale, if and only if replacement takes less than the product. The same charge does not conserve reproduction. The defect is an identity: owner consumption plus the net growth of both stocks. Inside the class of rules that charge a worker’s period between his private consumption and that plus the period’s gross public investment, every rule relocates the defect and none deletes it while the economy grows and owners consume. The ratio of remainder to charge is therefore an interval rather than a number, degenerate if and only if public investment is zero. Measured against its own ceiling, the width of that interval is a pure instrument ratio in which the growth factor never appears; and the same split that widens it widens the closure window itself, by lowering that window’s floor while its ceiling stands still. Closure inside the class can happen only in a window in the growth factor that is strictly narrower than the capital share; that window is empty read as a year and unremarkable read as a generation, and the model does not name its period. Along the split that turns the tax from cash toward the stock, growth cancels the direct provision channel exactly, and the private-consumption ratio rises for reasons that do not include it, the worker’s falling cash share among them. Dating the magnitudes removes the over-determination and prices it: the accounting then always closes, but only by letting one good carry two magnitudes at two identical dates, at a rate that conservation fixes once the rule is named. That rate is a consistency object rather than a valuation one — nothing is priced and nobody chooses — and it equals unity only on the closure window. The charge is imposed at rest. It is not a law of value and not a national net social wage.
+A public stock that enters working-class continuation and is built only from a tax on profits is not cash and is not an additive social wage. At an interior rest point of the laws of motion, a labour-only charge conserves production, uniquely up to scale, if and only if replacement takes less than the product. The same charge does not conserve reproduction. The defect is an identity: owner consumption plus the net growth of both stocks. Inside the class of rules that charge a worker’s period between his private consumption and that plus the period’s gross public investment, every rule relocates the defect and none deletes it while the economy grows and owners consume. The ratio of remainder to charge is therefore an interval rather than a number, degenerate if and only if public investment is zero. Measured against its own ceiling, the width of that interval is a pure instrument ratio in which the growth factor never appears; measured in its own right, with the growth factor allowed to answer, it rises more than in proportion to the split at every rest point that grows; and the same split widens the closure window itself, by lowering that window’s floor while its ceiling stands still. Closure inside the class can happen only in a window in the growth factor that is strictly narrower than the capital share; that window is empty read as a year and unremarkable read as a generation, and the model does not name its period. Along the split that turns the tax from cash toward the stock, growth cancels the direct provision channel exactly, and the private-consumption ratio rises for reasons that do not include it, the worker’s falling cash share among them. Dating the magnitudes removes the over-determination and prices it: the accounting then always closes, but only by letting one good carry two magnitudes at two identical dates, at a rate that conservation fixes once the rule is named. That rate is a consistency object rather than a valuation one — nothing is priced and nobody chooses — and it equals unity only on the closure window. The charge is imposed at rest. It is not a law of value and not a national net social wage.
 
 # 1. Introduction
 
@@ -20,7 +20,7 @@ What does not survive is the reduction. Assign a labour magnitude to a unit of t
 
 Two fences follow, and neither is decoration. The law of motion that carries a class to a settled ratio here runs from consumption to numbers, and that is not Marx’s; a reader who takes population to follow from the standard of living rather than the reverse will read the engine as Malthus’s, and Marx’s own route from accumulation to numbers, the reserve army, is used nowhere below. And the composite that continuation runs on is not the value of labour-power. The joint work that treats labour-power as the value source does so in a price-taking setting with no strategic interaction (Huato and Galindo Escajeda, working paper); this is a different object — a contested continuation technology, paid for out of capital, with two classes that do not share an objective — and identifying the composite with a value form would be a further derivation rather than a relabelling.
 
-**What is restated and what is proved here.** The environment, the two lemmas of Section 3, and Propositions 1 through 4 are the setting of a companion working paper on the two-class dynamic game (Galindo Escajeda 2026), restated at their own strength with proofs given so that this article stands alone; that paper’s existence and stability theorems are used nowhere below. The contribution is Propositions 5 through 10, Corollaries 1 and 2, and Theorem 1: that no additive total with positive weights on both inputs represents the continuation index, at any $\theta$; that the labour-only charge closes on production and not on reproduction, with the defect exact; that the defect confines any closing rule to a bounded window in the growth factor; that the ratio of remainder to charge is an interval whose width is public investment, and whose width against its own ceiling is an instrument ratio the growth feedback never enters; that the fiscal split lowers the floor of the closure window without touching its ceiling; that forbidding the magnitude of the good to drift is exactly the closure condition, so that conservation alone fixes an inter-temporal ratio for the good, and that ratio is one only on the window; and that along that same split the growth feedback cancels the direct provision channel exactly, so that the gap widens for reasons that do not include it. The last three are one instrument doing one thing three times, and none of the three is the public stock getting larger.
+**What is restated and what is proved here.** The environment, the two lemmas of Section 3, and Propositions 1 through 4 are the setting of a companion working paper on the two-class dynamic game (Galindo Escajeda 2026), restated at their own strength with proofs given so that this article stands alone; that paper’s existence and stability theorems are used nowhere below. The contribution is Propositions 5 through 10, Corollaries 1 to 3, and Theorem 1: that no additive total with positive weights on both inputs represents the continuation index, at any $\theta$; that the labour-only charge closes on production and not on reproduction, with the defect exact; that the defect confines any closing rule to a bounded window in the growth factor; that the ratio of remainder to charge is an interval whose width is public investment, and whose width against its own ceiling is an instrument ratio the growth feedback never enters, while the width itself, with that feedback allowed to answer, rises more than in proportion to the split at every rest point that grows; that the fiscal split lowers the floor of the closure window without touching its ceiling; that forbidding the magnitude of the good to drift is exactly the closure condition, so that conservation alone fixes an inter-temporal ratio for the good, and that ratio is one only on the window; and that along that same split the growth feedback cancels the direct provision channel exactly, so that the gap widens for reasons that do not include it. The last four are one instrument doing one thing four times, and not one of the four is the public stock getting larger.
 
 The charge is imposed on a rest point of stated laws. It is not an equilibrium object of the game that uses those laws, and constant shares are the class in which the rest point is written. Nothing below shows that restriction to be without loss against state-contingent play. Nothing below is a theory of surplus value or a national net social wage.
 
@@ -304,7 +304,7 @@ using $\kappa_W+\varsigma+\iota+s_C=1$, $\zeta=\delta\iota/m$, and $\iota w=\del
 
 The floor $\varepsilon_-$ is net private accumulation plus owner consumption, measured against the most the class may charge a worker. Those are precisely the two uses of the period’s product that no rule may charge to him, so nothing in the floor cancels: it could vanish only if both vanished, and they vanish together only at $g=1$, which kills accumulation, with $i=1$, which kills owner consumption — a pair that is not in the domain. The floor does not move with the split. The ceiling and the width do. Two normalisations are in play and they answer different questions: $R/b$ makes the closing condition an interval that either does or does not contain a point, which is what Propositions 8 and 9 need, while $R/w$ makes the floor a share of output, which is what names its composition.
 
-Two remarks fence the interval. The strict monotonicity in $\varsigma$ is a statement about (9) at a fixed replacement share and a fixed ceiling $\bar\kappa$; it is not a comparative static of the rest point, along which $\zeta$ moves with $g$. And the degeneracy is $\varsigma=0$ and nothing else: $\mathcal{B}$ carries no $\theta$, so the width does not collapse at $\theta=1$. What happens at $\theta=1$ is different and simpler. By Proposition 1 the two classes’ private claims are then equal at every policy, the public stock has left the worker’s map, and there is no displacement for the accounting to be about. The interval survives $\theta=1$; the question does not.
+Two remarks fence the interval. The strict monotonicity in $\varsigma$ is a statement about (9) at a fixed replacement share and a fixed ceiling $\bar\kappa$, not yet a comparative static of the rest point, along which $\zeta$ moves with $g$; Corollary 3 does that comparison and returns a stronger conclusion than this one. And the degeneracy is $\varsigma=0$ and nothing else: $\mathcal{B}$ carries no $\theta$, so the width does not collapse at $\theta=1$. What happens at $\theta=1$ is different and simpler. By Proposition 1 the two classes’ private claims are then equal at every policy, the public stock has left the worker’s map, and there is no displacement for the accounting to be about. The interval survives $\theta=1$; the question does not.
 
 **Corollary 1 (the latitude, and where its content lies).** *(i) Let a charge class be any interval $[\,\underline{b},\,\overline{b}\,]$ with $0<\underline{b}\le\overline{b}$, and let $\varepsilon(b)=N/b-1$ against a net product $N>0$. Then*
 
@@ -324,7 +324,7 @@ $$
 
 *Proof.* (i) $\varepsilon_+=N/\underline{b}-1$ and $\varepsilon_-=N/\overline{b}-1$, so the difference is $N(\overline{b}-\underline{b})/(\underline{b}\,\overline{b})=(N/\underline{b})\cdot(\overline{b}-\underline{b})/\overline{b}$, and $N/\underline{b}=1+\varepsilon_+$. (ii) By (9), $1+\varepsilon_+=(1-\zeta)/\kappa_W$, which is $N/\underline{b}$, so (10) reproduces the width in (9). Proposition 4 gives $\kappa_W+\varsigma=(1-\alpha)+\tau\alpha$, which carries neither $\phi$ nor any dated object; then, writing $\bar\kappa$ for it as in Proposition 9, $\partial[\varsigma/\bar\kappa]/\partial\phi=\tau\alpha/\bar\kappa>0$ at that fixed $\bar\kappa$, and the same computation in $\tau$. $\square$
 
-The division is where the content is, and separating the two parts is the point of stating them. Part (i) is a fact about intervals: any two-input charge class has this shape, and a one-input class, in which the two vertices coincide, has no width at all. It is worth writing down only because a paper that displays $\varepsilon_+$ and the width side by side should divide one by the other. Part (ii) is the economics. The denominator of this model’s ratio is $(1-\alpha)+\tau\alpha$, which the stationary system never touches, so the growth factor and the replacement share leave the quotient entirely. That matters because the width *itself* is not monotone in the split: raising $\phi$ moves the growth factor, and the growth factor’s own response is not signed here, since the numerator $P$ of Theorem 1’s proof changes sign across the family. The width against its own ceiling is monotone unconditionally.
+The division is where the content is, and separating the two parts is the point of stating them. Part (i) is a fact about intervals: any two-input charge class has this shape, and a one-input class, in which the two vertices coincide, has no width at all. It is worth writing down only because a paper that displays $\varepsilon_+$ and the width side by side should divide one by the other. Part (ii) is the economics. The denominator of this model’s ratio is $(1-\alpha)+\tau\alpha$, which the stationary system never touches, so the growth factor and the replacement share leave the quotient entirely. That matters because the width against its own ceiling is monotone unconditionally, whereas the width itself has to survive the growth factor: raising $\phi$ moves $g$, and the numerator $P$ of Theorem 1’s proof changes sign across the family, so the response of $g$ is unsigned. An unsigned term is not an unsigned conclusion, and Corollary 3 bounds this one: it is never large enough to reverse the direct effect at any rest point that grows.
 
 **Corollary 2 (the split moves one edge of the closure band and not the other).** *Write $g_-\le g_+$ for the exact edges of (7), the unique positive roots of $Q(u)=\kappa_W$ and $Q(u)=\kappa_W+\varsigma$ at $u=g-1$. Then*
 
@@ -341,7 +341,44 @@ $$
 
 *Proof.* $Q$ carries only $\delta$ and $\iota=i(1-\tau)\alpha$, neither of which contains $\phi$, and $Q$ is strictly increasing on $u\ge0$ by Proposition 8; hence $\kappa\mapsto Q^{-1}(\kappa)$ is strictly increasing. By Proposition 4, $\kappa_W+\varsigma=(1-\alpha)+\tau\alpha$ carries no $\phi$, which gives the first equality. And $\partial\kappa_W/\partial\phi=-\tau\alpha<0$ whenever $\tau\alpha>0$, which gives the second; the third is their difference. As $\phi\downarrow0$, $\kappa_W\uparrow\kappa_W+\varsigma$ and the two roots coincide. $\square$
 
-Three statements now say the same thing about one instrument, and not one of them is that the stock gets larger. The split widens the band of growth factors at which the accounting can be closed at all, and it does so by lowering the floor while the ceiling stands still (12). It widens the latitude inside that accounting, in exactly the proportion in which it funds the stock (11). And by Theorem 1 it widens the measured gap between the two classes’ private consumption. The public stock’s own intensity per worker is what the growth feedback cancels — in Theorem 1 exactly, and in (11) and (12) by never entering. What the split does to this accounting, it does by changing what the worker is paid in, not by changing how much there is.
+**Corollary 3 (the split widens the interval itself, and more than in proportion).** *Move $\phi$ at fixed $(\tau,i,B)$ with $g$ reselected by the stationary laws, the family of Theorem 1. The split reaches the width through three channels and no others, and*
+
+$$
+\frac{\partial\ln(\varepsilon_+-\varepsilon_-)}{\partial\ln\phi}
+=\underbrace{1+\frac{\varsigma}{\kappa_W}}_{\text{at fixed }\zeta}
+\;+\;\underbrace{\frac{\phi\,\zeta}{m(1-\zeta)}\cdot\frac{\gamma P}{\mathcal{H}'(g)}}_{\text{growth feedback}} ,
+\tag{13}
+$$
+
+*with $P$ and $\mathcal{H}'$ as in Theorem 1. The second term carries the sign of $P$ and so takes either sign, but its magnitude is at most $\varsigma\theta\zeta(1-\alpha)/[\kappa_W(1-\zeta)\alpha]$. Hence*
+
+*(i) wherever $\zeta<\alpha$ the elasticity exceeds one strictly — and $\zeta<\alpha$ at every interior rest point with $g\ge1$, so throughout the closure window (8), whose floor is $2-\alpha$;*
+
+*(ii) the width is strictly increasing in the split under the weaker condition $\zeta/(1-\zeta)\le[\alpha/\theta(1-\alpha)]\,(1+\kappa_W/\varsigma)$;*
+
+*(iii) a reversal therefore needs $\zeta$ near one — replacement nearly exhausting net output, which is the edge at which Proposition 6 supplies no positive magnitude at all.*
+
+*Proof.* By Proposition 4, $\bar\kappa=\kappa_W+\varsigma$ carries no $\phi$; neither does $\iota=i(1-\tau)\alpha$. So in $\varepsilon_+-\varepsilon_-=(1-\zeta)\varsigma/(\kappa_W\bar\kappa)$ the split raises $\varsigma$, lowers $\kappa_W=\bar\kappa-\varsigma$ against it, and reaches $\zeta=\delta\iota/m$ only through $g$. Since $\partial\zeta/\partial\phi=-(\zeta/m)\,\partial g/\partial\phi$,
+
+$$
+\frac{\partial\ln(\varepsilon_+-\varepsilon_-)}{\partial\phi}
+=\frac{1}{\phi}+\frac{\tau\alpha}{\kappa_W}+\frac{\zeta}{m(1-\zeta)}\frac{\partial g}{\partial\phi} ,
+\tag{14}
+$$
+
+and Theorem 1’s proof gives $\partial g/\partial\phi=\gamma P/\mathcal{H}'$. Multiplying (14) by $\phi$ and using $\phi\tau\alpha=\varsigma$ gives (13).
+
+*The bound.* $P=(1-\theta)/\phi-\theta b$ with $b=\tau\alpha/\kappa_W$, so $P\ge-\theta b$; and $\mathcal{H}'>\gamma\alpha/[(1-\alpha)m]$ by (H), so $\gamma/(m\mathcal{H}')<(1-\alpha)/\alpha$. Where the growth term is negative its magnitude is therefore below $\phi\,b\,\theta\zeta(1-\alpha)/[(1-\zeta)\alpha]$, which is the stated expression.
+
+*(i)* At $g\ge1$, $m=g-1+\delta\ge\delta$, so $\zeta=\delta\iota/m\le\iota=i(1-\tau)\alpha<\alpha$, using $i<1$. As $t\mapsto t/(1-t)$ is strictly increasing on $[0,1)$ and $\theta\le1$, $\zeta/(1-\zeta)<\alpha/(1-\alpha)\le\alpha/[\theta(1-\alpha)]$, and the bound falls strictly short of $\varsigma/\kappa_W$. The remaining $1$ in (13) is untouched. *(ii)* is the same comparison made against the whole direct channel $1+\varsigma/\kappa_W$ rather than against $\varsigma/\kappa_W$ alone, and *(iii)* is *(ii)* contraposed, $\kappa_W/\varsigma$ being strictly positive. $\square$
+
+The reversal in (iii) is not vacant, and saying which configurations hold it is the honest form of the result: it needs a contracting rest point at which replacement takes almost the whole product, and no such point closes the accounting, because closure needs $g\ge2-\alpha$. What is excluded is not a curiosity of the algebra but the case in which there is almost nothing left to charge anybody.
+
+Theorem 1 and Corollary 3 put the same $\partial g/\partial\phi$ to opposite uses and get opposite verdicts. There the growth feedback annihilates the direct channel to the last term; here it cannot reach it. The difference is the coefficient the two objects place on it — $1/m_G$ against $\zeta/[m(1-\zeta)]$ — and the second is small for the same reason production conserves at all, that replacement takes less than the product.
+
+The width of the interval is the part of a worker’s period that a convention decides rather than the economy. Corollary 3 says that turning the tax from cash into the stock does not merely enlarge that part; it enlarges it more than in proportion. Provision is a less determinate way of paying a worker than cash is, and the loss of determinacy outruns the provision. For a literature that reports the net social wage as a number and argues about its sign, that is the wrong direction to run: the number is worst defined exactly in the regimes with the most public provision, which are the regimes it most wants to compare.
+
+Four statements now say the same thing about one instrument, and not one of them is that the stock gets larger. The split widens the band of growth factors at which the accounting can be closed at all, and it does so by lowering the floor while the ceiling stands still (12). It widens the latitude inside that accounting in exactly the proportion in which it funds the stock (11), and it widens the interval itself by more than that proportion (13). And by Theorem 1 it widens the measured gap between the two classes’ private consumption. The public stock’s own intensity per worker is what the growth feedback cancels — in Theorem 1 exactly, and in (11) and (12) by never entering. What the split does to this accounting, it does by changing what the worker is paid in, not by changing how much there is.
 
 Incidence conventions choose a point in $[\varepsilon_-,\varepsilon_+]$. They do not choose whether anything remains.
 
@@ -353,19 +390,19 @@ Proposition 6 writes the reproduction requirement with the same $\varpi$ on both
 
 $$
 \rho_t:=\frac{\chi_{t+1}}{\chi_t}=\frac{n_t+b_t}{n_{t+1}\,g_{W,t}}
-\tag{13}
+\tag{15}
 $$
 
 *and leave $\chi_0$ free, so the dated system always solves for positive magnitudes wherever $n_t>0$. At a rest point,*
 
 $$
 \rho-1=\frac{b-b^{\ast}}{g\,(w-\delta x)},
-\tag{14}
+\tag{16}
 $$
 
 *so $\rho=1$ if and only if $b=b^{\ast}$.*
 
-*Proof.* Substitute $\varpi_t=\chi_t n_t$ into the reproduction requirement and cancel $\chi_t>0$ to obtain (13). Two unknowns and two requirements at each date fix the ratio and carry neither magnitude. At a rest point $n_{t+1}=n_t=n$ and $g_{W,t}=g$, so $\rho=(n+b)/(ng)$, and subtracting one gives (14). $\square$
+*Proof.* Substitute $\varpi_t=\chi_t n_t$ into the reproduction requirement and cancel $\chi_t>0$ to obtain (15). Two unknowns and two requirements at each date fix the ratio and carry neither magnitude. At a rest point $n_{t+1}=n_t=n$ and $g_{W,t}=g$, so $\rho=(n+b)/(ng)$, and subtracting one gives (16). $\square$
 
 The over-determination of Section 4 is therefore the price of forbidding the drift, not a property of the model standing alone. Forbidding it is exactly the closure condition of Proposition 8, and the sign of the drift is the failing edge: below the window $\rho>1$ under every rule in the class, above it $\rho<1$ under every rule. Propositions 7, 8, 9 and 10 are four readings of one scalar.
 
@@ -383,10 +420,10 @@ $$
 \rho\in\Bigl[\,\frac{1-\zeta+\kappa_W}{g\,(1-\zeta)},\;\frac{1-\zeta+\kappa_W+\varsigma}{g\,(1-\zeta)}\,\Bigr],
 \qquad
 \text{width}\;=\;\frac{\varsigma}{g\,(1-\zeta)} .
-\tag{15}
+\tag{17}
 $$
 
-Charging conventions pick a point in (15) exactly as they pick one in $[\varepsilon_-,\varepsilon_+]$, and for the same reason. One clarification belongs with it, because the phrase invites more than the proof gives: constancy across two otherwise identical rest-point dates is a **necessary** test for a magnitude to belong to the good rather than to the date, and what is shown here is that a consistent magnitude passes that test exactly on the band. Sufficiency would need an invariance criterion across admissible descriptions of the technique, and none is offered.
+Charging conventions pick a point in (17) exactly as they pick one in $[\varepsilon_-,\varepsilon_+]$, and for the same reason. One clarification belongs with it, because the phrase invites more than the proof gives: constancy across two otherwise identical rest-point dates is a **necessary** test for a magnitude to belong to the good rather than to the date, and what is shown here is that a consistent magnitude passes that test exactly on the band. Sufficiency would need an invariance criterion across admissible descriptions of the technique, and none is offered.
 
 # 7. The split
 
@@ -408,7 +445,7 @@ Write $a:=1/\phi$ and $b:=\tau\alpha/\kappa_W$. Since $\partial\kappa_W/\partial
 
 $$
 \frac{\partial}{\partial\phi}\ln\frac{z}{c_W}=a+b-\frac{1}{m_G}\frac{\partial g}{\partial\phi}.
-\tag{16}
+\tag{18}
 $$
 
 The stationary condition is $\ln B=\mathcal{H}(g)$ of (H), which written out is
@@ -423,7 +460,7 @@ $$
 \mathcal{H}'(g)\,\frac{\partial g}{\partial\phi}=\gamma P,\qquad P=(1-\theta)a-\theta b ,
 $$
 
-with $\mathcal{H}'$ as in (H) and strictly positive at an interior rest point. Substituting into (16) and clearing $m_G\mathcal{H}'>0$, the numerator is
+with $\mathcal{H}'$ as in (H) and strictly positive at an interior rest point. Substituting into (18) and clearing $m_G\mathcal{H}'>0$, the numerator is
 
 $$
 \mathcal{N}=(a+b)\Bigl(\frac{m_G}{g}+\frac{\gamma\alpha\,m_G}{(1-\alpha)m}\Bigr)+\gamma(1-\theta)(a+b)-\gamma P
@@ -434,7 +471,7 @@ because $\gamma(1-\theta)(a+b)-\gamma[(1-\theta)a-\theta b]=\gamma(1-\theta)b+\g
 
 $$
 \frac{\partial}{\partial\phi}\ln\frac{c_C}{c_W}=\frac{1-\theta}{m_G\,\mathcal{H}'(g)}\,\mathcal{N}>0 .
-\tag{17}
+\tag{19}
 $$
 
 The map $\phi\mapsto\ln(c_C/c_W)$ is strictly increasing on $(0,1]$, so the set on which $c_C>c_W$ is an upper interval, and by Proposition 1 its boundary is the split, if any, at which $z=c_W$. $\square$
