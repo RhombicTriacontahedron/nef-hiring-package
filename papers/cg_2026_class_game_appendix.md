@@ -1401,6 +1401,61 @@ cells, including the cell where the worker chooses $0.84$, because that
 comparison hands the stock over already built; the gap between the two
 is the transition cost.
 
+*Proof of Proposition 18.* **(i)** Proposition 6(i) separates the
+rest-point condition into $\mathcal{H}(g)=\mathcal{P}$, and with $\tau$
+and $i$ fixed the only $\phi$-bearing terms of $\mathcal{P}$ are
+$\gamma\theta\ln\kappa_W(\phi)+\gamma(1-\theta)\ln(\phi\tau\alpha)=\gamma\ln\Phi(\phi)$,
+which is (4). By Proposition 6(ii) $\mathcal{H}^{-1}$ exists and is
+strictly increasing, so $g$ is a function of $\Phi$ alone. The proof of
+Proposition 6(i) gives
+$x(g)=\big[i(1-\tau)\alpha A/(g-1+\delta)\big]^{1/(1-\alpha)}$, which
+carries $\phi$ only through $g$. For the class ratio, (N$'''$) reads
+$\nu^\ast=(1-i)(1-\tau)\alpha\,\kappa_W^{-\theta}\big[(g-1+\delta_G)/(\phi\tau\alpha)\big]^{1-\theta}$,
+and $\kappa_W^{\theta}(\phi\tau\alpha)^{1-\theta}$ is exactly
+$\Phi(\phi)$; collecting gives (N$''''$). The budget is Assumption 1’s:
+the worker’s share is $\kappa_W=(1-\alpha)+(1-\phi)\tau\alpha$ and the
+stock’s is $\phi\tau\alpha$, whose sum is $(1-\alpha)+\tau\alpha$, so
+the disbursed part $\tau\alpha$ is free of $\phi$ identically.
+
+**(ii)** $\kappa_W'(\phi)=-\tau\alpha<0$ and
+$\partial(\phi\tau\alpha)/\partial\phi=\tau\alpha>0$ at fixed $g$, so
+$z/c_W=\alpha\phi\tau/\big[\kappa_W(g-1+\delta_G)\big]$ is strictly
+increasing in $\phi$; $t\mapsto t^{1-\theta}$ is strictly increasing for
+$\theta<1$, so $c_C/c_W$ is too.
+
+**(iii)** $\ln\Phi=\theta\ln\kappa_W+(1-\theta)\ln(\phi\tau\alpha)$ has
+second derivative
+$-\theta(\tau\alpha)^2/\kappa_W^{2}-(1-\theta)/\phi^{2}<0$, so it is
+strictly concave, with the unique stationary point $\phi_g$ of (5).
+Proposition 6(iv) places the peak inside the box exactly when
+$\alpha\theta\tau>(1-\alpha)(1-\theta)$. If it is outside, $\ln\Phi$ is
+strictly monotone on $(0,1]$ and hence injective, and $g$ strictly
+increasing in $\Phi$ inverts to $\phi$. If it is inside, strict
+concavity with $\ln\Phi\to-\infty$ as $\phi\downarrow0$ gives, for each
+value in $\big(\Phi(1),\Phi(\phi_g)\big)$, exactly one root on each of
+$(0,\phi_g)$ and $(\phi_g,1)$. The two roots share $\Phi$, hence $g$ by
+(ii) of Proposition 6, hence $x^\ast$ and $\nu^\ast$ by part (i) here,
+hence $\tau\alpha$; and they differ in $\kappa_W$, in $z/Y$ and in
+$c_C/c_W$ by part (ii). Properness is $g>\beta^{1/(\sigma-1)}$ by
+Proposition 6(iii), a condition on $g$ alone, so it holds at both roots
+or at neither. $\blacksquare$
+
+**Part (iv)** is Corollary 2’s last clause read on the pair: every
+interior stationary split lies strictly below $\varpi^{\circ}$, and
+$\phi_1<\phi_g=\varpi^{\circ}/\tau<\phi_2$, so $\phi_2$ is outside the
+range a worker’s stationary best response attains. ⚠ That is a statement
+about where the best response **lands**, not a pairwise preference:
+Corollary 2 signs the first-order condition, and nothing here compares
+the worker’s payoff at $\phi_1$ against $\phi_2$. Do not upgrade it to
+“the worker prefers less provision”.
+
+⚠ One limit belongs on the statement rather than in it. The comparison
+holds $\tau$, $i$ and the primitives fixed, so it is an ambiguity
+between two **policies in one economy**, not an identification claim
+about estimating primitives from data. It does not touch the observer’s
+problem, which is the one the proposition is about — an observer is not
+told which of the two is in force.
+
 ## D.5 The $\gamma$ asymmetry, measured
 
 Holding the base cell and sweeping $\gamma$ across $[0.30,0.70]$ —
