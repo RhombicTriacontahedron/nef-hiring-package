@@ -875,6 +875,38 @@ conditions is negative. (Stationary conditions, not optimality:
 sufficiency of the first-order conditions is not claimed in the regime,
 and nothing here upgrades it.)
 
+**Corollary to Proposition 12 (the two compromises differ in whether the
+reserve army they leave is unique).** Above the fold, where labour
+bargains, let $A_\pm$ be the accumulation rates carried by Proposition
+8’s two roots. Since $\omega = Q_W/s$ there, $\kappa A = s\bar e - Q_W$,
+and with $Q_C = A_0 + B_0\bar e$, $A_0 \equiv \rho\kappa/(1+\lambda)$,
+$B_0 \equiv 1-\beta$, $$
+\kappa A_\pm \;=\; \tfrac{1}{2}\Big[\beta\bar e - Q_W - A_0 \pm \sqrt{\Delta}\Big], \qquad
+\Delta \;=\; (\beta\bar e + Q_W - A_0)^2 - 4\bar e\,Q_W .
+$$ On the whole admissible set — every $\bar e$ above the fold —
+$\Delta' > 0$, and $$
+4\beta^2\Delta - (\Delta')^2 \;=\; 16\,Q_W\big[\beta(Q_W - A_0) - Q_W\big] \;<\; 0
+$$ identically, since $\beta < 1$ and $A_0 > 0$. Hence
+$dA_+/d\bar e > 0$ and $dA_-/d\bar e < 0$. Because $\bar e(v)$ falls in
+$v$, the accumulationist compromise’s accumulation rate falls in the
+employment rate and the distributionist one’s rises. So along the
+accumulationist compromise both terms of the drift fall in $v$ and there
+is, as in Proposition 12, **at most one** stationary employment rate;
+along the distributionist compromise the accumulation term rises in $v$
+while the mechanisation term falls, monotonicity is unavailable, and
+more than one stationary employment rate is **not excluded**.
+
+In words, the two compromises do not only differ in the wage share, the
+growth rate and the payoff each class gets. They differ in how many
+reserve armies they admit. The accumulationist compromise leaves one
+unemployment pool or none; the distributionist compromise may leave
+several, and which one an economy is in would then depend on where it
+started. That asymmetry has the same source as the fold itself — the two
+roots sit on opposite sides of the discriminant, so a change in the
+extractable day moves them in opposite directions — and it sharpens the
+paper’s central division: the equilibrium the classes disagree about is
+also the one whose macroeconomics is determinate.
+
 The hypothesis $\hat\omega \le \kappa\rho$ is the reserve-army case
 rather than a technical convenience: it says labour’s wage ceiling never
 rises far enough, at any employment rate the model admits, for labour to
@@ -906,7 +938,13 @@ Second, “the same economy” has two compromises, and they disagree about
 unemployment. A programme that raises accumulation to absorb the
 unemployment pool is, in this model, a programme that moves the economy
 from the distributionist to the accumulationist equilibrium at a lower
-wage share; it is not a free parameter change.
+wage share; it is not a free parameter change. And where the bargain
+sets the wage the two disagree about more than the pool’s size: raising
+the extractable day moves their accumulation rates in *opposite*
+directions, so the accumulationist compromise leaves one unemployment
+pool or none, while the distributionist one is not shown to leave a
+determinate number at all. The equilibrium the classes disagree about is
+the one whose macroeconomics is settled.
 
 Third, whether the unemployment pool regulates the wage depends on whom
 the organisation of labour counts as its own. An organisation that
@@ -1529,12 +1567,38 @@ $m_0 + n + b\ln v^\ast > 0$. ⚠ The condition is on $v^\ast$ and not on
 the primitives directly; equivalently it is $v^\ast < v_0$, where $v_0$
 is the unique zero of the strictly decreasing $N$.
 
-*What is not proved.* Where $\hat\omega > \kappa\rho$ there is a
-$\hat v < 1$ and labour bargains above it. Capital’s stationary
-condition still gives
-$\dot x = (1-c)sQ_C/(\kappa(1-s)) - m_0 - b\ln v - n$, but $s$ is then a
-root of A.8’s quadratic with $Q_C$ moving in $v$, and neither root is
-shown monotone in $v$. Existence and uniqueness there are UNDISCHARGED.
+*The Corollary.* Where $\hat\omega > \kappa\rho$ there is a $\hat v < 1$
+and labour bargains above it; there $\omega = Q_W/s$, so
+$\kappa A = s\bar e - Q_W$, and substituting the two roots of A.8’s
+quadratic with $Q_C = A_0 + B_0\bar e$ gives the displayed
+$\kappa A_\pm$. Differentiating, the sign of $d(\kappa A_\pm)/d\bar e$
+is the sign of $\beta \pm \Delta'/(2\sqrt{\Delta})$ with
+$\Delta' = 2\beta(\beta\bar e + Q_W - A_0) - 4Q_W$. Two facts settle
+both signs. First, $\Delta' > 0$ on the admissible set: this is a
+universal over a bounded semi-algebraic region and is decided by `unsat`
+on a division-free encoding, with the square roots carried as
+$a^2 = Q_W$, $t^2 = Q_C$ so that nothing divides; a control that drops
+the fold constraint returns `sat`, which is what shows the fold rather
+than the box is carrying the result, and a second control that drops the
+pinned relation $A_0 \le Q_W$ leaves the verdict unchanged, so the proof
+does not lean on it. Second,
+$4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0) - Q_W]$
+identically, and the bracket is negative because $\beta < 1$ and
+$A_0 > 0$; hence $2\beta\sqrt{\Delta} < \Delta'$, giving
+$\beta - \Delta'/(2\sqrt\Delta) < 0$ while
+$\beta + \Delta'/(2\sqrt\Delta) > 0$. ⚠ Note the second fact needs no
+admissibility at all — it is an identity plus two domain signs — while
+the first needs the fold.
+
+*What is still not proved.* Along the **distributionist** compromise the
+drift’s two terms move in opposite directions, so neither monotonicity
+nor a count is available and multiplicity is not excluded; a witness
+exhibiting two stationary employment rates there, or a proof that none
+exists, is the open item. Along the accumulationist compromise the count
+is settled at *at most one*, but **existence** on that branch is not: it
+needs the drift’s signs at the two ends of the bargaining region
+$(\hat v, 1)$, and the lower end $\hat v$ is not a point at which either
+end-condition has been evaluated here.
 
 ## A.13 Certificates.
 
@@ -1621,7 +1685,13 @@ face is checked in both directions: the core’s drift is constant in $v$
 there, the regime’s is not and still has an interior zero, and a control
 at $\zeta = \eta = 0$ returns the regime’s drift to a constant — which
 is what identifies the ceiling’s response, rather than anything else, as
-the stabiliser.
+the stabiliser. For the Corollary to Proposition 12 the same file checks
+that $s_+$ solves A.8’s quadratic under $Q_C = A_0 + B_0\bar e$, that
+$\kappa A_\pm$ takes the displayed form, that \$’ \$ is as stated, and
+that $4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0)-Q_W]$
+**identically** — an exact factorisation, not a bound — with a control
+that the gap is not identically zero; and it carries the two `unsat`
+verdicts and their two controls described above.
 
 Every such `unsat` is a proof, not a sample. Each file prints its own
 check and control counts and exits non-zero on any failure. The
@@ -1653,7 +1723,8 @@ witnesses are witnesses and prove nothing universal.
 | Section 6 regime, non-stationary paths | UNDISCHARGED. The reduced problem is no longer linear-state, so Section 4’s direct verification does not extend and **Markov perfection is not claimed in the regime**; sufficiency of the first-order conditions there is also open | a verification argument for a non-linear-state value function, or a restriction to a class where one exists |
 | Corollary to Proposition 8 (the fold’s accumulation rate) | proved (identity), at the same generality as Proposition 8: $s_{\text{f}} = \sqrt{Q_W}/(\sqrt{Q_W}+\sqrt{Q_C})$ and $A_{\text{f}} = \sqrt{Q_WQ_C}/\kappa$. ⚠ The $\kappa$-independence of its core value is A.5$'$’s and not the fold’s | — |
 | Prop. 12 | **proved** where $\hat\omega \le \kappa\rho$, $\hat e \ge \hat\omega$ and Proposition 9’s first branch holds: the drift reduces to a strictly decreasing function of $v$ alone through the identity $s(\bar e-\bar\omega) = N(v)$, giving at most one stationary employment rate and exactly one inside the state space under a closed-form inequality; interiority of the share is $m_0+n+b\ln v^\ast > 0$. ⭕ Proved **including at $b = 0$**, where Proposition 5 gives the core no interior rest point at all: the stabiliser is the ceiling’s response $\zeta$, not the mechanisation law’s $b$ | the bargaining branch below |
-| Existence of a regime rest point | **half discharged.** Proved by Proposition 12 in the reserve-army parameter class $\hat\omega \le \kappa\rho$, where labour is on its ceiling at every employment rate and the three equations reduce to one monotone equation in $v$. UNDISCHARGED where $\hat\omega > \kappa\rho$: above $\hat v$ the share is a root of Proposition 8’s quadratic with $Q_C$ moving in $v$, and neither root is shown monotone in $v$ | monotonicity of either root of A.8’s quadratic in $v$, or a fixed-point argument that does not need it |
+| Corollary to Proposition 12 (the bargaining branch’s two roots) | proved: $\Delta' > 0$ above the fold by `unsat` on a division-free encoding (control: dropping the fold returns `sat`, so the fold and not the box carries it; dropping the pinned $A_0 \le Q_W$ leaves it unchanged), and $4\beta^2\Delta - (\Delta')^2 = 16Q_W[\beta(Q_W-A_0)-Q_W] < 0$ identically. Hence $A_+$ rises and $A_-$ falls in the ceiling, so the accumulationist compromise admits **at most one** stationary employment rate and the distributionist one is not shown to | a witness of two stationary rates on the lower root, or a proof there is none |
+| Existence of a regime rest point | **mostly discharged, and the residue is named.** Proved by Proposition 12 where $\hat\omega \le \kappa\rho$: labour is on its ceiling at every employment rate, the three equations reduce to one monotone equation in $v$, existence and uniqueness both follow, **including at $b=0$**. Where $\hat\omega > \kappa\rho$ the Corollary settles the *count* on the accumulationist root at **at most one**. UNDISCHARGED: **existence** on the accumulationist root above $\hat v$, which needs the drift’s signs at the ends of $(\hat v, 1)$; and **both count and existence** on the distributionist root, where the drift’s two terms move in opposite directions | the drift evaluated at $\hat v$ and at $1$; and for the lower root, a two-rest-point witness or a proof of none |
 | Section 6’s second self-undermining channel ($v_{\text{f}}$) | SETTLED, and one-sided: the conjecture substituted $\bar e(v)$ into a fold condition proved for constant $\bar e$; Proposition 10 shows the substitution gives a valid NECESSARY bound and Proposition 9 gives the true boundary, strictly below it | — |
 | Separation from Mehrling (1986) | witness grade, and partial. His instruments (wage level, investment level) and his payoffs (present values of consumption and profit) are established through Miebach (2011), a dissertation that restates his model; his own body is unobtainable. So the extraction margin and the objectives separate; the mechanisation law and the state do not | his body, or a second witness reporting his state variables and his supply side |
 | Dockner et al. (2000) §7.2 | read at source; the linear-state conditions (7.35)–(7.36) and the Markov-perfectness of open-loop equilibria are stated in the text, not as a numbered theorem; cited as placement, not used as a step | — |
