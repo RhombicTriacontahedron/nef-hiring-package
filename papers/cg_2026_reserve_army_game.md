@@ -813,10 +813,13 @@ correspondingly harder to satisfy. The same wedge that makes an interior
 compromise harder to exist makes the unemployment pool harder to keep.
 
 **Proposition 12 (the regime has a stationary employment rate, and at
-most one).** Suppose $\hat\omega \le \kappa\rho$, so that labour sits on
-its own ceiling at every employment rate in $(0,1)$, and suppose
-Proposition 9’s first branch, $\rho(1-c)\zeta < (1+\lambda)(\rho+b)$ —
-equivalently $\beta \equiv 1 - \rho\Theta/(1+\lambda) > 0$. Write $$
+most one — and it needs no Phillips-like stabiliser).** Suppose
+$\hat\omega \le \kappa\rho$, so that labour sits on its own ceiling at
+every employment rate in $(0,1)$; suppose $\hat e \ge \hat\omega$, which
+is the Domain’s $\bar e > \bar\omega$ read across the whole interval;
+and suppose Proposition 9’s first branch,
+$\rho(1-c)\zeta < (1+\lambda)(\rho+b)$ — equivalently
+$\beta \equiv 1 - \rho\Theta/(1+\lambda) > 0$. Write $$
 N(v) \;\equiv\; \beta\,\hat e\,v^{-\zeta} \;-\; \hat\omega\,v^{\eta} \;-\; \frac{\rho\kappa}{1+\lambda} .
 $$ Equivalently, and this is the form worth reading,
 $N = \big(\bar e(v)-\bar\omega(v)\big) - Q_C$: the surplus per worker
@@ -843,6 +846,19 @@ $m_0 + n + b\ln v^\ast > 0$. Where the displayed inequality fails, no
 path settles: the employment rate rises to full employment and the
 regime’s equations stop describing the economy, as in Proposition 5.
 
+**None of this uses $b > 0$.** The strict decrease is carried by
+$\zeta\beta\bar e(v)$, and the divergence at $v \to 0^+$ by
+$\beta\hat e v^{-\zeta}$; both survive $b = 0$, which the domain admits.
+That is a genuine difference from the core, and it is not a
+technicality: Proposition 5 records that at $b = 0$ the core’s drift is
+constant in the employment rate, so the core has **no interior rest
+point at all** and the economy sits in Section 5’s Lancaster face,
+rising or falling from wherever it started. In the regime the extraction
+ceiling itself moves with employment, and that response stabilises the
+employment rate on its own. The regime therefore does not need a
+mechanisation law that answers to the labour market; it needs an
+extraction ceiling that does.
+
 In words, the regime’s stationary layer is not a family of slices after
 all. Propositions 8 to 11 solve the compromise at a *given* employment
 rate, and the employment rate is itself an equilibrium object; the two
@@ -854,8 +870,10 @@ carrying: the condition under which the classes have an interior
 compromise at all is the condition under which the economy grows.
 Proposition 9’s second branch reads differently in that light — past its
 threshold the compromise fails not for a bargaining reason but because
-the only accumulation consistent with both classes optimising is
-negative.
+the only accumulation consistent with both classes’ stationary
+conditions is negative. (Stationary conditions, not optimality:
+sufficiency of the first-order conditions is not claimed in the regime,
+and nothing here upgrades it.)
 
 The hypothesis $\hat\omega \le \kappa\rho$ is the reserve-army case
 rather than a technical convenience: it says labour’s wage ceiling never
@@ -948,10 +966,18 @@ condition prices accumulation, and what is left over for accumulation
 after that price is paid is what makes the share positive. It has three
 consequences. The regime’s stationary employment rate exists and is
 unique under a closed-form inequality, so the section is not a family of
-slices at employment rates the model never reaches. Proposition 9’s
-second branch acquires a different meaning — past that threshold the
-compromise fails not because the two classes cannot agree but because
-the only accumulation consistent with both of them optimising is
+slices at employment rates the model never reaches — and it does so
+**without a mechanisation law that answers to the labour market**. In
+the core, that response is the whole stabiliser: switch it off and
+Proposition 5 leaves no interior rest point, which is the Lancaster face
+of Section 5. In the regime the extraction ceiling falls as employment
+rises, and that is enough on its own. The reserve army does not need a
+Phillips curve, and it does not need Goodwin’s mechanisation channel
+either; it needs only that what capital can take from an hour hired gets
+harder to take when labour is scarce. Proposition 9’s second branch
+acquires a different meaning — past that threshold the compromise fails
+not because the two classes cannot agree but because the only
+accumulation consistent with both of their stationary conditions is
 negative, which no ceiling pair can repair. And the growth rate at the
 fold, where a compromise is born, is the geometric mean of the two
 classes’ effective prices, so what decides whether a compromise exists
@@ -1440,11 +1466,18 @@ $A(s)$ times $1 + \Gamma/\kappa > 1$.
 
 ## A.12 Proposition 12.
 
-*The branch hypothesis.* By A.11 labour is on its ceiling iff
-$\bar\omega(v)s \le \kappa\rho$. With $\hat\omega \le \kappa\rho$, and
-since $s < 1$ and $v^{\eta} < 1$ for $v \in (0,1)$ and $\eta > 0$,
+*The branch hypothesis, and the domain.* By A.11 labour is on its
+ceiling iff $\bar\omega(v)s \le \kappa\rho$. With
+$\hat\omega \le \kappa\rho$, and since $s < 1$ and $v^{\eta} < 1$ for
+$v \in (0,1)$ and $\eta > 0$,
 $\bar\omega(v)s = s\hat\omega v^{\eta} < \hat\omega \le \kappa\rho$; so
-$\hat v \ge 1$ and the ceiling branch is the whole state space.
+$\hat v \ge 1$ and the ceiling branch is the whole state space. The
+bound is uniform in $s$ over $(0,1)$ and so does not presume the branch
+it identifies. Separately,
+$\bar e(v) - \bar\omega(v) = \hat e v^{-\zeta} - \hat\omega v^{\eta} > \hat e - \hat\omega \ge 0$
+on $(0,1)$, since $v^{-\zeta} > 1 > v^{\eta}$ there; this is what lets
+the statement range over the whole interval rather than over a cell, and
+it is the only place $\hat e \ge \hat\omega$ is used.
 
 *The identity.* On that branch
 $1 - s = \rho(\kappa+\Gamma)/[(1+\lambda)(\bar e - \bar\omega)]$ by
@@ -1475,9 +1508,13 @@ displayed drift as a function of $v$ alone. Differentiating, $$
 $$ and every term in the bracket is non-negative with
 $\zeta\beta\bar e(v) > 0$ strictly, since $\beta > 0$, $\zeta > 0$,
 $\hat e > 0$ and $c < 1$. Hence $\dot x$ is strictly decreasing on
-$(0,1]$ — a sign read off the factorisation, with no sampling. As
-$v \to 0^+$, $\beta\hat e v^{-\zeta} \to +\infty$ and $-b\ln v \ge 0$,
-so $\dot x \to +\infty$. It is continuous on $(0,1]$. By strict
+$(0,1]$ — a sign read off the factorisation, with no sampling. ⭕ $b$
+appears only as the additive $+b$ in that bracket, so $b = 0$ costs the
+argument nothing; at $b = 0$ the core’s drift is a constant in $v$ and
+has no interior zero, while this one still does, because $\bar e(v)$
+moves with the state and the core’s $\bar e$ does not. As $v \to 0^+$,
+$\beta\hat e v^{-\zeta} \to +\infty$ and $-b\ln v \ge 0$, so
+$\dot x \to +\infty$. It is continuous on $(0,1]$. By strict
 monotonicity there is at most one zero, and by the intermediate value
 theorem there is one in $(0,1)$ iff $\dot x|_{v=1} < 0$, which is the
 displayed inequality since $\ln 1 = 0$. Where it fails, $\dot x > 0$ on
@@ -1578,7 +1615,13 @@ zero outside the state space. The branch hypothesis
 $\hat\omega \le \kappa\rho$ is an `unsat` over the box on a
 division-free encoding with the variable exponent $v^{\eta}$ relaxed to
 $w \in (0,1)$, with a control that must and does return a witness once
-the hypothesis is dropped.
+the hypothesis is dropped; the domain condition $\hat e \ge \hat\omega$
+is a second such `unsat`, with the same control structure. The $b = 0$
+face is checked in both directions: the core’s drift is constant in $v$
+there, the regime’s is not and still has an interior zero, and a control
+at $\zeta = \eta = 0$ returns the regime’s drift to a constant — which
+is what identifies the ceiling’s response, rather than anything else, as
+the stabiliser.
 
 Every such `unsat` is a proof, not a sample. Each file prints its own
 check and control counts and exits non-zero on any failure. The
@@ -1609,7 +1652,7 @@ witnesses are witnesses and prove nothing universal.
 | Section 6 regime, stationary layer | PROVED (Props. 7–12 and the two Corollaries): the shadow prices, the general fold and the rate at it, the existence dichotomy, the boundary $v_{\text{f}}$, uniqueness below $\hat v$, and — in the reserve-army class — the stationary employment rate itself | — |
 | Section 6 regime, non-stationary paths | UNDISCHARGED. The reduced problem is no longer linear-state, so Section 4’s direct verification does not extend and **Markov perfection is not claimed in the regime**; sufficiency of the first-order conditions there is also open | a verification argument for a non-linear-state value function, or a restriction to a class where one exists |
 | Corollary to Proposition 8 (the fold’s accumulation rate) | proved (identity), at the same generality as Proposition 8: $s_{\text{f}} = \sqrt{Q_W}/(\sqrt{Q_W}+\sqrt{Q_C})$ and $A_{\text{f}} = \sqrt{Q_WQ_C}/\kappa$. ⚠ The $\kappa$-independence of its core value is A.5$'$’s and not the fold’s | — |
-| Prop. 12 | **proved** where $\hat\omega \le \kappa\rho$ and Proposition 9’s first branch holds: the drift reduces to a strictly decreasing function of $v$ alone through the identity $s(\bar e-\bar\omega) = N(v)$, giving at most one stationary employment rate and exactly one inside the state space under a closed-form inequality; interiority of the share is $m_0+n+b\ln v^\ast > 0$ | the bargaining branch below |
+| Prop. 12 | **proved** where $\hat\omega \le \kappa\rho$, $\hat e \ge \hat\omega$ and Proposition 9’s first branch holds: the drift reduces to a strictly decreasing function of $v$ alone through the identity $s(\bar e-\bar\omega) = N(v)$, giving at most one stationary employment rate and exactly one inside the state space under a closed-form inequality; interiority of the share is $m_0+n+b\ln v^\ast > 0$. ⭕ Proved **including at $b = 0$**, where Proposition 5 gives the core no interior rest point at all: the stabiliser is the ceiling’s response $\zeta$, not the mechanisation law’s $b$ | the bargaining branch below |
 | Existence of a regime rest point | **half discharged.** Proved by Proposition 12 in the reserve-army parameter class $\hat\omega \le \kappa\rho$, where labour is on its ceiling at every employment rate and the three equations reduce to one monotone equation in $v$. UNDISCHARGED where $\hat\omega > \kappa\rho$: above $\hat v$ the share is a root of Proposition 8’s quadratic with $Q_C$ moving in $v$, and neither root is shown monotone in $v$ | monotonicity of either root of A.8’s quadratic in $v$, or a fixed-point argument that does not need it |
 | Section 6’s second self-undermining channel ($v_{\text{f}}$) | SETTLED, and one-sided: the conjecture substituted $\bar e(v)$ into a fold condition proved for constant $\bar e$; Proposition 10 shows the substitution gives a valid NECESSARY bound and Proposition 9 gives the true boundary, strictly below it | — |
 | Separation from Mehrling (1986) | witness grade, and partial. His instruments (wage level, investment level) and his payoffs (present values of consumption and profit) are established through Miebach (2011), a dissertation that restates his model; his own body is unobtainable. So the extraction margin and the objectives separate; the mechanisation law and the state do not | his body, or a second witness reporting his state variables and his supply side |
