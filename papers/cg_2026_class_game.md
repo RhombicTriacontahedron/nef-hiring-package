@@ -29,10 +29,12 @@ is silent by construction; and where the growth-maximising split is
 interior, the growth factor and the relative size of the two classes
 fall silent as well, over an upper band of splits the model names.
 Inside that band a thrifty state and a lavish one show the same growth,
-the same class ratio and the same total, and differ only in the private
-gap. Outside it — and everywhere when the growth peak is not interior,
-which is where every equilibrium this paper computes lies — those same
-numbers identify the split exactly.
+the same capital intensity, the same class ratio and the same total;
+what still separates them is the worker’s private claim, provision per
+worker, and the gap between the two classes’ private consumption.
+Outside it — and everywhere when the growth peak is not interior, which
+is where every equilibrium this paper computes lies — those same numbers
+identify the split exactly.
 
 The funding route is the policy rather than its implementation. If the
 public input is reproduction-relevant and nothing is spent building it,
@@ -201,6 +203,27 @@ Ramsey optimum. The incidence result belongs with the literature
 comparing in-kind provision to cash, and is sharper than that comparison
 usually permits: here cash does not under-perform provision, it achieves
 nothing whatever for the object it is aimed at.
+
+**What is new here.** A tax-financed public input is not a new object in
+growth theory; where it sits is. Barro (1990) makes it a flow into the
+production function, and Futagami, Morita and Shibata (1993) make it an
+accumulating stock in the same place, so what it moves is the marginal
+product of capital and the model is closed by a growth rule. Here it is
+an accumulating stock in the reproduction of labour, and the model is
+closed by two classes setting instruments against each other. Section 9
+shows that the placement is checkable rather than declared: in a minimal
+comparison, a stock placed in production has its output elasticity enter
+the worker’s own fiscal rule, and a reproduction map’s outer elasticity
+does not. Two results follow from that placement. The whole of the
+distance between the worker’s stationary tax and full expropriation is
+the capital wedge, in closed form — so the point at which redistribution
+stops is a decomposition of the worker’s own problem rather than a limit
+imposed on it from outside. And what a published budget cannot report is
+the composition of the spending rather than its level: Proposition 18
+names the band of splits over which the growth factor, the capital
+intensity, the class ratio and the total disbursement fall silent
+together, and that band sits at the generous end, so an economy that
+builds little is always read correctly.
 
 Section 2 sets out the model and the scope. Section 3 shows the public
 stock cannot be dropped from the state, and characterises completely the
