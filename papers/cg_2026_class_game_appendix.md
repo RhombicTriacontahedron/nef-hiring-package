@@ -2382,13 +2382,22 @@ the step from a divergent one-sided derivative to a strict payoff
 ordering is not taken. Where the two cells at
 $(\delta,\delta_G,\theta,\sigma)=(0.10,0.70,0.60,2.5)$ and
 $(0.04,0.35,0.75,3.0)$ return the face under a search over $\varpi$,
-they refute a universal and establish no region. Proposition 16 and
-Corollary 5 need Assumptions 1–3 and 5 with $\theta\in(0,1)$,
-$x_0,z_0>0$, $i>0$ and $\delta=\delta_G=1$; they discharge that
-hypothesis outright on that face and on no wider set, Computation 1’s
-cells not lying on it. Part (iv) of Proposition 13 proves the vacuity of
-$(\ast)$ there and *not* its date-wise clause, which does not follow
-from $\mathcal{G}''=0$ and is Proposition 16’s.
+they refute a universal and establish no region. Proposition 17$'''$
+needs Assumptions 1–4 with $\theta\in(0,1)$, $\delta,\delta_G\in(0,1)$,
+$i\in(0,1)$ and $\tau\in(0,\bar\tau]$, together with the interior rest
+points Theorem 2 supplies at each $\varpi$; the diagonal
+$\delta=\delta_G$ is **inside** part (i) rather than excluded from it,
+which is where it differs from Proposition 17. Both regimes are proved.
+⚠ Its closing payoff clause is **two-sided only in the forward
+direction**: finiteness below the joint bound holds at every member of
+the family, while above the bound the exit statement is conditional on
+some member being admissible, and no clause here establishes that one
+is. Proposition 16 and Corollary 5 need Assumptions 1–3 and 5 with
+$\theta\in(0,1)$, $x_0,z_0>0$, $i>0$ and $\delta=\delta_G=1$; they
+discharge that hypothesis outright on that face and on no wider set,
+Computation 1’s cells not lying on it. Part (iv) of Proposition 13
+proves the vacuity of $(\ast)$ there and *not* its date-wise clause,
+which does not follow from $\mathcal{G}''=0$ and is Proposition 16’s.
 
 Everything else — the equilibrium levels, every sweep verdict, every
 priced deviation and every count — is computational. These establish
