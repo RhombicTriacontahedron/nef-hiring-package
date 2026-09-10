@@ -2380,12 +2380,13 @@ the stencil straddles the switch. The residual is the window’s, not the
 scheme’s: a quadratic fitted on a one-sided window reads $W''$ at the
 window’s midpoint, so the fit carries a bias of $W'''(x^\ast)$ times the
 midpoint’s offset from $x^\ast$ — $-0.0165$ here — and $W'''(x^\ast)$ is
-itself a closed form, the stable manifold’s second-order coefficient,
-between $-0.38$ and $+1.05$ across the five cells; regressing the fit on
-the midpoint across five windows of the same width returns the
-closed-form $W''(x^\ast)$ at the four cells, and at the fifth below, to
-within $0.001$ per cent on a grid sixteen times finer, and the bias it
-removes is the one the closed-form $W'''$ predicts
+itself a closed form — the second derivative at $x^\ast$ of the stable
+manifold $p = P(x)$, as $W''(x^\ast)$ is its slope — between $-0.38$ and
+$+1.05$ across the five cells; regressing the fit on the midpoint across
+five windows of the same width returns the closed-form $W''(x^\ast)$ at
+the four cells, and at the fifth below, to within $0.001$ per cent on a
+grid sixteen times finer, and the bias it removes is the one the
+closed-form $W'''$ predicts
 (`models/reserve_army_game/fit_window_bias_decomposition_2026_09_10_6d285664.py`).
 The comparison with the first derivative is closed-form too:
 $W'(x^\ast) = p^\ast$, which at $c = 0$ — every exhibited cell’s case —
