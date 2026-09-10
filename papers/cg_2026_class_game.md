@@ -191,8 +191,8 @@ that capital-funded provision displaces the wage rather than
 supplementing it; that cash and provision in kind are not two
 implementations of one policy; that an owner indifferent to worker
 numbers is nonetheless made to price their reproduction — follow from
-those premises, so declining one of them means naming which primitive is
-being declined.
+those premises, so declining a conclusion means naming which primitive
+is being declined.
 
 **Relation to the literature.** The chassis is a one-sector optimal
 growth model with two dynasties and a public stock. It departs from the
