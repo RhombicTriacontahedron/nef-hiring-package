@@ -2187,43 +2187,43 @@ parameter: $\gamma(1-\theta)$ is one of the three summands of
 $(g-1+\delta_G)\mathcal{H}'(g)$ and the remaining two are strictly
 positive, so the bound is an identity plus positivity rather than a
 condition to be checked. The bound is tight, not generous —
-$\mathcal{C}$ reaches $0.987$ at an admissible point — so it may not be
-weakened to a crude estimate. **Part (v) is the one part of Theorem 2$'$
-that depends on Proposition 6**, and the dependency is substantive
-rather than a convenience: $\partial g/\partial\tau$ is Proposition
-6(ii)’s $g=\mathcal{H}^{-1}(\mathcal{P})$ differentiated, and the bound
-is read off Proposition 6’s displayed $\mathcal{H}$. That is why
-$\mathcal{H}'$ appears here where parts (ii) and (iv) write $H'$: they
-are the same object by Proposition 6(i)’s $H=\mathcal{H}-\mathcal{P}$,
-and part (v) uses the form in which the bound is visible. Both
-Proposition 6 and Theorem 2 stop at $\theta<1$, so part (v)’s use of
-them across $\theta\in(0,1]$ is discharged in its own statement, where
-the endpoint is evaluated rather than approached. Part (v) holds $\phi$,
-$i$ and the primitives fixed and is, like parts (ii) and (iv), a
-statement about (N$'''$) rather than a comparative static in the
-primitives. Theorem 2$''$ takes Assumptions 1–4 with $\theta=1$ and the
-shares fixed, $i\in(0,1)$, $\phi\tau>0$ and $\tau<1$ — Theorem 2’s
-hypotheses at the endpoint Theorem 2 excludes — and nothing else. It
-never uses Assumption 3: once the shares are fixed no payoff enters
-$(\star)$, so it holds whatever either class maximises, the shares being
-held fixed. Its parts (i), (ii) and (iv) are analytic throughout: two
-contraction bounds read off the slopes of autonomous one-dimensional
-maps in logarithms, a bijection, and a triangular Jacobian whose
-spectrum is its diagonal. Its part (iii) is analytic in both directions
-— the existence condition is an equivalence, and the floor
-$\underline{\iota}$ is an algebraic rearrangement of
-$\mathcal{P}_1>\mathcal{H}_1(1-\delta_G)$ — and its one existential
-clause, that the floor is violated at some profile, is proved by
-exhibiting the open set $i<\underline{\iota}/(1-\tau)$ rather than a
-point; the certificate described in G.2 carries a cell at which the
-floor fails and the same cell at which it holds, as an oracle for the
-proof and not as the proof. Theorem 2$''$ is the corner’s counterpart of
-Theorem 2(ii)–(iii), and it is what discharges Theorem 2$'$’s standing
-hypothesis of an interior rest point at $\theta=1$; Theorem 2$'$(i) and
-(iii) hold at the corner under Theorem 2$''$(i) alone, whether or not
-the public stock settles. Proposition 5$'$ needs Assumptions 1–4 with
-$\omega<1$ at a constant-share rest point where $J$ and $\Omega$ are
-defined; it is a comparative static in $\rho$ holding
+$\mathcal{C}$ reaches $0.9985$ at an admissible point, a growth factor a
+hair above the public floor — so it may not be weakened to a crude
+estimate. **Part (v) is the one part of Theorem 2$'$ that depends on
+Proposition 6**, and the dependency is substantive rather than a
+convenience: $\partial g/\partial\tau$ is Proposition 6(ii)’s
+$g=\mathcal{H}^{-1}(\mathcal{P})$ differentiated, and the bound is read
+off Proposition 6’s displayed $\mathcal{H}$. That is why $\mathcal{H}'$
+appears here where parts (ii) and (iv) write $H'$: they are the same
+object by Proposition 6(i)’s $H=\mathcal{H}-\mathcal{P}$, and part (v)
+uses the form in which the bound is visible. Both Proposition 6 and
+Theorem 2 stop at $\theta<1$, so part (v)’s use of them across
+$\theta\in(0,1]$ is discharged in its own statement, where the endpoint
+is evaluated rather than approached. Part (v) holds $\phi$, $i$ and the
+primitives fixed and is, like parts (ii) and (iv), a statement about
+(N$'''$) rather than a comparative static in the primitives. Theorem
+2$''$ takes Assumptions 1–4 with $\theta=1$ and the shares fixed,
+$i\in(0,1)$, $\phi\tau>0$ and $\tau<1$ — Theorem 2’s hypotheses at the
+endpoint Theorem 2 excludes — and nothing else. It never uses Assumption
+3: once the shares are fixed no payoff enters $(\star)$, so it holds
+whatever either class maximises, the shares being held fixed. Its parts
+(i), (ii) and (iv) are analytic throughout: two contraction bounds read
+off the slopes of autonomous one-dimensional maps in logarithms, a
+bijection, and a triangular Jacobian whose spectrum is its diagonal. Its
+part (iii) is analytic in both directions — the existence condition is
+an equivalence, and the floor $\underline{\iota}$ is an algebraic
+rearrangement of $\mathcal{P}_1>\mathcal{H}_1(1-\delta_G)$ — and its one
+existential clause, that the floor is violated at some profile, is
+proved by exhibiting the open set $i<\underline{\iota}/(1-\tau)$ rather
+than a point; the certificate described in G.2 carries a cell at which
+the floor fails and the same cell at which it holds, as an oracle for
+the proof and not as the proof. Theorem 2$''$ is the corner’s
+counterpart of Theorem 2(ii)–(iii), and it is what discharges Theorem
+2$'$’s standing hypothesis of an interior rest point at $\theta=1$;
+Theorem 2$'$(i) and (iii) hold at the corner under Theorem 2$''$(i)
+alone, whether or not the public stock settles. Proposition 5$'$ needs
+Assumptions 1–4 with $\omega<1$ at a constant-share rest point where $J$
+and $\Omega$ are defined; it is a comparative static in $\rho$ holding
 $(J,\Omega,\zeta,\omega)$ fixed, which makes it a statement about (12)
 rather than about a rest point’s response to a primitive. Proposition
 5$''$ adds admissibility in Assumption 5’s sense, $\tilde\beta<1$ —
@@ -2330,14 +2330,17 @@ properness and Proposition 6’s hypotheses; part (v) is a proved negative
 exhibits coordinates in which the same date is concave. Proposition 14
 and Corollary 3 need Assumptions 1–3 with $\theta\in(0,1)$, a fixed
 start and properness along the path, and their derivative statements
-carry in addition a uniform-in-$u$ bound on the per-date share
-elasticities — which A.4 does *not* supply, since A.4 differentiates in
-the state and its domination is local. Corollary 3’s sufficient
-condition is not proved. Lemma 2 is a standard fact about logarithms of
-positive affine functions and carries no model content. Proposition 15
-needs Assumptions 1–3 with $\theta\in(0,1)$ and a fixed start with
-$x_0,z_0>0$ and a rate $i>0$, its part (i) using admissibility
-(Assumption 5) to discard the collapsed edge **only where
+carry in addition that the start lies in the basin of an interior rest
+point at which the profile is proper — which supplies both the
+uniform-in-$u$ bound on the per-date share elasticities and the
+eventually geometric weights the termwise differentiation needs, and
+which A.4 does *not* supply, since A.4 differentiates in the state and
+its domination is local. Corollary 3’s sufficient condition is not
+proved. Lemma 2 is a standard fact about logarithms of positive affine
+functions and carries no model content. Proposition 15 needs Assumptions
+1–3 with $\theta\in(0,1)$ and a fixed start with $x_0,z_0>0$ and a rate
+$i>0$, its part (i) using admissibility (Assumption 5) to discard the
+collapsed edge **only where
 $\beta\ge\big(\max\{g_\varpi,1-\delta_G\}\big)^{\sigma-1}$ makes it
 improper** — where $\delta<\delta_G$ the face carries an admissible ray
 on which $z_t\to0$ while $c_W$ diverges and
@@ -2348,11 +2351,11 @@ by admissibility, so what remains undischarged is the region well below
 the ceiling and not the whole of it. ⚠ The diagonal clause’s identity
 (42) needs $\iota=i(1-\tau)>0$, and that is Assumption 1’s $\bar\tau<1$
 together with $i>0$, **not $i>0$ alone**: at $\tau=1$ the ratio $x/z$ is
-constant and a stationary positive stock does exist on the diagonal. The
-hypothesis is in force throughout, so the hole is empty, but it is named
-here because $i>0$ is what the preamble prints. Parts (iv)–(v) add
-Proposition 6’s hypotheses; it proves no concavity of the payoff,
-establishing instead that Proposition 13(v)’s obstruction is
+constant and a stationary positive stock per worker does exist on the
+diagonal. The hypothesis is in force throughout, so the hole is empty,
+but it is named here because $i>0$ is what the preamble prints. Parts
+(iv)–(v) add Proposition 6’s hypotheses; it proves no concavity of the
+payoff, establishing instead that Proposition 13(v)’s obstruction is
 coordinate-dependent, that the two free dates survive jointly, and that
 the tail criterion generalises to $(\ast\ast)$ — which **implies**
 $(\ast)$, so the joint route is strictly the harder one. Proposition
@@ -2434,8 +2437,8 @@ because the same substitution never used $\delta=\delta_G$, Proposition
 see the entry for Proposition 17 below. Between them the collapsed
 face’s path is a theorem about primitives everywhere except
 $\delta>\delta_G$, where Proposition 2(iii) characterises the stationary
-positive stock but the path’s settling there — or the weaker bound
-$\inf_t z_t>0$ that Proposition 17 actually uses — is assumed, not
+positive stock per worker but the path’s settling there — or the weaker
+bound $\inf_t z_t>0$ that Proposition 17 actually uses — is assumed, not
 proved. ⚠ What remains undischarged on the diagonal is the **disposal**
 of the face above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof
 sharpens and does not narrow. The case exclusion never depended on the
