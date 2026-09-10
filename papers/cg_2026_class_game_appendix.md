@@ -2342,60 +2342,64 @@ functions and carries no model content. Proposition 15 needs Assumptions
 $i>0$, its part (i) using admissibility (Assumption 5) to discard the
 collapsed edge **only where
 $\beta\ge\big(\max\{g_\varpi,1-\delta_G\}\big)^{\sigma-1}$ makes it
-improper** — where $\delta<\delta_G$ the face carries an admissible ray
-on which $z_t\to0$ while $c_W$ diverges and
-$g_W\to g_\varpi\in(1-\delta_G,1-\delta)$, so that neither improperness
-nor a growth comparison excludes it. Proposition 17 disposes of it on an
-interval strictly below that ceiling by a payoff comparison rather than
-by admissibility, so what remains undischarged is the region well below
-the ceiling and not the whole of it. ⚠ The diagonal clause’s identity
-(42) needs $\iota=i(1-\tau)>0$, and that is Assumption 1’s $\bar\tau<1$
-together with $i>0$, **not $i>0$ alone**: at $\tau=1$ the ratio $x/z$ is
-constant and a stationary positive stock per worker does exist on the
-diagonal. The hypothesis is in force throughout, so the hole is empty,
-but it is named here because $i>0$ is what the preamble prints. Parts
-(iv)–(v) add Proposition 6’s hypotheses; it proves no concavity of the
-payoff, establishing instead that Proposition 13(v)’s obstruction is
-coordinate-dependent, that the two free dates survive jointly, and that
-the tail criterion generalises to $(\ast\ast)$ — which **implies**
-$(\ast)$, so the joint route is strictly the harder one. Proposition
-15$'$ takes Proposition 15’s hypotheses and adds Assumption 4, which
-enters through its Step 1 alone, where $(\mathrm{A})$ is what puts
-$\mu_K,\mu\ge1$ and so signs $\mathcal{G}''$; nothing else in it uses
-$\gamma$, the level of $g$, or how $\mu_K$ and $\mu$ were reached, which
-is why its condition reads only $(\alpha,\theta,\tau,\phi)$. Both of its
-clauses are proved: the sufficient condition $\Phi\le\Phi_c$ for
-$(\ast\ast)$, and the sharpness clause that above every exterior point
-there are admissible $(\gamma,\delta,\delta_G,\beta,\sigma,i,A,B)$ at
-which $(\ast\ast)$ fails — so no larger parameter-free region in those
-coordinates, of any shape, certifies the criterion. That second clause
-is what sends the residue into the other coordinates rather than leaving
-it as slack in the bound. Corollary 4 needs Theorem 4’s hypotheses with
+improper** (every such $\beta$ but the ceiling itself on the diagonal at
+$\sigma>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, by (41)) — where
+$\delta<\delta_G$ the face carries an admissible ray on which $z_t\to0$
+while $c_W$ diverges and $g_W\to g_\varpi\in(1-\delta_G,1-\delta)$, so
+that neither improperness nor a growth comparison excludes it.
+Proposition 17 disposes of it on an interval strictly below that ceiling
+by a payoff comparison rather than by admissibility, so what remains
+undischarged is the region well below the ceiling and not the whole of
+it. ⚠ The diagonal clause’s identity (42) needs $\iota=i(1-\tau)>0$, and
+that is Assumption 1’s $\bar\tau<1$ together with $i>0$, **not $i>0$
+alone**: at $\tau=1$ the ratio $x/z$ is constant and a stationary
+positive stock per worker does exist on the diagonal. The hypothesis is
+in force throughout, so the hole is empty, but it is named here because
+$i>0$ is what the preamble prints. Parts (iv)–(v) add Proposition 6’s
+hypotheses; it proves no concavity of the payoff, establishing instead
+that Proposition 13(v)’s obstruction is coordinate-dependent, that the
+two free dates survive jointly, and that the tail criterion generalises
+to $(\ast\ast)$ — which **implies** $(\ast)$, so the joint route is
+strictly the harder one. Proposition 15$'$ takes Proposition 15’s
+hypotheses and adds Assumption 4, which enters through its Step 1 alone,
+where $(\mathrm{A})$ is what puts $\mu_K,\mu\ge1$ and so signs
+$\mathcal{G}''$; nothing else in it uses $\gamma$, the level of $g$, or
+how $\mu_K$ and $\mu$ were reached, which is why its condition reads
+only $(\alpha,\theta,\tau,\phi)$. Both of its clauses are proved: the
+sufficient condition $\Phi\le\Phi_c$ for $(\ast\ast)$, and the sharpness
+clause that above every exterior point there are admissible
+$(\gamma,\delta,\delta_G,\beta,\sigma,i,A,B)$ at which $(\ast\ast)$
+fails — so no larger parameter-free region in those coordinates, of any
+shape, certifies the criterion. That second clause is what sends the
+residue into the other coordinates rather than leaving it as slack in
+the bound. Corollary 4 needs Theorem 4’s hypotheses with
 $\theta\in(0,1)$, evaluated from the rest point the profile induces, and
 is conditional in addition on joint concavity of $\ln N_{W,t}$ on $T$,
 which is proved nowhere; its reach from $T$ to the whole instrument box
 carries the disposal of the collapsed edge, and so holds at
 $\delta_G=1$, at $\delta_G<1$ where
-$\beta\ge\big(\max\{g_\varpi,1-\delta_G\}\big)^{\sigma-1}$, and on the
-interval below that ceiling Proposition 17 supplies. What Computation 11
-supplies is narrower than the hypothesis in two ways worth stating here
-rather than leaving to inference: it checks the per-date Hessian at the
-ten profiles of C.9 and the Hessian of $\widetilde V_W$ on an
-$11\times11$ grid at three of them, and those cells are Computation 11’s
-own, not the cells at which Computation 1 reports its equilibria; and
-the grid is a sub-box of $T$, so it samples the set the hypothesis
-quantifies over and can refute it but never establish it. Lemma 3 and
-Corollary 6 have the shortest hypothesis list of anything in the paper
-and it is worth recording as such: Assumptions 1–2 with
-$\theta\in(0,1)$, $\delta,\delta_G\in(0,1)$ and a start with
-$x_0,z_0>0$. They use no rest point, no equilibrium, no objective, no
-properness and no restriction to constant shares — the instrument path
-is arbitrary in $[0,\bar\tau]\times[0,1]^2$ — and both are proved
-outright, with $(\dagger)$’s constant explicit. Two clauses attached to
-Lemma 3 are *not* its own: that the rate is attained is Proposition
-15(i)’s and Proposition 2(iii)’s, and Corollary 6 adds Assumption 3 for
-$\sigma_W>1$ and the parameter condition $\beta<g_\varpi^{\sigma_W-1}$.
-Proposition 17 needs Assumptions 1–4 with $\theta\in(0,1)$,
+$\beta\ge\big(\max\{g_\varpi,1-\delta_G\}\big)^{\sigma-1}$ (the ceiling
+itself excepted on the diagonal at
+$\sigma>1+(1-\alpha)(1-\theta)/(\alpha\theta)$), and on the interval
+below that ceiling Proposition 17 supplies. What Computation 11 supplies
+is narrower than the hypothesis in two ways worth stating here rather
+than leaving to inference: it checks the per-date Hessian at the ten
+profiles of C.9 and the Hessian of $\widetilde V_W$ on an $11\times11$
+grid at three of them, and those cells are Computation 11’s own, not the
+cells at which Computation 1 reports its equilibria; and the grid is a
+sub-box of $T$, so it samples the set the hypothesis quantifies over and
+can refute it but never establish it. Lemma 3 and Corollary 6 have the
+shortest hypothesis list of anything in the paper and it is worth
+recording as such: Assumptions 1–2 with $\theta\in(0,1)$,
+$\delta,\delta_G\in(0,1)$ and a start with $x_0,z_0>0$. They use no rest
+point, no equilibrium, no objective, no properness and no restriction to
+constant shares — the instrument path is arbitrary in
+$[0,\bar\tau]\times[0,1]^2$ — and both are proved outright, with
+$(\dagger)$’s constant explicit. Two clauses attached to Lemma 3 are
+*not* its own: that the rate is attained is Proposition 15(i)’s and
+Proposition 2(iii)’s, and Corollary 6 adds Assumption 3 for $\sigma_W>1$
+and the parameter condition $\beta<g_\varpi^{\sigma_W-1}$. Proposition
+17 needs Assumptions 1–4 with $\theta\in(0,1)$,
 $\delta,\delta_G\in(0,1)$, **$\delta\ne\delta_G$**, $\tau>0$,
 $\varpi>0$, $i>0$ and evaluation from the rest point the interior
 profile induces; where $\delta<\delta_G$ it carries one hypothesis more,
