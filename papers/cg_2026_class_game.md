@@ -16,21 +16,22 @@ The identity equalises a reproduction *index*, and equalising a
 composite does not equalise its parts: it pins a class’s reproduced
 condition and frees two coordinates one instrument reaches. At any
 interior stationary class ratio the private consumption gap is a closed
-form in provision per worker, and along the locus holding reproduction
-equal the elasticity of the worker’s private claim to provision is
-constant at $-(1-\theta)/\theta$. Capital-funded provision in kind does
-not arrive on top of the wage; it displaces it. The stationary
-owner-to-worker ratio is a second closed form from which the capital
-stock cancels, and a higher tax on capital income lowers it strictly at
-every admissible interior point and every weight on public provision.
+form in the ratio of provision per worker to the worker’s private claim,
+and along the locus holding reproduction equal the elasticity of that
+claim to provision is constant at $-(1-\theta)/\theta$. Capital-funded
+provision in kind does not arrive on top of the private claim; it
+displaces it. The stationary owner-to-worker ratio is a second closed
+form from which the capital stock cancels, and a higher tax on capital
+income lowers it strictly at every admissible interior point and every
+weight on public provision.
 
 The owner’s objective carries no term in worker numbers and no altruism
 parameter. His own optimisation nonetheless returns a strictly positive
 marginal value of the workforce, in closed form, at every admissible
 constant-share rest point, through the production function and the
 competitive wage, not anything he wants. The persistence of the working
-class is thereby obtained as a condition of capital’s own accumulation
-rather than imposed as one.
+class is thereby a price the owner’s own optimisation returns, not a
+condition imposed from outside.
 
 **Keywords:** public provision; social wage; dynamic game; class
 structure; fiscal incidence; endogenous population; in-kind transfers.
@@ -120,7 +121,7 @@ not the apparatus but the primitives, and they are few and named: a
 class-specific reproduction technology, asymmetric payoff objects, and
 the assignment of the fiscal instruments to one class. The conclusions —
 that reproduced condition is unreachable while relative numbers are not;
-that capital-funded provision displaces the wage rather than
+that capital-funded provision displaces the private claim rather than
 supplementing it; that cash and provision in kind are not two
 implementations of one policy; that an owner indifferent to worker
 numbers is nonetheless made to price their reproduction — follow from
