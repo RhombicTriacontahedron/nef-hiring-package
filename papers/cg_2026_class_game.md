@@ -5723,16 +5723,23 @@ and both depreciation rates leave the condition altogether. So the
 second wedge derivative is strictly positive at every proper profile
 whose capital-income tax lies at or below labour’s share, and takes both
 signs only above it — unsigned in a corner, not on the domain, and the
-corner is a capital-income tax above labour’s share of output. Section
-8.5 takes both differences up: at a zero of $\Xi$ the second derivative
-collapses, and what it collapses to is signed at every split, which is
-enough to reduce the tax to a criterion. Finally, the worker owns two
-instruments, so his second-order condition is a joint statement about
-$(\tau,\phi)$ rather than two separate single-crossing conditions — the
-first-order content in (17) is a gradient and does close for the pair,
-but the curvature left open on his side is genuinely two-dimensional.
-What Theorem 5 removes is the split’s side condition, not the
-two-dimensionality.
+corner is a capital-income tax above labour’s share of output. Both
+quantifiers run over the expression’s own domain,
+$(\alpha,\tau,g,\delta,\tilde\beta)$ subject to $g>1-\delta$ and
+$\tilde\beta<1$, so what is established is that a tax above labour’s
+share is *necessary* for a negative raw partial. Whether that corner is
+*occupied* at an interior rest point — where
+$\tilde\beta=\beta g^{1-\sigma}$ is a function of $g$ rather than a
+coordinate free beside it — is the question §G.2 records the certificate
+as deliberately not answering. Section 8.5 takes both differences up: at
+a zero of $\Xi$ the second derivative collapses, and what it collapses
+to is signed at every split, which is enough to reduce the tax to a
+criterion. Finally, the worker owns two instruments, so his second-order
+condition is a joint statement about $(\tau,\phi)$ rather than two
+separate single-crossing conditions — the first-order content in (17) is
+a gradient and does close for the pair, but the curvature left open on
+his side is genuinely two-dimensional. What Theorem 5 removes is the
+split’s side condition, not the two-dimensionality.
 
 **Computation 4 (the identity against a route that shares no step).**
 *At the cells of Computation 1 and at three others — $\theta=0.80$;
