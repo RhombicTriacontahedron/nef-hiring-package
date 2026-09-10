@@ -2894,11 +2894,11 @@ strictly positive, and the derivative is their negative. The bound is
 attained nowhere but approached: $\mathcal{C}=0.9985$ at $\alpha=0.1$,
 $\gamma=0.9$, $\theta=0.1$, $\delta=1$, $\delta_G=0.1$ and $g=0.901$ — a
 growth factor a hair above the public floor $1-\delta_G$, where the
-public term’s own remainder $(g-1+\delta_G)/g$ is a tenth of a per cent
-— so the cap binds tightly rather than generously. At the closed
-endpoint $\theta=1$ the argument is made by evaluation and not by a
-limit, which matters because that is the only place strictness could
-fail: there $\gamma(1-\theta)$ vanishes, so $\mathcal{C}=0$ while
+$\ln g$ term’s remainder $(g-1+\delta_G)/g$ is a tenth of a per cent —
+so the cap binds tightly rather than generously. At the closed endpoint
+$\theta=1$ the argument is made by evaluation and not by a limit, which
+matters because that is the only place strictness could fail: there
+$\gamma(1-\theta)$ vanishes, so $\mathcal{C}=0$ while
 $(g-1+\delta_G)\mathcal{H}'(g)$ stays strictly positive, and the display
 reduces to part (iv)’s $-1/(1-\tau)-(1-\phi)\alpha/\kappa_W$, already
 proved from Lemma 1 and the budget. $\blacksquare$
@@ -4167,15 +4167,16 @@ Proposition 5$'''$(ii) already states these two margins, as the
 conditions equivalent to $J'<0$ and $\Omega'<0$; what the identities add
 is that they are not merely the *sign* of each wedge’s slope but its
 *numerator*, over a denominator the model has already named. The weak
-form of $(\ddagger)$ is therefore $M_J\ge0$ and $M_\Omega\ge0$, and
-$(\ddagger)$ itself their strict versions — two conditions affine in
-$(g,\tilde\beta)$ jointly — and the single condition at $\delta_\wedge$
-is the observation that the smaller depreciation rate carries the
-binding one. Since $\tau^\ast$ and $1-\tau^\ast$ of (9) are shares
-summing to one, $(\ln d)'$ is exactly the $\tau^\ast$-weighted average
-of $(\ln\Omega)'$ and $(\ln J)'+(\ln W)'$; the two coefficients that
-survive are then exact negatives of each other, and a single scalar
-multiplies everything that is not the ceiling core:
+form of $(\ddagger)$ — the same inequality with $\ge$ — is therefore
+$M_J\ge0$ and $M_\Omega\ge0$, and $(\ddagger)$ itself their strict
+versions — two conditions affine in $(g,\tilde\beta)$ jointly — and the
+single condition at $\delta_\wedge$ is the observation that the smaller
+depreciation rate carries the binding one. Since $\tau^\ast$ and
+$1-\tau^\ast$ of (9) are shares summing to one, $(\ln d)'$ is exactly
+the $\tau^\ast$-weighted average of $(\ln\Omega)'$ and
+$(\ln J)'+(\ln W)'$; the two coefficients that survive are then exact
+negatives of each other, and a single scalar multiplies everything that
+is not the ceiling core:
 $$\Phi' \;=\; \frac1g \;+\; \frac{\gamma\alpha}{1-\alpha}\,\mathcal{B}
    \;+\; \frac{c\,\tau^\ast}{g-1+\delta_G}
    \;+\; \Delta\left[\frac{1}{g-1+\delta}-\frac{\sigma-\tilde\beta\alpha}{D_x}
@@ -4652,11 +4653,12 @@ rearrange to $M_\Omega=\sigma(g-1+\delta_G)-D_G$ and
 $M_J=(g-1+\delta)(\sigma-\tilde\beta\alpha)-D_x$; dividing by $D_G$ and
 by $D_x$ and using $\Omega=\tilde\beta(g-1+\delta_G)/D_G$ and
 $J=\tilde\beta(g-1+\delta)/D_x$ gives the two displayed forms, whose
-non-negativity is $(\ddagger)$ in the wedge-bound form above.
-Substituting them into Proposition 6$'''$(i)’s $\mathcal{O}$ and then
-into its part (ii) gives the second display: it is a regrouping, and the
-only step in it is that $\mathcal{O}$’s public term and $\mathcal{X}$’s
-public term carry the same pole $1/(g-1+\delta_G)$.
+strict positivity is $(\ddagger)$ — and non-negativity its weak form —
+in the wedge-bound form above. Substituting them into Proposition
+6$'''$(i)’s $\mathcal{O}$ and then into its part (ii) gives the second
+display: it is a regrouping, and the only step in it is that
+$\mathcal{O}$’s public term and $\mathcal{X}$’s public term carry the
+same pole $1/(g-1+\delta_G)$.
 
 **(ii)** Each bracket is affine in $\Delta$, so it is enough to check it
 at whichever end of $\Delta$’s sharp range makes it smallest. The second
@@ -7039,12 +7041,13 @@ $\beta^{t}N_{W,t}^{1-\sigma}=N_{W,0}^{1-\sigma}\prod_{u<t}\beta g_{W,u}^{1-\sigm
 which equal $N_{W,0}^{1-\sigma}\tilde\beta^{t}$ on the balanced path and
 not off it. Off it, each factor $\beta g_{W,u}^{1-\sigma}$ converges to
 the rest point’s $\tilde\beta<1$ because the path does, so from some
-date on it lies below $\tilde\beta'$ and the weights are bounded by a
-multiple of $\tilde\beta'^{t}$ — convergence to the rest point, not
-properness date by date, is what the domination uses, and is why the
-basin is the hypothesis stated rather than properness alone. The linear
-growth in $t$ is the price of a permanent rather than transitory
-deviation.
+date on — one that, by the contraction neighbourhood below, serves every
+share near $s$ at once — it lies below $\tilde\beta'$ and the weights
+are bounded by a multiple of $\tilde\beta'^{t}$ — convergence to the
+rest point, not properness date by date, is what the domination uses,
+and is why the basin is the hypothesis stated rather than properness
+alone. The linear growth in $t$ is the price of a permanent rather than
+transitory deviation.
 
 The basin clause of the hypothesis is an argument and not an appeal, and
 it is worth writing out because the far-field unit root Section 7
@@ -7074,8 +7077,9 @@ Nothing ties the split to the point $s$: the contraction neighbourhood
 and $\bar\rho$ serve every share near $s$ at once, the rest point moving
 continuously, and the date $U$ survives small changes of the share
 because it is reached through finitely many smooth compositions — so the
-bound is locally uniform in the share, which is what differentiating the
-series term by term asks.
+bound is locally uniform in the share, and so is the date from which the
+weights are geometric, which is what differentiating the series term by
+term asks.
 
 The far-field unit root is not contradicted but located: as the start
 recedes, $U$ and with it the bound grow without limit, so the argument
@@ -7462,11 +7466,13 @@ $$g_\varpi \;=\; (1-\delta)^{\frac{\alpha\theta}{\alpha\theta+1-\theta}}\,
 *the weighted geometric mean of the two survival factors, which lies
 strictly between them. The ray needs $g_\varpi<1-\delta$ and so exists
 exactly when $\delta<\delta_G$. **Where $\delta>\delta_G$ there is no
-such ray: a stationary positive value of $z$ is the face map’s only
-interior rest point — that the path settles at it is assumed here, not
-proved — Proposition 2(iii) pins $g_W=1-\delta_G$ there, properness
-requires $(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge
-is inadmissible-improper and Assumption 5 disposes of it. ⛔ **On the
+such ray: a stationary positive value of $z$ is the face map’s only rest
+point in the open orthant $x,z\in(0,\infty)$, not interior in Assumption
+4’s sense since the public stock receives no gross investment there —
+that the path settles at it is assumed here, not proved — Proposition
+2(iii) pins $g_W=1-\delta_G$ there, properness requires
+$(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge is
+inadmissible-improper and Assumption 5 disposes of it. ⛔ **On the
 diagonal $\delta=\delta_G$ neither description holds** — there is no
 ray, and there is no stationary positive stock per worker either,
 because (42) below makes $x/z$ rise strictly at every date; instead
@@ -7552,14 +7558,15 @@ than two. Where $\delta<\delta_G$, $x_t$ diverges and $g_W$ rises to
 $g_\varpi$ along the ray displayed above. Where $\delta>\delta_G$
 capital survives strictly worse than the public stock, no ray exists,
 and at the stationary positive stock per worker — the face map’s only
-interior rest point, which the path is assumed to reach — Proposition
-2(iii) pins $g_W=1-\delta_G$. **On the diagonal $\delta=\delta_G$
-neither description applies, and the case must be carried separately.**
-There is no ray, because $g_\varpi$ is then $1-\delta$ itself and the
-two log-rates cannot be separated. Nor is there a stationary positive
-stock per worker, and that needs no computation: on the face the two
-stock laws are divided by the same growth factor, and when the two
-survival rates coincide it cancels from their ratio, leaving
+rest point in the open orthant, which the path is assumed to reach —
+Proposition 2(iii) pins $g_W=1-\delta_G$. **On the diagonal
+$\delta=\delta_G$ neither description applies, and the case must be
+carried separately.** There is no ray, because $g_\varpi$ is then
+$1-\delta$ itself and the two log-rates cannot be separated. Nor is
+there a stationary positive stock per worker, and that needs no
+computation: on the face the two stock laws are divided by the same
+growth factor, and when the two survival rates coincide it cancels from
+their ratio, leaving
 $$\frac{x_{t+1}}{z_{t+1}} \;=\; \frac{x_t}{z_t} \;+\; \frac{\iota\,\alpha Ax_t^{\alpha}}{(1-\delta)\,z_t},
 \qquad \iota \;=\; i(1-\tau) \;\ge\; i(1-\bar\tau) \;>\; 0 . \tag{42}$$
 The growth factor is absent from (42) — it leaves the ratio only on the
@@ -7736,9 +7743,9 @@ $\beta\ge\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$, where
 Proposition 15(i) makes the edge improper — the maximum being the edge’s
 own limiting growth factor in either regime, on the settling hypothesis
 that proposition states where $\delta>\delta_G$ — and, by Proposition
-17, off the diagonal $\delta\ne\delta_G$ an interval strictly below that
-ceiling as well. Far below it the comparison with $\varpi=0$ is
-undischarged.*
+17, off the diagonal $\delta\ne\delta_G$ and with $\delta<1$ an interval
+strictly below that ceiling as well. Far below it the comparison with
+$\varpi=0$ is undischarged.*
 
 Two of that corollary’s three conditions are hypotheses about the
 worker’s problem. The third is not. Whether the collapsed face can be
@@ -7869,12 +7876,15 @@ settling. Write $g$ for the interior profile’s growth factor and*
 $$R \;=\; \big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma_W-1}$$ *for
 the collapsed face’s admissibility ceiling — exact where
 $\delta<\delta_G$ and under Proposition 15(i)’s settling hypothesis, and
-under $\inf_t z_t>0$ alone an upper bound for it, which is all that is
-used. Then there is $\beta^{\sharp}<R$ such that at every
-$\beta\in(\beta^{\sharp},R)$ the worker strictly prefers $(\tau,\varpi)$
-to the collapsed face $(\tau,0)$ from that same start. The interval is
-non-empty, so the disposal of the face reaches strictly below the
-improper region — and reaches it without the concavity hypothesis
+under $\inf_t z_t>0$ alone an upper bound for it, which is all the
+existence of $\beta^{\sharp}$ uses. Then there is $\beta^{\sharp}<R$
+such that at every $\beta\in(\beta^{\sharp},R)$ the worker strictly
+prefers $(\tau,\varpi)$ to the collapsed face $(\tau,0)$ from that same
+start. The interval is non-empty, so where $R$ is the exact ceiling —
+$\delta<\delta_G$, or $\delta>\delta_G$ under the settling hypothesis —
+the disposal of the face reaches strictly below the improper region, and
+under $\inf_t z_t>0$ alone strictly below $R$, which bounds that region
+from above; either way it reaches it without the concavity hypothesis
 Corollary 4 carries.*
 
 *Proof.* With $\sigma_W>1$, maximising the worker’s payoff is minimising
