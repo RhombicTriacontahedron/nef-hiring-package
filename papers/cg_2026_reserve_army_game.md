@@ -1242,14 +1242,18 @@ returns.
 *(iii) Capital’s rest point is nonetheless a saddle.* The Jacobian of
 capital’s own canonical system at the compromise has determinant $$
 \det J \;=\; -(\rho+b)\Big(1 + \frac{\Gamma}{\kappa}\Big)\Big[\beta\,(\rho+b)\,\frac{\Gamma}{\kappa} + b\Big] \;<\; 0 ,
-$$ so the stationary path is, near $v^\ast$, the unique extremal that
-converges: the candidate is isolated, even though (ii) says it cannot be
-certified by curvature. The coefficient that decides the sign is
-$\beta$, Proposition 9’s own, and the sign is a first-branch fact: the
-bracket is positive there, and off the first branch — where it is no
-longer signed, and at $b = 0$ is non-positive, so the saddle would be
-lost — no interior stationary compromise exists at which the determinant
-could be read (Proposition 9).
+$$ so from the stationary employment rate the stationary path is the
+unique extremal that converges: the stable manifold is locally a graph
+over the state — the drift responds positively to the costate, so the
+stable direction is never vertical — and each nearby initial employment
+rate selects exactly one convergent costate. The candidate is isolated,
+even though (ii) says it cannot be certified by curvature. The
+coefficient that decides the sign is $\beta$, Proposition 9’s own, and
+the sign is a first-branch fact: the bracket is positive there, and off
+the first branch — where it is no longer signed, and at $b = 0$ is
+non-positive, so the saddle would be lost — no interior stationary
+compromise exists at which the determinant could be read (Proposition
+9).
 
 *(iv) Witness.* At the four stationary compromises exhibited in the text
 — Proposition 12’s cell and the three rest points of Proposition 13’s —
