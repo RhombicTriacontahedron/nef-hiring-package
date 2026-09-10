@@ -2200,11 +2200,12 @@ $$\mathcal{J} \;=\; \begin{pmatrix} a+\alpha(1-a)-p & -q \\[2pt] \alpha(1-c)-p &
 D \equiv \det\mathcal{J} = a(1-\alpha)(c-q) + \alpha c(1-\gamma), \quad T \equiv \operatorname{tr}\mathcal{J},$$
 *and for all $a,c\in[0,1]$ the three Jury margins satisfy*
 $$1-D \;\ge\; p+q, \qquad 1+T+D \;>\; 1-q, \qquad 1-T+D \;\ge\; 0, \tag{J}$$
-*the first and third with equality **only** at $a=c=1$, that is only
-when $\delta=\delta_G=0$ and $g=1$. Consequently no Neimark–Sacker, flip
-or fold bifurcation occurs at any interior rest point anywhere in the
-admissible parameter space, and every interior rest point is locally
-asymptotically stable.*
+*the first and third with equality **only** at $a=c=1$, that is only at
+$g=1-\delta=1-\delta_G$, a common depreciation floor at which neither
+stock receives net investment, which (A) excludes. Consequently no
+Neimark–Sacker, flip or fold bifurcation occurs at any interior rest
+point anywhere in the admissible parameter space, and every interior
+rest point is locally asymptotically stable.*
 
 *Proof.* **(i)** By $(\star)$, $\ln\nu' = \ln\nu + \ln g_C - \ln g_W$.
 Assumption 2 gives $\ln g_C = \ln B + \gamma\ln c_C$ with
@@ -2425,8 +2426,8 @@ consumption, which is a property of his objective and not of the
 structure.
 
 The two equalities in (J) are not the same event. At $a=c=1$ — that is
-$\delta=\delta_G=0$ with $g=1$, which Assumption 4 excludes — the
-polynomial factors exactly:
+$g=1-\delta=1-\delta_G$, the common depreciation floor Assumption 4
+excludes — the polynomial factors exactly:
 $$\lambda^2-T\lambda+D = \lambda^2-(2-p-q)\lambda+(1-p-q) = (\lambda-1)\big(\lambda-(1-p-q)\big).$$
 What vanishes there is the fold margin, an eigenvalue sitting at $+1$;
 the Neimark–Sacker condition still holds strictly, since $D=1-p-q<1$,
@@ -2460,17 +2461,19 @@ elasticity with respect to the public stock alone. What carries both is
 $\gamma<1$ — the same outer elasticity the fiscal asymmetry of Section 6
 turns on — and it is not a knife edge: at the reported shares a flip
 would require $\gamma \approx 2.2$. The third margin, the fold, does
-approach zero, but only as $\delta$ and $\delta_G$ vanish together with
-growth, which is the familiar unit root of an undepreciating stock and
-is monotone rather than oscillatory. When the two stocks depreciate at
-the same rate one eigenvalue is available exactly: at $\delta=\delta_G$
-we have $a=c$, the rows of $\mathcal{J}-a\mathrm{I}$ coincide
-identically, so $a = (1-\delta)/g$ is an eigenvalue, and interiority
-*is* the stability condition for that mode rather than merely sufficient
-for it. It need not be the leading one — the other root is
-$a(1-\alpha)+\alpha-p-q$, which exceeds $a$ whenever $\alpha(1-a)>p+q$ —
-so the exact value settles that mode and not the spectral radius, which
-is what Theorem 2(iii) bounds.
+approach zero, but only as $g$ falls to a common floor
+$1-\delta=1-\delta_G$ — in the far field, and on the diagonal
+$\delta=\delta_G$ as $i\to0$ (Theorem 2$'$(iii)) — which is the familiar
+unit root of a stock receiving no net investment and is monotone rather
+than oscillatory. When the two stocks depreciate at the same rate one
+eigenvalue is available exactly: at $\delta=\delta_G$ we have $a=c$, the
+rows of $\mathcal{J}-a\mathrm{I}$ coincide identically, so
+$a = (1-\delta)/g$ is an eigenvalue, and interiority *is* the stability
+condition for that mode rather than merely sufficient for it. It need
+not be the leading one — the other root is $a(1-\alpha)+\alpha-p-q$,
+which exceeds $a$ whenever $\alpha(1-a)>p+q$ — so the exact value
+settles that mode and not the spectral radius, which is what Theorem
+2(iii) bounds.
 
 Theorem 2 is a statement about rest points. No equilibrium of this
 chassis can lose stability, so the bifurcation route to a cycle is shut;
@@ -7441,10 +7444,11 @@ $$g_\varpi \;=\; (1-\delta)^{\frac{\alpha\theta}{\alpha\theta+1-\theta}}\,
 *the weighted geometric mean of the two survival factors, which lies
 strictly between them. The ray needs $g_\varpi<1-\delta$ and so exists
 exactly when $\delta<\delta_G$. **Where $\delta>\delta_G$ there is no
-such ray: $z$ settles at a stationary positive value, Proposition 2(iii)
-pins $g_W=1-\delta_G$, properness requires
-$(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge is
-inadmissible-improper and Assumption 5 disposes of it. ⛔ **On the
+such ray: a stationary positive value of $z$ is the path’s only
+candidate limit — that the path settles at it is assumed here, not
+proved — Proposition 2(iii) pins $g_W=1-\delta_G$ there, properness
+requires $(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge
+is inadmissible-improper and Assumption 5 disposes of it. ⛔ **On the
 diagonal $\delta=\delta_G$ neither description holds** — there is no
 ray, and there is no stationary positive stock either, because (42)
 below makes $x/z$ rise strictly at every date; instead $z_t\to0$ and
@@ -7529,14 +7533,15 @@ the ordering of the two depreciation rates, and three cases occur rather
 than two. Where $\delta<\delta_G$, $x_t$ diverges and $g_W$ rises to
 $g_\varpi$ along the ray displayed above. Where $\delta>\delta_G$
 capital survives strictly worse than the public stock, no ray exists,
-and Proposition 2(iii) pins $g_W=1-\delta_G$ at the stationary positive
-stock the face settles at. **On the diagonal $\delta=\delta_G$ neither
-description applies, and the case must be carried separately.** There is
-no ray, because $g_\varpi$ is then $1-\delta$ itself and the two
-log-rates cannot be separated. Nor is there a stationary positive stock,
-and that needs no computation: on the face the two stock laws are
-divided by the same growth factor, and when the two survival rates
-coincide it cancels from their ratio, leaving
+and at the stationary positive stock — the path’s only candidate limit,
+which it is assumed to reach — Proposition 2(iii) pins $g_W=1-\delta_G$.
+**On the diagonal $\delta=\delta_G$ neither description applies, and the
+case must be carried separately.** There is no ray, because $g_\varpi$
+is then $1-\delta$ itself and the two log-rates cannot be separated. Nor
+is there a stationary positive stock, and that needs no computation: on
+the face the two stock laws are divided by the same growth factor, and
+when the two survival rates coincide it cancels from their ratio,
+leaving
 $$\frac{x_{t+1}}{z_{t+1}} \;=\; \frac{x_t}{z_t} \;+\; \frac{\iota\,\alpha Ax_t^{\alpha}}{(1-\delta)\,z_t},
 \qquad \iota \;=\; i(1-\tau) \;\ge\; i(1-\bar\tau) \;>\; 0 . \tag{42}$$
 The growth factor is absent from (42) — it leaves the ratio only on the
@@ -7711,8 +7716,9 @@ the disposal of the collapsed edge. That disposal reaches the whole
 instrument box at $\delta_G=1$; at $\delta_G<1$ it reaches every
 $\beta\ge\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$, where
 Proposition 15(i) makes the edge improper — the maximum being the edge’s
-own limiting growth factor in either regime — and, by Proposition 17, an
-interval strictly below that ceiling as well. Far below it the
+own limiting growth factor in either regime, on the settling hypothesis
+that proposition states where $\delta>\delta_G$ — and, by Proposition
+17, an interval strictly below that ceiling as well. Far below it the
 comparison with $\varpi=0$ is undischarged.*
 
 Two of that corollary’s three conditions are hypotheses about the
@@ -7737,7 +7743,8 @@ $$N_{W,t} \;\ge\; \underline{C}\,N_{W,0}\,g_\varpi^{\,t} , \qquad
 rate is not improvable on the collapsed face: Proposition 15(i) exhibits
 paths whose limiting factor is $g_\varpi$ where $\delta<\delta_G$ and
 $1-\delta_G$ where $\delta\ge\delta_G$ — attained where
-$\delta>\delta_G$, approached from above where $\delta=\delta_G$ — so
+$\delta>\delta_G$ on the settling hypothesis Proposition 15(i) states,
+approached from above where $\delta=\delta_G$ — so
 $\max\{g_\varpi,\,1-\delta_G\}$ is that face’s own limiting factor,
 which is the constant Corollary 4’s scope clause carries, reached in one
 line rather than in two cases. That maximum is **not** the infimum over
@@ -7834,7 +7841,11 @@ $\varpi\in(0,\tau]$ and $i>0$, and evaluate from the interior rest point
 that profile induces. Where $\delta<\delta_G$ the collapsed face’s path
 from that same start has $x_t\to\infty$, geometrically, by Proposition
 17$''$, so **no hypothesis about the path is required**; that path is
-the case Proposition 15(i) isolates as admissible. Write $g$ for the
+the case Proposition 15(i) isolates as admissible. Where
+$\delta>\delta_G$ one hypothesis about the path is required and is
+assumed: its public stock stays bounded away from zero, $\inf_t z_t>0$ —
+the property Proposition 15(i) reads as the face settling at its
+stationary positive stock, and weaker than settling. Write $g$ for the
 interior profile’s growth factor and*
 $$R \;=\; \big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma_W-1}$$ *for
 the collapsed face’s admissibility ceiling. Then there is
@@ -7860,12 +7871,14 @@ $S_{\rm face}(\beta)\uparrow
 S_{\rm face}(R)$ by monotone convergence, and what remains is that
 $S_{\rm face}(R)=+\infty$ — that
 $\big(\Pi_t\big/\max\{g_\varpi,1-\delta_G\}^{t}\big)^{-(\sigma_W-1)}$
-does not vanish. Where $\delta>\delta_G$ it is immediate: Proposition
-2(iii) pins $g_W=1-\delta_G$ at the stationary positive stock the face
-settles at, so $\Pi_t$ is a constant multiple of $(1-\delta_G)^{t}$ from
-that date on. Where $\delta<\delta_G$ the path is the ray, and there
-$(\dagger)$ is two-sided. On the face $\varpi=0$ holds $\kappa_W$
-constant and makes $G_t=(1-\delta_G)^{t}G_0$ exactly, so
+does not vanish. Where $\delta>\delta_G$ it is the hypothesis: the face
+identity displayed next gives $\Pi_t/(1-\delta_G)^{t}=z_0/z_t$ exactly,
+which $\inf_t z_t>0$ keeps bounded above. A path that settles at the
+stationary positive stock, where Proposition 2(iii) pins
+$g_W=1-\delta_G$, satisfies it; settling itself is more than is used.
+Where $\delta<\delta_G$ the path is the ray, and there $(\dagger)$ is
+two-sided. On the face $\varpi=0$ holds $\kappa_W$ constant and makes
+$G_t=(1-\delta_G)^{t}G_0$ exactly, so
 $\ln z_t=\ln z_0+t\ln(1-\delta_G)-u_t$ with equality rather than
 inequality. The capital law gives
 $\ln x_{t+1}=\ln(1-\delta)+\ln x_t+\ln\!\big(1+\psi x_t^{\alpha-1}\big)-\ln g_{W,t}$
