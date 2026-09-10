@@ -2396,29 +2396,35 @@ point, no equilibrium, no objective, no properness and no restriction to
 constant shares — the instrument path is arbitrary in
 $[0,\bar\tau]\times[0,1]^2$ — and both are proved outright, with
 $(\dagger)$’s constant explicit. Two clauses attached to Lemma 3 are
-*not* its own: that the rate is attained is Proposition 15(i)’s and
-Proposition 2(iii)’s, and Corollary 6 adds Assumption 3 for $\sigma_W>1$
-and the parameter condition $\beta<g_\varpi^{\sigma_W-1}$. Proposition
-17 needs Assumptions 1–4 with $\theta\in(0,1)$,
-$\delta,\delta_G\in(0,1)$, **$\delta\ne\delta_G$**, $\tau>0$,
-$\varpi>0$, $i>0$ and evaluation from the rest point the interior
-profile induces; where $\delta<\delta_G$ it carries one hypothesis more,
-that the face’s path from that start has $x_t\to\infty$ — the ray. ⭕
-**That hypothesis is discharged.** Proposition 17$''$ proves
-$x_t\to\infty$ from *every* start with $x_0,z_0>0$, geometrically at the
-rate $c=\gamma(1-\theta)D^{-1}\ln[(1-\delta)/(1-\delta_G)]$, by the
+*not* its own: that the face’s own limiting factor is
+$\max\{g_\varpi,1-\delta_G\}$ is Proposition 15(i)’s — $g_\varpi$ by
+Proposition 17$''$ where $\delta<\delta_G$, $1-\delta_G$ by Proposition
+17$''''$ where $\delta>\delta_G$, approached from above on the diagonal
+— and Corollary 6 adds Assumption 3 for $\sigma_W>1$ and the parameter
+condition $\beta<g_\varpi^{\sigma_W-1}$. Proposition 17 needs
+Assumptions 1–4 with $\theta\in(0,1)$, $\delta,\delta_G\in(0,1)$,
+**$\delta\ne\delta_G$**, $\tau>0$, $\varpi>0$, $i>0$ and evaluation from
+the rest point the interior profile induces; where $\delta<\delta_G$ it
+carries one hypothesis more, that the face’s path from that start has
+$x_t\to\infty$ — the ray. ⭕ **That hypothesis is discharged.**
+Proposition 17$''$ proves $x_t\to\infty$ from *every* start with
+$x_0,z_0>0$, geometrically at the rate
+$c=\gamma(1-\theta)D^{-1}\ln[(1-\delta)/(1-\delta_G)]$, by the
 substitution behind (43) carried through with both depreciation rates.
 So where $\delta<\delta_G$ Proposition 17 no longer leans on a property
 of the path, and the rate the ray attains is named rather than assumed
-to exist; where $\delta>\delta_G$ it still assumes one — that the face’s
-public stock per worker stays bounded away from zero, the property
-Proposition 15(i) reads as settling — and its statement now says so. The
-diagonal is excluded, and the exclusion is substantive rather than tidy:
-there the face’s product carries the polynomial factor $t^{\mathcal{C}}$
-of (41), its series at the ceiling converges once
-$\sigma_W>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, and the disposal is
-then undischarged at **every** discount factor. ⭕ It is also, at one
-cell, **refuted as a universal**: at
+to exist; where $\delta>\delta_G$ it used to assume one — that the
+face’s public stock per worker stays bounded away from zero — and ⭕
+**that hypothesis is discharged too**: Proposition 17$''''$ proves that
+the face’s path settles at its stationary positive stock per worker from
+*every* start with $x_0,z_0>0$, which gives both $\inf_t z_t>0$ and —
+through $z_t\to z^{\circ}>0$, which is more — that $R$ is the exact
+ceiling in both regimes. The diagonal is excluded, and the exclusion is
+substantive rather than tidy: there the face’s product carries the
+polynomial factor $t^{\mathcal{C}}$ of (41), its series at the ceiling
+converges once $\sigma_W>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, and the
+disposal is then undischarged at **every** discount factor. ⭕ It is
+also, at one cell, **refuted as a universal**: at
 $\alpha=\theta=\gamma=\delta=\delta_G=\tfrac12$, $A=1$, $B=\tfrac18$,
 $\bar\tau=\tfrac12$, $\sigma_W=7$, $\beta=\tfrac{63}{64}R$ and the start
 $(1,558)$, the collapsed face is the worker’s argmin over a
@@ -2438,23 +2444,23 @@ which is Assumption 2’s $\gamma<1$, so no hypothesis is added anywhere.
 are *conclusions* of Proposition 17$'$ rather than assumptions; and
 because the same substitution never used $\delta=\delta_G$, Proposition
 17$''$ carries it to $\delta<\delta_G$ and discharges the ray outright —
-see the entry for Proposition 17 below. Between them the collapsed
-face’s path is a theorem about primitives everywhere except
-$\delta>\delta_G$, where Proposition 2(iii) characterises the stationary
-positive stock per worker but the path’s settling there — or the weaker
-bound $\inf_t z_t>0$ that Proposition 17 actually uses — is assumed, not
-proved. ⚠ What remains undischarged on the diagonal is the **disposal**
-of the face above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof
-sharpens and does not narrow. The case exclusion never depended on the
-exponent’s exact value, only on the factor being polynomial rather than
-constant. Proposition 17 itself is proved on its stated domain, and its
-conclusion is an existence statement about $\beta^\sharp$, not a formula
-for it. The closed form $\beta_\dagger$ reported beside it is the
-divergence rate of the marginal value of the public source on the ray
-and is **not** claimed to equal $\beta^\sharp$: the step from a
-divergent one-sided derivative to a strict payoff ordering is not taken.
-Where the two cells at
-$(\delta,\delta_G,\theta,\sigma)=(0.10,0.70,0.60,2.5)$ and
+see the entry for Proposition 17 above. Proposition 17$''''$ closes the
+remaining regime: where $\delta>\delta_G$ the face’s path settles at the
+stationary positive stock per worker Proposition 2(iii) characterises,
+from every start, so the collapsed face’s path is a theorem about
+primitives at every ordering of the two depreciation rates with
+$\delta_G<1$, Proposition 15(i)’s $z_1=0$ covering $\delta_G=1$. ⚠ What
+remains undischarged on the diagonal is the **disposal** of the face
+above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof sharpens
+and does not narrow. The case exclusion never depended on the exponent’s
+exact value, only on the factor being polynomial rather than constant.
+Proposition 17 itself is proved on its stated domain, and its conclusion
+is an existence statement about $\beta^\sharp$, not a formula for it.
+The closed form $\beta_\dagger$ reported beside it is the divergence
+rate of the marginal value of the public source on the ray and is
+**not** claimed to equal $\beta^\sharp$: the step from a divergent
+one-sided derivative to a strict payoff ordering is not taken. Where the
+two cells at $(\delta,\delta_G,\theta,\sigma)=(0.10,0.70,0.60,2.5)$ and
 $(0.04,0.35,0.75,3.0)$ return the face under a search over $\varpi$,
 they refute a universal and establish no region. Proposition 17$'''$
 needs Assumptions 1–4 with $\theta\in(0,1)$, $\delta,\delta_G\in(0,1)$,
@@ -2466,8 +2472,16 @@ which is where it differs from Proposition 17. Both regimes are proved.
 direction**: finiteness below the joint bound holds at every member of
 the family, while above the bound the exit statement is conditional on
 some member being admissible, and no clause here establishes that one
-is. Proposition 16 and Corollary 5 need Assumptions 1–3 and 5 with
-$\theta\in(0,1)$, $x_0,z_0>0$, $i>0$ and $\delta=\delta_G=1$; they
+is. Proposition 17$''''$ needs Assumptions 1–2 with $\theta\in(0,1)$,
+$\delta_G<\delta$ — so $\delta_G<1$, while $\delta=1$ is allowed —
+$i>0$, $\tau\le\bar\tau<1$, $\varpi=0$ and $x_0,z_0>0$, and nothing
+else: the order preservation it turns on is $1-D>0$ with Lemma 3’s
+$D=\gamma[\alpha\theta+1-\theta]$, which is Assumption 2’s $\gamma<1$,
+and its squeeze uses no linearisation, no convergence theorem imported
+from outside, and no rest point other than the one it exhibits. It is
+the $\delta>\delta_G$ counterpart of Proposition 17$''$ and, unlike it,
+names no rate. Proposition 16 and Corollary 5 need Assumptions 1–3 and 5
+with $\theta\in(0,1)$, $x_0,z_0>0$, $i>0$ and $\delta=\delta_G=1$; they
 discharge that hypothesis outright on that face and on no wider set,
 Computation 1’s cells not lying on it. Part (iv) of Proposition 13
 proves the vacuity of $(\ast)$ there and *not* its date-wise clause,
