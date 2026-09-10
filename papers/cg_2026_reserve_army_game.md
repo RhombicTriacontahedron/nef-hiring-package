@@ -2376,13 +2376,23 @@ $1.162$ on the finest grid — within $0.2$ to $0.6$ per cent of the
 closed form, on a window of fixed width in $x$ that the three grids
 refine — while the second difference read at the node itself overstates
 it by $28$ to $42$ per cent, the scheme’s artefact at the one node where
-the stencil straddles the switch. The comparison with the first
-derivative is closed-form too: $W'(x^\ast) = p^\ast$, which at $c = 0$ —
-every exhibited cell’s case — is $(1+\lambda)/(\rho(1+u))$ by
-Proposition 7 and the stationary condition, so
-$\mathrm{d}^2W/\mathrm{d}v^2 = (W'' - p^\ast)/v^{\ast 2}$ is negative
-exactly where $(\lambda_- + |F_x|)(1+\lambda) < \rho(1+u)$. That
-inequality holds at the four cells
+the stencil straddles the switch. The residual is the window’s, not the
+scheme’s: a quadratic fitted on a one-sided window reads $W''$ at the
+window’s midpoint, so the fit carries a bias of $W'''(x^\ast)$ times the
+midpoint’s offset from $x^\ast$ — $-0.0165$ here — and $W'''(x^\ast)$ is
+itself a closed form, the stable manifold’s second-order coefficient,
+between $-0.38$ and $+1.05$ across the five cells; regressing the fit on
+the midpoint across five windows of the same width returns the
+closed-form $W''(x^\ast)$ at the four cells, and at the fifth below, to
+within $0.001$ per cent on a grid sixteen times finer, and the bias it
+removes is the one the closed-form $W'''$ predicts
+(`models/reserve_army_game/fit_window_bias_decomposition_2026_09_10_6d285664.py`).
+The comparison with the first derivative is closed-form too:
+$W'(x^\ast) = p^\ast$, which at $c = 0$ — every exhibited cell’s case —
+is $(1+\lambda)/(\rho(1+u))$ by Proposition 7 and the stationary
+condition, so $\mathrm{d}^2W/\mathrm{d}v^2 = (W'' - p^\ast)/v^{\ast 2}$
+is negative exactly where $(\lambda_- + |F_x|)(1+\lambda) < \rho(1+u)$.
+That inequality holds at the four cells
 ($\mathrm{d}^2W/\mathrm{d}v^2 = -10.8$, $-9.8$, $-8.9$, $-8.5$), and on
 the face $b = \lambda = c = 0$, where it reduces to $\lambda_- < \rho$,
 it holds at every first-branch compromise (`unsat`); on the first branch
@@ -2394,14 +2404,14 @@ $v^\ast = 0.700$, a ceiling three times as steep as Proposition 13’s —
 the same computation returns the stationary share as capital’s optimal
 feedback and $v^\ast$ as a stable rest point, while the closed form
 gives $W''(x^\ast) = 3.03 > p^\ast = 2.50$ and the computed value
-confirms it off the node: capital’s value there is convex in the
-employment rate as well. At the compromise, then, the value’s convexity
-in log-employment is the first branch’s, conditional on the
-identification; its curvature in the employment rate is the cell’s. And
-(ii) is likewise a statement in $\ln v$: read in $v$, the maximised
-Hamiltonian adds the concave $\alpha\ln v$,
-$\alpha = (1+\lambda) + b\,(p^C_y - p^C_x) > 0$, to the convex
-$\bar e(v)$, so
+confirms it off the node, to five figures once the window’s bias is
+removed: capital’s value there is convex in the employment rate as well.
+At the compromise, then, the value’s convexity in log-employment is the
+first branch’s, conditional on the identification; its curvature in the
+employment rate is the cell’s. And (ii) is likewise a statement in
+$\ln v$: read in $v$, the maximised Hamiltonian adds the concave
+$\alpha\ln v$, $\alpha = (1+\lambda) + b\,(p^C_y - p^C_x) > 0$, to the
+convex $\bar e(v)$, so
 $\mathrm{d}^2H^\ast_C/\mathrm{d}v^2 = \big[\zeta(\zeta+1)P_C\bar e/\kappa - \alpha\big]/v^2$
 at the stationary costate, whose sign is not fixed — negative at
 Proposition 12’s cell, positive at Proposition 13’s three (the same file
