@@ -7843,10 +7843,10 @@ from that same start has $x_t\to\infty$, geometrically, by Proposition
 17$''$, so **no hypothesis about the path is required**; that path is
 the case Proposition 15(i) isolates as admissible. Where
 $\delta>\delta_G$ one hypothesis about the path is required and is
-assumed: its public stock stays bounded away from zero, $\inf_t z_t>0$ —
-the property Proposition 15(i) reads as the face settling at its
-stationary positive stock, and weaker than settling. Write $g$ for the
-interior profile’s growth factor and*
+assumed: its public stock per worker stays bounded away from zero,
+$\inf_t z_t>0$ — the property Proposition 15(i) reads as the face
+settling at its stationary positive stock, and weaker than settling.
+Write $g$ for the interior profile’s growth factor and*
 $$R \;=\; \big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma_W-1}$$ *for
 the collapsed face’s admissibility ceiling. Then there is
 $\beta^{\sharp}<R$ such that at every $\beta\in(\beta^{\sharp},R)$ the
