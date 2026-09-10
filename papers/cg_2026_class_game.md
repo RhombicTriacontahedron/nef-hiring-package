@@ -4,100 +4,33 @@ Carlos Galindo Escajeda
 
 # Abstract
 
-A two-class economy whose composition has settled must reproduce both
-classes at the same rate. That is an accounting identity, and it appears
-to leave redistribution nothing to do. This paper shows that the
-identity pins one coordinate and frees two others, and that a single
-fiscal instrument reaches both of the free ones.
+A state taxes capital income and builds the physical infrastructure of
+subsistence. A tax-financed public input is familiar in growth theory;
+its place here is not: it accumulates in the reproduction of labour
+rather than the production function, and the model closes with two
+classes setting fiscal instruments against each other.
 
-The identity equalises a reproduction *index*. Where a worker is
-reproduced by private consumption together with a publicly provided
-stock, that index is a composite, and equalising a composite does not
-equalise its parts. At any interior stationary class ratio — whether or
-not it is an equilibrium, and whatever either class maximises — the
-private consumption gap is a closed form in public provision per worker.
-Along the locus that holds reproduction equal, the elasticity of the
-worker’s private claim with respect to provision is constant at
-$-(1-\theta)/\theta$. And the owner consumes more privately than the
-worker exactly when provision per worker exceeds the worker’s own claim.
-Capital-funded provision in kind does not arrive on top of the wage. It
-displaces it.
+With the population’s composition settled, both classes grow at one rate
+and an accounting identity appears to leave the policy nothing to do.
+The identity equalises a reproduction *index*, and equalising a
+composite does not equalise its parts: it pins a class’s reproduced
+condition and frees two coordinates one instrument reaches. At any
+interior stationary class ratio the private consumption gap is a closed
+form in provision per worker, and along the locus holding reproduction
+equal the elasticity of the worker’s private claim to provision is
+constant at $-(1-\theta)/\theta$. Capital-funded provision in kind does
+not arrive on top of the wage; it displaces it. The stationary
+owner-to-worker ratio is a second closed form from which capital
+cancels, and a higher tax on capital income lowers it strictly at every
+admissible interior point.
 
-None of that displacement is legible in the total a budget publishes.
-Cash and provision sum to the same receipt at every split, so the total
-is silent by construction; and where the growth-maximising split is
-interior, the growth factor and the relative size of the two classes
-fall silent as well, over an upper band of splits the model names.
-Inside that band a thrifty state and a lavish one show the same growth,
-the same capital intensity, the same class ratio and the same total;
-what still separates them is the worker’s private claim, provision per
-worker, and the gap between the two classes’ private consumption.
-Outside it — and everywhere when the growth peak is not interior, which
-is where every equilibrium this paper computes lies — those same numbers
-identify the split exactly.
-
-The funding route is the policy rather than its implementation. If the
-public input is reproduction-relevant and nothing is spent building it,
-worker growth is pinned at the stock’s own survival rate at every
-stationary positive stock per worker, whatever the tax rate, and no such
-configuration has an interior rest point. Taxing capital at the ceiling
-and paying the whole receipt out as cash leaves worker reproduction
-exactly where no taxation leaves it. Once some revenue does reach the
-stock and the reinvestment rate is interior, the interior rest point of
-$(\star)$ can fail to exist only at the no-social-wage corner, only
-where the public stock outlasts capital, and only below a closed-form
-floor on net reinvestment.
-
-What the identity leaves entirely free is the relative number on each
-side. The stationary ratio of owners to workers is a closed form in the
-instruments and the growth factor from which the capital stock cancels.
-A higher tax on capital income lowers it strictly at every admissible
-interior point and at every weight on public provision. Reinvestment is
-the instrument whose direction turns, and the turning is exact: where
-the public stock depreciates no faster than capital, reinvestment
-reverses its private-consumption-only direction; where it depreciates
-faster, reversal occurs exactly when the reproduction scale exceeds a
-closed-form threshold $B^\ast$.
-
-Underneath the fiscal contest sits a price nobody sets. The owner’s
-objective contains his own consumption and his owned capital, no term in
-the number of workers, and no altruism parameter. His own optimisation
-nonetheless returns a strictly positive marginal value of the workforce,
-in closed form, at every admissible constant-share rest point, carrying
-labour’s share of output as its factor — through the production function
-and the competitive wage rather than through anything he wants. The
-persistence of the working class is thereby obtained as a condition of
-the accumulation of capital rather than imposed as one.
-
-That persistence has a second and blunter source, and it does not go
-through anyone’s optimisation. Labour is paid its marginal product
-before the state acts on the remainder, so the worker’s private claim
-never falls below labour’s share of output; and the workforce **level**
-therefore never falls below a fixed multiple of the geometric path built
-from the weighted geometric mean of the two stocks’ survival factors —
-weights supplied by the production and reproduction elasticities, and no
-instrument entering at all. The multiple is one exactly when the start’s
-own guaranteed reproduction factor already reaches that mean, and from
-any interior start the long-run factor is at least the mean. What the
-floor does not bound is the one-period factor, which a poor start pushes
-below the mean: it is the level path that is underwritten, and the
-distinction is the difference between a cumulative bound and a
-date-by-date one. The bound holds under every path of taxes, spending
-splits and reinvestment rates, including paths outside the class of
-constant shares and paths nobody would choose; and where capital
-outlives the public stock it is not merely a bound but the exact
-infimum, attained on the one configuration that funds nothing at all.
-The owner has no counterpart: his own consumption share can be driven to
-zero on the same box. Two things follow. The worker’s convergence
-condition stops being a restriction on play and becomes a restriction on
-parameters; and the configuration that funds nothing and hands the whole
-receipt back as cash is beaten, on payoff, by a funded profile whenever
-the worker is patient enough — beaten because it grows more slowly than
-the funded profile it is set against, at the same tax and reinvestment
-rates, and so is the first of the two that discounting punishes, not
-because provision is worth more to him at the margin. It is not the
-slowest-growing path in the instrument box, and nothing here needs it to
-be.
+The owner’s objective carries no term in worker numbers and no altruism
+parameter. His own optimisation nonetheless returns a strictly positive
+marginal value of the workforce, in closed form, at every admissible
+constant-share rest point, through the production function and the
+competitive wage, not anything he wants. The persistence of the working
+class is thereby obtained as a condition of capital’s own accumulation
+rather than imposed as one.
 
 **Keywords:** public provision; social wage; dynamic game; class
 structure; fiscal incidence; endogenous population; in-kind transfers.
