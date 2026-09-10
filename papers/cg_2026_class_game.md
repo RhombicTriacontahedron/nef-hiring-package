@@ -7078,12 +7078,19 @@ path.
 
 Nothing ties the split to the point $s$: the contraction neighbourhood
 and $\bar\rho$ serve every share near $s$ at once, the rest point moving
-continuously, and the date $U$ survives small changes of the share
-because it is reached through finitely many smooth compositions — so the
-bound is locally uniform in the share, and so — once the neighbourhood
-is taken small enough that $\beta g_W^{1-\sigma}\le\tilde\beta'$ holds
-on it — is the date from which the weights are geometrically dominated,
-which is what differentiating the series term by term asks.
+continuously — and the neighbourhood is forward invariant: a ball about
+the rest point in the adapted norm on which $\|\mathcal{J}\|\le\bar\rho$
+is carried into itself by the constant-share transition, since the
+mean-value inequality gives
+$\|\xi_{u+1}-\xi^\ast\|\le\bar\rho\,\|\xi_u-\xi^\ast\|$ whenever $\xi_u$
+lies in it, so a path that enters it stays in it and converges, at the
+share in question and, the ball shrunk if need be, at every share near
+it — and the date $U$ survives small changes of the share because it is
+reached through finitely many smooth compositions — so the bound is
+locally uniform in the share, and so — once the neighbourhood is taken
+small enough that $\beta g_W^{1-\sigma}\le\tilde\beta'$ holds on it — is
+the date from which the weights are geometrically dominated, which is
+what differentiating the series term by term asks.
 
 The far-field unit root is not contradicted but located: as the start
 recedes, $U$ and with it the bound grow without limit, so the argument
@@ -7474,9 +7481,10 @@ such ray: a stationary positive value of $z$ is the face map’s only rest
 point in the open orthant $x,z\in(0,\infty)$, not interior in Assumption
 4’s sense since the public stock receives no gross investment there —
 that the path settles at it is assumed here, not proved — Proposition
-2(iii) pins $g_W=1-\delta_G$ there, properness requires
-$(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge is
-inadmissible-improper and Assumption 5 disposes of it. ⛔ **On the
+2(iii) pins $g_W=1-\delta_G$ there (its $\delta_G<1$ half uses only
+$\varpi=0$, so it reaches the corner $\tau=0$ at any $\phi$), properness
+requires $(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge
+is inadmissible-improper and Assumption 5 disposes of it. ⛔ **On the
 diagonal $\delta=\delta_G$ neither description holds** — there is no
 ray, and there is no stationary positive stock per worker either,
 because (42) below makes $x/z$ rise strictly at every date; instead
@@ -7566,10 +7574,11 @@ $g_\varpi$ along the ray displayed above. Where $\delta>\delta_G$
 capital survives strictly worse than the public stock, no ray exists,
 and at the stationary positive stock per worker — the face map’s only
 rest point in the open orthant, which the path is assumed to reach —
-Proposition 2(iii) pins $g_W=1-\delta_G$. **On the diagonal
-$\delta=\delta_G$ neither description applies, and the case must be
-carried separately.** There is no ray, because $g_\varpi$ is then
-$1-\delta$ itself and the two log-rates cannot be separated. Nor is
+Proposition 2(iii) pins $g_W=1-\delta_G$, its $\delta_G<1$ half using
+only $\varpi=0$ and so reaching the corner $\tau=0$ at any $\phi$. **On
+the diagonal $\delta=\delta_G$ neither description applies, and the case
+must be carried separately.** There is no ray, because $g_\varpi$ is
+then $1-\delta$ itself and the two log-rates cannot be separated. Nor is
 there a stationary positive stock per worker, and that needs no
 computation: on the face the two stock laws are divided by the same
 growth factor, and when the two survival rates coincide it cancels from
