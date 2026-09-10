@@ -1243,10 +1243,11 @@ returns.
 capital’s own canonical system at the compromise has determinant $$
 \det J \;=\; -(\rho+b)\Big(1 + \frac{\Gamma}{\kappa}\Big)\Big[\beta\,(\rho+b)\,\frac{\Gamma}{\kappa} + b\Big] \;<\; 0 ,
 $$ so from the stationary employment rate the stationary path is, near
-$v^\ast$, the unique extremal that converges: the stable manifold is
-locally a graph over the state — the drift responds positively to the
-costate, so the stable direction is never vertical — and each nearby
-initial employment rate selects exactly one convergent costate. The
+the compromise, the unique solution of the canonical system that
+converges: the stable manifold is locally a graph over the state — the
+drift responds positively to the costate, so the stable direction is
+never vertical — and each nearby initial employment rate selects exactly
+one costate whose path converges without leaving that neighbourhood. The
 candidate is isolated, even though (ii) says it cannot be certified by
 curvature. The coefficient that decides the sign is $\beta$, Proposition
 9’s own, and the sign is a first-branch fact: the bracket is positive
@@ -2615,9 +2616,11 @@ difference — must sign negative, and the core itself — $\zeta = 0$ at a
 cell whose core rest point is interior, where the value is affine in $x$
 by Proposition 3 — on which both must return a vanishing second
 derivative and Proposition 3’s costate, and the node reader the core’s
-share as well, so that the curvature read at $\zeta > 0$ is the
-ceiling’s and not the scheme’s. The open half is hunted, not
-established, in
+share as well, so that neither reader manufactures curvature on an
+affine value; the scheme’s artefact at the switch scales with the
+curvature and cannot show at $\zeta = 0$, and its absence from the fit
+is evidenced by the fit’s agreement with the closed form, not by this
+control. The open half is hunted, not established, in
 `models/reserve_army_game/capital_optimality_hunt_2026_09_10_0e918b12.py`:
 400 pinned-branch cells drawn with $\zeta$ pinned to a target $\beta$
 and $\hat\omega \le \kappa\rho$, $\zeta$ up to $10$, $\beta$ down to
