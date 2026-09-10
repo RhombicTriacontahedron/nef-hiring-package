@@ -2404,11 +2404,11 @@ substitution behind (43) carried through with both depreciation rates.
 So where $\delta<\delta_G$ Proposition 17 no longer leans on a property
 of the path, and the rate the ray attains is named rather than assumed
 to exist; where $\delta>\delta_G$ it still assumes one — that the face’s
-public stock stays bounded away from zero, the property Proposition
-15(i) reads as settling — and its statement now says so. The diagonal is
-excluded, and the exclusion is substantive rather than tidy: there the
-face’s product carries the polynomial factor $t^{\mathcal{C}}$ of (41),
-its series at the ceiling converges once
+public stock per worker stays bounded away from zero, the property
+Proposition 15(i) reads as settling — and its statement now says so. The
+diagonal is excluded, and the exclusion is substantive rather than tidy:
+there the face’s product carries the polynomial factor $t^{\mathcal{C}}$
+of (41), its series at the ceiling converges once
 $\sigma_W>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, and the disposal is
 then undischarged at **every** discount factor. ⭕ It is also, at one
 cell, **refuted as a universal**: at
