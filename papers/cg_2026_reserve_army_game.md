@@ -1242,18 +1242,18 @@ returns.
 *(iii) Capital’s rest point is nonetheless a saddle.* The Jacobian of
 capital’s own canonical system at the compromise has determinant $$
 \det J \;=\; -(\rho+b)\Big(1 + \frac{\Gamma}{\kappa}\Big)\Big[\beta\,(\rho+b)\,\frac{\Gamma}{\kappa} + b\Big] \;<\; 0 ,
-$$ so from the stationary employment rate the stationary path is the
-unique extremal that converges: the stable manifold is locally a graph
-over the state — the drift responds positively to the costate, so the
-stable direction is never vertical — and each nearby initial employment
-rate selects exactly one convergent costate. The candidate is isolated,
-even though (ii) says it cannot be certified by curvature. The
-coefficient that decides the sign is $\beta$, Proposition 9’s own, and
-the sign is a first-branch fact: the bracket is positive there, and off
-the first branch — where it is no longer signed, and at $b = 0$ is
-non-positive, so the saddle would be lost — no interior stationary
-compromise exists at which the determinant could be read (Proposition
-9).
+$$ so from the stationary employment rate the stationary path is, near
+$v^\ast$, the unique extremal that converges: the stable manifold is
+locally a graph over the state — the drift responds positively to the
+costate, so the stable direction is never vertical — and each nearby
+initial employment rate selects exactly one convergent costate. The
+candidate is isolated, even though (ii) says it cannot be certified by
+curvature. The coefficient that decides the sign is $\beta$, Proposition
+9’s own, and the sign is a first-branch fact: the bracket is positive
+there, and off the first branch — where it is no longer signed, and at
+$b = 0$ is non-positive, so the saddle would be lost — no interior
+stationary compromise exists at which the determinant could be read
+(Proposition 9).
 
 *(iv) Witness.* At the four stationary compromises exhibited in the text
 — Proposition 12’s cell and the three rest points of Proposition 13’s —
@@ -2609,13 +2609,15 @@ by the same fit, against the closed form, at the four cells and at the
 fifth, where the sign in $v$ reverses — with the second difference at
 the node itself printed alongside as the scheme’s overstatement,
 recorded and not used; and the sign of (ii)’s curvature in $v$ at the
-stationary costate. Its controls are a concave test function the
-second-difference reader must sign negative, and the core itself —
-$\zeta = 0$ at a cell whose core rest point is interior, where the value
-is affine in $x$ by Proposition 3 — on which the reader must return a
-vanishing second difference, Proposition 3’s costate and the core’s
-share, so that the curvature read at $\zeta > 0$ is the ceiling’s and
-not the scheme’s. The open half is hunted, not established, in
+stationary costate. Its controls are a concave test function that both
+readers — the one-sided fit the readings use, and the node second
+difference — must sign negative, and the core itself — $\zeta = 0$ at a
+cell whose core rest point is interior, where the value is affine in $x$
+by Proposition 3 — on which both must return a vanishing second
+derivative and Proposition 3’s costate, and the node reader the core’s
+share as well, so that the curvature read at $\zeta > 0$ is the
+ceiling’s and not the scheme’s. The open half is hunted, not
+established, in
 `models/reserve_army_game/capital_optimality_hunt_2026_09_10_0e918b12.py`:
 400 pinned-branch cells drawn with $\zeta$ pinned to a target $\beta$
 and $\hat\omega \le \kappa\rho$, $\zeta$ up to $10$, $\beta$ down to
