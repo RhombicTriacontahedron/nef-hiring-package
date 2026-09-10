@@ -20,9 +20,9 @@ form in provision per worker, and along the locus holding reproduction
 equal the elasticity of the worker’s private claim to provision is
 constant at $-(1-\theta)/\theta$. Capital-funded provision in kind does
 not arrive on top of the wage; it displaces it. The stationary
-owner-to-worker ratio is a second closed form from which capital
-cancels, and a higher tax on capital income lowers it strictly at every
-admissible interior point.
+owner-to-worker ratio is a second closed form from which the capital
+stock cancels, and a higher tax on capital income lowers it strictly at
+every admissible interior point and every weight on public provision.
 
 The owner’s objective carries no term in worker numbers and no altruism
 parameter. His own optimisation nonetheless returns a strictly positive
