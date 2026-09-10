@@ -179,16 +179,20 @@ consumption his workers’ product finances, and the capital that same
 product helps accumulate — and the production function and the
 competitive wage, not his preferences, put them there.
 
-**Premises and conclusions.** The apparatus is standard throughout:
-Cobb–Douglas production, factors paid their marginal products,
-discounted dynamic optimisation, Nash equilibrium in a restricted
-strategy class, envelope conditions. Nothing unorthodox is assumed
-anywhere. The conclusions — that reproduced condition is unreachable
-while relative numbers are not; that capital-funded provision displaces
-the wage rather than supplementing it; that cash and provision in kind
-are not two implementations of one policy; that an owner indifferent to
-worker numbers is nonetheless made to price their reproduction — follow
-from those premises, and cannot be declined by declining a premise.
+**Premises and conclusions.** The analytical apparatus is standard
+throughout: Cobb–Douglas production, factors paid their marginal
+products, discounted dynamic optimisation, Nash equilibrium in a
+restricted strategy class, envelope conditions. What is nonstandard is
+not the apparatus but the primitives, and they are few and named: a
+class-specific reproduction technology, asymmetric payoff objects, and
+the assignment of the fiscal instruments to one class. The conclusions —
+that reproduced condition is unreachable while relative numbers are not;
+that capital-funded provision displaces the wage rather than
+supplementing it; that cash and provision in kind are not two
+implementations of one policy; that an owner indifferent to worker
+numbers is nonetheless made to price their reproduction — follow from
+those premises, so declining one of them means naming which primitive is
+being declined.
 
 **Relation to the literature.** The chassis is a one-sector optimal
 growth model with two dynasties and a public stock. It departs from the
