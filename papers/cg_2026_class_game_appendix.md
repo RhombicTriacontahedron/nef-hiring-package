@@ -2401,11 +2401,14 @@ that the face’s path from that start has $x_t\to\infty$ — the ray. ⭕
 $x_t\to\infty$ from *every* start with $x_0,z_0>0$, geometrically at the
 rate $c=\gamma(1-\theta)D^{-1}\ln[(1-\delta)/(1-\delta_G)]$, by the
 substitution behind (43) carried through with both depreciation rates.
-So Proposition 17 no longer leans on a property of the path anywhere,
-and the rate the ray attains is named rather than assumed to exist. The
-diagonal is excluded, and the exclusion is substantive rather than tidy:
-there the face’s product carries the polynomial factor $t^{\mathcal{C}}$
-of (41), its series at the ceiling converges once
+So where $\delta<\delta_G$ Proposition 17 no longer leans on a property
+of the path, and the rate the ray attains is named rather than assumed
+to exist; where $\delta>\delta_G$ it still assumes one — that the face’s
+public stock stays bounded away from zero, the property Proposition
+15(i) reads as settling — and its statement now says so. The diagonal is
+excluded, and the exclusion is substantive rather than tidy: there the
+face’s product carries the polynomial factor $t^{\mathcal{C}}$ of (41),
+its series at the ceiling converges once
 $\sigma_W>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, and the disposal is
 then undischarged at **every** discount factor. ⭕ It is also, at one
 cell, **refuted as a universal**: at
@@ -2430,18 +2433,20 @@ because the same substitution never used $\delta=\delta_G$, Proposition
 17$''$ carries it to $\delta<\delta_G$ and discharges the ray outright —
 see the entry for Proposition 17 below. Between them the collapsed
 face’s path is a theorem about primitives everywhere except
-$\delta>\delta_G$, where Proposition 2(iii) already supplies the
-stationary positive stock. ⚠ What remains undischarged on the diagonal
-is the **disposal** of the face above $\sigma_W=1+1/\mathcal{C}$, which
-the exponent’s proof sharpens and does not narrow. The case exclusion
-never depended on the exponent’s exact value, only on the factor being
-polynomial rather than constant. Proposition 17 itself is proved on its
-stated domain, and its conclusion is an existence statement about
-$\beta^\sharp$, not a formula for it. The closed form $\beta_\dagger$
-reported beside it is the divergence rate of the marginal value of the
-public source on the ray and is **not** claimed to equal $\beta^\sharp$:
-the step from a divergent one-sided derivative to a strict payoff
-ordering is not taken. Where the two cells at
+$\delta>\delta_G$, where Proposition 2(iii) characterises the stationary
+positive stock but the path’s settling there — or the weaker bound
+$\inf_t z_t>0$ that Proposition 17 actually uses — is assumed, not
+proved. ⚠ What remains undischarged on the diagonal is the **disposal**
+of the face above $\sigma_W=1+1/\mathcal{C}$, which the exponent’s proof
+sharpens and does not narrow. The case exclusion never depended on the
+exponent’s exact value, only on the factor being polynomial rather than
+constant. Proposition 17 itself is proved on its stated domain, and its
+conclusion is an existence statement about $\beta^\sharp$, not a formula
+for it. The closed form $\beta_\dagger$ reported beside it is the
+divergence rate of the marginal value of the public source on the ray
+and is **not** claimed to equal $\beta^\sharp$: the step from a
+divergent one-sided derivative to a strict payoff ordering is not taken.
+Where the two cells at
 $(\delta,\delta_G,\theta,\sigma)=(0.10,0.70,0.60,2.5)$ and
 $(0.04,0.35,0.75,3.0)$ return the face under a search over $\varpi$,
 they refute a universal and establish no region. Proposition 17$'''$
