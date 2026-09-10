@@ -7041,13 +7041,16 @@ $\beta^{t}N_{W,t}^{1-\sigma}=N_{W,0}^{1-\sigma}\prod_{u<t}\beta g_{W,u}^{1-\sigm
 which equal $N_{W,0}^{1-\sigma}\tilde\beta^{t}$ on the balanced path and
 not off it. Off it, each factor $\beta g_{W,u}^{1-\sigma}$ converges to
 the rest point’s $\tilde\beta<1$ because the path does, so from some
-date on — one that, by the contraction neighbourhood below, serves every
-share near $s$ at once — it lies below $\tilde\beta'$ and the weights
-are bounded by a multiple of $\tilde\beta'^{t}$ — convergence to the
-rest point, not properness date by date, is what the domination uses,
-and is why the basin is the hypothesis stated rather than properness
-alone. The linear growth in $t$ is the price of a permanent rather than
-transitory deviation.
+date on — one that serves every share near $s$ at once, by the
+contraction neighbourhood below, shrunk if need be until
+$\beta g_W^{1-\sigma}\le\tilde\beta'$ holds on it for every such share,
+as continuity of $g_W$ in the state and the share and $\tilde\beta<1$ at
+the rest point allow — it lies below $\tilde\beta'$ and the weights are
+bounded by a multiple of $\tilde\beta'^{t}$ — convergence to the rest
+point, not properness date by date, is what the domination uses, and is
+why the basin is the hypothesis stated rather than properness alone. The
+linear growth in $t$ is the price of a permanent rather than transitory
+deviation.
 
 The basin clause of the hypothesis is an argument and not an appeal, and
 it is worth writing out because the far-field unit root Section 7
@@ -7077,9 +7080,10 @@ Nothing ties the split to the point $s$: the contraction neighbourhood
 and $\bar\rho$ serve every share near $s$ at once, the rest point moving
 continuously, and the date $U$ survives small changes of the share
 because it is reached through finitely many smooth compositions — so the
-bound is locally uniform in the share, and so is the date from which the
-weights are geometric, which is what differentiating the series term by
-term asks.
+bound is locally uniform in the share, and so — once the neighbourhood
+is taken small enough that $\beta g_W^{1-\sigma}\le\tilde\beta'$ holds
+on it — is the date from which the weights are geometrically dominated,
+which is what differentiating the series term by term asks.
 
 The far-field unit root is not contradicted but located: as the start
 recedes, $U$ and with it the bound grow without limit, so the argument
@@ -7478,25 +7482,28 @@ ray, and there is no stationary positive stock per worker either,
 because (42) below makes $x/z$ rise strictly at every date; instead
 $z_t\to0$ and $x_t\to\infty$ together, with $g_W$ falling to $1-\delta$
 from above rather than sitting at it. The limiting rate is
-$\max\{g_\varpi,1-\delta_G\}$ in all three cases, so the properness
-condition is unchanged there. **Three cases occur, not two**, and the
-proof carries the third separately. Where $\delta<\delta_G$ it does not:
-$g_\varpi>1-\delta_G$ strictly, and since $g_W$ rises to $g_\varpi$
-along the ray it is the tail that governs summability, so both clauses
-of (A5) hold for $\beta<g_\varpi^{\sigma-1}$ and the face is
-admissible.** That second case is not closed by the obvious route, and
-the reason is worth stating: a growth-rate ordering is not a payoff
-ordering — at $\sigma>1$ and from a common start, a path of higher
-asymptotic growth can carry the smaller discounted value — so comparing
-$g_\varpi$ with an incumbent’s (A) settles nothing. What does settle it,
-on an interval of discount factors reaching down from the admissibility
-ceiling, is Proposition 17: it compares the two discounted payoffs
-directly, and uses the growth factors only through the rate at which
-each series diverges. Which case holds does not touch the construction
-below: $T$ is convex whether or not its $\varpi=0$ face is attached, and
-Lemma 2 needs the face detached in either case. What it does touch is
-how far the conclusion reaches, and Corollary 4 carries that scope. The
-worker’s problem is therefore the maximisation of
+$\max\{g_\varpi,1-\delta_G\}$ in all three cases, so the sufficient
+condition for properness is unchanged there — though at the ceiling
+itself the face is proper on the diagonal once
+$\sigma>1+(1-\alpha)(1-\theta)/(\alpha\theta)$, by (41) below. **Three
+cases occur, not two**, and the proof carries the third separately.
+Where $\delta<\delta_G$ it does not: $g_\varpi>1-\delta_G$ strictly, and
+since $g_W$ rises to $g_\varpi$ along the ray it is the tail that
+governs summability, so both clauses of (A5) hold for
+$\beta<g_\varpi^{\sigma-1}$ and the face is admissible.** That second
+case is not closed by the obvious route, and the reason is worth
+stating: a growth-rate ordering is not a payoff ordering — at $\sigma>1$
+and from a common start, a path of higher asymptotic growth can carry
+the smaller discounted value — so comparing $g_\varpi$ with an
+incumbent’s (A) settles nothing. What does settle it, on an interval of
+discount factors reaching down from the admissibility ceiling, is
+Proposition 17: it compares the two discounted payoffs directly, and
+uses the growth factors only through the rate at which each series
+diverges. Which case holds does not touch the construction below: $T$ is
+convex whether or not its $\varpi=0$ face is attached, and Lemma 2 needs
+the face detached in either case. What it does touch is how far the
+conclusion reaches, and Corollary 4 carries that scope. The worker’s
+problem is therefore the maximisation of
 $\widetilde V_W(\tau,\varpi)=V_W(\tau,\varpi/\tau)$ over the convex set
 $T$.*
 
@@ -7578,12 +7585,14 @@ and $x_t\to\infty$ together, at rates that leave $g_W$ falling to
 $1-\delta$ from above rather than sitting at it. The limiting rate is
 $\max\{g_\varpi,\,1-\delta_G\}$ in all three cases, so Assumption 5
 needs $\beta<\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$. Where
-that fails, the edge is improper; where it holds, this argument does not
-make it improper, and none below asks it to — Proposition 2(iii) already
-rules out improperness as a universal. **(ii)–(iv)** are Lemma 2 applied
-to $\ln\kappa$; to the three terms of (37), whose gradients
-$(\alpha,-\alpha)$, $(-i\alpha Ax_0^{\alpha},0)$ and
-$(0,\alpha Ax_0^{\alpha})$ span $\mathbb{R}^{2}$; and to the three
+that fails, the edge is improper — except at the ceiling itself on the
+diagonal, where (41) below makes it proper once
+$\sigma>1+(1-\alpha)(1-\theta)/(\alpha\theta)$; where it holds, this
+argument does not make it improper, and none below asks it to —
+Proposition 2(iii) already rules out improperness as a universal.
+**(ii)–(iv)** are Lemma 2 applied to $\ln\kappa$; to the three terms of
+(37), whose gradients $(\alpha,-\alpha)$, $(-i\alpha Ax_0^{\alpha},0)$
+and $(0,\alpha Ax_0^{\alpha})$ span $\mathbb{R}^{2}$; and to the three
 logarithms of $\mathcal{P}$, whose gradients $(\alpha,-\alpha)$, $(1,0)$
 and $(0,1)$ span $\mathbb{R}^{2}$. Equation (37) is Proposition 13(i)’s
 derivation with one difference: $P_0$ now carries $\tau$, through
@@ -7739,13 +7748,15 @@ its corner. The profile is therefore the worker’s global best reply over
 $T$, and his clause of Definition 1 closes — on that hypothesis, and on
 the disposal of the collapsed edge. That disposal reaches the whole
 instrument box at $\delta_G=1$; at $\delta_G<1$ it reaches every
-$\beta\ge\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$, where
-Proposition 15(i) makes the edge improper — the maximum being the edge’s
-own limiting growth factor in either regime, on the settling hypothesis
-that proposition states where $\delta>\delta_G$ — and, by Proposition
-17, off the diagonal $\delta\ne\delta_G$ and with $\delta<1$ an interval
-strictly below that ceiling as well. Far below it the comparison with
-$\varpi=0$ is undischarged.*
+$\beta\ge\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$ at which
+Proposition 15(i) makes the edge improper, which is all of them but the
+ceiling itself on the diagonal at
+$\sigma>1+(1-\alpha)(1-\theta)/(\alpha\theta)$ (by (41)) — the maximum
+being the edge’s own limiting growth factor in either regime, on the
+settling hypothesis that proposition states where $\delta>\delta_G$ —
+and, by Proposition 17, off the diagonal $\delta\ne\delta_G$ and with
+$\delta<1$ an interval strictly below that ceiling as well. Far below it
+the comparison with $\varpi=0$ is undischarged.*
 
 Two of that corollary’s three conditions are hypotheses about the
 worker’s problem. The third is not. Whether the collapsed face can be
@@ -7876,16 +7887,19 @@ settling. Write $g$ for the interior profile’s growth factor and*
 $$R \;=\; \big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma_W-1}$$ *for
 the collapsed face’s admissibility ceiling — exact where
 $\delta<\delta_G$ and under Proposition 15(i)’s settling hypothesis, and
-under $\inf_t z_t>0$ alone an upper bound for it, which is all the
-existence of $\beta^{\sharp}$ uses. Then there is $\beta^{\sharp}<R$
+under $\inf_t z_t>0$ alone a value at which the face is already
+improper, hence an upper bound for it — improperness at $R$ being all
+the existence of $\beta^{\sharp}$ uses. Then there is $\beta^{\sharp}<R$
 such that at every $\beta\in(\beta^{\sharp},R)$ the worker strictly
 prefers $(\tau,\varpi)$ to the collapsed face $(\tau,0)$ from that same
-start. The interval is non-empty, so where $R$ is the exact ceiling —
+start. The interval is non-empty. Where $R$ is the exact ceiling —
 $\delta<\delta_G$, or $\delta>\delta_G$ under the settling hypothesis —
-the disposal of the face reaches strictly below the improper region, and
-under $\inf_t z_t>0$ alone strictly below $R$, which bounds that region
-from above; either way it reaches it without the concavity hypothesis
-Corollary 4 carries.*
+the disposal of the face therefore reaches strictly below the improper
+region; under $\inf_t z_t>0$ alone it reaches strictly below $R$, which
+bounds from above the threshold at which that region begins and not the
+region itself, so whether the interval lies wholly below the region is
+not settled there. In either case the interval is reached without the
+concavity hypothesis Corollary 4 carries.*
 
 *Proof.* With $\sigma_W>1$, maximising the worker’s payoff is minimising
 $S(\beta)=\sum_{t\ge0}\beta^{t}\Pi_t^{-(\sigma_W-1)}$ with
