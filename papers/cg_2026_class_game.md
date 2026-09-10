@@ -4784,11 +4784,12 @@ outside, and it is the paper’s measurement claim proved rather than
 asserted. A single-peaked map is a two-to-one map on one side of its
 peak, and everything an observer of aggregates sees runs through it.
 
-**Proposition 18 (the stationary aggregates identify the split globally
-exactly when the growth peak is not interior, and the published total
-never does).** *Let the hypotheses of Proposition 6 hold with
-$\theta\in(0,1)$, and hold $\tau$, $i$ and the primitives fixed while
-the split $\phi$ ranges over $(0,1]$. Then:*
+**Proposition 18 (the growth factor, the capital intensity and the class
+ratio identify the split globally exactly when the growth peak is not
+interior; the worker’s consumption share identifies it always; and the
+published total never does).** *Let the hypotheses of Proposition 6 hold
+with $\theta\in(0,1)$, and hold $\tau$, $i$ and the primitives fixed
+while the split $\phi$ ranges over $(0,1]$. Then:*
 
 *(i) **The growth factor, the capital intensity and the class ratio
 depend on the split only through $\Phi$, and the disbursed total not
@@ -4845,17 +4846,18 @@ Theorem 4, not Proposition 6, that supplies that step — so add Theorem
 4’s hypotheses: an admissible constant-share profile at an interior rest
 point locally asymptotically stable by Theorem 2(iii), with that rest
 point as the declared start. Under them every interior stationary split
-lies strictly below $\phi_g$, and the two members straddle $\phi_g$ by
-(iii), so only $\phi_1$ can be a worker’s own stationary choice: the
-high-provision member is a policy a planner may set and a worker’s best
-response never reaches. **So the pair has a second separator, and it is
-not a statistic.** An observer who knows the observation is a proper
-interior stationary profile in Theorem 4’s sense resolves the pair
-without any further number, because it is the lower member; the
-ambiguity of (iii) is an ambiguity about policies a planner may choose,
-not about the game’s interior equilibria. The corner is the case the
-argument does not reach, since where the peak is interior the corner
-lies above it.*
+is the root (7) of Proposition 3(iii) at its own growth factor, and lies
+strictly below $\phi_g$ by Corollary 1; the two members straddle
+$\phi_g$ by (iii), so only $\phi_1$ can be a worker’s own stationary
+choice: the high-provision member is a policy a planner may set and a
+worker’s best response never reaches. **So the pair has a second
+separator, and it is not a statistic.** An observer who knows the
+observation is a proper interior stationary profile in Theorem 4’s sense
+resolves the pair without any further number, because it is the lower
+member; the ambiguity of (iii) is an ambiguity about policies a planner
+may choose, not about the game’s interior equilibria. The corner is the
+case the argument does not reach, since where the peak is interior the
+corner lies above it.*
 
 *So where the peak is interior and the split is at least
 $\underline{\phi}$, no statistic assembled from the growth rate, the
