@@ -7480,11 +7480,12 @@ exactly when $\delta<\delta_G$. **Where $\delta>\delta_G$ there is no
 such ray: a stationary positive value of $z$ is the face map’s only rest
 point in the open orthant $x,z\in(0,\infty)$, not interior in Assumption
 4’s sense since the public stock receives no gross investment there —
-that the path settles at it is assumed here, not proved — Proposition
-2(iii) pins $g_W=1-\delta_G$ there (its $\delta_G<1$ half uses only
-$\varpi=0$, so it reaches the corner $\tau=0$ at any $\phi$), properness
-requires $(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge
-is inadmissible-improper and Assumption 5 disposes of it. ⛔ **On the
+its uniqueness, and the path’s settling at it from every start, both
+being Proposition 17$''''$ below — Proposition 2(iii) pins
+$g_W=1-\delta_G$ there (its $\delta_G<1$ half uses only $\varpi=0$, so
+it reaches the corner $\tau=0$ at any $\phi$), properness requires
+$(1-\delta_G)^{\sigma-1}>\beta$, and where that fails the edge is
+inadmissible-improper and Assumption 5 disposes of it. ⛔ **On the
 diagonal $\delta=\delta_G$ neither description holds** — there is no
 ray, and there is no stationary positive stock per worker either,
 because (42) below makes $x/z$ rise strictly at every date; instead
@@ -7573,12 +7574,13 @@ than two. Where $\delta<\delta_G$, $x_t$ diverges and $g_W$ rises to
 $g_\varpi$ along the ray displayed above. Where $\delta>\delta_G$
 capital survives strictly worse than the public stock, no ray exists,
 and at the stationary positive stock per worker — the face map’s only
-rest point in the open orthant, which the path is assumed to reach —
-Proposition 2(iii) pins $g_W=1-\delta_G$, its $\delta_G<1$ half using
-only $\varpi=0$ and so reaching the corner $\tau=0$ at any $\phi$. **On
-the diagonal $\delta=\delta_G$ neither description applies, and the case
-must be carried separately.** There is no ray, because $g_\varpi$ is
-then $1-\delta$ itself and the two log-rates cannot be separated. Nor is
+rest point in the open orthant and the point the path reaches from every
+start, both by Proposition 17$''''$ — Proposition 2(iii) pins
+$g_W=1-\delta_G$, its $\delta_G<1$ half using only $\varpi=0$ and so
+reaching the corner $\tau=0$ at any $\phi$. **On the diagonal
+$\delta=\delta_G$ neither description applies, and the case must be
+carried separately.** There is no ray, because $g_\varpi$ is then
+$1-\delta$ itself and the two log-rates cannot be separated. Nor is
 there a stationary positive stock per worker, and that needs no
 computation: on the face the two stock laws are divided by the same
 growth factor, and when the two survival rates coincide it cancels from
@@ -7761,11 +7763,11 @@ $\beta\ge\big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma-1}$ at which
 Proposition 15(i) makes the edge improper, which is all of them but the
 ceiling itself on the diagonal at
 $\sigma>1+(1-\alpha)(1-\theta)/(\alpha\theta)$ (by (41)) — the maximum
-being the edge’s own limiting growth factor in either regime, on the
-settling hypothesis that proposition states where $\delta>\delta_G$ —
-and, by Proposition 17, off the diagonal $\delta\ne\delta_G$ and with
-$\delta<1$ an interval strictly below that ceiling as well. Far below it
-the comparison with $\varpi=0$ is undischarged.*
+being the edge’s own limiting growth factor in either regime, by
+Propositions 17$''$ and 17$''''$ — and, by Proposition 17, off the
+diagonal $\delta\ne\delta_G$ and with $\delta<1$ an interval strictly
+below that ceiling as well. Far below it the comparison with $\varpi=0$
+is undischarged.*
 
 Two of that corollary’s three conditions are hypotheses about the
 worker’s problem. The third is not. Whether the collapsed face can be
@@ -7789,12 +7791,12 @@ $$N_{W,t} \;\ge\; \underline{C}\,N_{W,0}\,g_\varpi^{\,t} , \qquad
 rate is not improvable on the collapsed face: Proposition 15(i) exhibits
 paths whose limiting factor is $g_\varpi$ where $\delta<\delta_G$ and
 $1-\delta_G$ where $\delta\ge\delta_G$ — attained where
-$\delta>\delta_G$ on the settling hypothesis Proposition 15(i) states,
-approached from above where $\delta=\delta_G$ — so
-$\max\{g_\varpi,\,1-\delta_G\}$ is that face’s own limiting factor,
-which is the constant Corollary 4’s scope clause carries, reached in one
-line rather than in two cases. That maximum is **not** the infimum over
-the instrument box, and the two must not be run together: at
+$\delta>\delta_G$, by Proposition 17$''''$, approached from above where
+$\delta=\delta_G$ — so $\max\{g_\varpi,\,1-\delta_G\}$ is that face’s
+own limiting factor, which is the constant Corollary 4’s scope clause
+carries, reached in one line rather than in two cases. That maximum is
+**not** the infimum over the instrument box, and the two must not be run
+together: at
 $(\alpha,\theta,\gamma,\delta,\delta_G)=(0.456,0.854,0.683,0.933,0.039)$
 with $i=0$ the long-run factor is $0.1387$, against a face maximum of
 $0.9614$ and a floor $g_\varpi$ of $0.1385$. It is $(\dagger)$ that
@@ -7886,29 +7888,25 @@ reason the remark below gives. Fix $\tau\in(0,\bar\tau]$,
 $\varpi\in(0,\tau]$ and $i>0$, and evaluate from the interior rest point
 that profile induces. Where $\delta<\delta_G$ the collapsed face’s path
 from that same start has $x_t\to\infty$, geometrically, by Proposition
-17$''$, so **no hypothesis about the path is required**; that path is
-the case Proposition 15(i) isolates as admissible. Where
-$\delta>\delta_G$ one hypothesis about the path is required and is
-assumed: its public stock per worker stays bounded away from zero,
-$\inf_t z_t>0$ — the property Proposition 15(i) reads as the face
-settling at its stationary positive stock per worker, and weaker than
-settling. Write $g$ for the interior profile’s growth factor and*
+17$''$, and that path is the case Proposition 15(i) isolates as
+admissible; where $\delta>\delta_G$ the same path settles at the face’s
+stationary positive stock per worker, by Proposition 17$''''$, so that
+$\inf_t z_t>0$. **No hypothesis about the path is required in either
+regime.** Write $g$ for the interior profile’s growth factor and*
 $$R \;=\; \big(\max\{g_\varpi,\,1-\delta_G\}\big)^{\sigma_W-1}$$ *for
-the collapsed face’s admissibility ceiling — exact where
-$\delta<\delta_G$ and under Proposition 15(i)’s settling hypothesis, and
-under $\inf_t z_t>0$ alone a value at which the face is already
-improper, hence an upper bound for it — improperness at $R$ being all
-the existence of $\beta^{\sharp}$ uses. Then there is $\beta^{\sharp}<R$
+the collapsed face’s admissibility ceiling — exact in both regimes,
+because $\Pi_t/(1-\delta_G)^{t}=z_0/z_t\to z_0/z^{\circ}$ where
+$\delta>\delta_G$, by Proposition 17$''''$, and $\Pi_t/g_\varpi^{\,t}$
+tends to a finite positive limit where $\delta<\delta_G$, as the proof
+shows; convergence of the growth factor alone would not do, the diagonal
+being the case where it converges and the face is nonetheless proper at
+$R$ for $\sigma_W$ large, by (41) — improperness at $R$ being all the
+existence of $\beta^{\sharp}$ uses. Then there is $\beta^{\sharp}<R$
 such that at every $\beta\in(\beta^{\sharp},R)$ the worker strictly
 prefers $(\tau,\varpi)$ to the collapsed face $(\tau,0)$ from that same
-start. The interval is non-empty. Where $R$ is the exact ceiling —
-$\delta<\delta_G$, or $\delta>\delta_G$ under the settling hypothesis —
-the disposal of the face therefore reaches strictly below the improper
-region; under $\inf_t z_t>0$ alone it reaches strictly below $R$, which
-bounds from above the threshold at which that region begins and not the
-region itself, so whether the interval lies wholly below the region is
-not settled there. In either case the interval is reached without the
-concavity hypothesis Corollary 4 carries.*
+start. The interval is non-empty, and since $R$ is the exact ceiling the
+disposal of the face reaches strictly below the improper region; it is
+reached without the concavity hypothesis Corollary 4 carries.*
 
 *Proof.* With $\sigma_W>1$, maximising the worker’s payoff is minimising
 $S(\beta)=\sum_{t\ge0}\beta^{t}\Pi_t^{-(\sigma_W-1)}$ with
@@ -7926,15 +7924,14 @@ $S_{\rm face}(\beta)\uparrow
 S_{\rm face}(R)$ by monotone convergence, and what remains is that
 $S_{\rm face}(R)=+\infty$ — that
 $\big(\Pi_t\big/\max\{g_\varpi,1-\delta_G\}^{t}\big)^{-(\sigma_W-1)}$
-does not vanish. Where $\delta>\delta_G$ it is the hypothesis: the face
-identity displayed next gives $\Pi_t/(1-\delta_G)^{t}=z_0/z_t$ exactly,
-which $\inf_t z_t>0$ keeps bounded above. A path that settles at the
-stationary positive stock per worker, where Proposition 2(iii) pins
-$g_W=1-\delta_G$, satisfies it; settling itself is more than is used.
-Where $\delta<\delta_G$ the path is the ray, and there $(\dagger)$ is
-two-sided. On the face $\varpi=0$ holds $\kappa_W$ constant and makes
-$G_t=(1-\delta_G)^{t}G_0$ exactly, so
-$\ln z_t=\ln z_0+t\ln(1-\delta_G)-u_t$ with equality rather than
+does not vanish. Where $\delta>\delta_G$ it is Proposition 17$''''$: the
+face identity displayed next gives $\Pi_t/(1-\delta_G)^{t}=z_0/z_t$
+exactly, and $z_t\to z^{\circ}>0$ sends it to the finite positive limit
+$z_0/z^{\circ}$, so the terms of $S_{\rm face}(R)$ tend to a positive
+constant and the series diverges. Where $\delta<\delta_G$ the path is
+the ray, and there $(\dagger)$ is two-sided. On the face $\varpi=0$
+holds $\kappa_W$ constant and makes $G_t=(1-\delta_G)^{t}G_0$ exactly,
+so $\ln z_t=\ln z_0+t\ln(1-\delta_G)-u_t$ with equality rather than
 inequality. The capital law gives
 $\ln x_{t+1}=\ln(1-\delta)+\ln x_t+\ln\!\big(1+\psi x_t^{\alpha-1}\big)-\ln g_{W,t}$
 with $\psi=i(1-\tau)\alpha A/(1-\delta)$, so
@@ -8136,14 +8133,16 @@ $H_t\to(\mathcal{B}_\varpi+\gamma\theta\alpha w_\infty)/D$, and the
 second line of (44) leaves $\ln x_t=ct+\text{const}+o(1)$.
 $\blacksquare$
 
-That the path reaches the ray was the one thing Proposition 17 assumed
-about a *path* rather than about primitives, and where $\delta<\delta_G$
-it is now discharged, rate included. What the two propositions share is
-the reason they differ in difficulty. Off the diagonal the forcing that
-drives $w$ decays geometrically and the argument is three lines. On the
-diagonal $c=0$, the same forcing decays only like $1/t$, and everything
-laborious about (41) — the Riccati step, the summable error, the
-transient — is what that single degradation costs.
+That the path reaches the ray, or that its public stock stays bounded
+away from zero, was the one thing Proposition 17 assumed about a *path*
+rather than about primitives; where $\delta<\delta_G$ it is discharged
+here, rate included, and where $\delta>\delta_G$ by Proposition 17$''''$
+below. What the two propositions share is the reason they differ in
+difficulty. Off the diagonal the forcing that drives $w$ decays
+geometrically and the argument is three lines. On the diagonal $c=0$,
+the same forcing decays only like $1/t$, and everything laborious about
+(41) — the Riccati step, the summable error, the transient — is what
+that single degradation costs.
 
 Both propositions describe the face once the economy is on it. How the
 rest of the box *approaches* it is a separate question, and it turns out
@@ -8366,19 +8365,121 @@ however small. The other half it does not settle: off a rest point $g_P$
 and $g_W$ genuinely differ, so properness on the *deviation* path is a
 separate condition and is not established here.
 
-The economics of that crossing is worth separating from its proof. The
-collapsed face is the configuration in which the whole receipt is handed
-back as cash and nothing is built, and it is not obviously bad for the
-worker: he gets more cash, and where capital outlives the public stock
-his consumption can grow fast enough to hold the composite up while
-provision per worker falls to zero. What defeats it is patience. The
-face carries the lowest growth factor the box allows, so its payoff is
-the first to blow up as the discount factor rises, while the funded
-profile’s growth factor is bounded away from that floor by construction
-and its payoff stays finite over the same range. A sufficiently patient
-worker is therefore not bought off with cash — not because provision is
-worth more to him at the margin, but because the path that abandons the
-stock is the one his own discounting punishes first.
+One statement about the face itself remains, the counterpart of
+Proposition 17$''$ where capital is the less durable of the two stocks,
+and it is the easy one: there the path does not run away, it settles,
+and from every start.
+
+**Proposition 17$''''$ (the stationary stock is reached from every
+start).** *Let Assumptions 1–2 hold with $\theta\in(0,1)$, fix
+$\tau\in[0,\bar\tau]$ and $i>0$ with $\varpi=0$, and let
+$\delta_G<\delta$ — so $\delta_G<1$, while $\delta=1$ is allowed. Write
+$\iota=i(1-\tau)>0$. Then the face map — the constant-share transition
+at $\varpi=0$ — has exactly one rest point in the open orthant
+$x,z\in(0,\infty)$,*
+$$x^{\circ}\;=\;\Big(\frac{\iota\alpha A}{\delta-\delta_G}\Big)^{\frac{1}{1-\alpha}},\qquad
+  g_W(x^{\circ},z^{\circ})\;=\;1-\delta_G , \tag{47}$$ *the second
+equation pinning $z^{\circ}$ because $\theta<1$; and from every start
+with $x_0,z_0>0$ the path converges to it: $x_t\to x^{\circ}$,
+$z_t\to z^{\circ}$ and $g_{W,t}\to1-\delta_G$. In particular
+$\inf_t z_t>0$.*
+
+*Proof.* On the face $\kappa_W$ is constant, so Assumption 2 gives
+$g_W=B(\kappa_WA)^{\gamma\theta}x^{\gamma\theta\alpha}z^{\gamma(1-\theta)}$,
+the two exponents summing to Lemma 3’s
+$D=\gamma[\alpha\theta+1-\theta]\in(0,1)$; the capital law of $(\star)$
+divided by $N_{W,t+1}$ gives $x_{t+1}=x_th(x_t)/g_{W,t}$ with
+$h(x)=(1-\delta)+\iota\alpha Ax^{\alpha-1}$, and the public law, having
+no source, gives $z_{t+1}=(1-\delta_G)z_t/g_{W,t}$. Write $u_t=\ln x_t$
+and $m_t=\ln g_{W,t}-\ln(1-\delta_G)$. Since $\gamma(1-\theta)>0$,
+$(x,z)\mapsto(u,m)$ is a homeomorphism of the open orthant onto the
+plane, and in these coordinates the two laws read
+$$u_{t+1}=u_t+N(u_t)-m_t,\qquad m_{t+1}=(1-D)\,m_t+\gamma\theta\alpha\,N(u_t),\qquad
+  N(u):=\ln h(e^{u})-\ln(1-\delta_G),$$ the second because
+$\ln g_{W,t+1}=\ln g_{W,t}+\gamma\theta\alpha\ln h(x_t)+\gamma(1-\theta)\ln(1-\delta_G)-D\ln g_{W,t}$.
+
+Three facts about $N$ carry the argument. It is continuous and strictly
+decreasing, because $h$ is; it rises to $+\infty$ as $u\to-\infty$ and
+falls, as $u\to+\infty$, to $\ln(1-\delta)-\ln(1-\delta_G)=:-L$, which
+is negative because $\delta>\delta_G$ — and is $-\infty$ at $\delta=1$;
+so it has exactly one zero, at $h(x)=1-\delta_G$, which is $x^{\circ}$
+of (47). A rest point of the pair has $m=N(u)$ from the first law and
+$Dm=\gamma\theta\alpha N(u)$ from the second, hence
+$\gamma(1-\theta)N(u)=0$: it is $(u^{\circ},0)$ with
+$u^{\circ}=\ln x^{\circ}$, unique, and $m=0$ there is $g_W=1-\delta_G$,
+Proposition 2(iii)’s (N$''$) once more.
+
+Order the plane by $(u_1,m_1)\preceq(u_2,m_2)$ when $u_1\le u_2$ and
+$m_1\ge m_2$. The transition $T$ preserves it. In the first law
+$u\mapsto u+N(u)$ is increasing, its derivative
+$1+xh'(x)/h(x)=1-(1-\alpha)\,\iota\alpha Ax^{\alpha-1}/h(x)$ being at
+least $\alpha$, and $-m$ rises with the order; in the second $1-D>0$ is
+Lemma 3’s $D<1$ — Assumption 2’s $\gamma<1$ in another dress —
+$\gamma\theta\alpha>0$, and $N$ falls, so $m_{t+1}$ respects the order
+as well. On the curve $m=N(u)$ the transition is explicit,
+$(v,N(v))\mapsto(v,(1-\gamma(1-\theta))N(v))$: the first coordinate
+stands still and the second is drawn toward zero. So for
+$v\le u^{\circ}$, where $N(v)\ge0$, the point $(v,N(v))$ lies below its
+own image and below the rest point in the order,
+$(v,N(v))\preceq T(v,N(v))$ and $(v,N(v))\preceq(u^{\circ},0)$; for
+$v\ge u^{\circ}$ both relations reverse. An order-preserving map carries
+$\mathsf{p}\preceq T(\mathsf{p})$ to
+$T(\mathsf{p})\preceq T^{2}(\mathsf{p})$ and
+$\mathsf{p}\preceq(u^{\circ},0)$ to $T(\mathsf{p})\preceq(u^{\circ},0)$,
+so the orbit of $(v,N(v))$ with $v\le u^{\circ}$ is monotone in the
+order and trapped between its start and the rest point — $u$
+nondecreasing and bounded by $u^{\circ}$, $m$ nonincreasing and bounded
+by $0$ — hence convergent, and by continuity of $T$ its limit is a rest
+point, the only one there is. The orbit of $(v,N(v))$ with
+$v\ge u^{\circ}$ converges to the same point from the other side.
+
+Now take any start $(u_0,m_0)$ with $m_0>-L$. Since $N$ is continuous
+and strictly decreasing between the limits named, there is a
+$v_1\le\min\{u_0,u^{\circ}\}$ with $N(v_1)\ge m_0$ and a
+$v_2\ge\max\{u_0,u^{\circ}\}$ with $N(v_2)\le m_0$, so that
+$(v_1,N(v_1))\preceq(u_0,m_0)\preceq(v_2,N(v_2))$; order preservation
+keeps $T^{t}(v_1,N(v_1))\preceq(u_t,m_t)\preceq T^{t}(v_2,N(v_2))$ at
+every date, both bounds converge to $(u^{\circ},0)$, and $(u_t,m_t)$ is
+squeezed to it. What remains is a start with $m_0\le-L$ — a growth
+factor no larger than $1-\delta$ — which arises only at $\delta<1$.
+Since $N>-L$ everywhere, $m_{t+1}\ge(1-D)m_t-\gamma\theta\alpha L$; with
+$d_t=-L-m_t$ this is
+$d_{t+1}\le(1-D)d_t-\gamma(1-\theta)L\le d_t-\gamma(1-\theta)L$ while
+$d_t\ge0$, and $\gamma(1-\theta)L>0$, so $d_t<0$ — the growth factor
+exceeds $1-\delta$ — after finitely many dates, at most
+$\lceil d_0/(\gamma(1-\theta)L)\rceil+1$, and the squeeze applies from
+there. Convergence of $(u_t,m_t)$ is convergence of $(x_t,z_t)$ through
+the homeomorphism, $m_t\to0$ is $g_{W,t}\to1-\delta_G$, and
+$z_t\to z^{\circ}>0$ with every $z_t>0$ gives $\inf_tz_t>0$.
+$\blacksquare$
+
+The argument is the elementary one for a plane map that preserves an
+order, and it uses no linearisation: Theorem 2(iii), which speaks of
+interior rest points and so has nothing to say about this one, is never
+called, and the rate of approach — which the Jacobian at $(u^{\circ},0)$
+would give — is neither needed nor claimed. What the proposition adds to
+Proposition 15(i) is the word *every*: the stationary positive stock per
+worker was that part’s only rest point on this side of the diagonal, and
+is now its only limit. With Proposition 17$''$ where $\delta<\delta_G$
+and Proposition 17$'$ on the diagonal, the collapsed face’s path is a
+theorem about primitives at every ordering of the two depreciation rates
+below $\delta_G=1$ — Proposition 15(i)’s $z_1=0$ covering that corner —
+and Proposition 17 carries no hypothesis about a path at all.
+
+The economics of Proposition 17’s crossing is worth separating from its
+proof. The collapsed face is the configuration in which the whole
+receipt is handed back as cash and nothing is built, and it is not
+obviously bad for the worker: he gets more cash, and where capital
+outlives the public stock his consumption can grow fast enough to hold
+the composite up while provision per worker falls to zero. What defeats
+it is patience. The face carries the lowest growth factor the box
+allows, so its payoff is the first to blow up as the discount factor
+rises, while the funded profile’s growth factor is bounded away from
+that floor by construction and its payoff stays finite over the same
+range. A sufficiently patient worker is therefore not bought off with
+cash — not because provision is worth more to him at the margin, but
+because the path that abandons the stock is the one his own discounting
+punishes first.
 
 The rate that governs the crossing can be named, even where the crossing
 point cannot. On the ray the marginal value of the public source at the
