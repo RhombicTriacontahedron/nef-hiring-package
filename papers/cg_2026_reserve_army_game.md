@@ -2372,16 +2372,16 @@ At the four cells the closed form gives $W''(x^\ast) = 0.964$, $1.192$,
 $1.167$ and $1.155$; a quadratic fitted to the computed value on a
 one-sided window below $x^\ast$, away from the scheme’s upwind switch at
 the sign change of the drift, returns $0.966$, $1.199$, $1.174$ and
-$1.162$ on the finest grid — within $0.2$ to $0.6$ per cent of the
-closed form, on a window of fixed width in $x$ that the three grids
-refine — while the second difference read at the node itself overstates
-it by $28$ to $42$ per cent, the scheme’s artefact at the one node where
-the stencil straddles the switch. The residual is the window’s, not the
-scheme’s: a quadratic fitted on a one-sided window reads $W''$ at the
-window’s midpoint, so the fit carries a bias whose leading term is
-$W'''(x^\ast)$ times the midpoint’s offset from $x^\ast$ — $-0.0165$
-here — and $W'''(x^\ast)$ is itself a closed form — the second
-derivative at $x^\ast$ of the stable manifold $p = P(x)$, as
+$1.162$ on the finest of those three grids — within $0.2$ to $0.6$ per
+cent of the closed form, on a window of fixed width in $x$ that the
+three grids refine — while the second difference read at the node itself
+overstates it by $28$ to $42$ per cent, the scheme’s artefact at the one
+node where the stencil straddles the switch. The residual is the
+window’s, not the scheme’s: a quadratic fitted on a one-sided window
+reads $W''$ at the window’s midpoint, so the fit carries a bias whose
+leading term is $W'''(x^\ast)$ times the midpoint’s offset from $x^\ast$
+— $-0.0165$ here — and $W'''(x^\ast)$ is itself a closed form — the
+second derivative at $x^\ast$ of the stable manifold $p = P(x)$, as
 $W''(x^\ast)$ is its slope — between $-0.38$ and $+1.05$ across the five
 cells; the next term is $W''''(x^\ast)$ — the manifold’s third
 derivative at $x^\ast$, a closed form too — times half that offset
@@ -2391,7 +2391,12 @@ leaves the second, $1.3 \times 10^{-5}\,W''''(x^\ast)$, in the
 intercept; regressing the fit on the midpoint across five windows of the
 same width returns the closed-form $W''(x^\ast)$ at the four cells, and
 at the fifth below, to within $0.001$ per cent on a grid sixteen times
-finer, and the bias it removes is the one those two closed forms predict
+finer — at the four the term left in the intercept is at most $0.00005$
+per cent of $W''$ and nothing turns on it, but the fifth’s $W''''$ is
+two orders larger, and removing its $0.002$ per cent in turn moves the
+reading to that figure rather than below it, so $0.002$ is what the
+decomposition certifies there — and the bias it removes is the one those
+two closed forms predict
 (`models/reserve_army_game/fit_window_bias_decomposition_2026_09_10_6d285664.py`).
 The comparison with the first derivative is closed-form too:
 $W'(x^\ast) = p^\ast$, which at $c = 0$ — every exhibited cell’s case —
