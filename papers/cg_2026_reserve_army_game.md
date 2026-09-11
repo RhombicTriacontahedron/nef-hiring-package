@@ -42,63 +42,77 @@ accumulation; where accumulation displaces as much labour as it hires
 the threshold reaches one and no compromise absorbs the unemployment
 pool at all — the limit in which growth manufactures unemployment as
 fast as it absorbs it. A compromise that accumulates past the threshold
-takes the economy to full employment in finite time, and there the game
-needs a boundary law this paper does not supply. Joining that to the
-ranking gives the paper’s sharpest case: where the two compromises
-straddle the threshold, the one both classes prefer is exactly the one
-that exhausts the unemployment pool, and so destroys the conditions
-under which it was computed. Where the unemployment pool regulates the
-wage, rather than being regulated by the compromise, is where organised
-labour counts only its employed members or where the unemployment pool
-bounds what labour can enforce. That regime is solved here at its
-stationary layer, and it changes the results rather than extending them.
-The compromise now sees the unemployment pool, through exactly one
-channel — the extractable day falls as the labour market tightens, so
-employing another worker costs capital some of the effort it could have
-taken from every worker later — and the fold generalises to a symmetric
-condition on the two classes’ effective prices, of which the core’s fold
-is one evaluation. Two conclusions do not survive the move. Raising the
-extractable day, which in the core creates two compromises at once,
-creates none at all once the ceiling responds sharply enough to
-employment — and past that threshold no interior compromise anywhere in
-the regime, whether labour is bargaining or pinned to its ceiling; and
-where the unemployment pool is large enough to pin labour to its ceiling
-there is at most one compromise and never two, so the multiplicity
-itself belongs to the regime in which the bargain sets the wage and not
-to the economy. Where labour is pinned is not an interval of low
-employment rates: labour sits on its ceiling at both ends of the branch
-that carries a compromise, and for opposite reasons — a large pool at
-one end, and at the other an accumulation share collapsing to zero,
-which drives labour’s interior demand past any ceiling it could be
-granted. A wage at its ceiling is therefore not a sufficient statistic
-for a large reserve army. That stationary layer then closes on itself.
-Where the pool sets the wage at every employment rate — the reserve-army
-case — the accumulation rate the compromise delivers is, term for term,
-the expression whose sign decides whether the compromise is interior at
-all, so that a class compromise exists exactly where the economy grows;
-the employment rate at which the regime’s canonical system rests is
-therefore unique when it exists, and exists under two closed-form
-conditions in the primitives — one placing the drift’s zero inside the
-state space, a second making the compromise there interior, neither
-implying the other. Whether that stationary system is an equilibrium
-splits by class, and the split has a sign. Labour’s stationary behaviour
-is optimal in the regime, because its maximised Hamiltonian is concave
-in the state on both branches. Capital’s cannot be certified the same
-way, because wherever capital accumulates its maximised Hamiltonian is
-strictly convex in log-employment: the extractable day is convex in the
-employment rate and enters capital’s valuation linearly, so the
-unemployment pool is a convex asset to capital. Capital’s rest point is
-nonetheless a saddle, with a closed-form determinant signed by the same
-coefficient that decides whether any compromise exists, and at every
-compromise the paper exhibits, a numerical solution of capital’s problem
-returns the stationary share as its optimum under the boundary treatment
-that computation supplies. The existence theorem for the regime is
-therefore open on capital’s side only, and what stands between it and a
-proof is two different things on two sub-classes: where no admissible
-deviation can reach full employment — the escape margin $E \le 0$ — it
-is a convexity, not a technique; where $E > 0$ it is, first, a boundary
-law the core does not contain, and two continuations admissible on the
-same terms return opposite verdicts.
+takes the economy to full employment in finite time, and there the
+technology rather than a stipulation decides what follows: with no more
+workers to hire, the whole of accumulation goes into productivity, and
+because the separated state carries no mechanisation term, every
+continuation that leaves the bargain’s binding bounds where they were
+leaves both classes’ payoffs exactly as they were — whether machinery
+reopens the unemployment pool or the economy is held at full employment
+for ever. The verification and the ranking therefore survive the
+boundary, and the hypothesis that the preferred compromise leaves a pool
+can be dropped. The condition bites asymmetrically, which is the
+interesting part: labour’s wage ceiling does not bind at an interior
+compromise, so letting it rise at full employment changes nothing, while
+capital extracts its ceiling always — and a boundary that rations
+capital’s accumulation reverses labour’s half of the ranking at the
+paper’s own split-case economy. Joining that to the ranking gives the
+paper’s sharpest case: where the two compromises straddle the threshold,
+the one both classes prefer is exactly the one that exhausts the
+unemployment pool — and what the exhaustion destroys is the pool’s
+regulating role, not the comparison that preferred it. Where the
+unemployment pool regulates the wage, rather than being regulated by the
+compromise, is where organised labour counts only its employed members
+or where the unemployment pool bounds what labour can enforce. That
+regime is solved here at its stationary layer, and it changes the
+results rather than extending them. The compromise now sees the
+unemployment pool, through exactly one channel — the extractable day
+falls as the labour market tightens, so employing another worker costs
+capital some of the effort it could have taken from every worker later —
+and the fold generalises to a symmetric condition on the two classes’
+effective prices, of which the core’s fold is one evaluation. Two
+conclusions do not survive the move. Raising the extractable day, which
+in the core creates two compromises at once, creates none at all once
+the ceiling responds sharply enough to employment — and past that
+threshold no interior compromise anywhere in the regime, whether labour
+is bargaining or pinned to its ceiling; and where the unemployment pool
+is large enough to pin labour to its ceiling there is at most one
+compromise and never two, so the multiplicity itself belongs to the
+regime in which the bargain sets the wage and not to the economy. Where
+labour is pinned is not an interval of low employment rates: labour sits
+on its ceiling at both ends of the branch that carries a compromise, and
+for opposite reasons — a large pool at one end, and at the other an
+accumulation share collapsing to zero, which drives labour’s interior
+demand past any ceiling it could be granted. A wage at its ceiling is
+therefore not a sufficient statistic for a large reserve army. That
+stationary layer then closes on itself. Where the pool sets the wage at
+every employment rate — the reserve-army case — the accumulation rate
+the compromise delivers is, term for term, the expression whose sign
+decides whether the compromise is interior at all, so that a class
+compromise exists exactly where the economy grows; the employment rate
+at which the regime’s canonical system rests is therefore unique when it
+exists, and exists under two closed-form conditions in the primitives —
+one placing the drift’s zero inside the state space, a second making the
+compromise there interior, neither implying the other. Whether that
+stationary system is an equilibrium splits by class, and the split has a
+sign. Labour’s stationary behaviour is optimal in the regime, because
+its maximised Hamiltonian is concave in the state on both branches.
+Capital’s cannot be certified the same way, because wherever capital
+accumulates its maximised Hamiltonian is strictly convex in
+log-employment: the extractable day is convex in the employment rate and
+enters capital’s valuation linearly, so the unemployment pool is a
+convex asset to capital. Capital’s rest point is nonetheless a saddle,
+with a closed-form determinant signed by the same coefficient that
+decides whether any compromise exists, and at every compromise the paper
+exhibits, a numerical solution of capital’s problem returns the
+stationary share as its optimum under the boundary treatment that
+computation supplies. The existence theorem for the regime is therefore
+open on capital’s side only, and what stands between it and a proof is
+two different things on two sub-classes: where no admissible deviation
+can reach full employment — the escape margin $E \le 0$ — it is a
+convexity, not a technique; where $E > 0$ it is, first, a boundary law
+the core does not contain, and two continuations admissible on the same
+terms return opposite verdicts.
 
 # 1. Introduction
 
@@ -503,15 +517,28 @@ employment in finite time from every interior start, no infinite-horizon
 comparison is available for either, and the core hosts no interior
 equilibrium for ever. The welfare ranking of Proposition 4$'$ is
 therefore silent on that third case, and the model’s three persistence
-regimes carry two comparisons, not three.
+regimes carry two comparisons, not three. ⭕ That silence is the core’s
+only where the boundary is left unspecified: Proposition 5$''$ below
+shows that wherever the boundary moves no binding bound the comparison
+is restored in both non-persisting cases, and is Proposition 4$'$’s
+unchanged.
 
 In words, the compromise both classes prefer is, in this case, the one
 that abolishes the condition under which it was computed. The
 unemployment pool is the residual of a bargain that never looks at it,
 and where accumulation is fast enough the bargain consumes the residual
 and with it the description. Nothing here says the economy must
-therefore cycle; it says the core stops, and what replaces it is a
-boundary law the paper does not write.
+therefore cycle; it says the bargain runs out of the object it never
+looked at. What replaces the description is not, in this section, a
+stipulation: by Proposition 5$''$ the technology determines the
+mechanisation rate at full employment, every continuation that moves no
+binding bound leaves both classes’ payoffs untouched, and the comparison
+this proposition records as unavailable is restored. The bargain does
+not look at the unemployment pool even at the moment it is gone. What
+would restore the pool’s grip is not a higher permitted wage — labour’s
+ceiling is slack here — but a boundary that rations capital’s
+accumulation, and Proposition 5$''$(v) exhibits one that reverses
+labour’s half of the ranking at this very case.
 
 **Proposition 5 (where the unemployment pool settles, and whether it
 persists).** Fix a compromise $(s, \omega)$ and write
@@ -584,6 +611,104 @@ therefore a theorem about $c$, and Proposition 5$'$ says exactly where
 the line falls for each value of it; the compromise the classes reach is
 the same on both sides of that line, because Proposition 2 keeps $c$ out
 of it.
+
+**Proposition 5$''$ (the full-employment boundary is payoff-neutral
+where no binding bound moves).** Let $a_W = 1$, let the control bounds
+be the constants of this section, and let the technology
+$K = \kappa a L$ hold at full employment. Consider continuations of the
+game at $v = 1$ that leave Proposition 3’s static game unchanged there —
+equivalently, that move no bound which binds.
+
+*(i) The mechanisation rate is determined there rather than chosen.*
+With $L = N$ the employment rate is constant by construction, so
+$\dot K/K = m + n$ and $$
+m\big|_{v=1} \;=\; \frac{s(e-\omega)}{\kappa} \;-\; n .
+$$ Any law with $m|_{v=1} \ge s(e-\omega)/\kappa - n$ leaves the state
+space forward invariant; the excess
+$\sigma \equiv m|_{v=1} - s(e-\omega)/\kappa + n \ge 0$ is the rate at
+which machinery reopens the unemployment pool, and $\sigma = 0$ — the
+displayed rate exactly — is the *unique* law that holds the economy at
+full employment. That is the sense in which the technology rather than a
+stipulation fixes it: a modeller may choose how fast machinery reopens
+the pool, but not what the rate is while the pool is closed.
+
+*(ii) The separated state’s drift is the same inside and at the
+boundary, for every $\sigma$.* By Proposition 2,
+$\dot z = s(e-\omega)/\kappa - n$ carries no mechanisation term; at
+$v = 1$ the same expression is
+$\dot x + \dot y = -\sigma + [s(e-\omega)/\kappa - n + \sigma]$. So
+$z(t) = z(0) + [s(e-\omega)/\kappa - n]\,t$ exactly, on the whole path,
+whatever the employment rate does.
+
+*(iii) Hence every such continuation gives both classes the same
+payoff.* For a constant profile, $$
+J_i \;=\; \frac{f_i}{\rho} \;+\; \frac{w_i}{\rho}\,z(0) \;+\; \frac{w_i}{\rho^{2}}\Big(\frac{s(e-\omega)}{\kappa} - n\Big),
+$$ with $f_i$ the part of the payoff depending on the controls alone and
+$w_C = 1+\lambda$, $w_W = 1$ — the same number whether the economy is
+held at full employment for ever or the unemployment pool is reopened by
+machinery at any rate whatever.
+
+*(iv) Consequences.* Proposition 3’s direct verification and its Markov
+perfection extend to the whole state space, with no hypothesis on the
+induced path. And the hypothesis of Proposition 4$'$ — that the
+accumulationist compromise leaves an unemployment pool — may be dropped:
+the discounted-value ranking is $\rho^{-1}$ times the ranking of the
+static game’s payoffs, identically, so Proposition 4$'$’s comparison
+holds in every case of Proposition 5$'$, the split case of Proposition
+4$''$ included.
+
+*(v) The neutrality belongs to the no-rationing class, not to
+continuation as such.* A law that instead rations capital’s accumulation
+share at $v = 1$ to the level holding the drift at zero changes $\dot z$
+from the hitting time onward and moves both payoffs. At the cell of the
+Corollary to Proposition 5$'$ — the split case — it reverses labour’s
+half of the ranking: labour prefers the accumulationist compromise by
+$29.5$ in payoff units under (i)’s law and the distributionist one by
+$13.4$ under rationing, while capital prefers the accumulationist one
+under both, by $46.9$ and $22.1$. So the hypothesis is exactly the right
+one, and it is two-sided in a way worth spelling out, because which
+bounds bind is not symmetric between the classes. Capital *extracts its
+ceiling* at every interior compromise, so a boundary that moves $\bar e$
+moves the game. Labour does not: at an interior compromise
+$\omega = \kappa\rho/s$ lies strictly inside labour’s bounds, by
+Proposition 4’s own definition of interior. Hence the continuation an
+economist reaches for first — that at full employment, labour being
+maximally scarce, labour’s ceiling $\bar\omega$ *rises* — is
+**covered**, and changes nothing: an expansion of a bound that was not
+binding is invisible to the compromise and to both payoffs. What is not
+covered is a boundary that moves a *binding* bound: rationing capital’s
+accumulation, or moving the extraction ceiling. ⭕ So in this section
+the unemployment pool cannot recover its regulating role at the boundary
+merely by disappearing — a higher permitted wage at full employment does
+not raise the wage, because the bargain was never at the ceiling. It can
+only recover it through capital’s margin, which is the asymmetry Section
+6 makes into a mechanism.
+
+In words, the boundary the core could not describe turns out not to need
+describing, and Proposition 2 is what does it. The constraint is on the
+employment rate; both classes’ problems are on capital per member of the
+labour force, $z = \ln\big(K/\kappa N\big)$; and the boundary is
+enforced by the mechanisation rate rather than by anyone’s controls. So
+it removes no admissible control path, and the rate that absorbs it
+cancels from the only state either class cares about — which is
+Proposition 2 again, at the one place the core said it could not reach.
+What full employment forces is a technical event rather than a
+distributive one: with fixed coefficients and no more workers to hire,
+the whole of accumulation goes into productivity, and whether machinery
+then reopens the unemployment pool or merely holds the economy at full
+employment is invisible to both classes. That is the strongest form of
+this paper’s central sentence — the bargain does not look at the
+unemployment pool even at the moment the pool is gone. It is also the
+narrowest. It needs $a_W = 1$, which is why Proposition 6 immediately
+below is where it fails; it needs the constant ceilings of this section,
+which is why the boundary in Section 6 is *not* neutral and two
+continuations there return opposite verdicts; and by (v) it needs a
+boundary that moves no *binding* bound — an assumption about a labour
+market at full employment, not a theorem about one. That assumption is
+weaker than it first looks on labour’s side, since labour’s ceiling does
+not bind at an interior compromise and may rise freely without touching
+anything; and exactly as strong as it looks on capital’s, where
+rationing accumulation can reverse labour’s half of the ranking.
 
 **Proposition 6 (the insider case).** With $a_W = 0$ labour’s shadow
 price of employment is $b/(\rho(\rho+b))$, positive only because a
@@ -1405,12 +1530,32 @@ the persistence threshold, the compromise both classes prefer is
 precisely the one that exhausts the unemployment pool — and a compromise
 that exhausts it destroys the conditions under which it was computed,
 because the core’s equations describe an economy with unemployed workers
-in it. Accumulation fast enough to be preferred by everyone is
-accumulation fast enough to end the description. The unemployment pool
-is the residual of a bargain that never looks at it, and here the
-bargain runs out of residual. What the classes settle on instead is a
-state-constrained problem this paper leaves open; that it is the
-*interesting* open problem, rather than a technicality, is the point.
+in it. That was the reading until Proposition 5$''$, and it is wrong.
+The technology decides what happens at full employment — with no more
+workers to hire, the whole of accumulation goes into productivity — and
+the state both classes actually care about, capital per member of the
+labour force, carries no mechanisation term at all. So the exhaustion of
+the unemployment pool costs neither class anything, and whether
+machinery then reopens the pool or the economy stays at full employment
+is invisible to both. Accumulation fast enough to be preferred by
+everyone is not accumulation fast enough to end the description; it is
+accumulation fast enough to switch the pool’s regulating role off. The
+unemployment pool is the residual of a bargain that never looks at it,
+and the bargain does not look at it even at the moment it is gone. What
+remains genuinely open here is not mathematics but an institution, and
+the model says exactly where to look for it. It is *not* the wage:
+labour’s ceiling does not bind at an interior compromise, so a
+full-employment economy that raises the permitted wage changes nothing,
+and the pool cannot recover its regulating role simply by vanishing. It
+is capital’s margin. If a full-employment boundary leaves capital’s
+accumulation and extraction where they were, Proposition 4$'$’s ranking
+stands in all three persistence cases; if it rations capital’s
+accumulation, labour’s half of that ranking reverses at the economy this
+paper exhibits. So the question a reader should take away is narrow and
+answerable: at full employment, is it capital’s investment that gets
+rationed? That is a fact about a full-employment economy which this
+model does not contain, and it is an institutional question rather than
+a technicality about a state constraint.
 
 Sixth, the half of the mechanism the core suppresses does not simply
 return when the ceilings are allowed to move with the unemployment pool;
@@ -1773,6 +1918,87 @@ $(1-c)A(\hat s_c) = m_0 + n$ gives the displayed $\hat s_c$, and the
 three cases follow from $s_- < s_+$. At $m_0 = n = 0$, $\hat s_c = 0$,
 which is below every admissible root, so the “neither” case holds
 identically there.
+
+## A.5$''$ Proposition 5$''$.
+
+*(i)* Fixed coefficients give $K = \kappa a L$, so
+$\dot K/K = m + \dot L/L$ identically, and the accumulation identity of
+Section 2 gives $\dot K/K = s(e-\omega)/\kappa$. At $v = 1$ employment
+is the labour force, $L = N$, so $\dot L/L = n$ and the displayed rate
+follows. It is a determination and not a choice: the technology, the
+accumulation identity and $L = N$ leave no freedom in $m$ there. The
+behavioural law of Section 2 gives $m(1) = m_0 + c\,s(e-\omega)/\kappa$
+instead, and the two agree exactly when
+$(1-c)s(e-\omega)/\kappa = m_0 + n$ — the knife-edge of Proposition 5 —
+so outside that case the behavioural law and the accounting cannot both
+hold at the boundary, and it is the behavioural law that goes: it
+describes how fast machinery is introduced while labour is available to
+hire, and at $v = 1$ none is. A law with $m|_{v=1}$ above the displayed
+rate has $\dot x = -\sigma \le 0$ there, so no admissible control
+carries $v$ above one and the state space is forward invariant.
+
+*(ii)* Inside the state space $\dot x = s(e-\omega)/\kappa - m - n$ and
+$\dot y = m$ for any mechanisation law whatever, so
+$\dot z = s(e-\omega)/\kappa - n$ and $m$ cancels; this is Proposition 2
+and it uses nothing about the form of $m$. At the boundary, under a law
+with excess $\sigma$, $\dot x = -\sigma$ and
+$\dot y = m|_{v=1} = s(e-\omega)/\kappa - n + \sigma$, whose sum is the
+same expression. The drift of $z$ is therefore one constant on the whole
+path, and $z$ is affine in time across the hitting time, with no kink
+and no dependence on $\sigma$, on $b$, or on $m_0$ — all three move $x$
+and $y$ and cancel from their sum.
+
+*(iii)* Both payoffs depend on the states only through $z$: capital’s
+weights on $x$ and $y$ coincide by construction, and labour’s coincide
+exactly when $a_W = 1$, which is Proposition 2’s hypothesis. Writing
+$f_i$ for the control-only part and $w_i$ for the common weight, the
+value of a constant profile is
+$\int_0^\infty e^{-\rho t}[f_i + w_i z(t)]\,dt$ with $z(t)$ from *(ii)*,
+which integrates to the display; $e^{-\rho t}z(t) \to 0$ since $z$ is
+affine in $t$. No term in it carries $\sigma$, so the whole class of
+continuations is payoff-equivalent.
+
+*(iv)* Proposition 3’s verification is a statement about value functions
+affine in $z$ and a Hamilton–Jacobi–Bellman equation in $z$; by *(ii)*
+and *(iii)* neither object changes at the boundary, and the state
+constraint $x \le 0$ is not a constraint on $z$. ⚠ The reason is not
+that $y$ is free — it is not: inside the state space $\dot y = m$ is
+fixed by the mechanisation law. It is that the boundary is enforced by
+the *mechanisation rate* rather than by the controls. No admissible
+control path is removed by the constraint, because whatever the controls
+do, *(i)*’s law absorbs the excess into $\dot y$; so the reachable set
+of $z$-paths is the same with the constraint as without it, and the
+verification is the unconstrained one throughout. For Proposition 4$'$,
+the display in *(iii)* gives
+$\rho J_i - w_i z(0) = f_i + w_i\,s(e-\omega)/(\rho\kappa) - w_i n/\rho$,
+whose first two terms are exactly the static game’s payoff in
+Proposition 3 and whose third is common to every profile; so the
+discounted ranking and the static ranking agree identically, for any
+pair of constant profiles and from any common initial state. Proposition
+4$'$’s pointwise argument then applies whether or not the induced path
+reaches the boundary, and its hypothesis was doing no other work.
+
+*(v)* Under a law rationing capital’s share at $v = 1$ to
+$s_1 = \kappa(m_0+n)/((1-c)(\bar e-\omega))$, the drift of $z$ after the
+hitting time is $s_1(\bar e-\omega)/\kappa - n$ rather than
+$s(\bar e-\omega)/\kappa - n$, and capital’s control-only term changes
+from $\ln(1-s)$ to $\ln(1-s_1)$; the value is then the two-phase
+integral, which differs from the display in *(iii)* unless $s_1 = s$. At
+the Corollary to Proposition 5$'$’s first witness — $\bar e = 1$,
+$\kappa = 2$, $\rho = 2/25$, $m_0 = 1/50$, $n = 1/100$, $b = 1/20$,
+$c = \lambda = 0$, whose roots are $(s_+,\omega_+) = (4/5,1/5)$ and
+$(s_-,\omega_-) = (1/5,4/5)$ with $\hat s_0 = 3/11$ between them — the
+accumulationist path reaches the boundary at $T = 0.678$, a discount
+factor of $0.947$, so the continuation carries almost the whole payoff;
+$s_1 = 3/40$ against $s_+ = 4/5$; and the two laws return the four
+numbers quoted in the statement. The reversal is labour’s alone because
+capital’s control-only term *rises* under rationing while labour’s is
+untouched, and the drift falls for both. Every figure here is an exact
+rational evaluation, and the differences are independent of the common
+initial state, which cancels.
+
+The certificate is
+`models/reserve_army_game/boundary_law_separation_neutrality_2026_09_11_e4c930d5.py`.
 
 ## A.6 Proposition 6.
 
@@ -2762,7 +2988,7 @@ against Proposition 7’s closed-form costate; its second derivative, read
 by the same fit, against the closed form, at the four cells and at the
 fifth, where the sign in $v$ reverses — with the second difference at
 the node itself printed alongside as the scheme’s overstatement,
-recorded and not used; and the sign of (ii)’s curvature in $v$ at the
+recorded and not used; and the sign of (ii)‘s curvature in $v$ at the
 stationary costate. Its controls are a concave test function that both
 readers — the one-sided fit the readings use, and the node second
 difference — must sign negative, and the core itself — $\zeta = 0$ at a
@@ -2811,6 +3037,38 @@ end, bracketing the verdict on both sides. ⚠ Its own first draft claimed
 the state constraint contaminates (iv)’s readings; the file’s falsifier
 for that claim fired and is recorded in it rather than removed, and the
 claim is withdrawn: the constraint is slack where it was said to bind.
+Proposition 5$''$ is checked in
+`models/reserve_army_game/boundary_law_separation_neutrality_2026_09_11_e4c930d5.py`,
+whose symbolic half carries everything the statement claims: that
+$\dot z$ is free of the mechanisation rate for an arbitrary law and for
+the paper’s closed form, with the control that a productivity drift
+differing from $m$ leaves the rate uncancelled; that the boundary rate
+is forced by the accumulation identity with $L = N$, that it agrees with
+the behavioural law exactly on the persistence knife edge, and that a
+labour force growing at anything but $n$ moves the determination; that
+both payoffs lose their $x-y$ component, with the control that at
+$a_W = 0$ labour’s does not, which is why Proposition 6 is the first
+place this fails; that the value of a constant profile is the display,
+and that subtracting the common terms leaves exactly Proposition 3’s
+static payoff, with a perturbed drift as the control; that the two-piece
+path — interior, then boundary — integrates to the *unconstrained*
+closed form, with the control that a share-rationing continuation does
+not; and that $b$ and $m_0$ appear in $x(t)$ and in $y(t)$ and cancel
+from $z(t)$, with a control confirming they are genuinely present, since
+the first draft of that check could not have failed. Its numerical half
+is a witness in exact rationals, not floating point: at the Corollary to
+Proposition 5$'$’s own split-case cell it re-derives Proposition 4’s
+roots and Proposition 5$'$’s threshold from the primitives rather than
+quoting them, locates the hitting time and the discount factor there,
+and returns the two laws’ four payoff differences — with the controls
+that a law rationing nothing reproduces the neutral value exactly, and
+that the common initial state cancels from every difference, so the
+reversal is neither an artefact of the two-phase construction nor of
+where the economy starts. It also records the one economic consequence
+that is not innocuous, and does not hide it: at that cell the boundary
+mechanisation rate is fifteen and a half times the behavioural rate just
+inside, which is what “the whole of accumulation goes into productivity”
+costs.
 
 Every such `unsat` is a proof, not a sample. Each file prints its own
 check and control counts and exits non-zero on any failure. The
@@ -2822,16 +3080,17 @@ witnesses are witnesses and prove nothing universal.
 |----|----|----|
 | Prop. 1 | proved (identity) | — |
 | Prop. 2 | proved on the stated domain (separation is form-free) | — |
-| Prop. 3 | proved, conditional on the path staying inside the state space; Markov perfection of the constant profiles by direct HJB verification; constancy is not a property of all open-loop equilibria (switching schedules are equilibria too) | a boundary law at full employment would extend it |
+| Prop. 3 | proved, conditional on the path staying inside the state space; Markov perfection of the constant profiles by direct HJB verification; constancy is not a property of all open-loop equilibria (switching schedules are equilibria too). ⭕ **The conditional is now discharged in the core** by Proposition 5$''$: where no binding bound moves at $v = 1$ the state constraint is not a constraint on the separated state $z$ — the boundary is enforced by the mechanisation rate rather than by the controls, so no admissible control path is removed — and the verification is the unconstrained one on the whole state space | the hypothesis that remains is that the boundary moves no *binding* bound; Proposition 5$''$(v) shows one that rations capital’s accumulation is not payoff-equivalent, and that raising labour’s non-binding ceiling is |
 | Prop. 4 | proved for every $\lambda \ge 0$ as a count of first-order solutions; interiority against the wage bounds is a separate check | boundary equilibria (a bound on $\omega$ binding) are unclassified |
-| Prop. 4$'$ | proved for every $\lambda \ge 0$, over the whole open-loop equilibrium set, **under the added hypothesis that the accumulationist compromise leaves an unemployment pool**; without it the comparison is unavailable (Prop. 4$''$) | a boundary law at full employment would restore a comparison in the split case |
-| Prop. 4$''$ | all three of Proposition 5$'$’s cases now separated: the split case proved (finite hitting time; sustainable set non-trivial by continuity in the duty cycle), and the case $\hat s_c \le s_-$ recorded as carrying NO welfare comparison at all | whether the Pareto supremum over sustainable schedules is attained is UNDISCHARGED; a boundary law would restore a comparison in both non-persisting cases |
+| Prop. 4$'$ | proved for every $\lambda \ge 0$, over the whole open-loop equilibrium set, **under the added hypothesis that the accumulationist compromise leaves an unemployment pool**; without it the comparison is unavailable (Prop. 4$''$). ⭕ **The added hypothesis is now REMOVABLE** under Proposition 5$''$: where the boundary moves no binding bound the discounted ranking is $\rho^{-1}$ times the static game’s, identically, so the comparison holds over the whole equilibrium set in all three cases of Proposition 5$'$ | a boundary that rations capital’s accumulation; Proposition 5$''$(v) reverses labour’s half of this ranking at the Corollary’s own split-case cell. ⭕ A boundary that raises labour’s ceiling does not: that bound is slack at an interior compromise |
+| Prop. 4$''$ | all three of Proposition 5$'$’s cases now separated: the split case proved (finite hitting time; sustainable set non-trivial by continuity in the duty cycle), and the case $\hat s_c \le s_-$ recorded as carrying NO welfare comparison at all | ⭕ **DISCHARGED under Proposition 5$''$**, and the question dissolves rather than being answered: where the boundary moves no binding bound, a schedule is no longer required to keep the unemployment pool open to be admissible, so the supremum is over *all* interior profiles and is **attained** at the accumulationist compromise by Proposition 4$'$’s pointwise argument. The restriction to sustainable schedules was an artefact of leaving the boundary unspecified. Against a boundary that rations capital’s accumulation the row returns, and open |
 | Prop. 5 | proved under continuity, strict monotonicity and range inclusion of $m$ | — |
 | Prop. 5$'$ | proved | — |
 | Corollary to Proposition 5$'$ (the cases are realised) | witnesses of two of the three cases; the third proved at $m_0 = n = 0$ | — |
+| Prop. 5$''$ | **proved**, and the parts are typed separately. (i)–(iv) are identities: the boundary mechanisation rate is forced by $K = \kappa a L$ with $L = N$; $\dot z$ carries no mechanisation term inside *or* at the boundary, for every reopening rate $\sigma \ge 0$; both payoffs depend on the state through $z$ alone, so the whole no-rationing class is payoff-equivalent; and the discounted ranking equals the static ranking identically, which is what removes Proposition 4$'$’s hypothesis. (v) is a **witness** and refutes a universal: “the boundary is payoff-neutral” is false over *all* admissible laws — at the Corollary to Proposition 5$'$’s own split-case cell a share-rationing law reverses labour’s ranking. ⛔ Requires $a_W = 1$ (Proposition 6 is where it fails) and the constant ceilings of Section 4 (Section 6 is where it fails) | whether a full-employment boundary rations **capital’s accumulation** — and only that, since labour’s ceiling is slack at an interior compromise and capital’s extraction ceiling is the other binding bound. That is institutional and the model does not contain it; the proposition is stated over the class of boundaries moving no binding bound, and (v) prices the alternative rather than excluding it |
 | Prop. 6 | proved | — |
-| Selection among the equilibria | UNDISCHARGED; dominance now covers the whole set where the accumulationist compromise persists, so payoff dominance is decisive there if it is accepted as a refinement, but the model contains no adjustment process; in the split case selection is over sustainable schedules and is open | an adjustment process, or a boundary law that restores the infinite-horizon comparison |
-| Continuation at full employment | UNDISCHARGED, outside the core. ⭕ It is a **prerequisite** of the two capital-side rows below on part of their own domain, and not merely a neighbour of them: where capital’s escape margin $E \equiv (1-c)(\hat e - \omega^\ast)/\kappa - (m_0+n)$ is positive, capital’s jointly feasible deviations reach $v = 1$ in finite time and what the comparison those rows ask for returns is a function of the law chosen here. $E > 0$ at Proposition 12’s own cell (A.12$''$(iv)) | a boundary law |
+| Selection among the equilibria | UNDISCHARGED; dominance now covers the whole set where the accumulationist compromise persists, so payoff dominance is decisive there if it is accepted as a refinement, but the model contains no adjustment process. ⭕ **The split-case exception is now gone**: under Proposition 5$''$ the comparison is restored there too, so payoff dominance is decisive over the whole interior equilibrium set in all three persistence cases, and what is missing is an adjustment process and nothing else | an adjustment process. ⛔ The boundary-law half of this row is **discharged in the core** and is not what holds it open; against a boundary that rations capital’s accumulation the split case reopens |
+| Continuation at full employment | ⭕⭕ **DISCHARGED IN THE CORE by Proposition 5$''$, and UNDISCHARGED in the regime — and the split is structural, not a gap in effort.** In the core the action sets are constants and both payoffs depend on the state only through $z = \ln(av)$, whose drift carries no mechanisation term; the constraint $v \le 1$ binds $x$ alone, and it is enforced by the mechanisation rate rather than by anyone’s controls, so it removes no admissible control path and is not a constraint on the reduced problem. The technology then *determines* the boundary mechanisation rate, and every continuation that moves no binding bound — including every rate at which machinery reopens the unemployment pool, and including a rise in labour’s ceiling, which is slack at an interior compromise — is payoff-equivalent. ⛔ In Section 6 the ceilings move with $v$, so the action sets carry the state, Proposition 2’s separation fails, and none of that survives: there the boundary is genuinely law-dependent, which is what A.12$''$(iv)’s two continuations show. ⛔ And the neutrality is the class that moves no **binding** bound: Proposition 5$''$(v) exhibits an admissible law rationing capital’s accumulation that reverses labour’s ranking | in the core, nothing — except an argument about whether a full-employment boundary rations **capital’s accumulation**, which is institutional and not a theorem of this model. ⭕ It is specifically *not* about the wage: labour’s ceiling is slack at an interior compromise, so a boundary that raises it is covered. In the regime, a boundary law. ⭕ It remains a **prerequisite** of the two capital-side rows below on part of their own domain, and not merely a neighbour of them: where capital’s escape margin $E \equiv (1-c)(\hat e - \omega^\ast)/\kappa - (m_0+n)$ is positive, capital’s jointly feasible deviations reach $v = 1$ in finite time and what the comparison those rows ask for returns is a function of the law chosen here. $E > 0$ at Proposition 12’s own cell (A.12$''$(iv)) |
 | Prop. 7 | proved at the rest points of the canonical system; the corner is derived, and substituting it is shown equivalent to the mixed-constraint Lagrangian route. ⚠ The $\zeta$-free labour price is a property of the **strategy space** named in §2 — each class commits to a path of its own instrument under a joint feasibility restriction — and not of the open-loop information structure alone | a feedback information structure, under which labour’s costate also carries $\zeta$; and a utilisation-rate parameterisation $e = q\,\bar e(v)$, under which $\partial U_W/\partial x = a_W + \theta\zeta e$ and labour’s price carries $\zeta$ too. The two strategy spaces agree iff $\theta = 0$ |
 | Prop. 8 | proved for any pair of effective prices $Q_W, Q_C > 0$ **that do not depend on the accumulation share**, with root location and admissibility; Proposition 4 is its core specialisation. The hypothesis binds: it fails at labour’s own ceiling, which is why Proposition 11 argues directly. Below the smaller discriminant zero the roots are inadmissible for a reason that depends on the price ordering — $\omega > \bar e$ when $Q_W > Q_C$, and $s < 0$ when $Q_C > Q_W$ | — |
 | Prop. 9 | proved, both branches; the branch with no admissible extractable day is an `unsat` over the domain, not a sample. The second branch is proved in the stronger form: the same coefficient voids Prop. 11’s interiority for every $\bar\omega > 0$, so it empties the regime on both sides of $\hat v$ | — |
