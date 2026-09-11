@@ -91,9 +91,14 @@ unemployment pool is a convex asset to capital. Capital’s rest point is
 nonetheless a saddle, with a closed-form determinant signed by the same
 coefficient that decides whether any compromise exists, and at every
 compromise the paper exhibits, a numerical solution of capital’s problem
-returns the stationary share as its optimum. The existence theorem for
-the regime is therefore open on capital’s side only, and what stands
-between it and a proof is a convexity, not a technique.
+returns the stationary share as its optimum under the boundary treatment
+that computation supplies. The existence theorem for the regime is
+therefore open on capital’s side only, and what stands between it and a
+proof is two different things on two sub-classes: where no admissible
+deviation can reach full employment — the escape margin $E \le 0$ — it
+is a convexity, not a technique; where $E > 0$ it is a boundary law the
+core does not contain, and two continuations admissible on the same
+terms return opposite verdicts.
 
 # 1. Introduction
 
@@ -1449,7 +1454,11 @@ Eighth, the regime’s equilibrium claim is open on one side only, and the
 side is informative. Labour’s stationary behaviour is optimal against
 capital’s: its ceiling enters its valuation concavely, so the standard
 sufficiency argument goes through on both branches. Capital’s does not,
-and the obstruction is economic rather than technical. Where capital
+and what obstructs it is two different things on two sub-classes of
+compromises, split by whether an admissible deviation can carry the
+economy to full employment. Where none can — the escape margin $E \le 0$
+of A.12$''$(iv), the state space forward invariant under every share —
+the obstruction is economic rather than technical. Where capital
 accumulates, its valuation of the employment rate is as convex as the
 extraction ceiling is, because the log of the surplus cancels against
 the log of the retained share and what remains is the extractable day at
@@ -1467,11 +1476,21 @@ curvature, not about equilibrium paths: the rest point of capital’s
 problem is a saddle whose determinant is signed by $\beta$, the
 coefficient that decides whether any compromise exists at all, and at
 every compromise exhibited here capital’s computed optimum is to stay at
-it. But it locates the one place a non-stationary equilibrium of this
-game could come from, if one exists — capital’s side, and the sharpness
-with which the extractable day answers to the pool — and it says that
-the reserve army, which stabilises labour’s problem, is exactly what
-puts the curvature into capital’s.
+it, under the boundary treatment that computation supplies. But it
+locates the one place a non-stationary equilibrium of this game could
+come from, if one exists — capital’s side, and the sharpness with which
+the extractable day answers to the pool — and it says that the reserve
+army, which stabilises labour’s problem, is exactly what puts the
+curvature into capital’s. Where $E > 0$ the obstruction is not this
+convexity. There an admissible deviation reaches full employment in
+finite time, what arrives is priced by a boundary law the core does not
+contain, and two continuations admissible on the same terms return
+opposite verdicts on whether the compromise is a rest point of capital’s
+optimal feedback — at Proposition 12’s cell, where $E = +0.100$, one
+continuation returns the stationary share and the other a share of
+$0.417$ against it. So on the sub-class $E \le 0$ a convexity is what
+stands between the claim and a proof; on $E > 0$ a boundary law must be
+chosen first, and this paper does not choose one.
 
 The warning is about how much weight the separation theorem can bear.
 Proposition 2 says a class that values its whole class is indifferent to
