@@ -96,9 +96,9 @@ that computation supplies. The existence theorem for the regime is
 therefore open on capital’s side only, and what stands between it and a
 proof is two different things on two sub-classes: where no admissible
 deviation can reach full employment — the escape margin $E \le 0$ — it
-is a convexity, not a technique; where $E > 0$ it is a boundary law the
-core does not contain, and two continuations admissible on the same
-terms return opposite verdicts.
+is a convexity, not a technique; where $E > 0$ it is, first, a boundary
+law the core does not contain, and two continuations admissible on the
+same terms return opposite verdicts.
 
 # 1. Introduction
 
@@ -185,7 +185,31 @@ existence and uniqueness of the regime’s stationary employment rate
 under a closed-form inequality; and, for that layer, which half of the
 equilibrium claim is proved — labour’s, by concavity — and why the other
 half is not: capital’s maximised Hamiltonian is convex in log-employment
-wherever capital accumulates, with the ceiling’s own curvature.
+wherever capital accumulates, with the ceiling’s own curvature. **Whose
+belief it displaces.** Two readers hold beliefs these results cost them.
+The first, in the Goodwin lineage, puts the employment rate into the
+wage equation by postulate: the unemployment pool regulates the wage,
+and the cycle runs on that regulation. Here that regulation is a
+property not of the economy but of what labour’s organisation counts.
+Where each class values what happens to its whole class, the compromise
+is decided without reference to the pool and the pool is its residual;
+the postulate returns, changed, only where organised labour counts its
+employed members alone or where the pool bounds what it can enforce. The
+second, in the Lancaster lineage, expects the conflict to be over a
+capital stock with labour never limiting, and — reading Mehrling — its
+steady states to be multiple where classes are organised. Here labour is
+the binding factor and the state is the employment rate; the equilibrium
+set is ranked, and where the accumulationist compromise is sustainable
+both classes prefer it; and the multiplicity is located rather than
+denied: it is a fold in extractable effort, two compromises or none, and
+it belongs to the regime in which the bargain sets the wage and not to
+the economy, since where the pool pins labour to its ceiling there is at
+most one. A third reader, who holds that unemployment disciplines
+effort, meets the fold: raising what capital can extract creates two
+compromises in the core and, once the extractable day answers sharply
+enough to employment, none at all. What each gives up is a location. The
+unemployment pool moves from the wage equation, where it was a
+regulator, to the equilibrium set, where it is an outcome.
 
 So what? A policy that reduces the unemployment pool by speeding
 accumulation is, in this model, a policy about which equilibrium the
@@ -1481,8 +1505,8 @@ locates the one place a non-stationary equilibrium of this game could
 come from, if one exists — capital’s side, and the sharpness with which
 the extractable day answers to the pool — and it says that the reserve
 army, which stabilises labour’s problem, is exactly what puts the
-curvature into capital’s. Where $E > 0$ the obstruction is not this
-convexity. There an admissible deviation reaches full employment in
+curvature into capital’s. Where $E > 0$ this convexity is not the first
+obstruction. There an admissible deviation reaches full employment in
 finite time, what arrives is priced by a boundary law the core does not
 contain, and two continuations admissible on the same terms return
 opposite verdicts on whether the compromise is a rest point of capital’s
