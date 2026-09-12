@@ -8717,24 +8717,28 @@ the condition itself, which compares payoffs. Compared directly — the
 worker’s discounted payoff over the whole instrument box and the
 capitalist’s over the whole rate set, both from the start the profile
 induces and with the other class’s instrument held — the incumbent is
-the maximiser at both profiles. The split rests at the corner at every
-admissible point sampled; each instrument’s payoff changes the sign of
-its derivative exactly once, from positive to negative; and the tax and
-the rate return their reported values to within the reporting lattice,
-the rate agreeing besides with the closed form (12) to three decimals at
-both weights by a route that shares no step with it. Two properties are
-worth reporting beside the curvature. The maximiser is stable in the
-horizon, identical at eight hundred dates and at twice and half that, so
-it is not an artefact of truncation. And it moves by more than twenty
-lattice atoms when the start is changed, which is the concept behaving
-as declared rather than a fixed point being rediscovered. The region
-where $(\ast\ast)$ fails is where a competing maximum would have to
-live, and it carries none: sampled at a spacing an order finer than that
-region is wide, its best payoff falls short of the incumbent’s by three
-orders of magnitude more than the best point anywhere else in the box
-does. Like the grids above this can refute and did not; it does not
-establish, and nothing is claimed beyond the profiles and points
-tested.*
+the maximiser at both profiles to the lattice they are reported on. To
+be sure, it is not on a finer one: a search an order finer improves on
+it by $2.5\times10^{-5}$ in the worker’s payoff at $\tau=0.4991$ and by
+$1.3\times10^{-4}$ in the capitalist’s at $i=0.4104$, both deviations
+inside one atom of the grid that located the profile. The split rests at
+the corner at every admissible point sampled; each instrument’s payoff
+changes the sign of its derivative exactly once, from positive to
+negative; and the tax and the rate return their reported values to
+within the reporting lattice, the rate agreeing besides with the closed
+form (12) to three decimals at both weights by a route that shares no
+step with it. Two properties are worth reporting beside the curvature.
+The maximiser is stable in the horizon, identical at eight hundred dates
+and at twice and half that, so it is not an artefact of truncation. And
+it moves by more than twenty lattice atoms when the start is changed,
+which is the concept behaving as declared rather than a fixed point
+being rediscovered. The region where $(\ast\ast)$ fails is where a
+competing maximum would have to live, and it carries none: sampled at a
+spacing an order finer than that region is wide, its best payoff falls
+short of the incumbent’s by three orders of magnitude more than the best
+point anywhere else in the box does. Like the grids above this can
+refute and did not; it does not establish, and nothing is claimed beyond
+the profiles and points tested.*
 
 **Computation 12 (the capitalist on an interval).** *Theorem 7’s
 hypothesis for the capitalist is concavity in his rate of the cumulated
