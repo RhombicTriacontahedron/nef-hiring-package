@@ -66,7 +66,20 @@ zero-long-run-tax result already fails under logarithmic capitalist utility, a f
 attribute to Lansing (1999). This paper reproduces their number as a nesting check in §5 and claims
 nothing from it.
 
-What is added is three things a reader of that literature does not have.
+What is added is four things a reader of that literature does not have.
+
+*The cross, and it is the two-sidedness that is claimed.* Each class’s preferred rate on capital
+income carries the other class’s reproduction elasticity and never its own: the owner’s carries the
+elasticity with which maintenance produces effective labour, the worker’s the elasticity with which
+investment produces capital. To be sure, loading such an elasticity is not itself new. Barro (1990)
+shows that the rate maximising a representative household’s attained utility equals the output
+elasticity of the publicly financed input, and depends on that production parameter alone. What a
+single agent cannot carry is the two-sidedness. Neither does the nearest two-factor setting: Jones,
+Manuelli and Rossi (1997) accumulate physical and human capital together, but under a planner
+maximising the welfare of one representative family, and with the human capital owned by the person
+who carries it — the primitive §2.4 changes. The cross also needs two separately parameterised
+reproduction technologies before it can be posed at all, since where a single public input enters a
+constant-returns pair the two elasticities are one number.
 
 *The conflict itself, in closed form, and without the cash rebate.* At the provision corner, where
 every pound of revenue is spent in kind and no cash changes hands, the two classes’ preferred rates
@@ -326,6 +339,13 @@ $$D_\tau\equiv 1-\beta+\beta\gamma\bigl(1-\theta(1-\alpha)\bigr).$$
 and never $\gamma_K$. The owner’s rate is, in addition, unchanged by the symmetrisation: it is
 identical to its baseline value.*
 
+In words, each class’s preferred tax is governed by how productively the *other* class’s stock is
+produced. The owner is deciding how much to spend on producing a workforce, so the elasticity of
+that production is what moves the owner’s rate; the worker is deciding how much to draw from a stock
+produced by investment, so the elasticity of that accumulation is what moves the worker’s. Neither
+rate is moved by the technology of the stock its own class already controls at the margin, and §4.3
+shows that this is not the envelope argument it looks like.
+
 At $\gamma_K=1$ the worker’s rate collapses to
 $\tau_W=(1-\theta)(1-\alpha\beta)/\bigl(1-\theta(1-\alpha)\bigr)$, the baseline expression. The
 absence of $\gamma$ from $\tau_W$ is therefore a statement about the general law and not an artefact
@@ -412,6 +432,11 @@ and not on a decision procedure.
 $\tau_C<\tau_W$, both are interior to $(0,1)$, the Pareto set in $\tau$ is exactly the closed
 interval $[\tau_C,\tau_W]$, and every $\tau<\tau_C$ is Pareto-dominated: at such a rate both classes
 strictly prefer a larger state.*
+
+In words, the disagreement is bounded on both sides, and it is a disagreement about size alone. Any
+rate lying between the owner’s preferred one and the worker’s is a rate no move can improve for both
+classes at once. Any rate below the owner’s own preferred one is a rate both classes strictly wish
+to raise, which is why the small state has no constituency here.
 
 The gap has a closed form that is a ratio of manifestly positive quantities:
 
@@ -512,6 +537,12 @@ $$\frac{\partial\tau_C}{\partial\alpha}
 
 *while the worker’s does not: $\tau_W\to(1-\beta)(1-\theta)>0$ as $\alpha\to1$.*
 
+In words, labour’s share appears as a factor in the owner’s preferred rate; that rate falls as
+capital’s share rises; and it reaches zero in the limit where capital takes all of output. The
+worker’s rate stays strictly positive in that same limit. So what closes as production becomes
+capital-intensive is the range over which the two classes can agree, and the three statements are
+separately true rather than one statement in three forms.
+
 Every factor in the numerator is signed on inspection: $\beta^{2}\gamma>0$, $(1-\theta)>0$, and
 $1-\beta(1-\gamma)>0$ because $\beta(1-\gamma)<1$. The denominator is a square, strictly positive
 because $D_\tau>0$. **This is a theorem on the whole box, not a sample**, and since $\tau_C$ does not
@@ -590,13 +621,21 @@ and the comparative statics of $\tau_C$ and $\tau_W$ would have to be re-taken a
 returned no result stating the cross of §4 — a class-preferred capital-income tax that loads the
 other class’s reproduction elasticity and never its own. To be sure, a search that finds nothing has
 not established that nothing is there; that is a statement about a search and not about the
-literature, and it is not converted here into a claim of novelty. The standing of §4’s cross is
-therefore open rather than new. The nearest published objects the search returned are Jones, Manuelli
-and Rossi (1997), on optimal capital-income taxation when two factors are accumulated, and Barro
-(1990), on the tax that finances a productive public input. Neither is read here and neither is used
-to place this paper’s result; they are named because reading them is what would settle it. The first
-bears on whether a two-factor Chamley–Judd setting already delivers the cross; the second on whether
-the loading of an elasticity, as against its two-sidedness, is itself prior art.
+literature, and it is not converted here into a claim of novelty. The two nearest published objects
+that search returned have since been read, and each settles the question it was named for. Barro
+(1990) shows that the rate maximising the representative household’s attained utility equals the
+output elasticity of the publicly financed input, and depends on that production parameter alone.
+The loading of an elasticity is therefore prior art, and only the two-sidedness is claimed here.
+Jones, Manuelli and Rossi (1997) accumulate physical and human capital together, but their problem
+is a Ramsey planner’s over a single representative family, the human capital is owned by its bearer,
+and a footnote of theirs sets aside the heterogeneous-agent case in which a planner would weight
+distinct individuals. A two-factor Chamley–Judd setting does not, then, already deliver the cross,
+and the two models differ in a stated primitive rather than in a result. Both papers were read in
+their National Bureau working-paper form — w2588 (1988) and w4525 (1993) — and not in print; a
+reader who finds the relevant statements altered in the published versions should prefer those. The
+standing of the cross is accordingly narrowed rather than settled: two named candidates have been
+read and neither displaces it, which is more than a search that returned nothing and less than
+novelty.
 
 **What would break the paper.** Three things, each checkable. If the cross-structure of §4 fails
 under a non-unit intertemporal elasticity, §4 goes and §§5–6 survive. If the coefficients of
