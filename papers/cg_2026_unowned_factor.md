@@ -588,9 +588,10 @@ and the comparative statics of $\tau_C$ and $\tau_W$ would have to be re-taken a
 
 **Prior art on §4.** A search of the Judd–Chamley line and its heterogeneous-agent successors
 returned no result stating the cross of §4 — a class-preferred capital-income tax that loads the
-other class’s reproduction elasticity and never its own. That is a statement about a search and not
-about the literature, and it is not converted here into a claim of novelty: the standing of §4’s
-cross is open rather than new. The nearest published objects the search returned are Jones, Manuelli
+other class’s reproduction elasticity and never its own. To be sure, a search that finds nothing has
+not established that nothing is there; that is a statement about a search and not about the
+literature, and it is not converted here into a claim of novelty. The standing of §4’s cross is
+therefore open rather than new. The nearest published objects the search returned are Jones, Manuelli
 and Rossi (1997), on optimal capital-income taxation when two factors are accumulated, and Barro
 (1990), on the tax that finances a productive public input. Neither is read here and neither is used
 to place this paper’s result; they are named because reading them is what would settle it. The first
