@@ -68,7 +68,7 @@ locus is a constant of the composite, free of the reproduction technology’s le
 instrument; the reproduction efficiencies that set the cash-economy gap drop out of it entirely.
 
 To be sure, that a subsidy to a class whose numbers respond to income is absorbed by those numbers is
-Malthus’s argument against the Poor Laws, and it is not claimed here as new. Three things are. The first is that the absorption is
+the classical argument against poor relief, two centuries old, and it is not claimed here as new. Three things are. The first is that the absorption is
 *exact* — the transfer is not merely diluted but removed from the distributional coordinate
 altogether, which is a statement about a reachable set rather than about a sign. The second is the
 invariance just described: the absorption survives arbitrary asymmetry in the classes’ reproduction
@@ -77,18 +77,21 @@ the reading of §5: what the result does to the second welfare theorem is not to
 empty it, because the factor whose per-head return is in question is *produced*, and a produced factor
 that no agent may hold is nobody’s endowment to transfer.
 
-**What is not claimed.** The first welfare theorem is untouched here, and nothing below should be read
-as an efficiency result; the two theorems have different hypotheses and this paper engages only the
-second. No welfare ranking is written and none is needed, because no two populations are ever
+**What is not claimed.** The first welfare theorem is untouched here, and so are the efficiency results
+proved for economies in which a dynasty’s reproduction is decided and paid for within the dynasty: there
+the input to reproduction is the dynasty’s own consumption, whereas here the input to one class’s
+reproduction is set by the division of output between the classes, and that is the whole of the
+difference. Nothing below should be read as an efficiency result; the two theorems have different
+hypotheses and this paper engages only the second. No welfare ranking is written and none is needed, because no two populations are ever
 compared: every comparison in this paper is between two instruments at a given stationary class ratio.
 The economy carries one tax base, no credit market and no uncertainty, and §6 prices each of those.
 
 There is a literature on cash versus in-kind transfers, and it is not this one. Currie and Gahvari
 (2008) survey it. In every mechanism they assemble the set of recipients is fixed and incomes are
 exogenous, so the wedge between the two instruments lives on the intensive margin of a given
-population. Cash there is fully potent and merely mis-composed, and the case for in-kind rests on
-naming a friction on the *recipient’s* side: paternalism, self-selection under unobserved type,
-pecuniary effects, agency within the household. The survey states the bare comparative outright —
+population. Cash there is fully potent — it moves the recipient’s bundle — and merely mis-composed. The
+case for in-kind rests on naming a friction on the *recipient’s* side: paternalism, self-selection under
+unobserved type, pecuniary effects, agency within the household. The survey states the bare comparative outright —
 lump-sum cash transfers “cannot support” the allocations that in-kind transfers support (p. 340) — so
 what is claimed here is not that comparative but its mechanism and its strength: an extensive margin
 rather than an information or externality friction, and a reachable set that is a point rather than a
@@ -109,7 +112,7 @@ $z_t \equiv G_t/N_{W,t}$ for the public stock per worker.
 
 The state taxes capital income at rate $\tau_t$, spends a share $\phi_t$ of the receipt on a public
 stock and pays the remainder to workers as cash; the owner reinvests a share $i_t$ of post-tax capital
-income. The two classes’ consumption, the two stock laws and the two population laws are
+income. The two classes’ consumption, the two stock laws and the two population laws form the system $(\star)$ — the tag names all three displays, and every later reference to $(\star)$ is to the system:
 
 $$C_{W,t} = \big[(1-\alpha)+(1-\phi_t)\tau_t\alpha\big]Y_t, \qquad
   C_{C,t} = (1-i_t)(1-\tau_t)\alpha Y_t,$$
@@ -236,7 +239,7 @@ are all absent, as is every property of either class’s objective;*
 $$\nu^{\ast} \;=\; \frac{(1-i)(1-\tau)\alpha}{\chi\,\big[(1-\alpha)+(1-\phi)\tau\alpha\big]}
 \;=\; \frac{(1-i)(1-\tau)\alpha}{\chi\,\kappa_W}, \tag{4}$$
 
-*and it is strictly decreasing in the tax rate and strictly increasing in the share spent in kind,*
+*and it is strictly decreasing in the tax rate and, for $\tau>0$, strictly increasing in the share spent in kind,*
 
 $$\frac{\partial \ln \nu^{\ast}}{\partial \tau} = -\frac{1}{1-\tau} - \frac{(1-\phi)\alpha}{\kappa_W}
 \;<\;0, \qquad
@@ -478,7 +481,8 @@ $\{\chi\}$; Appendix A.2 exhibits in addition a member at which both stocks are 
 second clause is then (4) read as a function of the instruments, with (5)’s first display strictly
 negative at every $\phi\in[0,1]$, so two such vectors that differ only in $\tau$ deliver different
 $\nu^{\ast}$. The qualifier is not idle: two vectors differing in $\tau$ *and* in $i$ can share a
-$\nu^{\ast}$, as $(\tau,\phi,i)=(0,0,1/2)$ and $(1/3,0,0)$ do at $\alpha=1/2$, $\chi=1$, both giving $1/2$.
+$\nu^{\ast}$, as $(\tau,\phi,i)=(t,0,0)$ and $(0,0,2t/(1+t))$ do at $\alpha=1/2$, $\chi=1$ for every
+$t\in(0,\bar\tau)$, both giving $(1-t)/(1+t)$; at $t=1/3$ the pair is $(1/3,0,0)$ and $(0,0,1/2)$, both giving $1/2$.
 At $i=1$ the owner consumes nothing, $\nu^{\ast}=0$, and no interior state exists — a degenerate
 endpoint, not a case. $\blacksquare$
 
@@ -565,8 +569,9 @@ reproduction. That is a choice about the composition of public spending, and §4
 Six restrictions bind every claim above, and each carries a consequence a reader can price.
 
 *The falsifier, and it is sharp.* Proposition 1 needs $\gamma_W=\gamma_C$. Proposition 2(b) shows that
-any departure makes the per-head gap a function of the level with elasticity $1-\gamma_C/\gamma_W$, and
-2(c) that the cash instrument then reaches that level wherever the stocks are also at rest. This is the
+any departure makes the per-head gap a function of the level with elasticity $1-\gamma_C/\gamma_W$.
+Proposition 2(c) shows that, at such states with $i>0$ and $\tau>0$, the cash instrument then reaches that
+level; at $\tau=0$ there is nothing to route and it reaches nothing. This is the
 result’s boundary and it is stated as such: the
 paper does not claim that reproduction elasticities coincide, only that the coincidence is what
 inertness needs, that it is strictly weaker than a common reproduction technology, and that its failure
