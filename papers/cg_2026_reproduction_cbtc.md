@@ -1,0 +1,209 @@
+# Reproduction under Capital-Biased Technical Change
+Carlos Galindo Escajeda
+2026-09-01
+
+# Abstract
+
+Where the workforce is produced by a technology funded out of a tax on capital income, the owner of capital has an interest of his own in that tax: it builds an input to the reproduction of the class he hires. Under Cobb–Douglas production that interest has a closed form and is strictly positive. Cobb–Douglas is also the case in which the factor shares are constants, so the model that delivers the result cannot represent technical change that moves them. This paper asks what survives at an elasticity of substitution other than one, and settles the question exactly. Closure fails, and the obstruction can be written down: at the provision corner the right-hand side of the owner’s Bellman equation is affine in the logged states plus a single function $H$ of the logged effective capital–labour ratio, with $H'' = \rho(1-\rho)\,s_K s_L \Sigma$ and $\Sigma\ne0$, so an affine-in-logs value function solves the model if and only if $\rho(1-\rho)=0$ — at unit elasticity, and at perfect substitutability, and nowhere between. A first-order expansion of the logged composites does close, replacing one constant share by two effective shares. In it, capital’s preferred rate carries labour’s share *divided by the elasticity of substitution* as a factor, falls strictly in capital’s share, and vanishes as that share approaches one; it is not proportional to labour’s share at any elasticity, unit elasticity included. In the approximating model, and corroborated on constant policies in the exact one, capital-biased technical change therefore lowers capital’s own preferred rate if and only if $\sigma\in(1,\infty)$, while the worker’s preferred rate stays bounded away from zero: the interval of rates both classes want raised is non-empty at every finite level of technique and empties in the limit as capital’s share approaches one, and what survives of the public funding of reproduction is a contested transfer, not a joint investment.
+
+# 1. Introduction
+
+If the workforce has to be produced, who wants to pay for producing it? The obvious answer is that workers do and the owner of capital does not. In a model where the two classes contest a proportional tax on capital income, and where the proceeds build the stock on which the next generation of workers is raised, the obvious answer is wrong. The owner hires that workforce. A technology that reproduces it is an input to his own production, and if the tax is the only instrument that reaches the technology, he has an interest of his own in a strictly positive rate. Under Cobb–Douglas production that rate can be written down, and it is interior.
+
+Cobb–Douglas is doing two jobs there, and only one of them is wanted. It is what makes the model solvable: every transition is log-linear in the state, the value functions are affine in the logs, and their coefficients solve a linear system whose entries are the constant factor shares. It is also what makes the model silent about technical change, because in a Cobb–Douglas world capital-augmenting progress raises both factor prices and moves no share at all. The question the model exists to ask — what automation does to capital’s willingness to fund the reproduction of labour — requires the shares to move; moving them requires leaving Cobb–Douglas; and leaving it removes the property that made the model solvable in the first place.
+
+This paper settles that trade-off, and settles it in the negative for exact closure. Under a constant-elasticity technology the model does not close, and the reason is not that no closed form has been found: it is an identity. At the corner where all revenue is provided in kind, the owner’s Bellman right-hand side splits into a part affine in the logged stocks and a single function of the logged effective capital–labour ratio, and that function’s second derivative is $\rho(1-\rho)s_K s_L \Sigma$ with $\Sigma\ne0$ throughout and $\Sigma>0$ for $\sigma>1$. It vanishes identically at exactly two points, unit elasticity and perfect substitutability, and at no elasticity between them. Away from the corner the failure appears one derivative earlier still: the cross-partial of the owner’s payoff in the tax and the state carries the factor $\rho$, so the preferred rate stops being a constant and becomes a function of the state.
+
+What does survive is a local approximation, and it is not the naive one. Freezing the shares at a reference ratio — replacing the technology by its Cobb–Douglas tangent — gets the direction right and the level wrong by a factor of two, because it silently replaces the elasticity of the owner’s own income channel, $\rho + (1-\rho)s_K$, by $s_K$. Expanding the *logged composites* instead is uniformly first order in every channel, closes in closed form, and reproduces the exact model’s preferred rate to within $10^{-5}$ at the self-consistent stationary ratio. It does so by replacing the single Cobb–Douglas share by two effective shares, $a_1 = \rho + (1-\rho)s_K$ and $a_2=(1-\rho)s_K$, which collapse to one another at unit elasticity.
+
+Those two objects are what carry the economics. Since $1-\rho = 1/\sigma$, the first satisfies $1-a_1 = s_L/\sigma$ and the second is $a_2 = s_K/\sigma$ exactly, and capital’s preferred rate is
+$$\tau_C \;=\; \frac{\beta^2\gamma(1-\theta_R)\,\bigl(s_L/\sigma\bigr)}{1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R\bigl(s_K/\sigma\bigr)}.$$
+In words: capital’s own demand for the funding of reproduction carries labour’s share divided by the elasticity of substitution as a factor, falls strictly in capital’s share, and goes to zero as capital’s share goes to one. It is *not* proportional to labour’s share. Dividing out $s_L/\sigma$ leaves a quotient that still depends on $s_K$, because $a_2 = s_K/\sigma$ sits in the denominator; there is no constant of proportionality to find. The distinction is not pedantry — it is the difference between a claim that survives the change of technology and one that was only ever true of a ratio nobody had differentiated.
+
+The comparative static follows in two lines. Capital-augmenting progress raises $x$, both effective shares move with $\mathrm{d}a_1/\mathrm{d}x = \mathrm{d}a_2/\mathrm{d}x = \rho(1-\rho)s_K s_L$, and $\tau_C$ is strictly decreasing in each of them. So $\mathrm{d}\tau_C/\mathrm{d}\ln B<0$ if and only if $\rho(1-\rho)>0$, which is exactly $\sigma \in (1,\infty)$. The worker’s preferred rate does not follow it down to zero: it tends to $(1-\theta_R)(1-\beta)/\bigl(1-\theta_R+\theta_R/\sigma\bigr)>0$. The two classes therefore end in a position where nothing is left that both of them want to raise, while a wide band of rates over which they disagree remains.
+
+The policy reading is narrow and worth stating anyway. On this model a coalition for the public funding of reproduction is not a standing feature of a capitalist economy but a magnitude, and a magnitude with a sign attached to a technological parameter. Where capital and labour are substitutes, the same technical change that raises output erodes the part of the fiscal question on which the two classes agree, without touching the part on which they do not. If such funding is to survive automation, it survives as a contested transfer and not as a joint investment — and an argument for it addressed to the owner’s own interest gets weaker, at a rate the model ties to $\sigma$, precisely as automation proceeds.
+
+**What this paper establishes and what it does not.** Sections 4 to 6 are this paper’s own; the two results that Section 2 takes as given are not, and are attributed there. The sign result is proved for the approximating model and corroborated, not proved, on the exact one, where the search is restricted to constant policies. Section 7 states the boundary in full.
+
+# 2. Two results taken as given
+
+Neither of the following is established here. They are stated because the paper is about what happens when they are put together.
+
+**(i) The share result.** With production
+$$Y \;=\; \bigl[\theta (BK)^{\rho} + (1-\theta) L^{\rho}\bigr]^{1/\rho}, \qquad \rho \le 1,\; \rho \ne 0,\; \sigma = \tfrac{1}{1-\rho},$$
+competitive factor payment gives the wage share
+$$\frac{wL}{Y} \;=\; \frac{1-\theta}{\theta\,(B\,K/L)^{\rho} + (1-\theta)},$$
+whose derivative in $B$, at a fixed capital–labour ratio, has the sign of $-\rho$. Capital-augmenting progress lowers the wage share when $\sigma>1$, raises it when $\sigma<1$, and leaves it alone at $\sigma=1$. This is standard, and it is derived in the companion note to this one.
+
+**(ii) Capital’s preferred rate under Cobb–Douglas.** On the generational face of the two-class model used below — full depreciation of both stocks, logarithmic objectives, value functions affine in the logs — the owner’s and the worker’s payoffs in the tax are each of the form $M\ln(1-\tau)+N\ln\tau$ plus a constant, hence strictly concave with a unique interior peak at $N/(M+N)$. The peaks are
+$$\tau_C \;=\; \frac{\beta^{2}\gamma(1-\alpha)(1-\theta_R)}{1-\beta+\beta\gamma\bigl(1-\theta_R+\alpha\theta_R\bigr)}, \qquad
+\tau_W \;=\; \frac{(1-\theta_R)(1-\alpha\beta)}{1-\theta_R+\alpha\theta_R},$$
+with $\alpha$ the capital share, $\beta$ the discount factor, $\gamma$ the elasticity of the reproduction technology and $\theta_R$ the weight of the worker’s own income in it. Both are interior, $\tau_C<\tau_W$, and the Pareto set in the tax is exactly $[\tau_C,\tau_W]$: every rate below $\tau_C$ is dominated, because *both* classes strictly prefer a larger one. Capital’s own preferred rate falls in $\alpha$ and vanishes as $\alpha\to1$; the worker’s does not, tending to $(1-\theta_R)(1-\beta)>0$.
+
+*So what.* Result (ii) is a comparative static in a parameter. In a Cobb–Douglas world $\alpha$ is a number chosen by the modeller, not an object technical change can move, so (ii) on its own says nothing about automation. Result (i) supplies an economy in which the share does move — and it is written in a technology under which (ii) has never been derived. Everything below is about that gap.
+
+**Three contrasts of primitives.** The results below stand against three standard positions, and each contrast is a contrast of primitives rather than a reading of any literature. First, the zero line for the taxation of capital income. Here the owner of capital has a preferred rate of his own; it is strictly positive at every finite capital share and agrees with zero only in the limit as that share goes to one. The difference lies not in any optimality argument but in what the tax funds: a stock the owner himself uses in production. To be sure, that a positive long-run rate can be optimal in a two-class economy is not news. What is claimed is narrower and different — that the owner’s *own* peak is positive, and that the reproduction of his workforce is the channel. Second, Cobb–Douglas as an innocuous aggregator. Proposition 1 makes unit elasticity one of exactly two closure points, and Proposition 5 makes it a point at which technical change moves neither share nor the interval of rates both classes want raised. For this question Cobb–Douglas is not a simplification; it is a deletion of the question. Third, automation as a factor-price or task-reallocation effect. Factor prices do not record that the set of rates both classes want raised can empty while output rises. Proposition 6 does.
+
+# 3. The model
+
+The environment is the generational face of the two-class game, restated with constant-elasticity production and nothing else changed. Both stocks depreciate fully within a generation, and both classes have logarithmic period objectives.
+
+Effective labour is the worker stock, $L = N_W$; the object being reproduced is capacity, not headcount. Write $k=\ln K$, $n=\ln N_W$, $g=\ln G$ for the logged capital stock, worker stock and public stock, and
+$$x \;\equiv\; \ln B + k - n$$
+for the logged *effective* capital–labour ratio. Constant returns give $\ln Y = n + \psi(x)$ with
+$$\psi(x) \;=\; \tfrac{1}{\rho}\ln\!\bigl(\theta e^{\rho x} + 1-\theta\bigr), \qquad
+\psi'(x) \;=\; s_K(x) \;=\; \frac{\theta e^{\rho x}}{\theta e^{\rho x}+1-\theta}, \qquad s_K+s_L=1 .$$
+$s_K$ is capital’s share and $s_L$ labour’s; $\theta$ is the distribution parameter of the technology and is a different object from $\theta_R$, the reproduction weight, throughout.
+
+The owner chooses a saving rate $i$, a tax rate $\tau$ on capital income and a split $\phi$ of the proceeds between the public stock and a direct transfer. With $\kappa_W(x,\tau,\phi) = s_L(x) + (1-\phi)\tau s_K(x)$ the worker’s composite share of output, the transitions are
+$$\begin{aligned}
+\ln C_C &= \ln(1-i) + \ln(1-\tau) + \ln s_K(x) + n + \psi(x), \\
+k' &= \ln i + \ln(1-\tau) + \ln s_K(x) + n + \psi(x), \\
+n' &= n + \gamma\theta_R\bigl(\ln \kappa_W(x,\tau,\phi) + \psi(x)\bigr) + \gamma(1-\theta_R)(g-n), \\
+g' &= \ln(\phi\tau) + \ln s_K(x) + n + \psi(x),
+\end{aligned}$$
+with owner felicity $(1-\omega)\ln C_C + \omega k$ and worker felicity $n$. Throughout, $\beta,\gamma,\theta,\theta_R,\omega\in(0,1)$ and $\rho\le1$, $\rho\ne0$; the controls satisfy $i,\tau\in(0,1)$ and $\phi\in(0,1]$. Every sign statement below is read on that open box and nowhere else.
+
+The public stock $G$ is the in-kind input to the reproduction of the workforce: it is built from the taxed proceeds through $g'$, it enters the worker transition through $g-n$, and that is the whole of its definition here. It is a primitive of this model. It is not identified with the public stock of the paper from which Section 2(i) is taken, whose law of motion is a different object and is used nowhere below.
+
+Three derivatives of the technology are used repeatedly and are recorded here once:
+$$\psi'' = \rho\, s_K s_L, \qquad (\ln s_K)'' = (\ln s_L)'' = -\rho^{2} s_K s_L,$$
+from which the two composites that actually enter the transitions satisfy
+$$\bigl(\ln s_K + \psi\bigr)' = \rho + (1-\rho)s_K, \qquad
+\bigl(\ln s_L + \psi\bigr)' = (1-\rho)s_K,$$
+$$\bigl(\ln s_K + \psi\bigr)'' = \bigl(\ln s_L + \psi\bigr)'' = \rho(1-\rho)\, s_K s_L . \tag{3.1}$$
+At $\rho\to0$ every line above collapses to the Cobb–Douglas face with $\alpha=\theta$, which is the control every claim below is checked against.
+
+*So what.* The single quantity $\rho(1-\rho)s_K s_L$ in (3.1) is the whole of the difficulty and the whole of the result. It is the curvature that the two logged income composites share, it is zero at exactly two elasticities, and it reappears in Section 6 as the rate at which the effective shares move under technical change.
+
+# 4. Exact closure fails, and exactly where
+
+**Proposition 1.** *Set $\phi=1$. Conjecture an affine value function $V_C = v + ak + bn + cg$. Then the Bellman right-hand side is*
+$$\text{[affine in }k,n,g\text{]} \;+\; H(x) \;+\; \text{[terms in the controls alone]}, \qquad
+H(x) = A\bigl(\ln s_K+\psi\bigr) + C\bigl(\ln s_L+\psi\bigr),$$
+*with $A = (1-\omega)+\beta a+\beta c$ and $C = \beta b\gamma\theta_R$. Writing $\Sigma = A + C$,*
+$$H''(x) \;=\; \rho(1-\rho)\, s_K(x)\, s_L(x)\, \Sigma, \qquad \Sigma \ne 0, \qquad\text{and}\qquad \Sigma \ge 1-\omega > 0 \ \text{ for } \rho\in(0,1] . \tag{4.1}$$
+*An affine-in-logs value function therefore solves the Bellman equation if and only if $\rho(1-\rho)=0$, that is if and only if $\sigma=1$ or $\sigma=\infty$.*
+
+*Proof.* At $\phi=1$ the worker’s composite share is $\kappa_W = s_L(x)$ and carries no control. Substituting the four transitions into $(1-\omega)\ln C_C + \omega k + \beta(v+ak'+bn'+cg')$ and collecting, every occurrence of the state beyond the affine terms $\omega k$, $\bigl[(1-\omega)+\beta a+\beta b+\beta c\bigr]n$ and $\beta b\gamma(1-\theta_R)(g-n)$ enters through the two composites $\ln s_K+\psi$ and $\ln s_L+\psi$, with coefficients $A$ and $C$; the controls $i$ and $\tau$ enter additively and separately. That is the display. Differentiating twice and using (3.1), which gives both composites the *same* second derivative, yields (4.1).
+
+For $\Sigma\ne0$: suppose $\Sigma=A+C=0$. Then $C=-A$ and $H = A\bigl[\ln s_K-\ln s_L\bigr] = A\bigl[\ln\tfrac{\theta}{1-\theta}+\rho x\bigr]$, which is affine in $x$ and hence in $(k,n)$, so the coefficient-matching system exists: $a=\omega+\rho A$, $b=(1-\omega)+\beta a+\beta b\bigl(1-\gamma(1-\theta_R)\bigr)+\beta c-\rho A$, $c=\beta b\gamma(1-\theta_R)$, together with $A=-C=-\beta b\gamma\theta_R$. Substituting $A$ into the second equation gives $b\,\bigl[1-\beta+\beta\gamma(1-\theta_R)+(1-\rho)\beta\gamma\theta_R\bigr]=0$, and the bracket is strictly positive for every $\rho\le1$; so $b=0$, hence $A=0$, hence $c=0$ and $a=\omega$, hence $A=(1-\omega)+\beta\omega=0$, which is impossible. In words, a vanishing $\Sigma$ would make the non-affine part of the right-hand side disappear, and the linear system that an affine value function would then have to solve has no solution. So $\Sigma\ne0$ on the whole parameter box, and the argument uses no sign of $a$, $b$ or $c$. On $\rho\in(0,1]$ more is true. Every transition partial is then non-negative — $\partial k'/\partial k=1-(1-\rho)s_L>0$, $\partial n'/\partial n=1-\gamma(1-\theta_R)-\gamma\theta_R(1-\rho)s_K\ge1-\gamma>0$, and the rest are products of non-negative factors — and felicity is non-decreasing in $(k,n)$, so the Bellman operator preserves monotonicity, any affine solution has $a,b,c\ge0$, and $\Sigma\ge1-\omega>0$. That lower bound is what the quantitative statement following the proof uses, and it is stated for $\rho\in(0,1]$ only: for $\rho<0$ the transition $k'$ is decreasing in $k$ wherever $s_K<-\rho/(1-\rho)$ — at $\rho=-1$, $\theta=0.3$ and $x=0$ its partial is exactly $-2/5$ — so the monotonicity route is unavailable there, and the direct argument is what carries the proposition. Since $s_Ks_L\in(0,\tfrac14]$ and $\Sigma\ne0$, $H''\equiv0$ if and only if $\rho(1-\rho)=0$, whose roots are $\rho=0$ and $\rho=1$. Because $x = \ln B + k - n$, $H$ is affine in $(k,n)$ precisely when $H$ is affine in $x$; if it is not, no affine $V_C$ can satisfy the equation identically in $(k,n,g)$, and the coefficient system does not exist. With $\sigma = 1/(1-\rho)$ the two roots are $\sigma=1$ and $\sigma=\infty$. $\square$
+
+Three things about Proposition 1 deserve to be said plainly.
+
+First, it is an obstruction and not a failure of search. The claim is not that no closed form was found; it is that the object whose vanishing closure requires is a product of factors none of which vanishes on the interior. At $\rho=\tfrac12$, $x=0$ and the parameter values used throughout Section 6, the technology factor $\rho(1-\rho)s_Ks_L$ is $0.0525$, so $H''\ge 0.0525\,(1-\omega) = 0.042 > 0$ for *every* admissible coefficient vector — the bound is stated that way because no affine solution exists there, so there is no particular $\Sigma$ to quote. The failure is uniform rather than pointwise: an interval branch-and-bound cover establishes $\rho(1-\rho)s_Ks_L\ge10^{-4}$ over the whole of $x\in[-4,4] \times \rho\in[0.1,0.9] \times \theta\in[0.1,0.9]$, so $|H''| \ge 10^{-4}\,\Sigma$ everywhere there.
+
+Second, $\sigma=\infty$ is a genuine second closure point and not an artefact of the limit. At $\rho=1$ factor incomes are linear in the factors, $s_KY = \theta BK$ and $s_LY = (1-\theta)L$, so $\ln s_K + \psi = x + \ln\theta$ and $\ln s_L + \psi = \ln(1-\theta)$ — both affine in $x$, the first non-trivially so. The model is exactly solvable at perfect substitutability for the same reason it is exactly solvable at unit elasticity, and the two are the only such points.
+
+Third, the interval that fails is the one the paper needs. Capital-augmenting progress lowers the wage share only for $\sigma>1$; the closure points are $\sigma=1$ and $\sigma=\infty$; so $\sigma \in (1,\infty)$ is simultaneously the economically relevant case and the case in which no affine value function exists.
+
+**Proposition 2.** *For $\phi<1$ the obstruction appears one derivative earlier. The cross-partial of the owner’s payoff in the tax and the state is*
+$$\frac{\partial^{2} U_C}{\partial\tau\,\partial x} \;=\; \beta b\gamma\theta_R \cdot \frac{\rho\,\theta(1-\phi)(1-\theta)e^{\rho x}}{\bigl[(1-\phi)\tau\theta e^{\rho x} + 1-\theta\bigr]^{2}},$$
+*which carries the factor $\rho$ explicitly and is non-zero whenever $\rho\ne0$, $\phi<1$ and $\tau>0$. The owner’s preferred rate is therefore a non-constant function of the state.*
+
+The Cobb–Douglas face has the opposite property, and it is the property that makes it tractable as a game rather than merely as a dynamic program: there the state drops out of both payoff functions entirely, so each class’s preferred rate is a constant, free of the other class’s instruments. Proposition 2 says that this is a fact about $\rho=0$ and not about the model.
+
+*So what.* The tractability of the Cobb–Douglas face was never a modelling convenience that a more general technology would inherit at some cost in algebra. It was an exact coincidence at two points of the elasticity line, and an economist who wants a moving factor share in this class of models must give up either the affine value function or the exactness — a choice, not an obstacle, and the next section makes it.
+
+# 5. The approximation that closes, and the one that does not
+
+Two first-order approximations are available at a reference ratio $\bar x$, and they are not equally good. It matters which, because they differ by a factor of two in the object the paper is about.
+
+**The frozen-share tangent.** Replace the technology by the Cobb–Douglas function agreeing with it in level and slope at $\bar x$: $\psi \mapsto \psi(\bar x)+\bar s_K(x-\bar x)$ and $s_K\mapsto\bar s_K$. The model becomes the Cobb–Douglas face exactly, with $\alpha := \bar s_K$, and every closed form of Section 2(ii) holds verbatim. This is first order in the logged output aggregator and *zeroth* order in the shares, and the asymmetry is fatal to the level: freezing the share replaces the elasticity of the owner’s own income channel, $(\ln s_K+\psi)' = \rho+(1-\rho)s_K$, by $s_K$, dropping the entire $\rho$ term. At $\rho=\tfrac12$ and $\bar s_K = 0.056$ that is $0.528$ replaced by $0.056$. Measured against the exact model in Section 6, it misstates $\tau_C$ by up to $0.30$, a factor of $2.0$, while getting the direction right. It is reported here as sign-carrying only, and it is not the approximation this paper uses.
+
+**The Bellman tangent.** Expand the two logged composites, rather than the shares, to first order about $\bar x$:
+$$\ln s_K(x)+\psi(x) \;\mapsto\; \text{const} + a_1(x-\bar x), \qquad \ln s_L(x)+\psi(x) \;\mapsto\; \text{const} + a_2(x-\bar x),$$
+$$a_1 \;=\; \rho+(1-\rho)\bar s_K, \qquad a_2 \;=\; (1-\rho)\bar s_K . \tag{5.1}$$
+This is uniformly first order in every channel, with neglected curvature $\tfrac12\rho(1-\rho)s_Ks_L(x-\bar x)^{2}$ per channel by (3.1); taking $\bar x$ to be the model’s own stationary ratio sets $x-\bar x=0$ along the path the constant policies induce. For a share tolerance $\varepsilon$ the window is $|x-\bar x|\le 4\varepsilon/|\rho|$, since $|s_K'| = |\rho| s_Ks_L \le |\rho|/4$.
+
+**Proposition 3.** *Under (5.1) the transitions are log-linear again, with two constants in place of the Cobb–Douglas face’s one. Writing $D = \gamma(1-\theta_R)+\gamma\theta_R a_2$, the owner’s and worker’s coefficients solve*
+$$\begin{aligned}
+a &= \omega + (1-\omega)a_1 + \beta\bigl(a\,a_1 + b\,\gamma\theta_R a_2 + c\,a_1\bigr), &\qquad p &= \beta\bigl(p\,a_1 + q\,\gamma\theta_R a_2 + r\,a_1\bigr),\\
+b &= (1-\omega)(1-a_1) + \beta\bigl(a(1-a_1) + b(1-D) + c(1-a_1)\bigr), &\qquad q &= 1 + \beta\bigl(p(1-a_1)+q(1-D)+r(1-a_1)\bigr),\\
+c &= \beta b\gamma(1-\theta_R), &\qquad r &= \beta q\gamma(1-\theta_R),
+\end{aligned}$$
+*two linear systems; and with $\tau_C = \beta c/\bigl[(1-\omega)+\beta a+\beta c\bigr]$ and $\tau_W = r/(p+r)$,*
+$$\tau_C \;=\; \frac{\beta^{2}\gamma(1-\theta_R)(1-a_1)}{1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R a_2}, \qquad
+\tau_W \;=\; \frac{(1-\theta_R)(1-\beta a_1)}{1-\theta_R+\theta_R a_2}. \tag{5.2}$$
+*At $a_1=a_2=\alpha$ both collapse to the Cobb–Douglas expressions of Section 2(ii) identically. Both are interior:* $\tau_C\in(0,1)$ *because its numerator is positive and*
+$$\bigl[1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R a_2\bigr] - \beta^{2}\gamma(1-\theta_R)(1-a_1) \;=\; (1-\beta)+\beta\gamma(1-\theta_R)\bigl(1-\beta(1-a_1)\bigr)+\beta\gamma\theta_R a_2 \;>\;0,$$
+*and* $\tau_W\in(0,1)$ *because* $1-\beta a_1>0$ *and* $\bigl(1-\theta_R+\theta_R a_2\bigr) - (1-\theta_R)(1-\beta a_1) = \theta_R a_2 + \beta a_1(1-\theta_R) > 0$.
+
+The systems are linear because $a_1$ and $a_2$ are constants once $\bar x$ is fixed — which is precisely what $s_K(x)$ and $s_L(x)$ are not, and precisely why Proposition 1 holds. The spectral condition needed before any coefficient is read off a guess-and-verify solution is satisfied for a reason worth naming rather than asserting: the transition matrix in $(k,n,g)$ is entrywise non-negative with unit row sums for every $(\bar s_K,\gamma,\theta_R)\in(0,1)^{3}$, so its spectral radius is exactly one by Perron–Frobenius — from the non-negativity, not from the row sums alone — and $\beta\cdot1<1$.
+
+**What is held fixed, and it is not nothing.** Under the approximation at $\phi=1$ the logged composites are affine in $x$, so the two instruments enter the owner’s payoff additively and $\partial^{2}U_C/\partial\ln i\,\partial\ln(1-\tau)=0$: his preferred tax does not depend on his own saving rate, and the intervals in $\tau$ below are intervals in the whole of $\tau$ rather than slices at some fixed $i$. That separability is a property of the approximation and not of the exact model, and it fails by the same obstruction as everything else in Section 4. Both instruments shift the successor ratio one for one, so the next period’s $E(x')=\ln s_K(x')+\psi(x')$ contributes
+$$\frac{\partial^{2}E(x')}{\partial\ln i\,\partial\ln(1-\tau)} \;=\; E''(x') \;=\; \rho(1-\rho)\,s_K(x')s_L(x')$$
+to the cross-partial, which vanishes at $\rho\in\{0,1\}$ and nowhere else. In the exact model the saving rate and the tax are chosen jointly; under the approximation they are not, and that is one more thing the approximation buys and should be seen to buy.
+
+**Proposition 4.** *Since $1-\rho = 1/\sigma$, the two effective shares of (5.1) satisfy the exact identities*
+$$1 - a_1 \;=\; (1-\rho)s_L \;=\; \frac{s_L}{\sigma}, \qquad a_2 \;=\; (1-\rho)s_K \;=\; \frac{s_K}{\sigma},$$
+*so that (5.2) reads*
+$$\tau_C \;=\; \frac{\beta^{2}\gamma(1-\theta_R)\bigl(s_L/\sigma\bigr)}{1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R\bigl(s_K/\sigma\bigr)}, \qquad
+\tau_W \;=\; \frac{(1-\theta_R)\bigl(1-\beta+\beta s_L/\sigma\bigr)}{1-\theta_R+\theta_R\bigl(s_K/\sigma\bigr)} . \tag{5.3}$$
+*Consequently $\tau_C$ (i) carries $s_L/\sigma$ as a factor, (ii) is strictly decreasing in the capital share whenever $\sigma<\infty$, and (iii) tends to zero as $s_K\to1$.*
+
+*Proof.* The identities are immediate from (5.1) and $\rho = 1-1/\sigma$. (i) is then the displayed form. For (ii), $a_1$ enters only the numerator, through $-\beta^{2}\gamma(1-\theta_R)a_1$, and $a_2$ only the denominator, through $+\beta\gamma\theta_R a_2$; both are increasing in $s_K$; so both channels push $\tau_C$ down and $\partial\tau_C/\partial s_K<0$ strictly. The strictness needs $\rho<1$: at $\rho=1$ the two shares stop moving with $s_K$ altogether, $a_1\equiv1$, and $\tau_C$ is identically zero rather than decreasing. (iii) At $s_K=1$, $a_1=1$ and the numerator vanishes while the denominator is bounded away from zero. $\square$
+
+**What Proposition 4 does not say, and the distinction is load-bearing.** $\tau_C$ is *not* proportional to labour’s share, and it is not proportional to $s_L/\sigma$ either. Proportionality asserts $\tau_C = \lambda\,(s_L/\sigma)$ with $\lambda$ free of everything the share moves with, and no such $\lambda$ exists: dividing (5.3) through by $s_L/\sigma$ leaves
+$$\frac{\tau_C}{s_L/\sigma} \;=\; \frac{\beta^{2}\gamma(1-\theta_R)}{1-\beta+\beta\gamma(1-\theta_R)+\beta\gamma\theta_R\bigl(s_K/\sigma\bigr)}, \qquad
+\frac{\partial}{\partial s_K}\!\left[\frac{\tau_C}{s_L/\sigma}\right] = \frac{-\beta^{3}\gamma^{2}\theta_R(1-\theta_R)(1-\rho)}{\bigl[\,\cdot\,\bigr]^{2}} \;<\;0,$$
+because the capital share re-enters through $a_2 = s_K/\sigma$ in the denominator. The three conjuncts of Proposition 4 are what is true, they are each separately proved, and they are not a weakening of a proportionality claim — the proportionality claim is false, in the Cobb–Douglas case as much as in this one, for the identical reason.
+
+*So what.* A reader who takes from Section 2(ii) the summary “capital’s preferred rate tracks labour’s share” would carry a claim that is false at every elasticity, including the one it was derived at, and would also miss the substantive result: the share enters *divided by $\sigma$*. Two economies with the same labour share and different elasticities of substitution do not give capital the same interest in funding reproduction. That is a statement about technology which the Cobb–Douglas model, where $\sigma$ is fixed at one, cannot make at all.
+
+# 6. What capital-biased technical change does
+
+**Proposition 5.** *$B$ enters only through $x$, so $\mathrm{d}/\mathrm{d}\ln B = \mathrm{d}/\mathrm{d}x$ and, by (3.1), both effective shares move together:*
+$$\frac{\mathrm{d}a_1}{\mathrm{d}\ln B} \;=\; \frac{\mathrm{d}a_2}{\mathrm{d}\ln B} \;=\; \rho(1-\rho)\,s_K s_L .$$
+*Since $\partial\tau_C/\partial a_1<0$ and $\partial\tau_C/\partial a_2<0$ by Proposition 4(ii),*
+$$\operatorname{sign}\frac{\mathrm{d}\tau_C}{\mathrm{d}\ln B} \;=\; -\operatorname{sign}\bigl[\rho(1-\rho)\bigr],$$
+*which is strictly negative for $\sigma\in(1,\infty)$, strictly positive for $\sigma<1$, and zero at $\sigma=1$.*
+
+The sign is carried as a theorem and not as a number: it is a product of a factor whose negativity is read off the closed form and a factor whose sign is exactly the sign of $\rho$. Both controls fire. At $\sigma=\tfrac12$ the derivative reverses, and at $\sigma=1$ it is identically zero — as it must be, since Cobb–Douglas shares do not move with $B$ at all.
+
+**Proposition 6.** *Write $u = 1-a_1 = s_L/\sigma>0$ and $N = 1-\theta_R+\theta_R a_2>0$, so that the denominator of $\tau_C$ in (5.2) is exactly $1-\beta+\beta\gamma N$. Then*
+$$\tau_W - \tau_C \;=\; \frac{(1-\theta_R)(1-\beta)\bigl[(1-\beta)+\beta\gamma N+\beta u\bigr]}{N\bigl(1-\beta+\beta\gamma N\bigr)} \;>\;0 \tag{6.1}$$
+*for every admissible parameter; and as $s_K\to1$ under $\sigma>1$,*
+$$\tau_C \;\longrightarrow\; 0 \qquad\text{while}\qquad \tau_W \;\longrightarrow\; \frac{(1-\theta_R)(1-\beta)}{1-\theta_R+\theta_R/\sigma} \;>\;0 .$$
+
+*Proof.* Substituting (5.2) and putting the difference over the common denominator $N(1-\beta+\beta\gamma N)$ gives the numerator
+$$(1-\theta_R)\bigl[(1-\beta+\beta u)(1-\beta+\beta\gamma N) - \beta^{2}\gamma u N\bigr] = (1-\theta_R)(1-\beta)\bigl[(1-\beta)+\beta\gamma N+\beta u\bigr],$$
+the cross terms in $uN$ cancelling exactly. Every factor is strictly positive for $\beta,\theta_R\in(0,1)$, $\gamma>0$ and $a_2>0$, and both denominators are bounded away from zero since $N>1-\theta_R>0$. The limits are Proposition 4(iii) and the substitution $a_1=1$, $a_2 = 1/\sigma$ in (5.2). $\square$
+
+Under the approximation each class’s payoff in the tax is again $M\ln(1-\tau)+N\ln\tau$ plus terms free of $\tau$ — the transitions are log-linear by construction, so the argument of Section 2(ii) goes through verbatim. Here $M=(1-\omega)+\beta a \ge 1-\omega>0$ for the owner, since monotonicity of the Bellman operator gives $a,c\ge0$; and $N=\beta c>0$ because Proposition 3 puts $\tau_C = N/(M+N)$ strictly above zero. The second derivative is $-M/(1-\tau)^{2}-N/\tau^{2}<0$, so the stationary point is a maximum and not merely a critical point. With (6.1) the Pareto set in the tax is therefore $[\tau_C,\tau_W]$, a non-degenerate interval at every admissible parameter, and $(0,\tau_C)$ is the set of rates both classes strictly prefer to raise.
+
+Proposition 6 says that it is this second interval, and not the Pareto set, that capital-biased technical change destroys. In the limit there is no rate left on which the two classes agree that more would be better, while a band of rates over which they disagree survives with a strictly positive upper endpoint. The cancellation in the proof is the reason the two statements can be made separately: the term through which the worker’s peak and the owner’s peak are coupled, $\beta^{2}\gamma uN$, drops out of their difference, so the collapse of $\tau_C$ carries no implication for $\tau_W$ at all.
+
+**Corroboration on the exact model.** The exact model has no closed form, but it does have an exact two-dimensional reduction, and that is enough to compute in it without approximating anything. Write $y = g-n$ and
+$$E(x) \;=\; \ln s_K(x)+\psi(x), \qquad \Delta(x,y) \;=\; \gamma\theta_R\bigl(\ln s_L(x)+\psi(x)\bigr) + \gamma(1-\theta_R)y ,$$
+so that $n'-n = \Delta(x,y)$. At $\phi=1$ the transitions of Section 3 then give, exactly,
+$$x' \;=\; \ln B + \ln i + \ln(1-\tau) + E(x) - \Delta(x,y), \qquad
+y' \;=\; \ln\tau + E(x) - \Delta(x,y) . \tag{6.2}$$
+The logged stocks themselves have dropped out: every non-linearity enters through $x$ alone, and $(x,y)$ is a sufficient state. Under constant policies (6.2) is a deterministic difference equation, so each class’s payoff is a discounted sum along a single path, computable to machine precision with a geometric tail bound, and the preferred rates can be found by direct maximisation with no approximation anywhere. At $\beta=0.9$, $\gamma=0.5$, $\theta_R=0.4$, $\theta=0.3$, $\omega=0.2$ and $\sigma=2$:
+
+| $\ln B$ | exact $\tau_C$ | exact $\tau_W$ | $s_K(x^{*})$ | frozen-share $\tau_C$ |
+|--------------:|--------------:|--------------:|--------------:|--------------:|
+|  $-1.0$ |         0.3048 |         0.5246 |       0.0561 |                0.6035 |
+|  $-0.5$ |         0.2933 |         0.5121 |       0.0854 |                0.5767 |
+|   $0.0$ |         0.2761 |         0.4929 |       0.1307 |                0.5368 |
+|  $+0.5$ |         0.2504 |         0.4633 |       0.2008 |                0.4782 |
+|  $+1.0$ |         0.2129 |         0.4178 |       0.3083 |                0.3951 |
+
+Capital’s share at the realised stationary ratio rises with $B$, as (i) of Section 2 requires, and the exact $\tau_C$ falls monotonically, as Proposition 5 predicts. The controls fire on the exact model too: at $\sigma=\tfrac12$ the exact $\tau_C$ *rises* with $B$ (0.2223, 0.3531, 0.4777), and at $\sigma=1$ it does not move at all (0.4012 at every $B$, to four decimals). The frozen-share column moves in the right direction and is wrong by up to 0.299. The tangent (5.2) is a different matter, and the point at which it is evaluated decides the figure. At the printed column — rates optimised from $x_0=0$, the stationary ratio read off the path they induce — the tangent misses the exact $\tau_C$ by up to $1.6\times10^{-3}$. At the self-consistent stationary ratio, where the rates are re-optimised from the stationary state itself, at $\ln B\in\{-1,0,1\}$, it reproduces the exact $\tau_C$ to a maximum absolute error of $7.6\times10^{-6}$. The second point is the one the approximation is built at; the first is the one the table prints.
+
+*So what.* The mechanism is not a race between two effects. There is one channel — the share — and the elasticity of substitution decides both whether technical change moves it and by how much it is discounted when it arrives. Automation weakens capital’s interest in funding the reproduction of labour by exactly the amount by which it raises capital’s share, divided by $\sigma$; and the arithmetic has an endpoint at which that interest is zero and the worker’s is not.
+
+# 7. Scope
+
+The following bound the results above and are not conjectures about them.
+
+**The sign in the exact model is corroborated, not proved.** Propositions 4 to 6 are exact statements about the approximating model of Proposition 3. The exact constant-elasticity model has no closed form — that is Proposition 1 — and the evidence for the sign there is the maximisation reported in Section 6, which is a sample: it could have refuted the sign and did not, and it cannot establish it.
+
+**The maximisation is over constant policies only.** It searches the class in which the Cobb–Douglas equilibrium lives. Proposition 2 shows that state-dependent policies exist under a non-unit elasticity, so the sign of $\tau_C$ over all Markov policies is undischarged. A numerical equilibrium on the reduced $(x,y)$ state would settle it and is the cheapest instrument that would.
+
+**The comparative static is the share channel at a reference ratio.** Proposition 5 differentiates holding the ratio fixed, which is the same scope as the share result of Section 2(i). The exact computation does let the stationary ratio move and the sign survives there as well — on five values of $B$.
+
+**Both period objectives are logarithmic.** $\sigma_W=\sigma_C=1$ throughout, which is the generational face’s own restriction; no continuity onto a wider preference domain is claimed.
+
+**The provision corner.** Proposition 1 is stated at $\phi=1$, where all revenue is provided in kind. Proposition 2 covers $\phi<1$ and shows the obstruction is worse there, not better; the closed forms of Section 5 are corner objects.
