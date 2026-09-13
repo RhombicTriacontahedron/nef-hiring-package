@@ -42,8 +42,8 @@ reproduction technology, and of its own never.** The owner’s preferred rate ca
 with which maintenance produces effective labour; the worker’s carries the elasticity with which
 investment produces capital. Neither carries his own. The reason is not a taste and not a bargaining
 position: a class can only act on the productivity of a stock that reaches it through the budget,
-and the stock it is the residual claimant of reaches it through a price instead — where the
-optimality of its own choice has already exhausted the first-order gain.
+and the stock it is the residual claimant of reaches it through a price instead. Section 4.3 derives
+why, and Section 7 says what that derivation does and does not establish about ownership.
 
 That structure survives the obvious objection. One might read the cross-structure as an artefact of
 the two laws of motion having different functional forms — capital linear in investment, the
@@ -83,11 +83,18 @@ constant-returns pair the two elasticities are one number.
 
 *The conflict itself, in closed form, and without the cash rebate.* At the provision corner, where
 every pound of revenue is spent in kind and no cash changes hands, the two classes’ preferred rates
-still differ, by an amount this paper writes down. Unanimity therefore does not follow from a linear
-tax and a unit elasticity of substitution — the two features to which Galor and Moav’s own footnote
-credits it — once the public input reproduces the workforce rather than augmenting a factor its
+still differ, by an amount this paper writes down. Galor and Moav’s own footnote prices their
+unanimity and says what happens when the price is not paid: *“The unanimous agreement on the tax rate
+is a result of the linear tax rate and the unit elasticity of substitution between human and physical
+capital in production. … If the elasticity of substitution would be larger than unity, then the poor
+would prefer higher taxes, whereas if the elasticity of substitution is smaller than unity, then the
+rich would prefer higher taxes”* (2005 working paper, n. 42). A disagreement obtained by departing
+from unit elasticity is therefore theirs, in print, with its direction. This paper departs from
+neither feature — the tax on capital income is linear and the elasticity is unity — and the classes
+disagree anyway, once the public input reproduces the workforce rather than augmenting a factor its
 beneficiary owns. A reader who took their unanimity as the settled answer on capital’s fiscal
-interest must give it up in the case they identify as the safe one.
+interest must give up more than the answer: the belief that their own list of the ways it can fail is
+complete.
 
 *The whole agreement set, not one point.* Both payoffs are strictly concave in the tax. The Pareto
 set is therefore the closed interval between the two peaks, and every rate below the owner’s own
@@ -557,8 +564,8 @@ a stronger claim than the mathematics supports.
 
 ## 6.2 What collapses
 
-Combining Propositions 6 and 9: as $\alpha\to1$, the unanimous interval $(0,\tau_C]$ — the rates at
-which *both* classes would still prefer a larger state — shrinks to a point, while the contested
+Combining Propositions 6 and 9: as $\alpha\to1$, the unanimous interval $(0,\tau_C)$ — the rates at
+which *both* classes would still prefer a larger state — shrinks to nothing, while the contested
 interval $[\tau_C,\tau_W]$ expands to $[0,(1-\beta)(1-\theta)]$ and swallows the whole Pareto set.
 The coalition that funds the reproduction of the workforce, a coalition that on this face includes
 capital itself, dissolves. The fiscal question turns from a joint investment into a pure
@@ -566,7 +573,8 @@ distributive conflict.
 
 Multiplying Proposition 8 by Proposition 9 says what becomes of the bargain itself.
 
-**Corollary 1.** *As $\alpha\to1$ the bargained rate tends to a limit whose numerator is
+**Corollary 1.** *As $\alpha\to1$ the bargained rate tends to a limit whose numerator, once the
+factor $\Delta$ shared by all four coefficients of Proposition 8 is cleared, is
 $-\beta^{2}\gamma(1-\beta)(1-\theta)\lambda$ — that is, whose numerator carries the Pareto weight as
 a factor. The limit is therefore zero if and only if $\lambda=0$. Since $\tau(\lambda)$ lies between
 the two peaks at every weight, the limit lies in $\bigl[0,(1-\beta)(1-\theta)\bigr]$ and is
@@ -617,8 +625,8 @@ to do work in any extension that let either class’s membership vary.
 condition under which that corner is the classes’ common choice; outside it the split is interior
 and the comparative statics of $\tau_C$ and $\tau_W$ would have to be re-taken along $\phi(\tau)$.
 
-**Prior art on §4.** A search of the Judd–Chamley line and its heterogeneous-agent successors
-returned no result stating the cross of §4 — a class-preferred capital-income tax that loads the
+**Prior art on §4.** Two independent blind searches of the Judd–Chamley line and its
+heterogeneous-agent successors returned no result stating the cross of §4 — a class-preferred capital-income tax that loads the
 other class’s reproduction elasticity and never its own. To be sure, a search that finds nothing has
 not established that nothing is there; that is a statement about a search and not about the
 literature, and it is not converted here into a claim of novelty. The two nearest published objects
@@ -703,7 +711,8 @@ For the worker,
 $$p=\frac{\alpha\beta\gamma\bigl(\beta(1-\theta)+\theta\bigr)}{\Delta_K},\qquad
 r=\frac{\beta\gamma(1-\theta)\bigl[1-\beta+\beta\gamma_K(1-\alpha)\bigr]}{\Delta_K},$$
 
-so $M_W=\beta p$ and $N_W=\beta r$ are both $\beta\gamma/\Delta_K$ times a $\gamma$-free expression,
+so $M_W=\beta\gamma_K p$ — the capital law carries $\gamma_K\ln(1-\tau_t)$ into $k'$, exactly as it carries
+$\beta\gamma_K a$ into $M_C$ above — and $N_W=\beta r$ are both $\beta\gamma/\Delta_K$ times a $\gamma$-free expression,
 and $M_W/N_W$ is free of $\gamma$. Since $\tau_j=1/\bigl(1+M_j/N_j\bigr)$, each rate depends on its
 class’s coefficients only through that ratio. $\qquad\blacksquare$
 
